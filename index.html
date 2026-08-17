@@ -295,8 +295,6 @@ body {
   border: 1px solid var(--line);
   background: var(--surface-2);
   color: var(--ink-dim);
-  font-size: 1.15rem;
-  line-height: 1;
   font-family: inherit;
   cursor: pointer;
   transition: border-color 0.15s ease, color 0.15s ease, background 0.15s ease;
@@ -307,6 +305,22 @@ body {
   background: var(--accent-tint);
   color: var(--accent);
 }
+
+.star-icon {
+  width: 20px;
+  height: 20px;
+  display: block;
+}
+
+.star-icon svg {
+  width: 20px;
+  height: 20px;
+  display: block;
+}
+
+.star-icon .icon-solid { display: none; }
+.star-btn.active .star-icon .icon-outline { display: none; }
+.star-btn.active .star-icon .icon-solid { display: block; }
 
 .info-grid {
   margin: 0 0 0.9rem;
@@ -482,10 +496,16 @@ footer.note .disclaimer {
 
 .tab-btn {
   flex: 1;
+  min-height: 48px;
   border: none;
   background: none;
-  padding: 0.7rem 0.5rem;
-  font-size: 0.78rem;
+  padding: 0.4rem 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.15rem;
+  font-size: 0.66rem;
   font-weight: 700;
   font-family: inherit;
   color: var(--ink-dim);
@@ -494,6 +514,26 @@ footer.note .disclaimer {
 
 .tab-btn.active {
   color: var(--accent);
+}
+
+.tab-icon {
+  width: 24px;
+  height: 24px;
+  display: block;
+}
+
+.tab-icon svg {
+  width: 24px;
+  height: 24px;
+  display: block;
+}
+
+.tab-icon .icon-solid { display: none; }
+.tab-btn.active .tab-icon .icon-outline { display: none; }
+.tab-btn.active .tab-icon .icon-solid { display: block; }
+
+.tab-label {
+  line-height: 1;
 }
 
 @media (max-width: 360px) {
@@ -528,9 +568,18 @@ footer.note .disclaimer {
 </div>
 
 <nav class="tabbar">
-  <button type="button" class="tab-btn active" data-tab="mylist">マイリスト</button>
-  <button type="button" class="tab-btn" data-tab="search">検索</button>
-  <button type="button" class="tab-btn" data-tab="settings">設定</button>
+  <button type="button" class="tab-btn active" data-tab="mylist">
+    <span class="tab-icon"><svg class="icon-outline" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" /></svg><svg class="icon-solid" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006Z" clip-rule="evenodd" /></svg></span>
+    <span class="tab-label">マイリスト</span>
+  </button>
+  <button type="button" class="tab-btn" data-tab="search">
+    <span class="tab-icon"><svg class="icon-outline" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" /></svg><svg class="icon-solid" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M9 3.5a5.5 5.5 0 1 0 0 11 5.5 5.5 0 0 0 0-11ZM2 9a7 7 0 1 1 12.452 4.391l3.328 3.329a.75.75 0 1 1-1.06 1.06l-3.329-3.328A7 7 0 0 1 2 9Z" clip-rule="evenodd" /></svg></span>
+    <span class="tab-label">検索</span>
+  </button>
+  <button type="button" class="tab-btn" data-tab="settings">
+    <span class="tab-icon"><svg class="icon-outline" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9.594 3.94c.09-.542.56-.94 1.11-.94h2.593c.55 0 1.02.398 1.11.94l.213 1.281c.063.374.313.686.645.87.074.04.147.083.22.127.324.196.72.257 1.075.124l1.217-.456a1.125 1.125 0 0 1 1.37.49l1.296 2.247a1.125 1.125 0 0 1-.26 1.431l-1.003.827c-.293.241-.438.613-.43.992a7.723 7.723 0 0 1 0 .255c-.008.378.137.75.43.991l1.004.827c.424.35.534.955.26 1.43l-1.298 2.247a1.125 1.125 0 0 1-1.369.491l-1.217-.456c-.355-.133-.75-.072-1.076.124a6.47 6.47 0 0 1-.22.128c-.331.183-.581.495-.644.869l-.213 1.281c-.09.543-.56.94-1.11.94h-2.594c-.55 0-1.019-.398-1.11-.94l-.213-1.281c-.062-.374-.312-.686-.644-.87a6.52 6.52 0 0 1-.22-.127c-.325-.196-.72-.257-1.076-.124l-1.217.456a1.125 1.125 0 0 1-1.369-.49l-1.297-2.247a1.125 1.125 0 0 1 .26-1.431l1.004-.827c.292-.24.437-.613.43-.991a7.775 7.775 0 0 1 0-.255c.007-.38-.138-.751-.43-.992l-1.004-.827a1.125 1.125 0 0 1-.26-1.43l1.297-2.247a1.125 1.125 0 0 1 1.37-.491l1.216.456c.356.133.751.072 1.076-.124.072-.044.146-.087.22-.128.332-.183.582-.495.644-.869l.214-1.28Z" /><path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" /></svg><svg class="icon-solid" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M11.078 2.25c-.917 0-1.699.663-1.85 1.567L9.05 4.889c-.02.12-.115.26-.297.348a7.493 7.493 0 0 0-.986.57c-.166.115-.334.126-.45.083L6.3 5.508a1.875 1.875 0 0 0-2.282.819l-.922 1.597a1.875 1.875 0 0 0 .432 2.385l.84.692c.095.078.17.229.154.43a7.598 7.598 0 0 0 0 1.139c.015.2-.059.352-.153.43l-.841.692a1.875 1.875 0 0 0-.432 2.385l.922 1.597a1.875 1.875 0 0 0 2.282.818l1.019-.382c.115-.043.283-.031.45.082.312.214.641.405.985.57.182.088.277.228.297.35l.178 1.071c.151.904.933 1.567 1.85 1.567h1.844c.916 0 1.699-.663 1.85-1.567l.178-1.072c.02-.12.114-.26.297-.349.344-.165.673-.356.985-.57.167-.114.335-.125.45-.082l1.02.382a1.875 1.875 0 0 0 2.28-.819l.923-1.597a1.875 1.875 0 0 0-.432-2.385l-.84-.692c-.095-.078-.17-.229-.154-.43a7.614 7.614 0 0 0 0-1.139c-.016-.2.059-.352.153-.43l.84-.692c.708-.582.891-1.59.433-2.385l-.922-1.597a1.875 1.875 0 0 0-2.282-.818l-1.02.382c-.114.043-.282.031-.449-.083a7.49 7.49 0 0 0-.985-.57c-.183-.087-.277-.227-.297-.348l-.179-1.072a1.875 1.875 0 0 0-1.85-1.567h-1.843ZM12 15.75a3.75 3.75 0 1 0 0-7.5 3.75 3.75 0 0 0 0 7.5Z" clip-rule="evenodd" /></svg></span>
+    <span class="tab-label">設定</span>
+  </button>
 </nav>
 
 <script>
@@ -545,6 +594,8 @@ footer.note .disclaimer {
   // =========================================================
   var DISPLAY_DATA = [{"gym_id": "noborock-shinjuku", "name": "新宿", "display_name": "ノボロック新宿店", "chain": "NOBOROCK", "hours": "平日 10:00〜23:00、土日祝 10:00〜21:00", "closed_days": "なし", "station": "新宿駅", "line": "山手線、中央線など", "enabled": true, "data_note": null, "official_url": "https://noborock-climbing.com/program/新宿店/", "instagram_url": "https://www.instagram.com/noborock_shinjuku/", "fetch_status": "success", "fetched_at": "2026-08-17T17:47:12+09:00", "last_changed_at": "2026-08-17T14:31:40", "events": [{"date": "2026-08-23", "type": "時間変更", "note": "新宿店 17:00 close", "source_url": "https://noborock-climbing.com/program/新宿店/", "published": "2026-08-17"}, {"date": "2026-08-24", "type": "休業", "note": "新宿店 ルートセット", "source_url": "https://noborock-climbing.com/program/新宿店/", "published": "2026-08-17"}, {"date": "2026-08-25", "type": "時間変更", "note": "新宿店 18:30 open", "source_url": "https://noborock-climbing.com/program/新宿店/", "published": "2026-08-17"}]}, {"gym_id": "noborock-shibuya", "name": "渋谷", "display_name": "ノボロック渋谷店", "chain": "NOBOROCK", "hours": "平日 10:00～23:00、土日祝 10:00～22:00", "closed_days": "なし", "station": "渋谷駅", "line": "山手線、東京メトロ銀座線など", "enabled": true, "data_note": null, "official_url": "https://noborock-climbing.com/program/shibuya/", "instagram_url": "https://www.instagram.com/noborock_shibuya/", "fetch_status": "success", "fetched_at": "2026-08-17T17:47:17+09:00", "last_changed_at": "2026-08-17T14:31:40", "events": [{"date": "2026-08-23", "type": "時間変更", "note": "17:00 close", "source_url": "https://noborock-climbing.com/program/shibuya/", "published": "2026-08-17"}, {"date": "2026-08-24", "type": "休業", "note": "ルートセット", "source_url": "https://noborock-climbing.com/program/shibuya/", "published": "2026-08-17"}, {"date": "2026-08-25", "type": "時間変更", "note": "18:30 open", "source_url": "https://noborock-climbing.com/program/shibuya/", "published": "2026-08-17"}]}, {"gym_id": "noborock-takadanobaba", "name": "高田馬場", "display_name": "ノボロック高田馬場店", "chain": "NOBOROCK", "hours": "平日 10:00〜22:45、土日祝 10:00〜21:00", "closed_days": "なし", "station": "高田馬場駅", "line": "山手線、東京メトロ東西線など", "enabled": true, "data_note": null, "official_url": "https://noborock-climbing.com/program/takadanobaba/", "instagram_url": "https://www.instagram.com/noborock_takadanobaba/", "fetch_status": "success", "fetched_at": "2026-08-17T17:47:20+09:00", "last_changed_at": "2026-08-17T14:31:40", "events": [{"date": "2026-08-24", "type": "時間変更", "note": "貸切利用の為18:00 close", "source_url": "https://noborock-climbing.com/program/takadanobaba/", "published": "2026-08-17"}, {"date": "2026-08-30", "type": "時間変更", "note": "17:00 close", "source_url": "https://noborock-climbing.com/program/takadanobaba/", "published": "2026-08-17"}, {"date": "2026-08-31", "type": "休業", "note": "ルートセット", "source_url": "https://noborock-climbing.com/program/takadanobaba/", "published": "2026-08-17"}]}, {"gym_id": "noborock-asakusa", "name": "浅草", "display_name": "ノボロック浅草店", "chain": "NOBOROCK", "hours": "平日 10:00〜23:00、土日祝 10:00〜21:00", "closed_days": "なし", "station": "浅草駅、本所吾妻橋駅", "line": "東京メトロ銀座線、都営地下鉄浅草線など", "enabled": true, "data_note": null, "official_url": "https://noborock-climbing.com/program/浅草店/", "instagram_url": "https://www.instagram.com/noborock_asakusa/", "fetch_status": "success", "fetched_at": "2026-08-17T17:47:23+09:00", "last_changed_at": "2026-08-17T14:31:40", "events": []}, {"gym_id": "noborock-ikebukuro", "name": "池袋", "display_name": "ノボロック池袋店", "chain": "NOBOROCK", "hours": "平日 10:00〜23:00、土日祝 10:00〜21:00", "closed_days": "なし", "station": "池袋駅、要町駅", "line": "山手線、東京メトロ丸ノ内線など", "enabled": true, "data_note": null, "official_url": "https://noborock-climbing.com/program/ikebukuro/", "instagram_url": "https://www.instagram.com/noborock_ikebukuro/", "fetch_status": "success", "fetched_at": "2026-08-17T17:47:26+09:00", "last_changed_at": "2026-08-17T14:31:40", "events": []}, {"gym_id": "noborock-machida", "name": "町田", "display_name": "ノボロック町田店", "chain": "NOBOROCK", "hours": "平日 10:00〜23:00、土日祝 10:00〜21:00", "closed_days": "なし", "station": "小田急町田駅、JR横浜線", "line": "小田急線、JR横浜線", "enabled": true, "data_note": null, "official_url": "https://noborock-climbing.com/program/machida/", "instagram_url": "https://www.instagram.com/noborock_machida/", "fetch_status": "success", "fetched_at": "2026-08-17T17:47:29+09:00", "last_changed_at": "2026-08-17T14:31:40", "events": [{"date": "2026-08-17", "type": "休業", "note": "ルートセット", "source_url": "https://noborock-climbing.com/program/machida/", "published": "2026-08-17"}, {"date": "2026-08-18", "type": "時間変更", "note": "18:30 open", "source_url": "https://noborock-climbing.com/program/machida/", "published": "2026-08-17"}]}, {"gym_id": "noborock-mizonokuchi", "name": "溝ノ口", "display_name": "ノボロック溝ノ口店", "chain": "NOBOROCK", "hours": "水曜日を除く平日 10:00〜23:00、水曜日 定休日、土曜日 10:00〜20:00、日曜日・祝日 10:00〜19:00", "closed_days": "水曜日", "station": "溝の口", "line": "東急田園都市線、南武線など", "enabled": true, "data_note": null, "official_url": "https://noborock-climbing.com/program/mizonokuchi/", "instagram_url": "https://www.instagram.com/noborock_mizonokuchi/", "fetch_status": "success", "fetched_at": "2026-08-17T17:47:32+09:00", "last_changed_at": "2026-08-17T14:31:40", "events": [{"date": "2026-08-17", "type": "休業", "note": "ルートセット", "source_url": "https://noborock-climbing.com/program/mizonokuchi/", "published": "2026-08-17"}]}, {"gym_id": "noborock-omiya", "name": "大宮", "display_name": "ノボロック大宮店", "chain": "NOBOROCK", "hours": "平日 10:00〜23:00、土日祝 10:00〜21:00", "closed_days": "なし", "station": "大宮駅", "line": "埼京線、湘南新宿ラインなど", "enabled": true, "data_note": null, "official_url": "https://noborock-climbing.com/program/omiya/", "instagram_url": "https://www.instagram.com/noborock_omiya/", "fetch_status": "success", "fetched_at": "2026-08-17T17:47:35+09:00", "last_changed_at": "2026-08-17T14:31:40", "events": [{"date": "2026-08-30", "type": "時間変更", "note": "17:00 close", "source_url": "https://noborock-climbing.com/program/omiya/", "published": "2026-08-17"}, {"date": "2026-08-31", "type": "休業", "note": "ルートセット", "source_url": "https://noborock-climbing.com/program/omiya/", "published": "2026-08-17"}]}, {"gym_id": "dbc-tachikawa", "name": "立川", "display_name": "Dボルダリング立川店", "chain": "D-BOULDERING", "hours": "24時間営業（通い放題パス利用時、リードエリア除く）、都度利用 平日 10:00～22:00、都度利用 土日祝 10:00～19:00", "closed_days": "なし", "station": "立川駅、立川南駅", "line": "中央線、青梅線など", "enabled": true, "data_note": "月次カレンダーが画像のため予定を取得できません", "official_url": "https://www.d-b-c.jp/top/tachikawa/", "instagram_url": "https://www.instagram.com/dbouldering_tachikawa/", "fetch_status": "success", "fetched_at": "2026-08-17T17:47:38+09:00", "last_changed_at": null, "events": []}, {"gym_id": "dbc-tamachi", "name": "田町", "display_name": "Dボルダリング田町店", "chain": "D-BOULDERING", "hours": "平日 7:00～23:00（L.O. 22:00）、土日祝 9:00～21:00（L.O. 20:00）", "closed_days": "なし", "station": "三田駅、田町駅", "line": "都営三田線、山手線など", "enabled": true, "data_note": null, "official_url": "https://www.d-b-c.jp/top/tamachi/", "instagram_url": "https://www.instagram.com/dbouldering_tamachi/", "fetch_status": "success", "fetched_at": "2026-08-17T17:47:44+09:00", "last_changed_at": null, "events": [{"date": "2026-08-17", "type": "休業", "note": "ホールド替えに伴うセット作業のため", "source_url": "https://www.d-b-c.jp/tamachi-news/8%e6%9c%88%ef%bc%9a%e3%83%9b%e3%83%bc%e3%83%ab%e3%83%89%e6%9b%bf%e3%81%88%e3%81%ab%e4%bc%b4%e3%81%86%e4%bc%91%e6%a5%ad%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b/", "published": "2026-08-13"}, {"date": "2026-08-18", "type": "休業", "note": "ホールド替えに伴うセット作業のため", "source_url": "https://www.d-b-c.jp/tamachi-news/8%e6%9c%88%ef%bc%9a%e3%83%9b%e3%83%bc%e3%83%ab%e3%83%89%e6%9b%bf%e3%81%88%e3%81%ab%e4%bc%b4%e3%81%86%e4%bc%91%e6%a5%ad%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b/", "published": "2026-08-13"}, {"date": "2026-08-19", "type": "時間変更", "note": "18時～開放（営業再開）", "source_url": "https://www.d-b-c.jp/tamachi-news/8%e6%9c%88%ef%bc%9a%e3%83%9b%e3%83%bc%e3%83%ab%e3%83%89%e6%9b%bf%e3%81%88%e3%81%ab%e4%bc%b4%e3%81%86%e4%bc%91%e6%a5%ad%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b/", "published": "2026-08-13"}]}, {"gym_id": "dbc-tsunashima", "name": "綱島", "display_name": "Dボルダリング綱島店", "chain": "D-BOULDERING", "hours": "平日：10:00～23:00、土日祝：10:00～21:00", "closed_days": "なし", "station": "綱島駅", "line": "東急東横線、相鉄新横浜線など", "enabled": false, "data_note": null, "official_url": "https://www.d-b-c.jp/top/tsunashima/", "instagram_url": "https://www.instagram.com/dbouldering_tsunashima/", "fetch_status": null, "fetched_at": null, "last_changed_at": null, "events": []}, {"gym_id": "dbc-honatsugi", "name": "本厚木", "display_name": "Dボルダリング本厚木店", "chain": "D-BOULDERING", "hours": "平日 10:00-22:00、土日祝 10:00-20:00", "closed_days": "なし", "station": "本厚木駅", "line": "小田急小田原線", "enabled": true, "data_note": null, "official_url": "https://www.d-b-c.jp/top/honatsugi/", "instagram_url": "https://www.instagram.com/dbouldering_honatsugi/", "fetch_status": "success", "fetched_at": "2026-08-17T17:48:02+09:00", "last_changed_at": null, "events": [{"date": "2026-08-17", "type": "エリア制限", "note": "エリアAのホールド外し&セット", "source_url": "https://www.d-b-c.jp/honatsugi-news/2026/07/9721/", "published": "2026-07-31"}, {"date": "2026-08-18", "type": "エリア制限", "note": "エリアAのホールド外し&セット", "source_url": "https://www.d-b-c.jp/honatsugi-news/2026/07/9721/", "published": "2026-07-31"}, {"date": "2026-08-19", "type": "エリア制限", "note": "エリアAのホールド外し&セット", "source_url": "https://www.d-b-c.jp/honatsugi-news/2026/07/9721/", "published": "2026-07-31"}]}, {"gym_id": "dbc-yokohama", "name": "横浜", "display_name": "Dボルダリング横浜店", "chain": "D-BOULDERING", "hours": "6:00～26:00（有人営業時間：平日10:00～23:00、土日祝10:00～21:00）", "closed_days": "なし", "station": "JR横浜駅", "line": "横浜線、東急東横線など", "enabled": true, "data_note": "月次カレンダーが画像のため予定を取得できません", "official_url": "https://www.d-b-c.jp/top/yokohama/", "instagram_url": "https://www.instagram.com/dbouldering_yokohama/", "fetch_status": "success", "fetched_at": "2026-08-17T17:48:48+09:00", "last_changed_at": null, "events": []}, {"gym_id": "dbc-kawasaki", "name": "川崎", "display_name": "Dボルダリング川崎店", "chain": "D-BOULDERING", "hours": "平日：10:00～23:00、土日：11:00～21:00、祝日：10:00～21:00", "closed_days": "なし", "station": "JR川崎駅、京急川崎駅", "line": "京浜東北線、京急本線など", "enabled": true, "data_note": null, "official_url": "https://www.d-b-c.jp/top/kawasaki/", "instagram_url": "https://www.instagram.com/dbouldering_kawasaki/", "fetch_status": "success", "fetched_at": "2026-08-17T17:48:57+09:00", "last_changed_at": null, "events": []}, {"gym_id": "bpump-akihabara", "name": "秋葉原", "display_name": "B-PUMP 秋葉原", "chain": "pump", "hours": "平日 12:00～23:00、土曜日・祝日 11:00～21:00、日曜日 10:00～21:00", "closed_days": "なし", "station": "秋葉原駅、御茶ノ水駅", "line": "山手線、中央線など", "enabled": true, "data_note": null, "official_url": "https://pump-climbing.com/gym/akiba/", "instagram_url": "https://www.instagram.com/bpumptokyo/", "fetch_status": "success", "fetched_at": "2026-08-17T17:49:04+09:00", "last_changed_at": null, "events": [{"date": "2026-08-20", "type": "エリア制限", "note": "3F Space Right ホールド外し", "source_url": "https://pump-climbing.com/gym/akiba/%e6%ac%a1%e9%80%b1%e3%82%bb%e3%83%83%e3%83%88%e6%83%85%e5%a0%b1-%e2%96%b7%e3%80%983f-space-right-%e3%80%99/blog-news/", "published": "2026-08-15"}, {"date": "2026-08-21", "type": "エリア制限", "note": "3F Space Right Route Setting Day", "source_url": "https://pump-climbing.com/gym/akiba/%e6%ac%a1%e9%80%b1%e3%82%bb%e3%83%83%e3%83%88%e6%83%85%e5%a0%b1-%e2%96%b7%e3%80%983f-space-right-%e3%80%99/blog-news/", "published": "2026-08-15"}, {"date": "2026-08-22", "type": "イベント", "note": "Re;CLIMB 女性限定イベント 第二弾", "source_url": "https://pump-climbing.com/gym/akiba/8%e6%9c%88%e3%82%ab%e3%83%ac%e3%83%b3%e3%83%80%e3%83%bc-3/blog-news/", "published": "2026-07-31"}]}, {"gym_id": "bpump-ogikubo", "name": "荻窪", "display_name": "B-PUMP 荻窪", "chain": "pump", "hours": "平日 13:00～23:00、土曜日・日曜日・祝日 10:00～21:00", "closed_days": "なし", "station": "荻窪駅", "line": "中央線、東京メトロ丸ノ内線など", "enabled": true, "data_note": null, "official_url": "https://pump-climbing.com/gym/bpump/", "instagram_url": "https://www.instagram.com/bpump_ogikubo/", "fetch_status": "success", "fetched_at": "2026-08-17T17:49:10+09:00", "last_changed_at": null, "events": [{"date": "2026-08-17", "type": "時間変更", "note": "営業時間 13:00-23:00", "source_url": "https://pump-climbing.com/gym/bpump/%e3%81%8a%e7%9b%86%e6%9c%9f%e9%96%93%e3%81%ae%e5%96%b6%e6%a5%ad%e6%99%82%e9%96%93%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6/", "published": "2026-08-01"}]}, {"gym_id": "bpump-yokohama", "name": "横浜", "display_name": "B-PUMP 横浜", "chain": "pump", "hours": "平日 13:00～23:00、土曜日・祝日 11:00～21:00、日曜日 10:00～21:00", "closed_days": "なし", "station": "横浜駅、戸部駅、高島町駅", "line": "横浜線、東急東横線など", "enabled": true, "data_note": null, "official_url": "https://pump-climbing.com/gym/bpump2/", "instagram_url": "https://www.instagram.com/bpumpyokohama/", "fetch_status": "success", "fetched_at": "2026-08-17T17:49:16+09:00", "last_changed_at": null, "events": []}, {"gym_id": "bpump-kawaguchi", "name": "川口", "display_name": "PUMP1 川口", "chain": "pump", "hours": "平日（火・水・木・金）12:00～23:00、土日祝10:00～20:00", "closed_days": "月曜日（祝日の場合は営業10:00～20:00）", "station": "赤羽駅", "line": "京浜東北線、湘南新宿ラインなど", "enabled": true, "data_note": null, "official_url": "https://pump-climbing.com/gym/pump1/", "instagram_url": "https://www.instagram.com/pump1_kawaguchi/", "fetch_status": "success", "fetched_at": "2026-08-17T17:49:21+09:00", "last_changed_at": null, "events": [{"date": "2026-08-31", "type": "セット完了", "note": "2F BOULDER SET", "source_url": "https://pump-climbing.com/gym/pump1/8%e6%9c%88%e3%81%ae%e3%82%ab%e3%83%ac%e3%83%b3%e3%83%80%e3%83%bc%e2%9c%85/", "published": "2026-08-02"}]}, {"gym_id": "bpump-kawasaki", "name": "川崎", "display_name": "PUMP2 川崎", "chain": "pump", "hours": "火・水・木・金 12:00～23:00、土曜日 10:00～22:00、日曜日・祝日 10:00～21:00", "closed_days": "月曜（月曜祭日の場合は翌火曜）", "station": "JR中野島駅", "line": "南武線", "enabled": true, "data_note": null, "official_url": "https://pump-climbing.com/gym/pump2/", "instagram_url": "https://www.instagram.com/pump2climbing/", "fetch_status": "success", "fetched_at": "2026-08-17T17:49:37+09:00", "last_changed_at": null, "events": []}];
   var GENERATED_AT = "2026-08-17";
+  var STAR_OUTLINE_SVG = "<svg class=\"icon-outline\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z\" /></svg>";
+  var STAR_SOLID_SVG = "<svg class=\"icon-solid\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\"><path fill-rule=\"evenodd\" d=\"M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006Z\" clip-rule=\"evenodd\" /></svg>";
   var FAVORITES_KEY = "gymchecker.favorites";
   var SORT_ORDER_KEY = "gymchecker.sortOrder";
 
@@ -674,7 +725,7 @@ footer.note .disclaimer {
     return '<article class="card" data-gym-id="' + escapeHtml(gym.gym_id) + '">' +
       '<header class="card-head">' +
         '<h2>' + escapeHtml(displayName) + '</h2>' +
-        '<button type="button" class="star-btn' + (fav ? " active" : "") + '" data-fav-toggle="' + escapeHtml(gym.gym_id) + '" aria-pressed="' + fav + '" aria-label="マイリストに追加・削除">' + (fav ? "&#9733;" : "&#9734;") + '</button>' +
+        '<button type="button" class="star-btn' + (fav ? " active" : "") + '" data-fav-toggle="' + escapeHtml(gym.gym_id) + '" aria-pressed="' + fav + '" aria-label="マイリストに追加・削除"><span class="star-icon">' + STAR_OUTLINE_SVG + STAR_SOLID_SVG + '</span></button>' +
       '</header>' +
       '<dl class="info-grid">' +
         '<div class="info-item"><dt>営業時間</dt><dd>' + fieldHtml(gym.hours) + '</dd></div>' +
@@ -747,7 +798,8 @@ footer.note .disclaimer {
       if (searchState.chain !== "all" && g.chain !== searchState.chain) return false;
       if (!q) return true;
       var name = (g.display_name || g.name || "").toLowerCase();
-      return name.indexOf(q) !== -1;
+      var station = (g.station || "").toLowerCase();
+      return name.indexOf(q) !== -1 || station.indexOf(q) !== -1;
     });
     container.innerHTML = filtered.map(gymCardHtml).join("");
   }
