@@ -227,7 +227,7 @@
     "line": "中央線、青梅線など",
     "display_name": "Dボルダリング立川店",
     "official_url": "https://www.d-b-c.jp/top/tachikawa/",
-    "data_note": "取得失敗 以下の情報源を参照",
+    "data_note": null,
     "instagram_url": "https://www.instagram.com/dbouldering_tachikawa/",
     "hours_note": "通い放題パス利用時は24時間営業（リードエリアを除く）",
     "sort_key": "Dたちかわ"
@@ -328,7 +328,7 @@
     "line": "横浜線、東急東横線など",
     "display_name": "Dボルダリング横浜店",
     "official_url": "https://www.d-b-c.jp/top/yokohama/",
-    "data_note": "取得失敗 以下の情報源を参照",
+    "data_note": null,
     "instagram_url": "https://www.instagram.com/dbouldering_yokohama/",
     "hours_note": "6:00〜26:00は無人営業",
     "sort_key": "Dよこはま"

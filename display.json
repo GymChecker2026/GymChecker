@@ -179,6 +179,14 @@
         "source_url": "https://noborock-climbing.com/program/takadanobaba/",
         "published": "2026-08-17",
         "source": "auto"
+      },
+      {
+        "date": "2026-09-01",
+        "type": "時間変更",
+        "note": "18:30 open",
+        "source_url": "https://noborock-climbing.com/program/takadanobaba/",
+        "published": "2026-08-17",
+        "source": "auto"
       }
     ]
   },
@@ -492,6 +500,14 @@
         "source_url": "https://noborock-climbing.com/program/omiya/",
         "published": "2026-08-17",
         "source": "auto"
+      },
+      {
+        "date": "2026-09-01",
+        "type": "時間変更",
+        "note": "18:30 open",
+        "source_url": "https://noborock-climbing.com/program/omiya/",
+        "published": "2026-08-17",
+        "source": "auto"
       }
     ]
   },
@@ -515,7 +531,7 @@
     "station": "立川駅、立川南駅",
     "line": "中央線、青梅線など",
     "enabled": true,
-    "data_note": "取得失敗 以下の情報源を参照",
+    "data_note": null,
     "official_url": "https://www.d-b-c.jp/top/tachikawa/",
     "instagram_url": "https://www.instagram.com/dbouldering_tachikawa/",
     "fetch_status": "success",
@@ -879,7 +895,7 @@
     "station": "JR横浜駅",
     "line": "横浜線、東急東横線など",
     "enabled": true,
-    "data_note": "取得失敗 以下の情報源を参照",
+    "data_note": null,
     "official_url": "https://www.d-b-c.jp/top/yokohama/",
     "instagram_url": "https://www.instagram.com/dbouldering_yokohama/",
     "fetch_status": "success",
