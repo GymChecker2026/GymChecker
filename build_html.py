@@ -98,7 +98,7 @@ body {{
 .page {{
   max-width: 560px;
   margin: 0 auto;
-  padding: 0 0 5rem;
+  padding: 0 0 6.5rem;
   min-height: 100vh;
 }}
 
@@ -604,35 +604,45 @@ footer.note .disclaimer {{
 
 .tab-btn {{
   flex: 1;
-  min-height: 48px;
+  min-height: 72px;
   border: none;
   background: none;
-  padding: 0.4rem 0.5rem;
+  padding: 0.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: inherit;
+  cursor: pointer;
+}}
+
+.tab-pill {{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 0.15rem;
-  font-size: 0.66rem;
+  gap: 0.22rem;
+  padding: 0.5rem 1.2rem;
+  border-radius: 999px;
+  font-size: 1rem;
   font-weight: 700;
-  font-family: inherit;
   color: var(--ink-dim);
-  cursor: pointer;
+  transition: background-color 0.15s ease, color 0.15s ease;
 }}
 
-.tab-btn.active {{
+.tab-btn.active .tab-pill {{
+  background: var(--accent-tint);
   color: var(--accent);
 }}
 
 .tab-icon {{
-  width: 24px;
-  height: 24px;
+  width: 36px;
+  height: 36px;
   display: block;
 }}
 
 .tab-icon svg {{
-  width: 24px;
-  height: 24px;
+  width: 36px;
+  height: 36px;
   display: block;
 }}
 
@@ -677,16 +687,22 @@ footer.note .disclaimer {{
 
 <nav class="tabbar">
   <button type="button" class="tab-btn active" data-tab="mylist">
-    <span class="tab-icon">{ICONS["star_outline"]}{ICONS["star_solid"]}</span>
-    <span class="tab-label">マイリスト</span>
+    <span class="tab-pill">
+      <span class="tab-icon">{ICONS["star_outline"]}{ICONS["star_solid"]}</span>
+      <span class="tab-label">マイリスト</span>
+    </span>
   </button>
   <button type="button" class="tab-btn" data-tab="search">
-    <span class="tab-icon">{ICONS["search_outline"]}{ICONS["search_solid"]}</span>
-    <span class="tab-label">検索</span>
+    <span class="tab-pill">
+      <span class="tab-icon">{ICONS["search_outline"]}{ICONS["search_solid"]}</span>
+      <span class="tab-label">検索</span>
+    </span>
   </button>
   <button type="button" class="tab-btn" data-tab="settings">
-    <span class="tab-icon">{ICONS["cog_outline"]}{ICONS["cog_solid"]}</span>
-    <span class="tab-label">設定</span>
+    <span class="tab-pill">
+      <span class="tab-icon">{ICONS["cog_outline"]}{ICONS["cog_solid"]}</span>
+      <span class="tab-label">設定</span>
+    </span>
   </button>
 </nav>
 
