@@ -86,6 +86,11 @@ html_doc = f'''<meta charset="UTF-8">
 
 * {{ box-sizing: border-box; }}
 
+html {{
+  overflow-y: scroll;
+  scrollbar-gutter: stable;
+}}
+
 body {{
   margin: 0;
   background: var(--bg);
@@ -649,6 +654,12 @@ footer.note .disclaimer {{
 .tab-icon .icon-solid {{ display: none; }}
 .tab-btn.active .tab-icon .icon-outline {{ display: none; }}
 .tab-btn.active .tab-icon .icon-solid {{ display: block; }}
+
+/* 検索アイコンはoutline/solidの塗り面積差により、solid切替時に一回り小さく見えるため補正する。 */
+.tab-btn[data-tab="search"] .tab-icon .icon-solid {{
+  transform: scale(1.15);
+  transform-origin: 50% 50%;
+}}
 
 .tab-label {{
   line-height: 1;
