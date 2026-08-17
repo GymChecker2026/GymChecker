@@ -21,7 +21,8 @@
     "official_url": "https://noborock-climbing.com/program/新宿店/",
     "data_note": null,
     "instagram_url": "https://www.instagram.com/noborock_shinjuku/",
-    "hours_note": null
+    "hours_note": null,
+    "sort_key": "のぼろっくしんじゅく"
   },
   {
     "id": "noborock-shibuya",
@@ -45,7 +46,8 @@
     "official_url": "https://noborock-climbing.com/program/shibuya/",
     "data_note": null,
     "instagram_url": "https://www.instagram.com/noborock_shibuya/",
-    "hours_note": null
+    "hours_note": null,
+    "sort_key": "のぼろっくしぶや"
   },
   {
     "id": "noborock-takadanobaba",
@@ -69,7 +71,8 @@
     "official_url": "https://noborock-climbing.com/program/takadanobaba/",
     "data_note": null,
     "instagram_url": "https://www.instagram.com/noborock_takadanobaba/",
-    "hours_note": null
+    "hours_note": null,
+    "sort_key": "のぼろっくたかだのばば"
   },
   {
     "id": "noborock-asakusa",
@@ -93,7 +96,8 @@
     "official_url": "https://noborock-climbing.com/program/浅草店/",
     "data_note": null,
     "instagram_url": "https://www.instagram.com/noborock_asakusa/",
-    "hours_note": null
+    "hours_note": null,
+    "sort_key": "のぼろっくあさくさ"
   },
   {
     "id": "noborock-ikebukuro",
@@ -117,7 +121,8 @@
     "official_url": "https://noborock-climbing.com/program/ikebukuro/",
     "data_note": null,
     "instagram_url": "https://www.instagram.com/noborock_ikebukuro/",
-    "hours_note": null
+    "hours_note": null,
+    "sort_key": "のぼろっくいけぶくろ"
   },
   {
     "id": "noborock-machida",
@@ -141,7 +146,8 @@
     "official_url": "https://noborock-climbing.com/program/machida/",
     "data_note": null,
     "instagram_url": "https://www.instagram.com/noborock_machida/",
-    "hours_note": null
+    "hours_note": null,
+    "sort_key": "のぼろっくまちだ"
   },
   {
     "id": "noborock-mizonokuchi",
@@ -173,7 +179,8 @@
     "official_url": "https://noborock-climbing.com/program/mizonokuchi/",
     "data_note": null,
     "instagram_url": "https://www.instagram.com/noborock_mizonokuchi/",
-    "hours_note": null
+    "hours_note": null,
+    "sort_key": "のぼろっくみぞのくち"
   },
   {
     "id": "noborock-omiya",
@@ -197,7 +204,8 @@
     "official_url": "https://noborock-climbing.com/program/omiya/",
     "data_note": null,
     "instagram_url": "https://www.instagram.com/noborock_omiya/",
-    "hours_note": null
+    "hours_note": null,
+    "sort_key": "のぼろっくおおみや"
   },
   {
     "id": "dbc-tachikawa",
@@ -221,7 +229,8 @@
     "official_url": "https://www.d-b-c.jp/top/tachikawa/",
     "data_note": "取得失敗 以下の情報源を参照",
     "instagram_url": "https://www.instagram.com/dbouldering_tachikawa/",
-    "hours_note": "通い放題パス利用時は24時間営業（リードエリアを除く）"
+    "hours_note": "通い放題パス利用時は24時間営業（リードエリアを除く）",
+    "sort_key": "でぃーぼるだりんぐたちかわ"
   },
   {
     "id": "dbc-tamachi",
@@ -245,7 +254,8 @@
     "official_url": "https://www.d-b-c.jp/top/tamachi/",
     "data_note": null,
     "instagram_url": "https://www.instagram.com/dbouldering_tamachi/",
-    "hours_note": null
+    "hours_note": null,
+    "sort_key": "でぃーぼるだりんぐたまち"
   },
   {
     "id": "dbc-tsunashima",
@@ -270,7 +280,8 @@
     "official_url": "https://www.d-b-c.jp/top/tsunashima/",
     "data_note": null,
     "instagram_url": "https://www.instagram.com/dbouldering_tsunashima/",
-    "hours_note": null
+    "hours_note": null,
+    "sort_key": "でぃーぼるだりんぐつなしま"
   },
   {
     "id": "dbc-honatsugi",
@@ -294,7 +305,8 @@
     "official_url": "https://www.d-b-c.jp/top/honatsugi/",
     "data_note": null,
     "instagram_url": "https://www.instagram.com/dbouldering_honatsugi/",
-    "hours_note": null
+    "hours_note": null,
+    "sort_key": "でぃーぼるだりんぐほんあつぎ"
   },
   {
     "id": "dbc-yokohama",
@@ -318,7 +330,8 @@
     "official_url": "https://www.d-b-c.jp/top/yokohama/",
     "data_note": "取得失敗 以下の情報源を参照",
     "instagram_url": "https://www.instagram.com/dbouldering_yokohama/",
-    "hours_note": "6:00〜26:00は無人営業"
+    "hours_note": "6:00〜26:00は無人営業",
+    "sort_key": "でぃーぼるだりんぐよこはま"
   },
   {
     "id": "dbc-kawasaki",
@@ -346,7 +359,8 @@
     "official_url": "https://www.d-b-c.jp/top/kawasaki/",
     "data_note": null,
     "instagram_url": "https://www.instagram.com/dbouldering_kawasaki/",
-    "hours_note": null
+    "hours_note": null,
+    "sort_key": "でぃーぼるだりんぐかわさき"
   },
   {
     "id": "bpump-akihabara",
@@ -374,7 +388,8 @@
     "official_url": "https://pump-climbing.com/gym/akiba/",
     "data_note": null,
     "instagram_url": "https://www.instagram.com/bpumptokyo/",
-    "hours_note": null
+    "hours_note": null,
+    "sort_key": "びーぱんぷあきはばら"
   },
   {
     "id": "bpump-ogikubo",
@@ -398,7 +413,8 @@
     "official_url": "https://pump-climbing.com/gym/bpump/",
     "data_note": null,
     "instagram_url": "https://www.instagram.com/bpump_ogikubo/",
-    "hours_note": null
+    "hours_note": null,
+    "sort_key": "びーぱんぷおぎくぼ"
   },
   {
     "id": "bpump-yokohama",
@@ -426,7 +442,8 @@
     "official_url": "https://pump-climbing.com/gym/bpump2/",
     "data_note": null,
     "instagram_url": "https://www.instagram.com/bpumpyokohama/",
-    "hours_note": null
+    "hours_note": null,
+    "sort_key": "びーぱんぷよこはま"
   },
   {
     "id": "bpump-kawaguchi",
@@ -454,7 +471,8 @@
     "official_url": "https://pump-climbing.com/gym/pump1/",
     "data_note": null,
     "instagram_url": "https://www.instagram.com/pump1_kawaguchi/",
-    "hours_note": null
+    "hours_note": null,
+    "sort_key": "ぱんぷわんかわぐち"
   },
   {
     "id": "bpump-kawasaki",
@@ -486,6 +504,7 @@
     "official_url": "https://pump-climbing.com/gym/pump2/",
     "data_note": null,
     "instagram_url": "https://www.instagram.com/pump2climbing/",
-    "hours_note": null
+    "hours_note": null,
+    "sort_key": "ぱんぷつーかわさき"
   }
 ]

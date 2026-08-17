@@ -3,6 +3,7 @@
     "gym_id": "noborock-shinjuku",
     "name": "新宿",
     "display_name": "ノボロック新宿店",
+    "sort_key": "のぼろっくしんじゅく",
     "chain": "NOBOROCK",
     "hours": [
       {
@@ -59,6 +60,7 @@
     "gym_id": "noborock-shibuya",
     "name": "渋谷",
     "display_name": "ノボロック渋谷店",
+    "sort_key": "のぼろっくしぶや",
     "chain": "NOBOROCK",
     "hours": [
       {
@@ -115,6 +117,7 @@
     "gym_id": "noborock-takadanobaba",
     "name": "高田馬場",
     "display_name": "ノボロック高田馬場店",
+    "sort_key": "のぼろっくたかだのばば",
     "chain": "NOBOROCK",
     "hours": [
       {
@@ -171,6 +174,7 @@
     "gym_id": "noborock-asakusa",
     "name": "浅草",
     "display_name": "ノボロック浅草店",
+    "sort_key": "のぼろっくあさくさ",
     "chain": "NOBOROCK",
     "hours": [
       {
@@ -227,6 +231,7 @@
     "gym_id": "noborock-ikebukuro",
     "name": "池袋",
     "display_name": "ノボロック池袋店",
+    "sort_key": "のぼろっくいけぶくろ",
     "chain": "NOBOROCK",
     "hours": [
       {
@@ -283,6 +288,7 @@
     "gym_id": "noborock-machida",
     "name": "町田",
     "display_name": "ノボロック町田店",
+    "sort_key": "のぼろっくまちだ",
     "chain": "NOBOROCK",
     "hours": [
       {
@@ -339,6 +345,7 @@
     "gym_id": "noborock-mizonokuchi",
     "name": "溝ノ口",
     "display_name": "ノボロック溝ノ口店",
+    "sort_key": "のぼろっくみぞのくち",
     "chain": "NOBOROCK",
     "hours": [
       {
@@ -410,6 +417,7 @@
     "gym_id": "noborock-omiya",
     "name": "大宮",
     "display_name": "ノボロック大宮店",
+    "sort_key": "のぼろっくおおみや",
     "chain": "NOBOROCK",
     "hours": [
       {
@@ -459,6 +467,7 @@
     "gym_id": "dbc-tachikawa",
     "name": "立川",
     "display_name": "Dボルダリング立川店",
+    "sort_key": "でぃーぼるだりんぐたちかわ",
     "chain": "D-BOULDERING",
     "hours": [
       {
@@ -486,6 +495,7 @@
     "gym_id": "dbc-tamachi",
     "name": "田町",
     "display_name": "Dボルダリング田町店",
+    "sort_key": "でぃーぼるだりんぐたまち",
     "chain": "D-BOULDERING",
     "hours": [
       {
@@ -577,6 +587,7 @@
     "gym_id": "dbc-tsunashima",
     "name": "綱島",
     "display_name": "Dボルダリング綱島店",
+    "sort_key": "でぃーぼるだりんぐつなしま",
     "chain": "D-BOULDERING",
     "hours": [
       {
@@ -633,6 +644,7 @@
     "gym_id": "dbc-honatsugi",
     "name": "本厚木",
     "display_name": "Dボルダリング本厚木店",
+    "sort_key": "でぃーぼるだりんぐほんあつぎ",
     "chain": "D-BOULDERING",
     "hours": [
       {
@@ -724,6 +736,7 @@
     "gym_id": "dbc-yokohama",
     "name": "横浜",
     "display_name": "Dボルダリング横浜店",
+    "sort_key": "でぃーぼるだりんぐよこはま",
     "chain": "D-BOULDERING",
     "hours": [
       {
@@ -751,6 +764,7 @@
     "gym_id": "dbc-kawasaki",
     "name": "川崎",
     "display_name": "Dボルダリング川崎店",
+    "sort_key": "でぃーぼるだりんぐかわさき",
     "chain": "D-BOULDERING",
     "hours": [
       {
@@ -782,6 +796,7 @@
     "gym_id": "bpump-akihabara",
     "name": "秋葉原",
     "display_name": "B-PUMP 秋葉原",
+    "sort_key": "びーぱんぷあきはばら",
     "chain": "pump",
     "hours": [
       {
@@ -1122,6 +1137,7 @@
     "gym_id": "bpump-ogikubo",
     "name": "荻窪",
     "display_name": "B-PUMP 荻窪",
+    "sort_key": "びーぱんぷおぎくぼ",
     "chain": "pump",
     "hours": [
       {
@@ -1227,6 +1243,7 @@
     "gym_id": "bpump-yokohama",
     "name": "横浜",
     "display_name": "B-PUMP 横浜",
+    "sort_key": "びーぱんぷよこはま",
     "chain": "pump",
     "hours": [
       {
@@ -1308,6 +1325,7 @@
     "gym_id": "bpump-kawaguchi",
     "name": "川口",
     "display_name": "PUMP1 川口",
+    "sort_key": "ぱんぷわんかわぐち",
     "chain": "pump",
     "hours": [
       {
@@ -1438,6 +1456,7 @@
     "gym_id": "bpump-kawasaki",
     "name": "川崎",
     "display_name": "PUMP2 川崎",
+    "sort_key": "ぱんぷつーかわさき",
     "chain": "pump",
     "hours": [
       {

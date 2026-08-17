@@ -53,6 +53,7 @@ for gym in gyms:
         "gym_id": gym["id"],
         "name": gym["name"],
         "display_name": gym.get("display_name"),
+        "sort_key": gym.get("sort_key"),
         "chain": gym["chain"],
         "hours": gym.get("hours"),
         "hours_note": gym.get("hours_note"),
