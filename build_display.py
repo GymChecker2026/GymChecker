@@ -55,7 +55,7 @@ for gym in gyms:
         "display_name": gym.get("display_name"),
         "chain": gym["chain"],
         "hours": gym.get("hours"),
-        "closed_days": gym.get("closed_days"),
+        "hours_note": gym.get("hours_note"),
         "station": gym.get("station"),
         "line": gym.get("line"),
         "enabled": gym.get("enabled", True),

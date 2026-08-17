@@ -5,14 +5,23 @@
     "chain": "NOBOROCK",
     "method": "page",
     "url": "https://noborock-climbing.com/program/新宿店/",
-    "hours": "平日 10:00〜23:00、土日祝 10:00〜21:00",
-    "closed_days": "なし",
+    "hours": [
+      {
+        "label": "平日",
+        "value": "10:00〜23:00"
+      },
+      {
+        "label": "土日祝",
+        "value": "10:00〜21:00"
+      }
+    ],
     "station": "新宿駅",
     "line": "山手線、中央線など",
     "display_name": "ノボロック新宿店",
     "official_url": "https://noborock-climbing.com/program/新宿店/",
     "data_note": null,
-    "instagram_url": "https://www.instagram.com/noborock_shinjuku/"
+    "instagram_url": "https://www.instagram.com/noborock_shinjuku/",
+    "hours_note": null
   },
   {
     "id": "noborock-shibuya",
@@ -20,14 +29,23 @@
     "chain": "NOBOROCK",
     "method": "page",
     "url": "https://noborock-climbing.com/program/shibuya/",
-    "hours": "平日 10:00～23:00、土日祝 10:00～22:00",
-    "closed_days": "なし",
+    "hours": [
+      {
+        "label": "平日",
+        "value": "10:00〜23:00"
+      },
+      {
+        "label": "土日祝",
+        "value": "10:00〜22:00"
+      }
+    ],
     "station": "渋谷駅",
     "line": "山手線、東京メトロ銀座線など",
     "display_name": "ノボロック渋谷店",
     "official_url": "https://noborock-climbing.com/program/shibuya/",
     "data_note": null,
-    "instagram_url": "https://www.instagram.com/noborock_shibuya/"
+    "instagram_url": "https://www.instagram.com/noborock_shibuya/",
+    "hours_note": null
   },
   {
     "id": "noborock-takadanobaba",
@@ -35,14 +53,23 @@
     "chain": "NOBOROCK",
     "method": "page",
     "url": "https://noborock-climbing.com/program/takadanobaba/",
-    "hours": "平日 10:00〜22:45、土日祝 10:00〜21:00",
-    "closed_days": "なし",
+    "hours": [
+      {
+        "label": "平日",
+        "value": "10:00〜22:45"
+      },
+      {
+        "label": "土日祝",
+        "value": "10:00〜21:00"
+      }
+    ],
     "station": "高田馬場駅",
     "line": "山手線、東京メトロ東西線など",
     "display_name": "ノボロック高田馬場店",
     "official_url": "https://noborock-climbing.com/program/takadanobaba/",
     "data_note": null,
-    "instagram_url": "https://www.instagram.com/noborock_takadanobaba/"
+    "instagram_url": "https://www.instagram.com/noborock_takadanobaba/",
+    "hours_note": null
   },
   {
     "id": "noborock-asakusa",
@@ -50,14 +77,23 @@
     "chain": "NOBOROCK",
     "method": "page",
     "url": "https://noborock-climbing.com/program/浅草店/",
-    "hours": "平日 10:00〜23:00、土日祝 10:00〜21:00",
-    "closed_days": "なし",
+    "hours": [
+      {
+        "label": "平日",
+        "value": "10:00〜23:00"
+      },
+      {
+        "label": "土日祝",
+        "value": "10:00〜21:00"
+      }
+    ],
     "station": "浅草駅、本所吾妻橋駅",
     "line": "東京メトロ銀座線、都営地下鉄浅草線など",
     "display_name": "ノボロック浅草店",
     "official_url": "https://noborock-climbing.com/program/浅草店/",
     "data_note": null,
-    "instagram_url": "https://www.instagram.com/noborock_asakusa/"
+    "instagram_url": "https://www.instagram.com/noborock_asakusa/",
+    "hours_note": null
   },
   {
     "id": "noborock-ikebukuro",
@@ -65,14 +101,23 @@
     "chain": "NOBOROCK",
     "method": "page",
     "url": "https://noborock-climbing.com/program/ikebukuro/",
-    "hours": "平日 10:00〜23:00、土日祝 10:00〜21:00",
-    "closed_days": "なし",
+    "hours": [
+      {
+        "label": "平日",
+        "value": "10:00〜23:00"
+      },
+      {
+        "label": "土日祝",
+        "value": "10:00〜21:00"
+      }
+    ],
     "station": "池袋駅、要町駅",
     "line": "山手線、東京メトロ丸ノ内線など",
     "display_name": "ノボロック池袋店",
     "official_url": "https://noborock-climbing.com/program/ikebukuro/",
     "data_note": null,
-    "instagram_url": "https://www.instagram.com/noborock_ikebukuro/"
+    "instagram_url": "https://www.instagram.com/noborock_ikebukuro/",
+    "hours_note": null
   },
   {
     "id": "noborock-machida",
@@ -80,14 +125,23 @@
     "chain": "NOBOROCK",
     "method": "page",
     "url": "https://noborock-climbing.com/program/machida/",
-    "hours": "平日 10:00〜23:00、土日祝 10:00〜21:00",
-    "closed_days": "なし",
+    "hours": [
+      {
+        "label": "平日",
+        "value": "10:00〜23:00"
+      },
+      {
+        "label": "土日祝",
+        "value": "10:00〜21:00"
+      }
+    ],
     "station": "小田急町田駅、JR横浜線",
     "line": "小田急線、JR横浜線",
     "display_name": "ノボロック町田店",
     "official_url": "https://noborock-climbing.com/program/machida/",
     "data_note": null,
-    "instagram_url": "https://www.instagram.com/noborock_machida/"
+    "instagram_url": "https://www.instagram.com/noborock_machida/",
+    "hours_note": null
   },
   {
     "id": "noborock-mizonokuchi",
@@ -95,14 +149,31 @@
     "chain": "NOBOROCK",
     "method": "page",
     "url": "https://noborock-climbing.com/program/mizonokuchi/",
-    "hours": "水曜日を除く平日 10:00〜23:00、水曜日 定休日、土曜日 10:00〜20:00、日曜日・祝日 10:00〜19:00",
-    "closed_days": "水曜日",
+    "hours": [
+      {
+        "label": "月・火・木・金",
+        "value": "10:00〜23:00"
+      },
+      {
+        "label": "水曜日",
+        "value": "定休日"
+      },
+      {
+        "label": "土曜日",
+        "value": "10:00〜20:00"
+      },
+      {
+        "label": "日祝",
+        "value": "10:00〜19:00"
+      }
+    ],
     "station": "溝の口",
     "line": "東急田園都市線、南武線など",
     "display_name": "ノボロック溝ノ口店",
     "official_url": "https://noborock-climbing.com/program/mizonokuchi/",
     "data_note": null,
-    "instagram_url": "https://www.instagram.com/noborock_mizonokuchi/"
+    "instagram_url": "https://www.instagram.com/noborock_mizonokuchi/",
+    "hours_note": null
   },
   {
     "id": "noborock-omiya",
@@ -110,14 +181,23 @@
     "chain": "NOBOROCK",
     "method": "page",
     "url": "https://noborock-climbing.com/program/omiya/",
-    "hours": "平日 10:00〜23:00、土日祝 10:00〜21:00",
-    "closed_days": "なし",
+    "hours": [
+      {
+        "label": "平日",
+        "value": "10:00〜23:00"
+      },
+      {
+        "label": "土日祝",
+        "value": "10:00〜21:00"
+      }
+    ],
     "station": "大宮駅",
     "line": "埼京線、湘南新宿ラインなど",
     "display_name": "ノボロック大宮店",
     "official_url": "https://noborock-climbing.com/program/omiya/",
     "data_note": null,
-    "instagram_url": "https://www.instagram.com/noborock_omiya/"
+    "instagram_url": "https://www.instagram.com/noborock_omiya/",
+    "hours_note": null
   },
   {
     "id": "dbc-tachikawa",
@@ -125,14 +205,23 @@
     "chain": "D-BOULDERING",
     "method": "news_list",
     "url": "https://www.d-b-c.jp/tachikawa-news/",
-    "hours": "24時間営業（通い放題パス利用時、リードエリア除く）、都度利用 平日 10:00～22:00、都度利用 土日祝 10:00～19:00",
-    "closed_days": "なし",
+    "hours": [
+      {
+        "label": "平日",
+        "value": "10:00〜22:00"
+      },
+      {
+        "label": "土日祝",
+        "value": "10:00〜19:00"
+      }
+    ],
     "station": "立川駅、立川南駅",
     "line": "中央線、青梅線など",
     "display_name": "Dボルダリング立川店",
     "official_url": "https://www.d-b-c.jp/top/tachikawa/",
     "data_note": "取得失敗 以下の情報源を参照",
-    "instagram_url": "https://www.instagram.com/dbouldering_tachikawa/"
+    "instagram_url": "https://www.instagram.com/dbouldering_tachikawa/",
+    "hours_note": "通い放題パス利用時は24時間営業（リードエリアを除く）"
   },
   {
     "id": "dbc-tamachi",
@@ -140,14 +229,23 @@
     "chain": "D-BOULDERING",
     "method": "news_list",
     "url": "https://www.d-b-c.jp/top/tamachi/news/",
-    "hours": "平日 7:00～23:00（L.O. 22:00）、土日祝 9:00～21:00（L.O. 20:00）",
-    "closed_days": "なし",
+    "hours": [
+      {
+        "label": "平日",
+        "value": "7:00〜23:00（L.O. 22:00）"
+      },
+      {
+        "label": "土日祝",
+        "value": "9:00〜21:00（L.O. 20:00）"
+      }
+    ],
     "station": "三田駅、田町駅",
     "line": "都営三田線、山手線など",
     "display_name": "Dボルダリング田町店",
     "official_url": "https://www.d-b-c.jp/top/tamachi/",
     "data_note": null,
-    "instagram_url": "https://www.instagram.com/dbouldering_tamachi/"
+    "instagram_url": "https://www.instagram.com/dbouldering_tamachi/",
+    "hours_note": null
   },
   {
     "id": "dbc-tsunashima",
@@ -156,14 +254,23 @@
     "method": "page",
     "url": "https://www.d-b-c.jp/top/tsunashima/",
     "enabled": false,
-    "hours": "平日：10:00～23:00、土日祝：10:00～21:00",
-    "closed_days": "なし",
+    "hours": [
+      {
+        "label": "平日",
+        "value": "10:00〜23:00"
+      },
+      {
+        "label": "土日祝",
+        "value": "10:00〜21:00"
+      }
+    ],
     "station": "綱島駅",
     "line": "東急東横線、相鉄新横浜線など",
     "display_name": "Dボルダリング綱島店",
     "official_url": "https://www.d-b-c.jp/top/tsunashima/",
     "data_note": null,
-    "instagram_url": "https://www.instagram.com/dbouldering_tsunashima/"
+    "instagram_url": "https://www.instagram.com/dbouldering_tsunashima/",
+    "hours_note": null
   },
   {
     "id": "dbc-honatsugi",
@@ -171,14 +278,23 @@
     "chain": "D-BOULDERING",
     "method": "news_list",
     "url": "https://www.d-b-c.jp/honatsugi-news/",
-    "hours": "平日 10:00-22:00、土日祝 10:00-20:00",
-    "closed_days": "なし",
+    "hours": [
+      {
+        "label": "平日",
+        "value": "10:00〜22:00"
+      },
+      {
+        "label": "土日祝",
+        "value": "10:00〜20:00"
+      }
+    ],
     "station": "本厚木駅",
     "line": "小田急小田原線",
     "display_name": "Dボルダリング本厚木店",
     "official_url": "https://www.d-b-c.jp/top/honatsugi/",
     "data_note": null,
-    "instagram_url": "https://www.instagram.com/dbouldering_honatsugi/"
+    "instagram_url": "https://www.instagram.com/dbouldering_honatsugi/",
+    "hours_note": null
   },
   {
     "id": "dbc-yokohama",
@@ -186,14 +302,23 @@
     "chain": "D-BOULDERING",
     "method": "news_list",
     "url": "https://www.d-b-c.jp/top/yokohama/news/",
-    "hours": "6:00～26:00（有人営業時間：平日10:00～23:00、土日祝10:00～21:00）",
-    "closed_days": "なし",
+    "hours": [
+      {
+        "label": "平日",
+        "value": "10:00〜23:00"
+      },
+      {
+        "label": "土日祝",
+        "value": "10:00〜21:00"
+      }
+    ],
     "station": "JR横浜駅",
     "line": "横浜線、東急東横線など",
     "display_name": "Dボルダリング横浜店",
     "official_url": "https://www.d-b-c.jp/top/yokohama/",
     "data_note": "取得失敗 以下の情報源を参照",
-    "instagram_url": "https://www.instagram.com/dbouldering_yokohama/"
+    "instagram_url": "https://www.instagram.com/dbouldering_yokohama/",
+    "hours_note": "6:00〜26:00は無人営業"
   },
   {
     "id": "dbc-kawasaki",
@@ -201,14 +326,27 @@
     "chain": "D-BOULDERING",
     "method": "news_list",
     "url": "https://www.d-b-c.jp/top/kawasaki/news/",
-    "hours": "平日：10:00～23:00、土日：11:00～21:00、祝日：10:00～21:00",
-    "closed_days": "なし",
+    "hours": [
+      {
+        "label": "平日",
+        "value": "10:00〜23:00"
+      },
+      {
+        "label": "土日",
+        "value": "11:00〜21:00"
+      },
+      {
+        "label": "祝日",
+        "value": "10:00〜21:00"
+      }
+    ],
     "station": "JR川崎駅、京急川崎駅",
     "line": "京浜東北線、京急本線など",
     "display_name": "Dボルダリング川崎店",
     "official_url": "https://www.d-b-c.jp/top/kawasaki/",
     "data_note": null,
-    "instagram_url": "https://www.instagram.com/dbouldering_kawasaki/"
+    "instagram_url": "https://www.instagram.com/dbouldering_kawasaki/",
+    "hours_note": null
   },
   {
     "id": "bpump-akihabara",
@@ -216,14 +354,27 @@
     "chain": "pump",
     "method": "wp_rest_api",
     "url": "https://pump-climbing.com/gym/akiba/wp-json/wp/v2/posts",
-    "hours": "平日 12:00～23:00、土曜日・祝日 11:00～21:00、日曜日 10:00～21:00",
-    "closed_days": "なし",
+    "hours": [
+      {
+        "label": "平日",
+        "value": "12:00〜23:00"
+      },
+      {
+        "label": "土祝",
+        "value": "11:00〜21:00"
+      },
+      {
+        "label": "日曜日",
+        "value": "10:00〜21:00"
+      }
+    ],
     "station": "秋葉原駅、御茶ノ水駅",
     "line": "山手線、中央線など",
     "display_name": "B-PUMP 秋葉原",
     "official_url": "https://pump-climbing.com/gym/akiba/",
     "data_note": null,
-    "instagram_url": "https://www.instagram.com/bpumptokyo/"
+    "instagram_url": "https://www.instagram.com/bpumptokyo/",
+    "hours_note": null
   },
   {
     "id": "bpump-ogikubo",
@@ -231,14 +382,23 @@
     "chain": "pump",
     "method": "wp_rest_api",
     "url": "https://pump-climbing.com/gym/bpump/wp-json/wp/v2/posts",
-    "hours": "平日 13:00～23:00、土曜日・日曜日・祝日 10:00～21:00",
-    "closed_days": "なし",
+    "hours": [
+      {
+        "label": "平日",
+        "value": "13:00〜23:00"
+      },
+      {
+        "label": "土日祝",
+        "value": "10:00〜21:00"
+      }
+    ],
     "station": "荻窪駅",
     "line": "中央線、東京メトロ丸ノ内線など",
     "display_name": "B-PUMP 荻窪",
     "official_url": "https://pump-climbing.com/gym/bpump/",
     "data_note": null,
-    "instagram_url": "https://www.instagram.com/bpump_ogikubo/"
+    "instagram_url": "https://www.instagram.com/bpump_ogikubo/",
+    "hours_note": null
   },
   {
     "id": "bpump-yokohama",
@@ -246,14 +406,27 @@
     "chain": "pump",
     "method": "wp_rest_api",
     "url": "https://pump-climbing.com/gym/bpump2/wp-json/wp/v2/posts",
-    "hours": "平日 13:00～23:00、土曜日・祝日 11:00～21:00、日曜日 10:00～21:00",
-    "closed_days": "なし",
+    "hours": [
+      {
+        "label": "平日",
+        "value": "13:00〜23:00"
+      },
+      {
+        "label": "土祝",
+        "value": "11:00〜21:00"
+      },
+      {
+        "label": "日曜日",
+        "value": "10:00〜21:00"
+      }
+    ],
     "station": "横浜駅、戸部駅、高島町駅",
     "line": "横浜線、東急東横線など",
     "display_name": "B-PUMP 横浜",
     "official_url": "https://pump-climbing.com/gym/bpump2/",
     "data_note": null,
-    "instagram_url": "https://www.instagram.com/bpumpyokohama/"
+    "instagram_url": "https://www.instagram.com/bpumpyokohama/",
+    "hours_note": null
   },
   {
     "id": "bpump-kawaguchi",
@@ -261,14 +434,27 @@
     "chain": "pump",
     "method": "wp_rest_api",
     "url": "https://pump-climbing.com/gym/pump1/wp-json/wp/v2/posts",
-    "hours": "平日（火・水・木・金）12:00～23:00、土日祝10:00～20:00",
-    "closed_days": "月曜日（祝日の場合は営業10:00～20:00）",
+    "hours": [
+      {
+        "label": "火・水・木・金",
+        "value": "12:00〜23:00"
+      },
+      {
+        "label": "月曜日",
+        "value": "定休日（祝日は営業 10:00〜20:00）"
+      },
+      {
+        "label": "土日祝",
+        "value": "10:00〜20:00"
+      }
+    ],
     "station": "赤羽駅",
     "line": "京浜東北線、湘南新宿ラインなど",
     "display_name": "PUMP1 川口",
     "official_url": "https://pump-climbing.com/gym/pump1/",
     "data_note": null,
-    "instagram_url": "https://www.instagram.com/pump1_kawaguchi/"
+    "instagram_url": "https://www.instagram.com/pump1_kawaguchi/",
+    "hours_note": null
   },
   {
     "id": "bpump-kawasaki",
@@ -276,13 +462,30 @@
     "chain": "pump",
     "method": "wp_rest_api",
     "url": "https://pump-climbing.com/gym/pump2/wp-json/wp/v2/posts",
-    "hours": "火・水・木・金 12:00～23:00、土曜日 10:00～22:00、日曜日・祝日 10:00～21:00",
-    "closed_days": "月曜（月曜祭日の場合は翌火曜）",
+    "hours": [
+      {
+        "label": "火・水・木・金",
+        "value": "12:00〜23:00"
+      },
+      {
+        "label": "月曜日",
+        "value": "定休日（祝日の場合は翌火曜）"
+      },
+      {
+        "label": "土曜日",
+        "value": "10:00〜22:00"
+      },
+      {
+        "label": "日祝",
+        "value": "10:00〜21:00"
+      }
+    ],
     "station": "JR中野島駅",
     "line": "南武線",
     "display_name": "PUMP2 川崎",
     "official_url": "https://pump-climbing.com/gym/pump2/",
     "data_note": null,
-    "instagram_url": "https://www.instagram.com/pump2climbing/"
+    "instagram_url": "https://www.instagram.com/pump2climbing/",
+    "hours_note": null
   }
 ]

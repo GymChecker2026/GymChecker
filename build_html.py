@@ -374,6 +374,50 @@ body {{
 .star-btn.active .star-icon .icon-outline {{ display: none; }}
 .star-btn.active .star-icon .icon-solid {{ display: block; }}
 
+.hours-block {{
+  margin: 0 0 0.7rem;
+  background: var(--surface-2);
+  border-radius: 10px;
+  padding: 0.7rem 0.8rem;
+}}
+
+.hours-heading {{
+  margin: 0 0 0.45rem;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: var(--ink-dim);
+}}
+
+.hours-list {{
+  margin: 0;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 0.9rem;
+  row-gap: 0.35rem;
+}}
+
+.hours-list dt {{
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--ink);
+  white-space: nowrap;
+}}
+
+.hours-list dd {{
+  margin: 0;
+  font-size: 0.82rem;
+  color: var(--ink);
+  font-variant-numeric: tabular-nums;
+}}
+
+.hours-note {{
+  margin: 0.5rem 0 0;
+  font-size: 0.7rem;
+  line-height: 1.5;
+  color: var(--ink-dim);
+}}
+
 .info-grid {{
   margin: 0 0 0.9rem;
   display: grid;
@@ -734,6 +778,24 @@ footer.note .disclaimer {{
     return escapeHtml(value);
   }}
 
+  function hoursBlockHtml(gym) {{
+    var hours = gym.hours || [];
+    var rowsHtml;
+    if (hours.length === 0) {{
+      rowsHtml = '<dt>&nbsp;</dt><dd><span class="no-data">No Data</span></dd>';
+    }} else {{
+      rowsHtml = hours.map(function (h) {{
+        return '<dt>' + escapeHtml(h.label) + '</dt><dd>' + escapeHtml(h.value) + '</dd>';
+      }}).join("");
+    }}
+    var noteHtml = gym.hours_note ? '<p class="hours-note">※' + escapeHtml(gym.hours_note) + '</p>' : "";
+    return '<div class="hours-block">' +
+      '<p class="hours-heading">営業時間</p>' +
+      '<dl class="hours-list">' + rowsHtml + '</dl>' +
+      noteHtml +
+      '</div>';
+  }}
+
   // =========================================================
   // 描画層（カード単位のHTML組み立て）
   // React Native移植時はここをコンポーネントに置き換える。
@@ -800,9 +862,8 @@ footer.note .disclaimer {{
         '<h2>' + escapeHtml(displayName) + '</h2>' +
         '<button type="button" class="star-btn' + (fav ? " active" : "") + '" data-fav-toggle="' + escapeHtml(gym.gym_id) + '" aria-pressed="' + fav + '" aria-label="マイリストに追加・削除"><span class="star-icon">' + STAR_OUTLINE_SVG + STAR_SOLID_SVG + '</span></button>' +
       '</header>' +
+      hoursBlockHtml(gym) +
       '<dl class="info-grid">' +
-        '<div class="info-item"><dt>営業時間</dt><dd>' + fieldHtml(gym.hours) + '</dd></div>' +
-        '<div class="info-item"><dt>定休日</dt><dd>' + fieldHtml(gym.closed_days) + '</dd></div>' +
         '<div class="info-item"><dt>最寄り駅</dt><dd>' + fieldHtml(gym.station) + '</dd></div>' +
         '<div class="info-item"><dt>路線</dt><dd>' + fieldHtml(gym.line) + '</dd></div>' +
       '</dl>' +
