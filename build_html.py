@@ -1,6 +1,5 @@
 import json
-from datetime import datetime, timedelta
-from html import escape
+from datetime import datetime
 from zoneinfo import ZoneInfo
 
 JST = ZoneInfo("Asia/Tokyo")
@@ -9,99 +8,11 @@ with open("display.json", encoding="utf-8") as f:
     gyms = json.load(f)
 
 today = datetime.now(JST).date()
-window_end = today + timedelta(days=14)
 
-TYPE_CLASS = {
-    "休業": "type-closed",
-    "時間変更": "type-hours",
-    "エリア制限": "type-area",
-    "セット完了": "type-set",
-    "イベント": "type-event",
-}
-
-
-def field(value):
-    if value is None or value == "":
-        return '<span class="no-data">No Data</span>'
-    return escape(value)
-
-
-def fmt_date(iso):
-    y, m, d = iso.split("-")
-    return f"{int(m)}/{int(d)}"
-
-
-def event_row(ev):
-    type_class = TYPE_CLASS.get(ev.get("type"), "type-event")
-    note = escape(ev.get("note") or "")
-    type_label = escape(ev.get("type") or "")
-    url = ev.get("source_url")
-    d = fmt_date(ev["date"])
-    href = escape(url) if url else "#"
-    return f'''<a class="event-row" href="{href}" target="_blank" rel="noopener">
-        <span class="event-date">{d}</span>
-        <span class="event-type {type_class}">{type_label}</span>
-        <span class="event-note">{note}</span>
-        <span class="event-arrow" aria-hidden="true">&#8594;</span>
-      </a>'''
-
-
-def events_section(g):
-    if not g.get("enabled", True) or g.get("fetch_status") != "success":
-        return '<p class="no-events">予定情報を取得できていません</p>'
-
-    events_html = "".join(event_row(e) for e in g["events"])
-    if not events_html:
-        return '<p class="no-events">直近14日間の予定はありません</p>'
-    return events_html
-
-
-def fmt_fetched_at(iso):
-    if not iso:
-        return None
-    dt = datetime.fromisoformat(iso)
-    return f"{dt.month}/{dt.day} {dt.hour:02d}:{dt.minute:02d} 取得"
-
-
-def link_row(g):
-    links = []
-    if g.get("official_url"):
-        links.append(f'<a class="site-link" href="{escape(g["official_url"])}" target="_blank" rel="noopener">公式サイト</a>')
-    if g.get("instagram_url"):
-        links.append(f'<a class="site-link" href="{escape(g["instagram_url"])}" target="_blank" rel="noopener">Instagram</a>')
-    if not links:
-        return ""
-    return f'<div class="link-row">{"".join(links)}</div>'
-
-
-def gym_card(g):
-    events_html = events_section(g)
-    display_name = g.get("display_name") or g["name"]
-    data_note = g.get("data_note")
-    note_html = f'<p class="data-note">{escape(data_note)}</p>' if data_note else ""
-    fetched_label = fmt_fetched_at(g.get("fetched_at"))
-    fetched_html = f'<p class="fetched-at">{escape(fetched_label)}</p>' if fetched_label else ""
-
-    return f'''<article class="card">
-      <header class="card-head">
-        <h2>{escape(display_name)}</h2>
-      </header>
-      <dl class="info-grid">
-        <div class="info-item"><dt>営業時間</dt><dd>{field(g.get("hours"))}</dd></div>
-        <div class="info-item"><dt>定休日</dt><dd>{field(g.get("closed_days"))}</dd></div>
-        <div class="info-item"><dt>最寄り駅</dt><dd>{field(g.get("station"))}</dd></div>
-        <div class="info-item"><dt>路線</dt><dd>{field(g.get("line"))}</dd></div>
-      </dl>
-      <div class="events">{events_html}</div>
-      {note_html}
-      {link_row(g)}
-      {fetched_html}
-    </article>'''
-
-
-cards_html = "\n".join(gym_card(g) for g in gyms)
-total_events = sum(len(g["events"]) for g in gyms)
-date_range = f"{today.month}/{today.day} - {window_end.month}/{window_end.day}"
+# <script> タグの中に安全に埋め込むためのエスケープ。
+# データ取得部分は将来 fetch("display.json") 等に差し替える想定で、
+# 埋め込みJSONはその暫定的な代替に過ぎない。
+gyms_json = json.dumps(gyms, ensure_ascii=False).replace("</", "<\\/")
 
 html_doc = f'''<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -116,6 +27,7 @@ html_doc = f'''<meta charset="UTF-8">
   --line: #e4ddd1;
   --accent: #d45e2a;
   --accent-ink: #ffffff;
+  --accent-tint: #fbe8dd;
 
   --type-closed: #b34a3e;
   --type-hours: #a5791f;
@@ -134,6 +46,7 @@ html_doc = f'''<meta charset="UTF-8">
     --line: #3a3630;
     --accent: #ef814a;
     --accent-ink: #1c1a17;
+    --accent-tint: #3a2a20;
 
     --type-closed: #e07b6f;
     --type-hours: #d4a94a;
@@ -152,6 +65,7 @@ html_doc = f'''<meta charset="UTF-8">
   --line: #3a3630;
   --accent: #ef814a;
   --accent-ink: #1c1a17;
+  --accent-tint: #3a2a20;
 
   --type-closed: #e07b6f;
   --type-hours: #d4a94a;
@@ -174,7 +88,8 @@ body {{
 .page {{
   max-width: 560px;
   margin: 0 auto;
-  padding: 0 0 3rem;
+  padding: 0 0 5rem;
+  min-height: 100vh;
 }}
 
 .masthead {{
@@ -182,27 +97,73 @@ body {{
   top: 0;
   z-index: 10;
   background: var(--bg);
-  padding: 1.25rem 1.25rem 1rem;
+  padding: 1.1rem 1.25rem 0.9rem;
   border-bottom: 1px solid var(--line);
 }}
 
 .masthead h1 {{
-  margin: 0 0 0.35rem;
-  font-size: 1.4rem;
+  margin: 0;
+  font-size: 1.3rem;
   font-weight: 800;
   letter-spacing: -0.01em;
   text-wrap: balance;
 }}
 
-.masthead .summary {{
-  margin: 0;
-  color: var(--ink-dim);
-  font-size: 0.875rem;
+.tab-panel[hidden] {{ display: none; }}
+
+.search-bar {{
+  padding: 1rem 1.25rem 0;
 }}
 
-.masthead .summary strong {{
+.search-bar input {{
+  width: 100%;
+  padding: 0.65rem 0.85rem;
+  border-radius: 10px;
+  border: 1px solid var(--line);
+  background: var(--surface);
   color: var(--ink);
+  font-size: 0.9rem;
+  font-family: inherit;
+}}
+
+.search-bar input:focus-visible {{
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
+}}
+
+.chain-filter {{
+  display: flex;
+  gap: 0.4rem;
+  padding: 0.75rem 1.25rem 0;
+  overflow-x: auto;
+}}
+
+.chain-btn {{
+  flex: none;
+  padding: 0.4rem 0.85rem;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  color: var(--ink-dim);
+  font-size: 0.78rem;
   font-weight: 700;
+  font-family: inherit;
+  cursor: pointer;
+  white-space: nowrap;
+}}
+
+.chain-btn.active {{
+  border-color: var(--accent);
+  background: var(--accent);
+  color: var(--accent-ink);
+}}
+
+.empty-state {{
+  margin: 3.5rem 1.25rem;
+  text-align: center;
+  color: var(--ink-dim);
+  font-size: 0.9rem;
+  line-height: 1.6;
 }}
 
 .cards {{
@@ -221,6 +182,10 @@ body {{
 }}
 
 .card-head {{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.6rem;
   margin-bottom: 0.75rem;
 }}
 
@@ -229,6 +194,30 @@ body {{
   font-size: 1.15rem;
   font-weight: 800;
   letter-spacing: -0.01em;
+}}
+
+.star-btn {{
+  flex: none;
+  width: 2.1rem;
+  height: 2.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: var(--surface-2);
+  color: var(--ink-dim);
+  font-size: 1.15rem;
+  line-height: 1;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.15s ease, color 0.15s ease, background 0.15s ease;
+}}
+
+.star-btn.active {{
+  border-color: var(--accent);
+  background: var(--accent-tint);
+  color: var(--accent);
 }}
 
 .info-grid {{
@@ -389,6 +378,36 @@ footer.note .disclaimer {{
   opacity: 0.8;
 }}
 
+.tabbar {{
+  position: fixed;
+  left: 50%;
+  bottom: 0;
+  width: 100%;
+  max-width: 560px;
+  transform: translateX(-50%);
+  z-index: 20;
+  display: flex;
+  background: var(--surface);
+  border-top: 1px solid var(--line);
+  padding-bottom: env(safe-area-inset-bottom, 0);
+}}
+
+.tab-btn {{
+  flex: 1;
+  border: none;
+  background: none;
+  padding: 0.7rem 0.5rem;
+  font-size: 0.78rem;
+  font-weight: 700;
+  font-family: inherit;
+  color: var(--ink-dim);
+  cursor: pointer;
+}}
+
+.tab-btn.active {{
+  color: var(--accent);
+}}
+
 @media (max-width: 360px) {{
   .info-grid {{ grid-template-columns: 1fr; }}
   .event-row {{ grid-template-columns: auto auto 1fr; }}
@@ -397,21 +416,280 @@ footer.note .disclaimer {{
 </style>
 
 <div class="page">
-  <div class="masthead">
-    <h1>ジムチェッカー</h1>
-    <p class="summary"><strong>{len(gyms)}</strong> 店舗 &middot; <strong>{total_events}</strong> 件の予定 &middot; {date_range}</p>
-  </div>
-  <div class="cards">
-{cards_html}
-  </div>
-  <footer class="note">
-    <p class="generated">display.json を元に生成 &middot; {today.isoformat()} 時点</p>
-    <p class="disclaimer">掲載情報は各ジムの公式サイトから自動収集したものです。正確性・網羅性を保証しません。ご利用前に必ず公式サイトでご確認ください。</p>
-  </footer>
+  <header class="masthead"><h1>ジムチェッカー</h1></header>
+
+  <main id="tab-mylist" class="tab-panel"></main>
+
+  <main id="tab-search" class="tab-panel" hidden>
+    <div class="search-bar">
+      <input id="search-input" type="search" placeholder="ジムを検索" autocomplete="off">
+    </div>
+    <div id="chain-filter" class="chain-filter"></div>
+    <div id="search-cards" class="cards"></div>
+  </main>
 </div>
+
+<nav class="tabbar">
+  <button type="button" class="tab-btn active" data-tab="mylist">マイリスト</button>
+  <button type="button" class="tab-btn" data-tab="search">検索</button>
+</nav>
+
+<script>
+(function () {{
+  "use strict";
+
+  // =========================================================
+  // データ取得層
+  // 今は display.json の内容を埋め込んだものを返すだけだが、
+  // React Native 移植時はここを実際の fetch/AsyncStorage 読み込みに
+  // 差し替えれば、下の描画層はそのまま流用できる想定。
+  // =========================================================
+  var DISPLAY_DATA = {gyms_json};
+  var GENERATED_AT = {json.dumps(today.isoformat())};
+  var FAVORITES_KEY = "gymchecker.favorites";
+
+  function fetchGyms() {{
+    return DISPLAY_DATA;
+  }}
+
+  function getFavoriteIds() {{
+    try {{
+      var raw = localStorage.getItem(FAVORITES_KEY);
+      var ids = raw ? JSON.parse(raw) : [];
+      return Array.isArray(ids) ? ids : [];
+    }} catch (e) {{
+      return [];
+    }}
+  }}
+
+  function setFavoriteIds(ids) {{
+    localStorage.setItem(FAVORITES_KEY, JSON.stringify(ids));
+  }}
+
+  function isFavorite(gymId) {{
+    return getFavoriteIds().indexOf(gymId) !== -1;
+  }}
+
+  function toggleFavorite(gymId) {{
+    var ids = getFavoriteIds();
+    var idx = ids.indexOf(gymId);
+    if (idx === -1) {{
+      ids.push(gymId);
+    }} else {{
+      ids.splice(idx, 1);
+    }}
+    setFavoriteIds(ids);
+  }}
+
+  // =========================================================
+  // 共通ユーティリティ
+  // =========================================================
+  var ESCAPE_MAP = {{ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }};
+  function escapeHtml(value) {{
+    return String(value).replace(/[&<>"']/g, function (c) {{ return ESCAPE_MAP[c]; }});
+  }}
+
+  var TYPE_CLASS = {{
+    "休業": "type-closed",
+    "時間変更": "type-hours",
+    "エリア制限": "type-area",
+    "セット完了": "type-set",
+    "イベント": "type-event"
+  }};
+
+  function fmtDate(iso) {{
+    var parts = iso.split("-");
+    return parseInt(parts[1], 10) + "/" + parseInt(parts[2], 10);
+  }}
+
+  function fmtFetchedAt(iso) {{
+    if (!iso) return null;
+    var dt = new Date(iso);
+    var hh = String(dt.getHours()).padStart(2, "0");
+    var mm = String(dt.getMinutes()).padStart(2, "0");
+    return (dt.getMonth() + 1) + "/" + dt.getDate() + " " + hh + ":" + mm + " 取得";
+  }}
+
+  function fieldHtml(value) {{
+    if (value === null || value === undefined || value === "") {{
+      return '<span class="no-data">No Data</span>';
+    }}
+    return escapeHtml(value);
+  }}
+
+  // =========================================================
+  // 描画層（カード単位のHTML組み立て）
+  // React Native移植時はここをコンポーネントに置き換える。
+  // =========================================================
+  function eventRowHtml(ev) {{
+    var typeClass = TYPE_CLASS[ev.type] || "type-event";
+    var href = ev.source_url ? escapeHtml(ev.source_url) : "#";
+    return '<a class="event-row" href="' + href + '" target="_blank" rel="noopener">' +
+      '<span class="event-date">' + fmtDate(ev.date) + '</span>' +
+      '<span class="event-type ' + typeClass + '">' + escapeHtml(ev.type || "") + '</span>' +
+      '<span class="event-note">' + escapeHtml(ev.note || "") + '</span>' +
+      '<span class="event-arrow" aria-hidden="true">&#8594;</span>' +
+      '</a>';
+  }}
+
+  function eventsSectionHtml(gym) {{
+    if (!gym.enabled || gym.fetch_status !== "success") {{
+      return '<p class="no-events">予定情報を取得できていません</p>';
+    }}
+    var events = gym.events || [];
+    if (events.length === 0) {{
+      return '<p class="no-events">直近14日間の予定はありません</p>';
+    }}
+    return events.map(eventRowHtml).join("");
+  }}
+
+  function linkRowHtml(gym) {{
+    var links = [];
+    if (gym.official_url) {{
+      links.push('<a class="site-link" href="' + escapeHtml(gym.official_url) + '" target="_blank" rel="noopener">公式サイト</a>');
+    }}
+    if (gym.instagram_url) {{
+      links.push('<a class="site-link" href="' + escapeHtml(gym.instagram_url) + '" target="_blank" rel="noopener">Instagram</a>');
+    }}
+    if (links.length === 0) return "";
+    return '<div class="link-row">' + links.join("") + '</div>';
+  }}
+
+  function gymCardHtml(gym) {{
+    var displayName = gym.display_name || gym.name;
+    var fav = isFavorite(gym.gym_id);
+    var noteHtml = gym.data_note ? '<p class="data-note">' + escapeHtml(gym.data_note) + '</p>' : "";
+    var fetchedLabel = fmtFetchedAt(gym.fetched_at);
+    var fetchedHtml = fetchedLabel ? '<p class="fetched-at">' + escapeHtml(fetchedLabel) + '</p>' : "";
+
+    return '<article class="card" data-gym-id="' + escapeHtml(gym.gym_id) + '">' +
+      '<header class="card-head">' +
+        '<h2>' + escapeHtml(displayName) + '</h2>' +
+        '<button type="button" class="star-btn' + (fav ? " active" : "") + '" data-fav-toggle="' + escapeHtml(gym.gym_id) + '" aria-pressed="' + fav + '" aria-label="マイリストに追加・削除">' + (fav ? "&#9733;" : "&#9734;") + '</button>' +
+      '</header>' +
+      '<dl class="info-grid">' +
+        '<div class="info-item"><dt>営業時間</dt><dd>' + fieldHtml(gym.hours) + '</dd></div>' +
+        '<div class="info-item"><dt>定休日</dt><dd>' + fieldHtml(gym.closed_days) + '</dd></div>' +
+        '<div class="info-item"><dt>最寄り駅</dt><dd>' + fieldHtml(gym.station) + '</dd></div>' +
+        '<div class="info-item"><dt>路線</dt><dd>' + fieldHtml(gym.line) + '</dd></div>' +
+      '</dl>' +
+      '<div class="events">' + eventsSectionHtml(gym) + '</div>' +
+      noteHtml +
+      linkRowHtml(gym) +
+      fetchedHtml +
+      '</article>';
+  }}
+
+  // =========================================================
+  // 描画層（タブ単位）
+  // =========================================================
+  function renderMyListTab() {{
+    var container = document.getElementById("tab-mylist");
+    var gyms = fetchGyms();
+    var byId = {{}};
+    gyms.forEach(function (g) {{ byId[g.gym_id] = g; }});
+    var ids = getFavoriteIds();
+    var list = ids.map(function (id) {{ return byId[id]; }}).filter(Boolean);
+
+    var bodyHtml;
+    if (list.length === 0) {{
+      bodyHtml = '<p class="empty-state">検索タブからジムを追加してください</p>';
+    }} else {{
+      bodyHtml = '<div class="cards">' + list.map(gymCardHtml).join("") + '</div>';
+    }}
+
+    container.innerHTML = bodyHtml +
+      '<footer class="note">' +
+        '<p class="generated">display.json を元に生成 &middot; ' + escapeHtml(GENERATED_AT) + ' 時点</p>' +
+        '<p class="disclaimer">掲載情報は各ジムの公式サイトから自動収集したものです。正確性・網羅性を保証しません。ご利用前に必ず公式サイトでご確認ください。</p>' +
+      '</footer>';
+  }}
+
+  var CHAIN_OPTIONS = [
+    {{ key: "all", label: "すべて" }},
+    {{ key: "NOBOROCK", label: "ノボロック" }},
+    {{ key: "D-BOULDERING", label: "Dボルダリング" }},
+    {{ key: "pump", label: "pump" }}
+  ];
+
+  var searchState = {{ query: "", chain: "all" }};
+
+  function renderChainFilter() {{
+    var container = document.getElementById("chain-filter");
+    container.innerHTML = CHAIN_OPTIONS.map(function (c) {{
+      var active = c.key === searchState.chain ? " active" : "";
+      return '<button type="button" class="chain-btn' + active + '" data-chain="' + c.key + '">' + c.label + '</button>';
+    }}).join("");
+  }}
+
+  function renderSearchCards() {{
+    var container = document.getElementById("search-cards");
+    var gyms = fetchGyms();
+    var q = searchState.query.trim().toLowerCase();
+    var filtered = gyms.filter(function (g) {{
+      if (searchState.chain !== "all" && g.chain !== searchState.chain) return false;
+      if (!q) return true;
+      var name = (g.display_name || g.name || "").toLowerCase();
+      return name.indexOf(q) !== -1;
+    }});
+    container.innerHTML = filtered.map(gymCardHtml).join("");
+  }}
+
+  function renderSearchTab() {{
+    renderChainFilter();
+    renderSearchCards();
+  }}
+
+  // =========================================================
+  // 状態管理・イベント配線（コントローラ）
+  // =========================================================
+  function switchTab(tab) {{
+    document.getElementById("tab-mylist").hidden = tab !== "mylist";
+    document.getElementById("tab-search").hidden = tab !== "search";
+    document.querySelectorAll(".tab-btn").forEach(function (btn) {{
+      btn.classList.toggle("active", btn.getAttribute("data-tab") === tab);
+    }});
+    if (tab === "mylist") renderMyListTab();
+  }}
+
+  document.addEventListener("click", function (e) {{
+    var tabBtn = e.target.closest(".tab-btn");
+    if (tabBtn) {{
+      switchTab(tabBtn.getAttribute("data-tab"));
+      return;
+    }}
+    var chainBtn = e.target.closest(".chain-btn");
+    if (chainBtn) {{
+      searchState.chain = chainBtn.getAttribute("data-chain");
+      renderSearchTab();
+      return;
+    }}
+    var favBtn = e.target.closest("[data-fav-toggle]");
+    if (favBtn) {{
+      toggleFavorite(favBtn.getAttribute("data-fav-toggle"));
+      renderMyListTab();
+      renderSearchCards();
+      return;
+    }}
+  }});
+
+  document.addEventListener("input", function (e) {{
+    if (e.target && e.target.id === "search-input") {{
+      searchState.query = e.target.value;
+      renderSearchCards();
+    }}
+  }});
+
+  // =========================================================
+  // 初期描画
+  // =========================================================
+  renderMyListTab();
+  renderSearchTab();
+}})();
+</script>
 '''
 
 with open("index.html", "w", encoding="utf-8") as f:
     f.write(html_doc)
 
-print(f"index.html を生成しました（{len(gyms)}店舗、イベント{total_events}件）。")
+print(f"index.html を生成しました（{len(gyms)}店舗）。")
