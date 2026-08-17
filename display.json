@@ -467,7 +467,7 @@
     "gym_id": "dbc-tachikawa",
     "name": "立川",
     "display_name": "Dボルダリング立川店",
-    "sort_key": "でぃーぼるだりんぐたちかわ",
+    "sort_key": "Dたちかわ",
     "chain": "D-BOULDERING",
     "hours": [
       {
@@ -495,7 +495,7 @@
     "gym_id": "dbc-tamachi",
     "name": "田町",
     "display_name": "Dボルダリング田町店",
-    "sort_key": "でぃーぼるだりんぐたまち",
+    "sort_key": "Dたまち",
     "chain": "D-BOULDERING",
     "hours": [
       {
@@ -587,7 +587,7 @@
     "gym_id": "dbc-tsunashima",
     "name": "綱島",
     "display_name": "Dボルダリング綱島店",
-    "sort_key": "でぃーぼるだりんぐつなしま",
+    "sort_key": "Dつなしま",
     "chain": "D-BOULDERING",
     "hours": [
       {
@@ -644,7 +644,7 @@
     "gym_id": "dbc-honatsugi",
     "name": "本厚木",
     "display_name": "Dボルダリング本厚木店",
-    "sort_key": "でぃーぼるだりんぐほんあつぎ",
+    "sort_key": "Dほんあつぎ",
     "chain": "D-BOULDERING",
     "hours": [
       {
@@ -736,7 +736,7 @@
     "gym_id": "dbc-yokohama",
     "name": "横浜",
     "display_name": "Dボルダリング横浜店",
-    "sort_key": "でぃーぼるだりんぐよこはま",
+    "sort_key": "Dよこはま",
     "chain": "D-BOULDERING",
     "hours": [
       {
@@ -764,7 +764,7 @@
     "gym_id": "dbc-kawasaki",
     "name": "川崎",
     "display_name": "Dボルダリング川崎店",
-    "sort_key": "でぃーぼるだりんぐかわさき",
+    "sort_key": "Dかわさき",
     "chain": "D-BOULDERING",
     "hours": [
       {
@@ -796,7 +796,7 @@
     "gym_id": "bpump-akihabara",
     "name": "秋葉原",
     "display_name": "B-PUMP 秋葉原",
-    "sort_key": "びーぱんぷあきはばら",
+    "sort_key": "B-PUMPあきはばら",
     "chain": "pump",
     "hours": [
       {
@@ -1137,7 +1137,7 @@
     "gym_id": "bpump-ogikubo",
     "name": "荻窪",
     "display_name": "B-PUMP 荻窪",
-    "sort_key": "びーぱんぷおぎくぼ",
+    "sort_key": "B-PUMPおぎくぼ",
     "chain": "pump",
     "hours": [
       {
@@ -1243,7 +1243,7 @@
     "gym_id": "bpump-yokohama",
     "name": "横浜",
     "display_name": "B-PUMP 横浜",
-    "sort_key": "びーぱんぷよこはま",
+    "sort_key": "B-PUMPよこはま",
     "chain": "pump",
     "hours": [
       {
@@ -1325,7 +1325,7 @@
     "gym_id": "bpump-kawaguchi",
     "name": "川口",
     "display_name": "PUMP1 川口",
-    "sort_key": "ぱんぷわんかわぐち",
+    "sort_key": "PUMP1かわぐち",
     "chain": "pump",
     "hours": [
       {
@@ -1456,7 +1456,7 @@
     "gym_id": "bpump-kawasaki",
     "name": "川崎",
     "display_name": "PUMP2 川崎",
-    "sort_key": "ぱんぷつーかわさき",
+    "sort_key": "PUMP2かわさき",
     "chain": "pump",
     "hours": [
       {

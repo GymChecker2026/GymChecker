@@ -230,7 +230,7 @@
     "data_note": "取得失敗 以下の情報源を参照",
     "instagram_url": "https://www.instagram.com/dbouldering_tachikawa/",
     "hours_note": "通い放題パス利用時は24時間営業（リードエリアを除く）",
-    "sort_key": "でぃーぼるだりんぐたちかわ"
+    "sort_key": "Dたちかわ"
   },
   {
     "id": "dbc-tamachi",
@@ -255,7 +255,7 @@
     "data_note": null,
     "instagram_url": "https://www.instagram.com/dbouldering_tamachi/",
     "hours_note": null,
-    "sort_key": "でぃーぼるだりんぐたまち"
+    "sort_key": "Dたまち"
   },
   {
     "id": "dbc-tsunashima",
@@ -281,7 +281,7 @@
     "data_note": null,
     "instagram_url": "https://www.instagram.com/dbouldering_tsunashima/",
     "hours_note": null,
-    "sort_key": "でぃーぼるだりんぐつなしま"
+    "sort_key": "Dつなしま"
   },
   {
     "id": "dbc-honatsugi",
@@ -306,7 +306,7 @@
     "data_note": null,
     "instagram_url": "https://www.instagram.com/dbouldering_honatsugi/",
     "hours_note": null,
-    "sort_key": "でぃーぼるだりんぐほんあつぎ"
+    "sort_key": "Dほんあつぎ"
   },
   {
     "id": "dbc-yokohama",
@@ -331,7 +331,7 @@
     "data_note": "取得失敗 以下の情報源を参照",
     "instagram_url": "https://www.instagram.com/dbouldering_yokohama/",
     "hours_note": "6:00〜26:00は無人営業",
-    "sort_key": "でぃーぼるだりんぐよこはま"
+    "sort_key": "Dよこはま"
   },
   {
     "id": "dbc-kawasaki",
@@ -360,7 +360,7 @@
     "data_note": null,
     "instagram_url": "https://www.instagram.com/dbouldering_kawasaki/",
     "hours_note": null,
-    "sort_key": "でぃーぼるだりんぐかわさき"
+    "sort_key": "Dかわさき"
   },
   {
     "id": "bpump-akihabara",
@@ -389,7 +389,7 @@
     "data_note": null,
     "instagram_url": "https://www.instagram.com/bpumptokyo/",
     "hours_note": null,
-    "sort_key": "びーぱんぷあきはばら"
+    "sort_key": "B-PUMPあきはばら"
   },
   {
     "id": "bpump-ogikubo",
@@ -414,7 +414,7 @@
     "data_note": null,
     "instagram_url": "https://www.instagram.com/bpump_ogikubo/",
     "hours_note": null,
-    "sort_key": "びーぱんぷおぎくぼ"
+    "sort_key": "B-PUMPおぎくぼ"
   },
   {
     "id": "bpump-yokohama",
@@ -443,7 +443,7 @@
     "data_note": null,
     "instagram_url": "https://www.instagram.com/bpumpyokohama/",
     "hours_note": null,
-    "sort_key": "びーぱんぷよこはま"
+    "sort_key": "B-PUMPよこはま"
   },
   {
     "id": "bpump-kawaguchi",
@@ -472,7 +472,7 @@
     "data_note": null,
     "instagram_url": "https://www.instagram.com/pump1_kawaguchi/",
     "hours_note": null,
-    "sort_key": "ぱんぷわんかわぐち"
+    "sort_key": "PUMP1かわぐち"
   },
   {
     "id": "bpump-kawasaki",
@@ -505,6 +505,6 @@
     "data_note": null,
     "instagram_url": "https://www.instagram.com/pump2climbing/",
     "hours_note": null,
-    "sort_key": "ぱんぷつーかわさき"
+    "sort_key": "PUMP2かわさき"
   }
 ]
