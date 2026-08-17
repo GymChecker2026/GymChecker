@@ -1,11 +1,14 @@
 import json
-from datetime import date, datetime, timedelta
+from datetime import datetime, timedelta
 from html import escape
+from zoneinfo import ZoneInfo
+
+JST = ZoneInfo("Asia/Tokyo")
 
 with open("display.json", encoding="utf-8") as f:
     gyms = json.load(f)
 
-today = date.today()
+today = datetime.now(JST).date()
 window_end = today + timedelta(days=14)
 
 TYPE_CLASS = {
@@ -369,9 +372,21 @@ body {{
 
 footer.note {{
   padding: 1.5rem 1.25rem 0;
+  text-align: center;
+}}
+
+footer.note .generated {{
+  margin: 0;
   font-size: 0.72rem;
   color: var(--ink-dim);
-  text-align: center;
+}}
+
+footer.note .disclaimer {{
+  margin: 0.4rem 0 0;
+  font-size: 0.66rem;
+  line-height: 1.5;
+  color: var(--ink-dim);
+  opacity: 0.8;
 }}
 
 @media (max-width: 360px) {{
@@ -389,7 +404,10 @@ footer.note {{
   <div class="cards">
 {cards_html}
   </div>
-  <footer class="note">display.json を元に生成 &middot; {today.isoformat()} 時点</footer>
+  <footer class="note">
+    <p class="generated">display.json を元に生成 &middot; {today.isoformat()} 時点</p>
+    <p class="disclaimer">掲載情報は各ジムの公式サイトから自動収集したものです。正確性・網羅性を保証しません。ご利用前に必ず公式サイトでご確認ください。</p>
+  </footer>
 </div>
 '''
 

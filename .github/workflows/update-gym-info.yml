@@ -44,6 +44,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
-            git commit -m "Update gym set info ($(date -u +'%Y-%m-%dT%H:%M:%SZ'))"
+            git commit -m "Update gym set info ($(TZ=Asia/Tokyo date +'%Y-%m-%dT%H:%M:%S%z'))"
             git push
           fi

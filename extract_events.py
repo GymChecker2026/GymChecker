@@ -4,6 +4,7 @@ import re
 import time
 from datetime import date, datetime, timedelta
 from urllib.parse import urljoin
+from zoneinfo import ZoneInfo
 
 import anthropic
 import requests
@@ -13,6 +14,15 @@ HEADERS = {"User-Agent": "gym-checker/0.1"}
 INTERVAL_SEC = 2
 RECENT_DAYS = 45
 MODEL = "claude-haiku-4-5-20251001"
+JST = ZoneInfo("Asia/Tokyo")
+
+
+def now_jst():
+    return datetime.now(JST)
+
+
+def today_jst():
+    return now_jst().date()
 
 DATE_RE = re.compile(r"(\d{4})[.\-]\s?(\d{1,2})[.\-]\s?(\d{1,2})")
 ARTICLE_URL_RE = re.compile(r"-news/\d{4}/\d{1,2}/\d+/?$")
@@ -166,7 +176,7 @@ def collect_page_target(gym, cutoff):
     r = http_get(gym["url"])
     r.raise_for_status()
     text = BeautifulSoup(r.text, "html.parser").get_text("\n", strip=True)
-    return [(gym["url"], date.today(), text)]
+    return [(gym["url"], today_jst(), text)]
 
 
 COLLECTORS = {
@@ -205,8 +215,8 @@ def main():
     with open("gyms.json", encoding="utf-8") as f:
         gyms = json.load(f)
 
-    today = date.today()
-    now_iso = datetime.now().isoformat(timespec="seconds")
+    today = today_jst()
+    now_iso = now_jst().isoformat(timespec="seconds")
     cutoff = today - timedelta(days=RECENT_DAYS)
     client = anthropic.Anthropic()
     processed = load_processed()
@@ -219,7 +229,7 @@ def main():
     for gym in targets:
         label = f"{gym['chain']} {gym['name']}"
         collector = COLLECTORS[gym["method"]]
-        fetched_at = datetime.now().isoformat(timespec="seconds")
+        fetched_at = now_jst().isoformat(timespec="seconds")
 
         try:
             articles = collector(gym, cutoff)

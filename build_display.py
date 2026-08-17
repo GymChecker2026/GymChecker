@@ -1,6 +1,9 @@
 import json
 from collections import defaultdict
-from datetime import date, timedelta
+from datetime import date, datetime, timedelta
+from zoneinfo import ZoneInfo
+
+JST = ZoneInfo("Asia/Tokyo")
 
 with open("gyms.json", encoding="utf-8") as f:
     gyms = json.load(f)
@@ -22,7 +25,7 @@ except FileNotFoundError:
     processed = {"pages": {}}
 pages_by_gym = processed.get("pages", {})
 
-today = date.today()
+today = datetime.now(JST).date()
 window_end = today + timedelta(days=14)
 
 events_by_gym = defaultdict(list)
