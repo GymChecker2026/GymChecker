@@ -521,7 +521,80 @@
     "fetch_status": "success",
     "fetched_at": "2026-08-17T19:47:10+09:00",
     "last_changed_at": null,
-    "events": []
+    "events": [
+      {
+        "date": "2026-08-03",
+        "type": "エリア制限",
+        "note": "リードセット：オートビレイ壁1〜5",
+        "source_url": null,
+        "published": "2026-08-17",
+        "source": "manual"
+      },
+      {
+        "date": "2026-08-04",
+        "type": "エリア制限",
+        "note": "リードセット：オートビレイ壁1〜5",
+        "source_url": null,
+        "published": "2026-08-17",
+        "source": "manual"
+      },
+      {
+        "date": "2026-08-05",
+        "type": "エリア制限",
+        "note": "リードセット：オートビレイ壁1〜5",
+        "source_url": null,
+        "published": "2026-08-17",
+        "source": "manual"
+      },
+      {
+        "date": "2026-08-12",
+        "type": "エリア制限",
+        "note": "ボルダーセット：B壁",
+        "source_url": null,
+        "published": "2026-08-17",
+        "source": "manual"
+      },
+      {
+        "date": "2026-08-13",
+        "type": "エリア制限",
+        "note": "ボルダーセット：B壁",
+        "source_url": null,
+        "published": "2026-08-17",
+        "source": "manual"
+      },
+      {
+        "date": "2026-08-14",
+        "type": "エリア制限",
+        "note": "ボルダーセット：B壁",
+        "source_url": null,
+        "published": "2026-08-17",
+        "source": "manual"
+      },
+      {
+        "date": "2026-08-26",
+        "type": "エリア制限",
+        "note": "ボルダーセット：C壁",
+        "source_url": null,
+        "published": "2026-08-17",
+        "source": "manual"
+      },
+      {
+        "date": "2026-08-27",
+        "type": "エリア制限",
+        "note": "ボルダーセット：C壁",
+        "source_url": null,
+        "published": "2026-08-17",
+        "source": "manual"
+      },
+      {
+        "date": "2026-08-28",
+        "type": "エリア制限",
+        "note": "ボルダーセット：C壁",
+        "source_url": null,
+        "published": "2026-08-17",
+        "source": "manual"
+      }
+    ]
   },
   {
     "gym_id": "dbc-tamachi",
@@ -812,7 +885,40 @@
     "fetch_status": "success",
     "fetched_at": "2026-08-17T19:48:39+09:00",
     "last_changed_at": null,
-    "events": []
+    "events": [
+      {
+        "date": "2026-08-23",
+        "type": "時間変更",
+        "note": "10:00〜16:00に短縮（ホールド外し）",
+        "source_url": null,
+        "published": "2026-08-17",
+        "source": "manual"
+      },
+      {
+        "date": "2026-08-24",
+        "type": "休業",
+        "note": "ルートセットのため休業",
+        "source_url": null,
+        "published": "2026-08-17",
+        "source": "manual"
+      },
+      {
+        "date": "2026-08-25",
+        "type": "休業",
+        "note": "ルートセットのため休業",
+        "source_url": null,
+        "published": "2026-08-17",
+        "source": "manual"
+      },
+      {
+        "date": "2026-08-26",
+        "type": "時間変更",
+        "note": "セット明け 16:00オープン",
+        "source_url": null,
+        "published": "2026-08-17",
+        "source": "manual"
+      }
+    ]
   },
   {
     "gym_id": "dbc-kawasaki",
