@@ -1,14 +1,50 @@
 import json
+import re
 from collections import defaultdict
 from datetime import date, datetime, timedelta
 from zoneinfo import ZoneInfo
 
 JST = ZoneInfo("Asia/Tokyo")
 
+VALID_TYPES = {"休業", "時間変更", "エリア制限", "セット完了", "イベント"}
+DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
+
+
+def validate_manual_event(ev, gym_ids, index):
+    gym_id = ev.get("gym_id")
+    if gym_id not in gym_ids:
+        raise ValueError(
+            f"manual_events.json[{index}]: gym_id '{gym_id}' が gyms.json に存在しません"
+        )
+    date_str = ev.get("date")
+    if not isinstance(date_str, str) or not DATE_RE.match(date_str):
+        raise ValueError(
+            f"manual_events.json[{index}] ({gym_id}): date '{date_str}' が YYYY-MM-DD 形式ではありません"
+        )
+    try:
+        date.fromisoformat(date_str)
+    except ValueError:
+        raise ValueError(
+            f"manual_events.json[{index}] ({gym_id}): date '{date_str}' は実在しない日付です"
+        )
+    ev_type = ev.get("type")
+    if ev_type not in VALID_TYPES:
+        raise ValueError(
+            f"manual_events.json[{index}] ({gym_id}): type '{ev_type}' が5分類"
+            f"（{'/'.join(sorted(VALID_TYPES))}）のいずれでもありません"
+        )
+
+
 with open("gyms.json", encoding="utf-8") as f:
     gyms = json.load(f)
 with open("events.json", encoding="utf-8") as f:
     events = json.load(f)
+try:
+    with open("manual_events.json", encoding="utf-8") as f:
+        manual_events = json.load(f).get("events", [])
+except FileNotFoundError:
+    print("manual_events.json が見つかりません。手動イベントなしで続行します。")
+    manual_events = []
 try:
     with open("collection_status.json", encoding="utf-8") as f:
         status_records = json.load(f)
@@ -27,6 +63,10 @@ pages_by_gym = processed.get("pages", {})
 
 today = datetime.now(JST).date()
 window_end = today + timedelta(days=14)
+gym_ids = {g["id"] for g in gyms}
+
+for i, ev in enumerate(manual_events):
+    validate_manual_event(ev, gym_ids, i)
 
 events_by_gym = defaultdict(list)
 for ev in events:
@@ -41,6 +81,19 @@ for ev in events:
             "note": ev.get("note"),
             "source_url": ev.get("source_url"),
             "published": ev.get("published"),
+            "source": "auto",
+        })
+
+for ev in manual_events:
+    ev_date = date.fromisoformat(ev["date"])
+    if ev_date <= window_end:
+        events_by_gym[ev["gym_id"]].append({
+            "date": ev["date"],
+            "type": ev["type"],
+            "note": ev.get("note"),
+            "source_url": ev.get("source_url"),
+            "published": ev.get("published") or today.isoformat(),
+            "source": "manual",
         })
 
 for gym_events in events_by_gym.values():
@@ -73,6 +126,7 @@ with open("display.json", "w", encoding="utf-8") as f:
     json.dump(display, f, ensure_ascii=False, indent=2)
 
 total = sum(len(g["events"]) for g in display)
-print(f"{len(display)}店舗、イベント{total}件（{today}〜{window_end}）を display.json に保存しました。")
+manual_total = sum(1 for g in display for e in g["events"] if e["source"] == "manual")
+print(f"{len(display)}店舗、イベント{total}件（うち手動{manual_total}件）（{today}〜{window_end}）を display.json に保存しました。")
 for g in display:
     print(f"  {g['chain']} {g['name']}: {len(g['events'])}件")
