@@ -1,3 +1,4 @@
+import hashlib
 import json
 import re
 import time
@@ -188,16 +189,31 @@ def extract_events_from_text(client, text, ref_date):
     return data.get("events", [])
 
 
+def text_hash(text):
+    return hashlib.sha256(text.encode("utf-8")).hexdigest()
+
+
+def load_processed():
+    try:
+        with open("processed.json", encoding="utf-8") as f:
+            return json.load(f)
+    except FileNotFoundError:
+        return {"articles": {}, "pages": {}}
+
+
 def main():
     with open("gyms.json", encoding="utf-8") as f:
         gyms = json.load(f)
 
     today = date.today()
+    now_iso = datetime.now().isoformat(timespec="seconds")
     cutoff = today - timedelta(days=RECENT_DAYS)
     client = anthropic.Anthropic()
+    processed = load_processed()
 
     all_events = []
     status_records = []
+    llm_calls = 0
     targets = [g for g in gyms if g.get("enabled", True)]
 
     for gym in targets:
@@ -216,11 +232,47 @@ def main():
         print(f"[{label}] 対象 {len(articles)}件")
 
         for i, (url, pub, body) in enumerate(articles, 1):
-            try:
-                events = extract_events_from_text(client, body, pub)
-            except Exception as e:
-                print(f"  ({i}/{len(articles)}) {url} 失敗: {e}")
-                continue
+            if gym["method"] == "page":
+                h = text_hash(body)
+                cached = processed["pages"].get(gym["id"])
+                if cached and cached["text_hash"] == h:
+                    events = cached["events"]
+                    pub_iso = cached["published"]
+                    print(f"  ({i}/{len(articles)}) {url} 変更なし → キャッシュ再利用 (events: {len(events)})")
+                else:
+                    try:
+                        events = extract_events_from_text(client, body, pub)
+                        llm_calls += 1
+                    except Exception as e:
+                        print(f"  ({i}/{len(articles)}) {url} 失敗: {e}")
+                        continue
+                    pub_iso = pub.isoformat()
+                    processed["pages"][gym["id"]] = {
+                        "text_hash": h,
+                        "last_changed_at": now_iso,
+                        "published": pub_iso,
+                        "events": events,
+                    }
+                    print(f"  ({i}/{len(articles)}) {url} events: {len(events)}")
+            else:
+                cached = processed["articles"].get(url)
+                if cached and cached["published"] == pub.isoformat():
+                    events = cached["events"]
+                    pub_iso = cached["published"]
+                    print(f"  ({i}/{len(articles)}) {url} 処理済み → スキップ (events: {len(events)})")
+                else:
+                    try:
+                        events = extract_events_from_text(client, body, pub)
+                        llm_calls += 1
+                    except Exception as e:
+                        print(f"  ({i}/{len(articles)}) {url} 失敗: {e}")
+                        continue
+                    pub_iso = pub.isoformat()
+                    processed["articles"][url] = {
+                        "published": pub_iso,
+                        "events": events,
+                    }
+                    print(f"  ({i}/{len(articles)}) {url} events: {len(events)}")
 
             for ev in events:
                 all_events.append({
@@ -229,9 +281,8 @@ def main():
                     "type": ev.get("type"),
                     "note": ev.get("note"),
                     "source_url": url,
-                    "published": pub.isoformat(),
+                    "published": pub_iso,
                 })
-            print(f"  ({i}/{len(articles)}) {url} events: {len(events)}")
 
     with open("events.json", "w", encoding="utf-8") as f:
         json.dump(all_events, f, ensure_ascii=False, indent=2)
@@ -239,10 +290,14 @@ def main():
     with open("collection_status.json", "w", encoding="utf-8") as f:
         json.dump(status_records, f, ensure_ascii=False, indent=2)
 
+    with open("processed.json", "w", encoding="utf-8") as f:
+        json.dump(processed, f, ensure_ascii=False, indent=2)
+
     ok = sum(1 for s in status_records if s["status"] == "success")
     ng = sum(1 for s in status_records if s["status"] == "failure")
     print(f"\n合計 {len(all_events)} 件のイベントを events.json に保存しました。")
     print(f"取得ステータス（成功{ok}/失敗{ng}）を collection_status.json に保存しました。")
+    print(f"LLM呼び出し回数: {llm_calls} 回")
 
 
 if __name__ == "__main__":

@@ -3,7 +3,7 @@
     "gym_id": "noborock-shinjuku",
     "date": "2026-07-28",
     "type": "セット完了",
-    "note": "新宿店ルートセット完了",
+    "note": "ルートセット完了",
     "source_url": "https://noborock-climbing.com/program/新宿店/",
     "published": "2026-08-17"
   },
@@ -11,7 +11,7 @@
     "gym_id": "noborock-shinjuku",
     "date": "2026-08-23",
     "type": "時間変更",
-    "note": "新宿店17:00 close",
+    "note": "新宿店 17:00 close",
     "source_url": "https://noborock-climbing.com/program/新宿店/",
     "published": "2026-08-17"
   },
@@ -19,7 +19,7 @@
     "gym_id": "noborock-shinjuku",
     "date": "2026-08-24",
     "type": "休業",
-    "note": "新宿店ルートセット",
+    "note": "新宿店 ルートセット",
     "source_url": "https://noborock-climbing.com/program/新宿店/",
     "published": "2026-08-17"
   },
@@ -27,7 +27,7 @@
     "gym_id": "noborock-shinjuku",
     "date": "2026-08-25",
     "type": "時間変更",
-    "note": "新宿店18:30 open",
+    "note": "新宿店 18:30 open",
     "source_url": "https://noborock-climbing.com/program/新宿店/",
     "published": "2026-08-17"
   },
@@ -60,14 +60,6 @@
     "date": "2026-08-25",
     "type": "時間変更",
     "note": "18:30 open",
-    "source_url": "https://noborock-climbing.com/program/shibuya/",
-    "published": "2026-08-17"
-  },
-  {
-    "gym_id": "noborock-shibuya",
-    "date": "2026-08-28",
-    "type": "エリア制限",
-    "note": "16:00~19:30 1Fメインエリア",
     "source_url": "https://noborock-climbing.com/program/shibuya/",
     "published": "2026-08-17"
   },
@@ -123,7 +115,7 @@
     "gym_id": "noborock-asakusa",
     "date": "2026-08-11",
     "type": "時間変更",
-    "note": "17:00 close",
+    "note": "浅草店 17:00 close",
     "source_url": "https://noborock-climbing.com/program/浅草店/",
     "published": "2026-08-17"
   },
@@ -131,7 +123,7 @@
     "gym_id": "noborock-asakusa",
     "date": "2026-08-12",
     "type": "休業",
-    "note": "ルートセット",
+    "note": "浅草店 ルートセット",
     "source_url": "https://noborock-climbing.com/program/浅草店/",
     "published": "2026-08-17"
   },
@@ -139,7 +131,7 @@
     "gym_id": "noborock-asakusa",
     "date": "2026-08-13",
     "type": "時間変更",
-    "note": "18:30 open",
+    "note": "浅草店 18:30 open",
     "source_url": "https://noborock-climbing.com/program/浅草店/",
     "published": "2026-08-17"
   },
@@ -147,14 +139,14 @@
     "gym_id": "noborock-ikebukuro",
     "date": "2026-07-14",
     "type": "セット完了",
-    "note": "ルートセット完了",
+    "note": "池袋店 ルートセット完了",
     "source_url": "https://noborock-climbing.com/program/ikebukuro/",
     "published": "2026-08-17"
   },
   {
     "gym_id": "noborock-ikebukuro",
     "date": "2026-08-11",
-    "type": "時間変更",
+    "type": "時間変更（早じまい）",
     "note": "池袋店 17:00 close",
     "source_url": "https://noborock-climbing.com/program/ikebukuro/",
     "published": "2026-08-17"
@@ -170,7 +162,7 @@
   {
     "gym_id": "noborock-ikebukuro",
     "date": "2026-08-13",
-    "type": "時間変更",
+    "type": "時間変更（営業再開）",
     "note": "池袋店 18:30 open",
     "source_url": "https://noborock-climbing.com/program/ikebukuro/",
     "published": "2026-08-17"
@@ -283,7 +275,7 @@
     "gym_id": "dbc-tamachi",
     "date": "2026-08-17",
     "type": "休業",
-    "note": "ホールド替えに伴うセット作業",
+    "note": "ホールド替えに伴うセット作業のため",
     "source_url": "https://www.d-b-c.jp/tamachi-news/8%e6%9c%88%ef%bc%9a%e3%83%9b%e3%83%bc%e3%83%ab%e3%83%89%e6%9b%bf%e3%81%88%e3%81%ab%e4%bc%b4%e3%81%86%e4%bc%91%e6%a5%ad%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b/",
     "published": "2026-08-13"
   },
@@ -291,7 +283,7 @@
     "gym_id": "dbc-tamachi",
     "date": "2026-08-18",
     "type": "休業",
-    "note": "ホールド替えに伴うセット作業",
+    "note": "ホールド替えに伴うセット作業のため",
     "source_url": "https://www.d-b-c.jp/tamachi-news/8%e6%9c%88%ef%bc%9a%e3%83%9b%e3%83%bc%e3%83%ab%e3%83%89%e6%9b%bf%e3%81%88%e3%81%ab%e4%bc%b4%e3%81%86%e4%bc%91%e6%a5%ad%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b/",
     "published": "2026-08-13"
   },
@@ -299,7 +291,7 @@
     "gym_id": "dbc-tamachi",
     "date": "2026-08-19",
     "type": "時間変更",
-    "note": "18時～開放",
+    "note": "18時～開放（営業再開）",
     "source_url": "https://www.d-b-c.jp/tamachi-news/8%e6%9c%88%ef%bc%9a%e3%83%9b%e3%83%bc%e3%83%ab%e3%83%89%e6%9b%bf%e3%81%88%e3%81%ab%e4%bc%b4%e3%81%86%e4%bc%91%e6%a5%ad%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b/",
     "published": "2026-08-13"
   },
@@ -307,7 +299,7 @@
     "gym_id": "dbc-tamachi",
     "date": "2026-07-27",
     "type": "休業",
-    "note": "ホールド替えによるセット作業のため休業",
+    "note": "ホールド替えのためセット作業により休業",
     "source_url": "https://www.d-b-c.jp/tamachi-news/7%e6%9c%88%ef%bc%9a%e3%83%9b%e3%83%bc%e3%83%ab%e3%83%89%e6%9b%bf%e3%81%88%e3%81%ab%e3%82%88%e3%82%8b%e4%bc%91%e6%a5%ad%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b/",
     "published": "2026-07-16"
   },
@@ -323,7 +315,7 @@
     "gym_id": "dbc-tamachi",
     "date": "2026-07-26",
     "type": "休業",
-    "note": "田町タワー設備更新作業に伴う全館休館",
+    "note": "田町タワー設備更新作業に伴う全館休館のため休業",
     "source_url": "https://www.d-b-c.jp/tamachi-news/7%e6%9c%8826%e6%97%a5%e4%bc%91%e6%a5%ad%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b/",
     "published": "2026-07-15"
   },
@@ -339,7 +331,15 @@
     "gym_id": "dbc-tamachi",
     "date": "2026-07-28",
     "type": "時間変更",
-    "note": "18:00オープン（セット完了）",
+    "note": "18:00オープン、セット完了",
+    "source_url": "https://www.d-b-c.jp/tamachi-news/7%e6%9c%8826%e6%97%a5%e4%bc%91%e6%a5%ad%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b/",
+    "published": "2026-07-15"
+  },
+  {
+    "gym_id": "dbc-tamachi",
+    "date": "2026-07-28",
+    "type": "セット完了",
+    "note": "新セット完成",
     "source_url": "https://www.d-b-c.jp/tamachi-news/7%e6%9c%8826%e6%97%a5%e4%bc%91%e6%a5%ad%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b/",
     "published": "2026-07-15"
   },
@@ -347,7 +347,23 @@
     "gym_id": "dbc-honatsugi",
     "date": "2026-08-03",
     "type": "エリア制限",
-    "note": "エリアCのホールド外し&セット（8月3日〜8月5日）",
+    "note": "エリアCのホールド外し&セット",
+    "source_url": "https://www.d-b-c.jp/honatsugi-news/2026/07/9721/",
+    "published": "2026-07-31"
+  },
+  {
+    "gym_id": "dbc-honatsugi",
+    "date": "2026-08-04",
+    "type": "エリア制限",
+    "note": "エリアCのホールド外し&セット",
+    "source_url": "https://www.d-b-c.jp/honatsugi-news/2026/07/9721/",
+    "published": "2026-07-31"
+  },
+  {
+    "gym_id": "dbc-honatsugi",
+    "date": "2026-08-05",
+    "type": "エリア制限",
+    "note": "エリアCのホールド外し&セット",
     "source_url": "https://www.d-b-c.jp/honatsugi-news/2026/07/9721/",
     "published": "2026-07-31"
   },
@@ -361,17 +377,33 @@
   },
   {
     "gym_id": "dbc-honatsugi",
-    "date": "2026-08-17",
-    "type": "エリア制限",
-    "note": "エリアAのホールド外し&セット（8月17日〜8月19日）",
+    "date": "2026-08-11",
+    "type": "時間変更",
+    "note": "キッズスクール発表会開催のため、一般利用は14時から通常利用可能",
     "source_url": "https://www.d-b-c.jp/honatsugi-news/2026/07/9721/",
     "published": "2026-07-31"
   },
   {
     "gym_id": "dbc-honatsugi",
-    "date": "2026-08-11",
-    "type": "時間変更",
-    "note": "キッズスクール発表会開催のため、一般利用は14時から通常利用が可能",
+    "date": "2026-08-17",
+    "type": "エリア制限",
+    "note": "エリアAのホールド外し&セット",
+    "source_url": "https://www.d-b-c.jp/honatsugi-news/2026/07/9721/",
+    "published": "2026-07-31"
+  },
+  {
+    "gym_id": "dbc-honatsugi",
+    "date": "2026-08-18",
+    "type": "エリア制限",
+    "note": "エリアAのホールド外し&セット",
+    "source_url": "https://www.d-b-c.jp/honatsugi-news/2026/07/9721/",
+    "published": "2026-07-31"
+  },
+  {
+    "gym_id": "dbc-honatsugi",
+    "date": "2026-08-19",
+    "type": "エリア制限",
+    "note": "エリアAのホールド外し&セット",
     "source_url": "https://www.d-b-c.jp/honatsugi-news/2026/07/9721/",
     "published": "2026-07-31"
   },
@@ -403,7 +435,7 @@
     "gym_id": "bpump-akihabara",
     "date": "2026-08-14",
     "type": "セット完了",
-    "note": "3F Space Roof セット完了。8Qから2Dまで全21本。横浜店可児子店長とバンビさん、川崎店樋口さんによるセット。",
+    "note": "3F Space Roof セット完了。8Qから2Dまで全21本。横浜店の可児子店長がピンク2Q、黒2Q、ピンク2Q、青3Q、黄4Qを作成。川崎店の樋口さんがピンク2D、緑1D、ピンク3Q、黒5Qを作成。",
     "source_url": "https://pump-climbing.com/gym/akiba/40320-2/blog-news/",
     "published": "2026-08-14"
   },
@@ -435,7 +467,7 @@
     "gym_id": "bpump-akihabara",
     "date": "2026-08-04",
     "type": "セット完了",
-    "note": "A壁からD壁までのマット交換完了",
+    "note": "A壁からD壁までのマット交換完了。STONE MASTARS様に依頼。新しいシート使用。",
     "source_url": "https://pump-climbing.com/gym/akiba/2f-a-d-wall-%e3%83%9e%e3%83%83%e3%83%88%e4%ba%a4%e6%8f%9b%e5%ae%8c%e4%ba%86%e2%9c%85/blog-news/",
     "published": "2026-08-04"
   },
@@ -443,7 +475,7 @@
     "gym_id": "bpump-akihabara",
     "date": "2026-08-22",
     "type": "イベント",
-    "note": "Re;CLIMB女性限定イベント第二弾",
+    "note": "Re;CLIMB 女性限定イベント 第二弾",
     "source_url": "https://pump-climbing.com/gym/akiba/8%e6%9c%88%e3%82%ab%e3%83%ac%e3%83%b3%e3%83%80%e3%83%bc-3/blog-news/",
     "published": "2026-07-31"
   },
@@ -451,7 +483,7 @@
     "gym_id": "bpump-akihabara",
     "date": "2026-07-31",
     "type": "セット完了",
-    "note": "3F Back Roofセット完了。8Qから1Qまで全24本。パワフル&バシバシ系多めで、ダイナミック課題も用意",
+    "note": "3F Back Roofセット完了。8Qから1Qまで全24本。パワフル＆バシバシ系が多めでダイナミック課題も充実。",
     "source_url": "https://pump-climbing.com/gym/akiba/3f-back-roof-%e3%82%bb%e3%83%83%e3%83%88%e5%ae%8c%e4%ba%86%e3%81%a7%e3%81%99%ef%bc%81-2/blog-news/",
     "published": "2026-07-31"
   },
@@ -531,7 +563,7 @@
     "gym_id": "bpump-akihabara",
     "date": "2026-07-26",
     "type": "エリア制限",
-    "note": "2F Center Slab ホールド外し",
+    "note": "2F Center Slab ホールド外し 20:00-",
     "source_url": "https://pump-climbing.com/gym/akiba/%e6%ac%a1%e9%80%b1%e3%82%bb%e3%83%83%e3%83%88%e6%83%85%e5%a0%b1-%e2%96%b7%e3%80%982f-center-slab-%e3%80%99/blog-news/",
     "published": "2026-07-19"
   },
@@ -571,7 +603,7 @@
     "gym_id": "bpump-akihabara",
     "date": "2026-07-17",
     "type": "セット完了",
-    "note": "1F MAIN & BEGINNER WALL セット完了。8Q～3Qの26本。ビギナーウォール、メインウォールともにチェンジ。",
+    "note": "1F MAIN & BEGINNER WALL セット完了。8Q～3Qの26本。ビギナーウォール、メインウォールチェンジ。",
     "source_url": "https://pump-climbing.com/gym/akiba/1f-main-beginner-wall-%e3%82%bb%e3%83%83%e3%83%88%e5%ae%8c%e4%ba%86%e3%81%a7%e3%81%99/blog-news/",
     "published": "2026-07-17"
   },
@@ -579,7 +611,7 @@
     "gym_id": "bpump-akihabara",
     "date": "2026-07-16",
     "type": "イベント",
-    "note": "B-PUMP TOKYO 15周年",
+    "note": "15周年",
     "source_url": "https://pump-climbing.com/gym/akiba/b-pump-tokyo-15th-anniversary/blog-news/",
     "published": "2026-07-15"
   },
@@ -627,7 +659,7 @@
     "gym_id": "bpump-akihabara",
     "date": "2026-07-16",
     "type": "エリア制限",
-    "note": "1F ALL ホールド外し",
+    "note": "1F ALL ホールド外し 21:00-",
     "source_url": "https://pump-climbing.com/gym/akiba/%e6%ac%a1%e9%80%b1%e3%82%bb%e3%83%83%e3%83%88%e6%83%85%e5%a0%b1-%e2%96%b7%e3%80%981f-main-wall-%e3%80%99/set-information/",
     "published": "2026-07-11"
   },
@@ -643,7 +675,7 @@
     "gym_id": "bpump-akihabara",
     "date": "2026-07-10",
     "type": "セット完了",
-    "note": "2F A壁 7Q～2Dの18本",
+    "note": "2F A壁SET完了。7Q～2Dの18本。傾斜強めのパワー&ダイナミックなムーブ多めで構成。",
     "source_url": "https://pump-climbing.com/gym/akiba/2f-a%e5%a3%81-%e3%82%bb%e3%83%83%e3%83%88%e5%ae%8c%e4%ba%86%e3%81%a7%e3%81%99/set-information/",
     "published": "2026-07-10"
   },
@@ -651,7 +683,7 @@
     "gym_id": "bpump-akihabara",
     "date": "2026-07-14",
     "type": "イベント",
-    "note": "山内誠によるスペシャルトークイベント「Burden of Dreams」と「La Sportiva Mandala」について 20:00-21:00 B-PUMP TOKYO",
+    "note": "山内誠 × Mandala スペシャルトークイベント 20:00-21:00 B-PUMP TOKYO",
     "source_url": "https://pump-climbing.com/gym/akiba/%e5%b1%b1%e5%86%85%e8%aa%a0-%e3%82%b9%e3%83%9a%e3%82%b7%e3%83%a3%e3%83%ab%e3%83%88%e3%83%bc%e3%82%af%e3%82%b7%e3%83%a7%e3%83%bc-%e9%96%8b%e5%82%ac%ef%bc%81/blog-news/",
     "published": "2026-07-09"
   },
@@ -659,7 +691,7 @@
     "gym_id": "bpump-akihabara",
     "date": "2026-07-07",
     "type": "セット完了",
-    "note": "2F COMPETITION WALL追加セット、4F CONCEPT WALL更新完了",
+    "note": "4F CONCEPT WALL及び2F COMPETITION WALLの追加セット完了",
     "source_url": "https://pump-climbing.com/gym/akiba/2f-competition-wall-additional-set-%e3%80%804fconcept-wall-renewal/blog-news/",
     "published": "2026-07-07"
   },
@@ -691,7 +723,7 @@
     "gym_id": "bpump-akihabara",
     "date": "2026-07-03",
     "type": "セット完了",
-    "note": "3F Space Boulder -Back Wall- 全23本",
+    "note": "3F Space Boulder -Back Wall- セット完了、全23本",
     "source_url": "https://pump-climbing.com/gym/akiba/3f-space-boulder-back-wall-%e3%82%bb%e3%83%83%e3%83%88%e5%ae%8c%e4%ba%86%e3%81%a7%e3%81%99%ef%bc%81/set-information/",
     "published": "2026-07-03"
   },
@@ -817,6 +849,14 @@
   },
   {
     "gym_id": "bpump-yokohama",
+    "date": "2026-07-14",
+    "type": "イベント",
+    "note": "1F RIGHT 1Day OPEN 18:00-",
+    "source_url": "https://pump-climbing.com/gym/bpump2/1f-right-%e3%82%bb%e3%83%83%e3%83%88%ef%bc%81/",
+    "published": "2026-07-08"
+  },
+  {
+    "gym_id": "bpump-yokohama",
     "date": "2026-07-15",
     "type": "セット完了",
     "note": "1F RIGHT NEW SET OPEN",
@@ -827,7 +867,7 @@
     "gym_id": "bpump-yokohama",
     "date": "2026-07-11",
     "type": "時間変更",
-    "note": "営業時間 11:00 – 19:00",
+    "note": "営業時間を11:00 – 19:00に変更",
     "source_url": "https://pump-climbing.com/gym/bpump2/7%e6%9c%8811%e6%97%a5%e5%96%b6%e6%a5%ad%e6%99%82%e9%96%93%e5%a4%89%e6%9b%b4%e3%81%ae%e3%81%8a%e3%81%97%e3%82%89%e3%81%9b/",
     "published": "2026-07-06"
   },
@@ -835,9 +875,17 @@
     "gym_id": "bpump-kawaguchi",
     "date": "2026-08-06",
     "type": "セット完了",
-    "note": "奥壁戦艦セット完了。ゲストセッター是永敬一郎氏参戦。",
+    "note": "奥壁戦艦セット完了。ゲストセッター是永敬一郎氏参戦。本数多め、内容濃いめ。",
     "source_url": "https://pump-climbing.com/gym/pump1/%e6%88%a6%e8%89%a6%e3%83%bb%e5%a5%a5%e5%a3%81-%e8%aa%b2%e9%a1%8c%e5%a4%89%e6%9b%b4%e5%ae%8c%e4%ba%86%e3%81%97%e3%81%be%e3%81%97%e3%81%9f/",
     "published": "2026-08-06"
+  },
+  {
+    "gym_id": "bpump-kawaguchi",
+    "date": "2026-08-05",
+    "type": "セット完了",
+    "note": "戦艦奥壁セット最終日、本日のエリア開放",
+    "source_url": "https://pump-climbing.com/gym/pump1/%e3%81%84%e3%82%88%e3%81%84%e3%82%88%e6%9c%ac%e6%97%a51900%e3%82%bb%e3%83%83%e3%83%88%e5%ae%8c%e4%ba%86%ef%bc%81%ef%bc%81/",
+    "published": "2026-08-05"
   },
   {
     "gym_id": "bpump-kawaguchi",
@@ -851,7 +899,7 @@
     "gym_id": "bpump-kawaguchi",
     "date": "2026-08-03",
     "type": "エリア制限",
-    "note": "セット作業開始、利用制限のあるエリア発生",
+    "note": "セット作業開始、利用制限のあるエリアが生じる",
     "source_url": "https://pump-climbing.com/gym/pump1/%e6%88%a6%e8%89%a6%e5%a5%a5%e5%a3%81%e3%82%bb%e3%83%83%e3%83%88%e3%82%b9%e3%82%bf%e3%83%bc%e3%83%88/",
     "published": "2026-08-03"
   },
@@ -859,15 +907,15 @@
     "gym_id": "bpump-kawaguchi",
     "date": "2026-08-03",
     "type": "エリア制限",
-    "note": "戦艦・奥壁ルートセット（8/3~8/5、19:00まで）",
+    "note": "戦艦・奥壁ルートセット（8/3~8/5 19:00まで）",
     "source_url": "https://pump-climbing.com/gym/pump1/8%e6%9c%88%e3%81%ae%e3%82%ab%e3%83%ac%e3%83%b3%e3%83%80%e3%83%bc%e2%9c%85/",
     "published": "2026-08-02"
   },
   {
     "gym_id": "bpump-kawaguchi",
     "date": "2026-08-31",
-    "type": "エリア制限",
-    "note": "2F BOULDERセット",
+    "type": "セット完了",
+    "note": "2F BOULDER SET",
     "source_url": "https://pump-climbing.com/gym/pump1/8%e6%9c%88%e3%81%ae%e3%82%ab%e3%83%ac%e3%83%b3%e3%83%80%e3%83%bc%e2%9c%85/",
     "published": "2026-08-02"
   },
@@ -875,7 +923,7 @@
     "gym_id": "bpump-kawaguchi",
     "date": "2026-08-02",
     "type": "エリア制限",
-    "note": "PUMP1名物ウォール戦艦の課題外し（18:00）",
+    "note": "PUMP1の名物ウォール戦艦の課題外し（18:00）",
     "source_url": "https://pump-climbing.com/gym/pump1/%e6%88%a6%e8%89%a6%e5%a5%a5%e5%a3%81%e3%82%bb%e3%83%83%e3%83%88%e3%82%b9%e3%82%b1%e3%82%b8%e3%83%a5%e3%83%bc%e3%83%ab/",
     "published": "2026-07-31"
   },
@@ -883,7 +931,7 @@
     "gym_id": "bpump-kawaguchi",
     "date": "2026-07-28",
     "type": "セット完了",
-    "note": "1階ボルダー壁に長物セット",
+    "note": "1F BOULDER NEW SET - 1階のボルダー壁に長物セット完了",
     "source_url": "https://pump-climbing.com/gym/pump1/1f%e3%83%9c%e3%83%ab%e3%83%80%e3%83%bc%e3%82%a8%e3%83%aa%e3%82%a2%e3%80%80%e9%95%b7%e7%89%a9%e3%82%bb%e3%83%83%e3%83%88%ef%bc%81/",
     "published": "2026-07-28"
   },
@@ -923,7 +971,7 @@
     "gym_id": "bpump-kawaguchi",
     "date": "2026-07-09",
     "type": "セット完了",
-    "note": "2F BOULDER WALL A・B NEW SET",
+    "note": "2F BOULDER WALL A・B NEW SET完了（5級から2級の課題を設定）",
     "source_url": "https://pump-climbing.com/gym/pump1/%f0%9f%91%b72%ef%bd%86%e3%83%9c%e3%83%ab%e3%83%80%e3%83%bca%e3%83%bbb%e5%a3%81-new-set%e2%9c%a8/",
     "published": "2026-07-09"
   },
@@ -931,7 +979,7 @@
     "gym_id": "bpump-kawaguchi",
     "date": "2026-07-09",
     "type": "セット完了",
-    "note": "1F ボルダー壁 新セット",
+    "note": "1F ボルダー壁 新規セット",
     "source_url": "https://pump-climbing.com/gym/pump1/%f0%9f%94%a81%ef%bd%86%e3%83%9c%e3%83%ab%e3%83%80%e3%83%bc%e5%a3%81%e3%80%80n-e-w-s-e-t%f0%9f%94%a8/",
     "published": "2026-07-09"
   },
@@ -947,7 +995,7 @@
     "gym_id": "bpump-kawasaki",
     "date": "2026-08-01",
     "type": "セット完了",
-    "note": "100度がルートセット完了。低グレードからあり、多くのクライマーに好まれる100度",
+    "note": "100度がルートセット",
     "source_url": "https://pump-climbing.com/gym/pump2/%ef%bc%98%e6%9c%88%e8%aa%b2%e9%a1%8c%e5%a4%89%e6%9b%b4%e3%82%b9%e3%82%b1%e3%82%b8%e3%83%a5%e3%83%bc%e3%83%ab/",
     "published": "2026-07-27"
   },

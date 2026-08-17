@@ -1,0 +1,1050 @@
+{
+  "articles": {
+    "https://www.d-b-c.jp/tachikawa-news/2026%e5%b9%b4%e3%80%808%e6%9c%88%e3%80%80%e3%82%ab%e3%83%ac%e3%83%b3%e3%83%80%e3%83%bc/": {
+      "published": "2026-08-02",
+      "events": []
+    },
+    "https://www.d-b-c.jp/tamachi-news/%e3%82%ad%e3%83%83%e3%82%ba%e3%82%b9%e3%82%af%e3%83%bc%e3%83%ab%ef%bc%9a%e7%a7%8b%e3%81%ae%e5%85%a5%e4%bc%9a%e3%82%ad%e3%83%a3%e3%83%b3%e3%83%9a%e3%83%bc%e3%83%b3%e3%82%b9%e3%82%bf%e3%83%bc%e3%83%88/": {
+      "published": "2026-08-14",
+      "events": []
+    },
+    "https://www.d-b-c.jp/tamachi-news/8%e6%9c%88%ef%bc%9a%e3%83%9b%e3%83%bc%e3%83%ab%e3%83%89%e6%9b%bf%e3%81%88%e3%81%ab%e4%bc%b4%e3%81%86%e4%bc%91%e6%a5%ad%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b/": {
+      "published": "2026-08-13",
+      "events": [
+        {
+          "date": "2026-08-17",
+          "type": "休業",
+          "note": "ホールド替えに伴うセット作業のため"
+        },
+        {
+          "date": "2026-08-18",
+          "type": "休業",
+          "note": "ホールド替えに伴うセット作業のため"
+        },
+        {
+          "date": "2026-08-19",
+          "type": "時間変更",
+          "note": "18時～開放（営業再開）"
+        }
+      ]
+    },
+    "https://www.d-b-c.jp/tamachi-news/8%e6%9c%88%e3%81%ae%e5%96%b6%e6%a5%ad%e3%82%ab%e3%83%ac%e3%83%b3%e3%83%80%e3%83%bc-2/": {
+      "published": "2026-07-31",
+      "events": []
+    },
+    "https://www.d-b-c.jp/tamachi-news/7%e6%9c%88%ef%bc%9a%e3%83%9b%e3%83%bc%e3%83%ab%e3%83%89%e6%9b%bf%e3%81%88%e3%81%ab%e3%82%88%e3%82%8b%e4%bc%91%e6%a5%ad%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b/": {
+      "published": "2026-07-16",
+      "events": [
+        {
+          "date": "2026-07-27",
+          "type": "休業",
+          "note": "ホールド替えのためセット作業により休業"
+        },
+        {
+          "date": "2026-07-28",
+          "type": "時間変更",
+          "note": "18時より営業再開"
+        }
+      ]
+    },
+    "https://www.d-b-c.jp/tamachi-news/7%e6%9c%8826%e6%97%a5%e4%bc%91%e6%a5%ad%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b/": {
+      "published": "2026-07-15",
+      "events": [
+        {
+          "date": "2026-07-26",
+          "type": "休業",
+          "note": "田町タワー設備更新作業に伴う全館休館のため休業"
+        },
+        {
+          "date": "2026-07-27",
+          "type": "エリア制限",
+          "note": "セット作業（2日間）"
+        },
+        {
+          "date": "2026-07-28",
+          "type": "時間変更",
+          "note": "18:00オープン、セット完了"
+        },
+        {
+          "date": "2026-07-28",
+          "type": "セット完了",
+          "note": "新セット完成"
+        }
+      ]
+    },
+    "https://www.d-b-c.jp/honatsugi-news/2026/07/9721/": {
+      "published": "2026-07-31",
+      "events": [
+        {
+          "date": "2026-08-03",
+          "type": "エリア制限",
+          "note": "エリアCのホールド外し&セット"
+        },
+        {
+          "date": "2026-08-04",
+          "type": "エリア制限",
+          "note": "エリアCのホールド外し&セット"
+        },
+        {
+          "date": "2026-08-05",
+          "type": "エリア制限",
+          "note": "エリアCのホールド外し&セット"
+        },
+        {
+          "date": "2026-08-12",
+          "type": "エリア制限",
+          "note": "キッズ&ビギナーエリアのホールド外し&セット"
+        },
+        {
+          "date": "2026-08-11",
+          "type": "時間変更",
+          "note": "キッズスクール発表会開催のため、一般利用は14時から通常利用可能"
+        },
+        {
+          "date": "2026-08-17",
+          "type": "エリア制限",
+          "note": "エリアAのホールド外し&セット"
+        },
+        {
+          "date": "2026-08-18",
+          "type": "エリア制限",
+          "note": "エリアAのホールド外し&セット"
+        },
+        {
+          "date": "2026-08-19",
+          "type": "エリア制限",
+          "note": "エリアAのホールド外し&セット"
+        },
+        {
+          "date": "2026-08-15",
+          "type": "イベント",
+          "note": "理学療法士の高橋先生のボルダリング講座"
+        }
+      ]
+    },
+    "https://www.d-b-c.jp/yokohama-news/8%e6%9c%88%e5%96%b6%e6%a5%ad%e3%82%ab%e3%83%ac%e3%83%b3%e3%83%80%e3%83%bc": {
+      "published": "2026-08-06",
+      "events": []
+    },
+    "https://www.d-b-c.jp/yokohama-news/%e5%96%b6%e6%a5%ad%e6%99%82%e9%96%93%e3%81%ae%e3%81%94%e6%a1%88%e5%86%85": {
+      "published": "2026-07-25",
+      "events": []
+    },
+    "https://www.d-b-c.jp/kawasaki-news/%e3%82%ad%e3%83%83%e3%82%ba%e3%82%b9%e3%82%af%e3%83%bc%e3%83%ab%e3%80%808%e6%9c%88%e9%99%90%e5%ae%9a%e3%82%ad%e3%83%a3%e3%83%b3%e3%83%9a%e3%83%bc%e3%83%b3%e3%81%ae%e3%81%94%e6%a1%88": {
+      "published": "2026-08-06",
+      "events": []
+    },
+    "https://pump-climbing.com/gym/akiba/%e3%82%b5%e3%83%b3%e3%83%80%e3%83%ab%e3%82%92%e6%8e%a2%e3%81%97%e3%81%a6%e3%81%84%e3%81%be%e3%81%99%e3%80%82-4/blog-news/": {
+      "published": "2026-08-15",
+      "events": []
+    },
+    "https://pump-climbing.com/gym/akiba/%e6%ac%a1%e9%80%b1%e3%82%bb%e3%83%83%e3%83%88%e6%83%85%e5%a0%b1-%e2%96%b7%e3%80%983f-space-right-%e3%80%99/set-information/": {
+      "published": "2026-08-15",
+      "events": [
+        {
+          "date": "2026-08-20",
+          "type": "エリア制限",
+          "note": "3F Space Right ホールド外し"
+        },
+        {
+          "date": "2026-08-21",
+          "type": "エリア制限",
+          "note": "3F Space Right Route Setting Day"
+        }
+      ]
+    },
+    "https://pump-climbing.com/gym/akiba/40320-2/blog-news/": {
+      "published": "2026-08-14",
+      "events": [
+        {
+          "date": "2026-08-14",
+          "type": "セット完了",
+          "note": "3F Space Roof セット完了。8Qから2Dまで全21本。横浜店の可児子店長がピンク2Q、黒2Q、ピンク2Q、青3Q、黄4Qを作成。川崎店の樋口さんがピンク2D、緑1D、ピンク3Q、黒5Qを作成。"
+        }
+      ]
+    },
+    "https://pump-climbing.com/gym/akiba/%e3%81%8a%e7%9b%86%e3%81%ae%e5%96%b6%e6%a5%ad%e6%99%82%e9%96%93%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6/blog-news/": {
+      "published": "2026-08-10",
+      "events": []
+    },
+    "https://pump-climbing.com/gym/akiba/%e3%82%b5%e3%83%b3%e3%83%80%e3%83%ab%e3%82%92%e6%8e%a2%e3%81%97%e3%81%a6%e3%81%84%e3%81%be%e3%81%99%e3%80%82-3/blog-news/": {
+      "published": "2026-08-08",
+      "events": []
+    },
+    "https://pump-climbing.com/gym/akiba/%e6%ac%a1%e9%80%b1%e3%82%bb%e3%83%83%e3%83%88%e6%83%85%e5%a0%b1-%e2%96%b7%e3%80%983f-space-roof-%e3%80%99/blog-news/": {
+      "published": "2026-08-08",
+      "events": [
+        {
+          "date": "2026-08-13",
+          "type": "エリア制限",
+          "note": "3F Space Roof ホールド外し 21:00-"
+        },
+        {
+          "date": "2026-08-14",
+          "type": "エリア制限",
+          "note": "3F Space Roof Route Setting Day"
+        }
+      ]
+    },
+    "https://pump-climbing.com/gym/akiba/2f-c-wall-right-side-%e3%82%bb%e3%83%83%e3%83%88%e5%ae%8c%e4%ba%86%e3%81%a7%e3%81%99%ef%bc%81/set-information/": {
+      "published": "2026-08-07",
+      "events": [
+        {
+          "date": "2026-08-07",
+          "type": "セット完了",
+          "note": "2F C壁(Right side) 8Qから1Dまで全11本"
+        }
+      ]
+    },
+    "https://pump-climbing.com/gym/akiba/2f-a-d-wall-%e3%83%9e%e3%83%83%e3%83%88%e4%ba%a4%e6%8f%9b%e5%ae%8c%e4%ba%86%e2%9c%85/blog-news/": {
+      "published": "2026-08-04",
+      "events": [
+        {
+          "date": "2026-08-04",
+          "type": "セット完了",
+          "note": "A壁からD壁までのマット交換完了。STONE MASTARS様に依頼。新しいシート使用。"
+        }
+      ]
+    },
+    "https://pump-climbing.com/gym/akiba/8%e6%9c%88%e3%82%ab%e3%83%ac%e3%83%b3%e3%83%80%e3%83%bc-3/blog-news/": {
+      "published": "2026-07-31",
+      "events": [
+        {
+          "date": "2026-08-22",
+          "type": "イベント",
+          "note": "Re;CLIMB 女性限定イベント 第二弾"
+        }
+      ]
+    },
+    "https://pump-climbing.com/gym/akiba/3f-back-roof-%e3%82%bb%e3%83%83%e3%83%88%e5%ae%8c%e4%ba%86%e3%81%a7%e3%81%99%ef%bc%81-2/blog-news/": {
+      "published": "2026-07-31",
+      "events": [
+        {
+          "date": "2026-07-31",
+          "type": "セット完了",
+          "note": "3F Back Roofセット完了。8Qから1Qまで全24本。パワフル＆バシバシ系が多めでダイナミック課題も充実。"
+        }
+      ]
+    },
+    "https://pump-climbing.com/gym/akiba/8%e6%9c%88%e3%81%ae%e3%82%b3%e3%83%b3%e3%83%87%e3%82%a3%e3%82%b7%e3%83%a7%e3%83%8b%e3%83%b3%e3%82%b0%e3%82%b1%e3%82%a2%e3%82%b9%e3%82%b1%e3%82%b8%e3%83%a5%e3%83%bc%e3%83%ab-3/blog-news/": {
+      "published": "2026-07-30",
+      "events": []
+    },
+    "https://pump-climbing.com/gym/akiba/%e6%ac%a1%e9%80%b1%e3%82%bb%e3%83%83%e3%83%88%e6%83%85%e5%a0%b1-%e2%96%b7%e3%80%982f-c-wall-right-side-%e3%80%99/blog-news/": {
+      "published": "2026-07-28",
+      "events": [
+        {
+          "date": "2026-08-03",
+          "type": "休業",
+          "note": "ホールド外し"
+        },
+        {
+          "date": "2026-08-04",
+          "type": "エリア制限",
+          "note": "メンテナンス"
+        },
+        {
+          "date": "2026-08-05",
+          "type": "エリア制限",
+          "note": "メンテナンス"
+        },
+        {
+          "date": "2026-08-06",
+          "type": "エリア制限",
+          "note": "メンテナンス"
+        },
+        {
+          "date": "2026-08-07",
+          "type": "エリア制限",
+          "note": "Route Setting Day"
+        }
+      ]
+    },
+    "https://pump-climbing.com/gym/akiba/%e4%bc%91%e9%a4%a8%e6%97%a5%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b-10/blog-news/": {
+      "published": "2026-07-28",
+      "events": [
+        {
+          "date": "2026-08-03",
+          "type": "休業",
+          "note": "施設メンテナンスのため終日休業"
+        }
+      ]
+    },
+    "https://pump-climbing.com/gym/akiba/%e6%ac%a1%e9%80%b1%e3%82%bb%e3%83%83%e3%83%88%e6%83%85%e5%a0%b1-%e2%96%b7%e3%80%983f-back-roof-%e3%80%99/blog-news/": {
+      "published": "2026-07-25",
+      "events": [
+        {
+          "date": "2026-07-30",
+          "type": "エリア制限",
+          "note": "3F Back Roof ホールド外し 21:00-"
+        },
+        {
+          "date": "2026-07-31",
+          "type": "エリア制限",
+          "note": "3F Back Roof Route Setting Day"
+        }
+      ]
+    },
+    "https://pump-climbing.com/gym/akiba/2f-b%e5%a3%81%e3%82%bb%e3%83%83%e3%83%88%e5%ae%8c%e4%ba%86%ef%bc%81-3/blog-news/": {
+      "published": "2026-07-25",
+      "events": [
+        {
+          "date": "2026-07-25",
+          "type": "セット完了",
+          "note": "2F B壁 8Qから1Qまでの全14本"
+        }
+      ]
+    },
+    "https://pump-climbing.com/gym/akiba/%e3%83%aa%e3%82%bd%e3%83%bc%e3%83%ab%e6%96%99%e9%87%91%e6%94%af%e6%89%95%e3%81%84%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6%e5%a4%89%e6%9b%b4%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b/blog-news/": {
+      "published": "2026-07-23",
+      "events": []
+    },
+    "https://pump-climbing.com/gym/akiba/b-pump-tokyo%e3%81%a8fantasista-climbing%e3%81%ae%e3%82%b3%e3%83%a9%e3%83%9c%e3%83%ac%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3t%e3%82%b7%e3%83%a3%e3%83%84%e7%99%ba%e5%a3%b2/blog-news/": {
+      "published": "2026-07-21",
+      "events": []
+    },
+    "https://pump-climbing.com/gym/akiba/%e6%ac%a1%e9%80%b1%e3%82%bb%e3%83%83%e3%83%88%e6%83%85%e5%a0%b1-%e2%96%b7%e3%80%982f-center-slab-%e3%80%99/blog-news/": {
+      "published": "2026-07-19",
+      "events": [
+        {
+          "date": "2026-07-26",
+          "type": "エリア制限",
+          "note": "2F Center Slab ホールド外し 20:00-"
+        },
+        {
+          "date": "2026-07-27",
+          "type": "エリア制限",
+          "note": "2F Center Slab メンテナンス"
+        },
+        {
+          "date": "2026-07-28",
+          "type": "エリア制限",
+          "note": "2F Center Slab メンテナンス"
+        },
+        {
+          "date": "2026-07-29",
+          "type": "エリア制限",
+          "note": "2F Center Slab メンテナンス"
+        },
+        {
+          "date": "2026-07-30",
+          "type": "エリア制限",
+          "note": "2F Center Slab Route Setting Day"
+        }
+      ]
+    },
+    "https://pump-climbing.com/gym/akiba/1f-main-beginner-wall-%e3%82%bb%e3%83%83%e3%83%88%e5%ae%8c%e4%ba%86%e3%81%a7%e3%81%99/blog-news/": {
+      "published": "2026-07-17",
+      "events": [
+        {
+          "date": "2026-07-17",
+          "type": "セット完了",
+          "note": "1F MAIN & BEGINNER WALL セット完了。8Q～3Qの26本。ビギナーウォール、メインウォールチェンジ。"
+        }
+      ]
+    },
+    "https://pump-climbing.com/gym/akiba/b-pump-tokyo-15th-anniversary/blog-news/": {
+      "published": "2026-07-15",
+      "events": [
+        {
+          "date": "2026-07-16",
+          "type": "イベント",
+          "note": "15周年"
+        }
+      ]
+    },
+    "https://pump-climbing.com/gym/akiba/%e6%ac%a1%e9%80%b1%e3%82%bb%e3%83%83%e3%83%88%e6%83%85%e5%a0%b1-%e2%96%b7%e3%80%982f-b-wall-%e3%80%99/blog-news/": {
+      "published": "2026-07-13",
+      "events": [
+        {
+          "date": "2026-07-20",
+          "type": "エリア制限",
+          "note": "2F B WALL ホールド外し"
+        },
+        {
+          "date": "2026-07-21",
+          "type": "エリア制限",
+          "note": "2F B WALL メンテナンス"
+        },
+        {
+          "date": "2026-07-22",
+          "type": "エリア制限",
+          "note": "2F B WALL メンテナンス"
+        },
+        {
+          "date": "2026-07-23",
+          "type": "エリア制限",
+          "note": "2F B WALL メンテナンス"
+        },
+        {
+          "date": "2026-07-24",
+          "type": "エリア制限",
+          "note": "2F B WALL Route Setting Day"
+        }
+      ]
+    },
+    "https://pump-climbing.com/gym/akiba/%e4%b8%89%e8%84%9a%e3%81%94%e4%bd%bf%e7%94%a8%e6%99%82%e3%81%ae%e3%81%8a%e9%a1%98%e3%81%84/blog-news/": {
+      "published": "2026-07-13",
+      "events": []
+    },
+    "https://pump-climbing.com/gym/akiba/%e6%ac%a1%e9%80%b1%e3%82%bb%e3%83%83%e3%83%88%e6%83%85%e5%a0%b1-%e2%96%b7%e3%80%981f-main-wall-%e3%80%99/set-information/": {
+      "published": "2026-07-11",
+      "events": [
+        {
+          "date": "2026-07-16",
+          "type": "エリア制限",
+          "note": "1F ALL ホールド外し 21:00-"
+        },
+        {
+          "date": "2026-07-17",
+          "type": "エリア制限",
+          "note": "1F ALL Route Setting Day"
+        }
+      ]
+    },
+    "https://pump-climbing.com/gym/akiba/2f-a%e5%a3%81-%e3%82%bb%e3%83%83%e3%83%88%e5%ae%8c%e4%ba%86%e3%81%a7%e3%81%99/set-information/": {
+      "published": "2026-07-10",
+      "events": [
+        {
+          "date": "2026-07-10",
+          "type": "セット完了",
+          "note": "2F A壁SET完了。7Q～2Dの18本。傾斜強めのパワー&ダイナミックなムーブ多めで構成。"
+        }
+      ]
+    },
+    "https://pump-climbing.com/gym/akiba/%e5%b1%b1%e5%86%85%e8%aa%a0-%e3%82%b9%e3%83%9a%e3%82%b7%e3%83%a3%e3%83%ab%e3%83%88%e3%83%bc%e3%82%af%e3%82%b7%e3%83%a7%e3%83%bc-%e9%96%8b%e5%82%ac%ef%bc%81/blog-news/": {
+      "published": "2026-07-09",
+      "events": [
+        {
+          "date": "2026-07-14",
+          "type": "イベント",
+          "note": "山内誠 × Mandala スペシャルトークイベント 20:00-21:00 B-PUMP TOKYO"
+        }
+      ]
+    },
+    "https://pump-climbing.com/gym/akiba/2f-competition-wall-additional-set-%e3%80%804fconcept-wall-renewal/blog-news/": {
+      "published": "2026-07-07",
+      "events": [
+        {
+          "date": "2026-07-07",
+          "type": "セット完了",
+          "note": "4F CONCEPT WALL及び2F COMPETITION WALLの追加セット完了"
+        }
+      ]
+    },
+    "https://pump-climbing.com/gym/akiba/%e6%ac%a1%e9%80%b1%e3%82%bb%e3%83%83%e3%83%88%e6%83%85%e5%a0%b1-%e2%96%b7%e3%80%982f-a-wall-%e3%80%99/set-information/": {
+      "published": "2026-07-05",
+      "events": [
+        {
+          "date": "2026-07-08",
+          "type": "エリア制限",
+          "note": "2F A Wall ホールド外し 21:00-"
+        },
+        {
+          "date": "2026-07-09",
+          "type": "イベント",
+          "note": "2F A Wall 中級道場 20:00-"
+        },
+        {
+          "date": "2026-07-10",
+          "type": "エリア制限",
+          "note": "2F A Wall Route Setting Day"
+        }
+      ]
+    },
+    "https://pump-climbing.com/gym/akiba/3f-space-boulder-back-wall-%e3%82%bb%e3%83%83%e3%83%88%e5%ae%8c%e4%ba%86%e3%81%a7%e3%81%99%ef%bc%81/set-information/": {
+      "published": "2026-07-03",
+      "events": [
+        {
+          "date": "2026-07-03",
+          "type": "セット完了",
+          "note": "3F Space Boulder -Back Wall- セット完了、全23本"
+        }
+      ]
+    },
+    "https://pump-climbing.com/gym/bpump/%e3%81%8a%e7%9b%86%e6%9c%9f%e9%96%93%e3%81%ae%e5%96%b6%e6%a5%ad%e6%99%82%e9%96%93%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6/": {
+      "published": "2026-08-01",
+      "events": [
+        {
+          "date": "2026-08-10",
+          "type": "時間変更",
+          "note": "営業時間 13:00-23:00"
+        },
+        {
+          "date": "2026-08-11",
+          "type": "時間変更",
+          "note": "営業時間 10:00-21:00"
+        },
+        {
+          "date": "2026-08-12",
+          "type": "時間変更",
+          "note": "営業時間 10:00-21:00"
+        },
+        {
+          "date": "2026-08-13",
+          "type": "時間変更",
+          "note": "営業時間 10:00-21:00"
+        },
+        {
+          "date": "2026-08-14",
+          "type": "時間変更",
+          "note": "営業時間 10:00-21:00"
+        },
+        {
+          "date": "2026-08-15",
+          "type": "時間変更",
+          "note": "営業時間 10:00-21:00"
+        },
+        {
+          "date": "2026-08-16",
+          "type": "時間変更",
+          "note": "営業時間 10:00-21:00"
+        },
+        {
+          "date": "2026-08-17",
+          "type": "時間変更",
+          "note": "営業時間 13:00-23:00"
+        }
+      ]
+    },
+    "https://pump-climbing.com/gym/bpump/8-7%ef%bc%88%e9%87%91%ef%bc%89%ef%bd%9e8-9%ef%bc%88%e6%97%a5%ef%bc%89%e4%bc%91%e6%a5%ad%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b/": {
+      "published": "2026-07-30",
+      "events": [
+        {
+          "date": "2026-08-07",
+          "type": "休業",
+          "note": "THE 3の開催に伴い休業"
+        },
+        {
+          "date": "2026-08-08",
+          "type": "休業",
+          "note": "THE 3の開催に伴い休業"
+        },
+        {
+          "date": "2026-08-09",
+          "type": "休業",
+          "note": "THE 3の開催に伴い休業"
+        }
+      ]
+    },
+    "https://pump-climbing.com/gym/bpump2/8%e6%9c%88%e3%82%ab%e3%83%ac%e3%83%b3%e3%83%80%e3%83%bc/": {
+      "published": "2026-08-02",
+      "events": []
+    },
+    "https://pump-climbing.com/gym/bpump2/bambis-boulder-school%e3%80%808%e6%9c%88%e3%82%ab%e3%83%ac%e3%83%b3%e3%83%80%e3%83%bc/": {
+      "published": "2026-08-01",
+      "events": []
+    },
+    "https://pump-climbing.com/gym/bpump2/2f-center%e3%82%bb%e3%83%83%e3%83%88%ef%bc%81/": {
+      "published": "2026-07-19",
+      "events": [
+        {
+          "date": "2026-07-27",
+          "type": "エリア制限",
+          "note": "2F CENTER ホールド外し 20:00-"
+        },
+        {
+          "date": "2026-07-28",
+          "type": "セット完了",
+          "note": "2F CENTER 1DAY SET OPEN 18:00-"
+        },
+        {
+          "date": "2026-07-29",
+          "type": "セット完了",
+          "note": "2F CENTER NEW SET OPEN 18:00-"
+        }
+      ]
+    },
+    "https://pump-climbing.com/gym/bpump2/1f-right-%e3%82%bb%e3%83%83%e3%83%88%ef%bc%81/": {
+      "published": "2026-07-08",
+      "events": [
+        {
+          "date": "2026-07-13",
+          "type": "エリア制限",
+          "note": "1F RIGHT ホールド外し 20:00-"
+        },
+        {
+          "date": "2026-07-14",
+          "type": "イベント",
+          "note": "1F RIGHT 1Day OPEN 18:00-"
+        },
+        {
+          "date": "2026-07-15",
+          "type": "セット完了",
+          "note": "1F RIGHT NEW SET OPEN"
+        }
+      ]
+    },
+    "https://pump-climbing.com/gym/bpump2/7%e6%9c%8811%e6%97%a5%e5%96%b6%e6%a5%ad%e6%99%82%e9%96%93%e5%a4%89%e6%9b%b4%e3%81%ae%e3%81%8a%e3%81%97%e3%82%89%e3%81%9b/": {
+      "published": "2026-07-06",
+      "events": [
+        {
+          "date": "2026-07-11",
+          "type": "時間変更",
+          "note": "営業時間を11:00 – 19:00に変更"
+        }
+      ]
+    },
+    "https://pump-climbing.com/gym/pump1/%e3%81%9d%e3%81%ae%e3%83%ad%e3%83%bc%e3%83%97%e5%ae%89%e5%85%a8%e3%81%a7%e3%81%99%e3%81%8b%ef%bc%9f/": {
+      "published": "2026-08-11",
+      "events": []
+    },
+    "https://pump-climbing.com/gym/pump1/%e3%83%88%e3%83%83%e3%83%97%e3%83%ad%e3%83%bc%e3%83%97%ef%bc%86%e3%83%aa%e3%83%bc%e3%83%89%e3%82%af%e3%83%a9%e3%82%a4%e3%83%9f%e3%83%b3%e3%82%b0%e3%82%92%e3%81%af%e3%81%98%e3%82%81%e3%82%88%e3%81%86/": {
+      "published": "2026-08-11",
+      "events": []
+    },
+    "https://pump-climbing.com/gym/pump1/%e9%87%91%e6%9b%9c%e6%97%a5%e3%81%af%e5%ad%a6%e7%94%9fday%e2%80%bc/": {
+      "published": "2026-08-09",
+      "events": []
+    },
+    "https://pump-climbing.com/gym/pump1/%e3%82%b8%e3%83%a5%e3%83%8b%e3%82%a2%e3%82%bf%e3%82%a4%e3%83%a0%e3%81%8c%e3%81%8a%e5%be%97%e3%81%ab%ef%bc%81%ef%bc%81/": {
+      "published": "2026-08-06",
+      "events": []
+    },
+    "https://pump-climbing.com/gym/pump1/%e6%88%a6%e8%89%a6%e3%83%bb%e5%a5%a5%e5%a3%81-%e8%aa%b2%e9%a1%8c%e5%a4%89%e6%9b%b4%e5%ae%8c%e4%ba%86%e3%81%97%e3%81%be%e3%81%97%e3%81%9f/": {
+      "published": "2026-08-06",
+      "events": [
+        {
+          "date": "2026-08-06",
+          "type": "セット完了",
+          "note": "奥壁戦艦セット完了。ゲストセッター是永敬一郎氏参戦。本数多め、内容濃いめ。"
+        }
+      ]
+    },
+    "https://pump-climbing.com/gym/pump1/%e3%81%84%e3%82%88%e3%81%84%e3%82%88%e6%9c%ac%e6%97%a51900%e3%82%bb%e3%83%83%e3%83%88%e5%ae%8c%e4%ba%86%ef%bc%81%ef%bc%81/": {
+      "published": "2026-08-05",
+      "events": [
+        {
+          "date": "2026-08-05",
+          "type": "セット完了",
+          "note": "戦艦奥壁セット最終日、本日のエリア開放"
+        }
+      ]
+    },
+    "https://pump-climbing.com/gym/pump1/%e3%80%90%e7%81%ab%e6%9b%9c%e3%80%91%e6%98%bc%e5%a4%9c%e3%83%ac%e3%83%99%e3%83%ab%e3%82%a2%e3%83%83%e3%83%97%e3%82%b9%e3%82%af%e3%83%bc%e3%83%ab%e5%8b%9f%e9%9b%86%e9%96%8b%e5%a7%8b/": {
+      "published": "2026-08-03",
+      "events": []
+    },
+    "https://pump-climbing.com/gym/pump1/%e6%88%a6%e8%89%a6%e5%a5%a5%e5%a3%81%e3%82%bb%e3%83%83%e3%83%88%e3%82%b9%e3%82%bf%e3%83%bc%e3%83%88/": {
+      "published": "2026-08-03",
+      "events": [
+        {
+          "date": "2026-08-02",
+          "type": "セット完了",
+          "note": "現行ルート終了"
+        },
+        {
+          "date": "2026-08-03",
+          "type": "エリア制限",
+          "note": "セット作業開始、利用制限のあるエリアが生じる"
+        }
+      ]
+    },
+    "https://pump-climbing.com/gym/pump1/8%e6%9c%88%e3%81%ae%e3%82%ab%e3%83%ac%e3%83%b3%e3%83%80%e3%83%bc%e2%9c%85/": {
+      "published": "2026-08-02",
+      "events": [
+        {
+          "date": "2026-08-03",
+          "type": "エリア制限",
+          "note": "戦艦・奥壁ルートセット（8/3~8/5 19:00まで）"
+        },
+        {
+          "date": "2026-08-31",
+          "type": "セット完了",
+          "note": "2F BOULDER SET"
+        }
+      ]
+    },
+    "https://pump-climbing.com/gym/pump1/%e6%88%a6%e8%89%a6%e3%82%b2%e3%82%b9%e3%83%88%e3%82%bb%e3%83%83%e3%82%bf%e3%83%bc%e7%b4%b9%e4%bb%8b/": {
+      "published": "2026-08-01",
+      "events": []
+    },
+    "https://pump-climbing.com/gym/pump1/%e6%88%a6%e8%89%a6%e5%a5%a5%e5%a3%81%e3%82%bb%e3%83%83%e3%83%88%e3%82%b9%e3%82%b1%e3%82%b8%e3%83%a5%e3%83%bc%e3%83%ab/": {
+      "published": "2026-07-31",
+      "events": [
+        {
+          "date": "2026-08-02",
+          "type": "エリア制限",
+          "note": "PUMP1の名物ウォール戦艦の課題外し（18:00）"
+        }
+      ]
+    },
+    "https://pump-climbing.com/gym/pump1/1f%e3%83%9c%e3%83%ab%e3%83%80%e3%83%bc%e3%82%a8%e3%83%aa%e3%82%a2%e3%80%80%e9%95%b7%e7%89%a9%e3%82%bb%e3%83%83%e3%83%88%ef%bc%81/": {
+      "published": "2026-07-28",
+      "events": [
+        {
+          "date": "2026-07-28",
+          "type": "セット完了",
+          "note": "1F BOULDER NEW SET - 1階のボルダー壁に長物セット完了"
+        }
+      ]
+    },
+    "https://pump-climbing.com/gym/pump1/%f0%9f%94%a8set-information%f0%9f%94%a8-15/": {
+      "published": "2026-07-28",
+      "events": [
+        {
+          "date": "2026-08-02",
+          "type": "エリア制限",
+          "note": "8月2日(日)18時より、戦艦・奥壁エリアをクローズ（8月3-5日のルートエリア：戦艦・奥壁SETに伴うホールド外し作業）"
+        }
+      ]
+    },
+    "https://pump-climbing.com/gym/pump1/29026-2/": {
+      "published": "2026-07-20",
+      "events": [
+        {
+          "date": "2026-07-23",
+          "type": "エリア制限",
+          "note": "1F95度壁長物セット作業に伴い、1Fボルダーエリアをクローズ（20:00～）"
+        }
+      ]
+    },
+    "https://pump-climbing.com/gym/pump1/%e5%af%8c%e5%a3%ab%e5%b1%b1new-set%ef%bc%81%ef%bc%81/": {
+      "published": "2026-07-19",
+      "events": [
+        {
+          "date": "2026-07-19",
+          "type": "セット完了",
+          "note": "富士山NEW SET！5.8~5.12Cの計11本"
+        }
+      ]
+    },
+    "https://pump-climbing.com/gym/pump1/%e7%a5%9d%e6%97%a5%e5%96%b6%e6%a5%ad%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b-3/": {
+      "published": "2026-07-19",
+      "events": [
+        {
+          "date": "2026-07-20",
+          "type": "時間変更",
+          "note": "祝日営業"
+        }
+      ]
+    },
+    "https://pump-climbing.com/gym/pump1/%f0%9f%91%b72%ef%bd%86%e3%83%9c%e3%83%ab%e3%83%80%e3%83%bca%e3%83%bbb%e5%a3%81-new-set%e2%9c%a8/": {
+      "published": "2026-07-09",
+      "events": [
+        {
+          "date": "2026-07-09",
+          "type": "セット完了",
+          "note": "2F BOULDER WALL A・B NEW SET完了（5級から2級の課題を設定）"
+        }
+      ]
+    },
+    "https://pump-climbing.com/gym/pump1/%f0%9f%94%a81%ef%bd%86%e3%83%9c%e3%83%ab%e3%83%80%e3%83%bc%e5%a3%81%e3%80%80n-e-w-s-e-t%f0%9f%94%a8/": {
+      "published": "2026-07-09",
+      "events": [
+        {
+          "date": "2026-07-09",
+          "type": "セット完了",
+          "note": "1F ボルダー壁 新規セット"
+        }
+      ]
+    },
+    "https://pump-climbing.com/gym/pump2/%e5%a5%a5%e5%a3%81%e3%81%ae%e3%82%af%e3%82%a4%e3%83%83%e3%82%af%e3%83%89%e3%83%ad%e3%83%bc%e3%81%8c%ef%bc%81%ef%bc%81/": {
+      "published": "2026-08-17",
+      "events": []
+    },
+    "https://pump-climbing.com/gym/pump2/%e3%82%b5%e3%83%9e%e3%83%bc%e3%82%ad%e3%83%a3%e3%83%b3%e3%83%97%e5%ae%9f%e6%96%bd%e3%81%97%e3%81%be%e3%81%97%e3%81%9f%ef%bc%81%ef%bc%81/": {
+      "published": "2026-08-15",
+      "events": []
+    },
+    "https://pump-climbing.com/gym/pump2/%ef%bc%99%e6%9c%88%e3%81%aepjcc%e6%97%a5%e7%a8%8b%ef%bc%88%ef%bc%98%e6%9c%88%ef%bc%91%ef%bc%94%e6%97%a5%e7%8f%be%e5%9c%a8%ef%bc%89/": {
+      "published": "2026-08-14",
+      "events": []
+    },
+    "https://pump-climbing.com/gym/pump2/%e3%81%9d%e3%81%ae%e3%83%ad%e3%83%bc%e3%83%97%e5%ae%89%e5%85%a8%e3%81%a7%e3%81%99%e3%81%8b%ef%bc%9f/": {
+      "published": "2026-08-11",
+      "events": []
+    },
+    "https://pump-climbing.com/gym/pump2/8%e6%9c%88%e3%81%ae%e3%82%b9%e3%82%ad%e3%83%ab%e3%82%a2%e3%83%83%e3%83%97%e3%83%88%e3%83%ac%e3%83%bc%e3%83%8b%e3%83%b3%e3%82%b0/": {
+      "published": "2026-08-06",
+      "events": []
+    },
+    "https://pump-climbing.com/gym/pump2/8%e6%9c%8811%e6%97%a5%e7%a5%9d%e6%97%a5%e5%96%b6%e6%a5%ad%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b-2/": {
+      "published": "2026-08-06",
+      "events": [
+        {
+          "date": "2026-08-11",
+          "type": "時間変更",
+          "note": "祝日営業 10:00-21:00"
+        }
+      ]
+    },
+    "https://pump-climbing.com/gym/pump2/%e4%bb%8a%e5%b9%b4%e3%81%ae%e5%a4%8f%e3%82%82%e5%bf%ab%e9%81%a9%e3%81%ab/": {
+      "published": "2026-07-29",
+      "events": []
+    },
+    "https://pump-climbing.com/gym/pump2/%ef%bc%98%e6%9c%88%e8%aa%b2%e9%a1%8c%e5%a4%89%e6%9b%b4%e3%82%b9%e3%82%b1%e3%82%b8%e3%83%a5%e3%83%bc%e3%83%ab/": {
+      "published": "2026-07-27",
+      "events": [
+        {
+          "date": "2026-08-01",
+          "type": "セット完了",
+          "note": "100度がルートセット"
+        }
+      ]
+    },
+    "https://pump-climbing.com/gym/pump2/%e3%82%b5%e3%83%9e%e3%83%bc%e3%82%ad%e3%83%a3%e3%83%b3%e3%83%97%e5%8b%9f%e9%9b%86%e4%b8%ad%ef%bc%81%ef%bc%81/": {
+      "published": "2026-07-27",
+      "events": []
+    },
+    "https://pump-climbing.com/gym/pump2/pjcc%e3%81%ae%e3%82%b9%e3%82%af%e3%83%bc%e3%83%ab%e7%94%9f%e3%82%92%e5%8b%9f%e9%9b%86%e3%81%97%e3%81%be%e3%81%99%ef%bc%81%ef%bc%81/": {
+      "published": "2026-07-17",
+      "events": []
+    },
+    "https://pump-climbing.com/gym/pump2/%e3%82%b5%e3%83%9e%e3%83%bc%e3%82%bb%e3%83%bc%e3%83%ab%e9%96%8b%e5%82%ac%e4%b8%ad%ef%bc%81%ef%bc%81%ef%bc%81%ef%bc%81/": {
+      "published": "2026-07-17",
+      "events": []
+    },
+    "https://pump-climbing.com/gym/pump2/pjcc8%e6%9c%88%e3%81%ae%e3%82%b9%e3%82%af%e3%83%bc%e3%83%ab%e6%97%a5%e7%a8%8b8%e6%9c%8815%e6%97%a5%e7%8f%be%e5%9c%a8/": {
+      "published": "2026-07-15",
+      "events": []
+    },
+    "https://pump-climbing.com/gym/pump2/7%e6%9c%8820%e6%97%a5%e7%a5%9d%e6%97%a5%e5%96%b6%e6%a5%ad%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b/": {
+      "published": "2026-07-13",
+      "events": [
+        {
+          "date": "2026-07-20",
+          "type": "時間変更",
+          "note": "祝日営業"
+        },
+        {
+          "date": "2026-07-21",
+          "type": "休業",
+          "note": "振替休業"
+        }
+      ]
+    },
+    "https://pump-climbing.com/gym/pump2/7%e6%9c%885%e6%97%a5%e6%97%a5%e3%83%8f%e3%83%bc%e3%83%8d%e3%82%b9%e8%a2%8b%e3%81%ae%e5%8f%96%e3%82%8a%e9%81%95%e3%81%88%e3%81%8c%e7%99%ba%e7%94%9f%e3%81%97%e3%81%a6%e3%81%84%e3%81%be%e3%81%99/": {
+      "published": "2026-07-09",
+      "events": []
+    }
+  },
+  "pages": {
+    "noborock-shinjuku": {
+      "text_hash": "9e826ea69ca2f0b7da83c1ceb2e3020033c5aefad93309106b2eae6d64c09396",
+      "last_changed_at": "2026-08-17T14:31:40",
+      "published": "2026-08-17",
+      "events": [
+        {
+          "date": "2026-07-28",
+          "type": "セット完了",
+          "note": "ルートセット完了"
+        },
+        {
+          "date": "2026-08-23",
+          "type": "時間変更",
+          "note": "新宿店 17:00 close"
+        },
+        {
+          "date": "2026-08-24",
+          "type": "休業",
+          "note": "新宿店 ルートセット"
+        },
+        {
+          "date": "2026-08-25",
+          "type": "時間変更",
+          "note": "新宿店 18:30 open"
+        }
+      ]
+    },
+    "noborock-shibuya": {
+      "text_hash": "412a1feb7222e46b8ec4dcc3fdf378fe5cba77b9f4fc347cea935e63cd37ac82",
+      "last_changed_at": "2026-08-17T14:31:40",
+      "published": "2026-08-17",
+      "events": [
+        {
+          "date": "2026-07-28",
+          "type": "セット完了",
+          "note": "ルートセット完了"
+        },
+        {
+          "date": "2026-08-23",
+          "type": "時間変更",
+          "note": "17:00 close"
+        },
+        {
+          "date": "2026-08-24",
+          "type": "休業",
+          "note": "ルートセット"
+        },
+        {
+          "date": "2026-08-25",
+          "type": "時間変更",
+          "note": "18:30 open"
+        }
+      ]
+    },
+    "noborock-takadanobaba": {
+      "text_hash": "cd54266943416b6779353b8a0faab4995e8e8f1f700cf971c4dc6eb841c53c05",
+      "last_changed_at": "2026-08-17T14:31:40",
+      "published": "2026-08-17",
+      "events": [
+        {
+          "date": "2026-08-04",
+          "type": "セット完了",
+          "note": "ルートセット完了"
+        },
+        {
+          "date": "2026-08-24",
+          "type": "時間変更",
+          "note": "貸切利用の為18:00 close"
+        },
+        {
+          "date": "2026-08-30",
+          "type": "時間変更",
+          "note": "17:00 close"
+        },
+        {
+          "date": "2026-08-31",
+          "type": "休業",
+          "note": "ルートセット"
+        },
+        {
+          "date": "2026-09-01",
+          "type": "時間変更",
+          "note": "18:30 open"
+        }
+      ]
+    },
+    "noborock-asakusa": {
+      "text_hash": "244c0ff8a0a9ee655f138ea370c0d137d1f34cdde97441366cbd3d55dfd84c95",
+      "last_changed_at": "2026-08-17T14:31:40",
+      "published": "2026-08-17",
+      "events": [
+        {
+          "date": "2026-07-14",
+          "type": "セット完了",
+          "note": "ルートセット完了"
+        },
+        {
+          "date": "2026-08-11",
+          "type": "時間変更",
+          "note": "浅草店 17:00 close"
+        },
+        {
+          "date": "2026-08-12",
+          "type": "休業",
+          "note": "浅草店 ルートセット"
+        },
+        {
+          "date": "2026-08-13",
+          "type": "時間変更",
+          "note": "浅草店 18:30 open"
+        }
+      ]
+    },
+    "noborock-ikebukuro": {
+      "text_hash": "ee793afdb5724245e69ab9018cc5b4dfaf5436d0c63fc32ff0dfd468a2cf55ee",
+      "last_changed_at": "2026-08-17T14:31:40",
+      "published": "2026-08-17",
+      "events": [
+        {
+          "date": "2026-07-14",
+          "type": "セット完了",
+          "note": "池袋店 ルートセット完了"
+        },
+        {
+          "date": "2026-08-11",
+          "type": "時間変更（早じまい）",
+          "note": "池袋店 17:00 close"
+        },
+        {
+          "date": "2026-08-12",
+          "type": "休業",
+          "note": "池袋店 ルートセット"
+        },
+        {
+          "date": "2026-08-13",
+          "type": "時間変更（営業再開）",
+          "note": "池袋店 18:30 open"
+        }
+      ]
+    },
+    "noborock-machida": {
+      "text_hash": "55941af75d3f5da7f72d05d17b246ce040e73878de9cf4a1f82f6a243871f07e",
+      "last_changed_at": "2026-08-17T14:31:40",
+      "published": "2026-08-17",
+      "events": [
+        {
+          "date": "2026-07-22",
+          "type": "セット完了",
+          "note": "ルートセット完了"
+        },
+        {
+          "date": "2026-08-16",
+          "type": "時間変更",
+          "note": "17:00 close"
+        },
+        {
+          "date": "2026-08-17",
+          "type": "休業",
+          "note": "ルートセット"
+        },
+        {
+          "date": "2026-08-18",
+          "type": "時間変更",
+          "note": "18:30 open"
+        }
+      ]
+    },
+    "noborock-mizonokuchi": {
+      "text_hash": "6005991f25c4b1d6afbe887ee4f90208d16192ea9f718ed506b05469f5853b2b",
+      "last_changed_at": "2026-08-17T14:31:40",
+      "published": "2026-08-17",
+      "events": [
+        {
+          "date": "2026-07-21",
+          "type": "セット完了",
+          "note": "ルートセット完了"
+        },
+        {
+          "date": "2026-08-14",
+          "type": "休業",
+          "note": "ルートセット"
+        },
+        {
+          "date": "2026-08-15",
+          "type": "休業",
+          "note": "ルートセット"
+        },
+        {
+          "date": "2026-08-16",
+          "type": "休業",
+          "note": "ルートセット"
+        },
+        {
+          "date": "2026-08-17",
+          "type": "休業",
+          "note": "ルートセット"
+        }
+      ]
+    },
+    "noborock-omiya": {
+      "text_hash": "b71423562670ed59b9155a7ae3696b36d2968c29a44d26d00721d7c92b983114",
+      "last_changed_at": "2026-08-17T14:31:40",
+      "published": "2026-08-17",
+      "events": [
+        {
+          "date": "2026-08-04",
+          "type": "セット完了",
+          "note": "ルートセット完了"
+        },
+        {
+          "date": "2026-08-30",
+          "type": "時間変更",
+          "note": "17:00 close"
+        },
+        {
+          "date": "2026-08-31",
+          "type": "休業",
+          "note": "ルートセット"
+        },
+        {
+          "date": "2026-09-01",
+          "type": "時間変更",
+          "note": "18:30 open"
+        }
+      ]
+    }
+  }
+}

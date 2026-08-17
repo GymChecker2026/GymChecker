@@ -15,6 +15,13 @@ except FileNotFoundError:
 
 status_by_gym = {s["gym_id"]: s for s in status_records}
 
+try:
+    with open("processed.json", encoding="utf-8") as f:
+        processed = json.load(f)
+except FileNotFoundError:
+    processed = {"pages": {}}
+pages_by_gym = processed.get("pages", {})
+
 today = date.today()
 window_end = today + timedelta(days=14)
 
@@ -54,6 +61,7 @@ for gym in gyms:
         "instagram_url": gym.get("instagram_url"),
         "fetch_status": status["status"] if status else None,
         "fetched_at": status["fetched_at"] if status else None,
+        "last_changed_at": pages_by_gym.get(gym["id"], {}).get("last_changed_at"),
         "events": events_by_gym.get(gym["id"], []),
     })
 
