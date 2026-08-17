@@ -278,6 +278,32 @@ body {{
   color: var(--ink-dim);
   font-size: 0.9rem;
   line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.9rem;
+}}
+
+.empty-state p {{
+  margin: 0;
+}}
+
+.empty-state-btn {{
+  padding: 0.6rem 1.4rem;
+  border-radius: 999px;
+  border: none;
+  background: var(--accent);
+  color: var(--accent-ink);
+  font-size: 0.85rem;
+  font-weight: 700;
+  font-family: inherit;
+  cursor: pointer;
+}}
+
+.empty-state-btn:hover,
+.empty-state-btn:focus-visible {{
+  opacity: 0.9;
+  outline: none;
 }}
 
 .cards {{
@@ -451,6 +477,11 @@ body {{
   border-color: var(--accent);
   background: var(--surface-2);
   outline: none;
+}}
+
+.event-row.is-past {{
+  opacity: 0.55;
+  border-style: dashed;
 }}
 
 .event-date {{
@@ -710,7 +741,8 @@ footer.note .disclaimer {{
   function eventRowHtml(ev) {{
     var typeClass = TYPE_CLASS[ev.type] || "type-event";
     var href = ev.source_url ? escapeHtml(ev.source_url) : "#";
-    return '<a class="event-row" href="' + href + '" target="_blank" rel="noopener">' +
+    var pastClass = ev.date < GENERATED_AT ? " is-past" : "";
+    return '<a class="event-row' + pastClass + '" href="' + href + '" target="_blank" rel="noopener">' +
       '<span class="event-date">' + fmtDate(ev.date) + '</span>' +
       '<span class="event-type ' + typeClass + '">' + escapeHtml(ev.type || "") + '</span>' +
       '<span class="event-note">' + escapeHtml(ev.note || "") + '</span>' +
@@ -718,15 +750,30 @@ footer.note .disclaimer {{
       '</a>';
   }}
 
+  // 過去1件（直近）＋今後2件（近い順）を選び、日付の古い順に並べる。
+  // 過去が無ければ今後を3件、今後が無ければ過去1件のみ（埋め合わせしない）。
+  function selectDisplayEvents(events) {{
+    var past = events.filter(function (e) {{ return e.date < GENERATED_AT; }});
+    var future = events.filter(function (e) {{ return e.date >= GENERATED_AT; }});
+    past.sort(function (a, b) {{ return a.date < b.date ? 1 : (a.date > b.date ? -1 : 0); }});
+    future.sort(function (a, b) {{ return a.date < b.date ? -1 : (a.date > b.date ? 1 : 0); }});
+
+    var selectedPast = past.slice(0, 1);
+    var selectedFuture = future.slice(0, selectedPast.length === 0 ? 3 : 2);
+    var combined = selectedPast.concat(selectedFuture);
+    combined.sort(function (a, b) {{ return a.date < b.date ? -1 : (a.date > b.date ? 1 : 0); }});
+    return combined;
+  }}
+
   function eventsSectionHtml(gym) {{
     if (!gym.enabled || gym.fetch_status !== "success") {{
       return '<p class="no-events">予定情報を取得できていません</p>';
     }}
-    var events = gym.events || [];
-    if (events.length === 0) {{
+    var selected = selectDisplayEvents(gym.events || []);
+    if (selected.length === 0) {{
       return '<p class="no-events">直近14日間の予定はありません</p>';
     }}
-    return events.map(eventRowHtml).join("");
+    return selected.map(eventRowHtml).join("");
   }}
 
   function linkRowHtml(gym) {{
@@ -787,7 +834,10 @@ footer.note .disclaimer {{
 
     var bodyHtml;
     if (list.length === 0) {{
-      bodyHtml = '<p class="empty-state">検索タブからジムを追加してください</p>';
+      bodyHtml = '<div class="empty-state">' +
+        '<p>検索タブからジムを追加してください</p>' +
+        '<button type="button" class="empty-state-btn" data-goto-tab="search">検索タブへ</button>' +
+        '</div>';
     }} else {{
       bodyHtml = '<div class="cards">' + list.map(gymCardHtml).join("") + '</div>';
     }}
@@ -879,6 +929,11 @@ footer.note .disclaimer {{
       switchTab(tabBtn.getAttribute("data-tab"));
       return;
     }}
+    var gotoTabBtn = e.target.closest("[data-goto-tab]");
+    if (gotoTabBtn) {{
+      switchTab(gotoTabBtn.getAttribute("data-goto-tab"));
+      return;
+    }}
     var chainBtn = e.target.closest(".chain-btn");
     if (chainBtn) {{
       searchState.chain = chainBtn.getAttribute("data-chain");
@@ -930,8 +985,9 @@ footer.note .disclaimer {{
 
   // =========================================================
   // 初期描画
+  // マイリストが空なら検索タブ、1件以上あればマイリストタブを表示する。
   // =========================================================
-  switchTab("mylist");
+  switchTab(getFavoriteIds().length > 0 ? "mylist" : "search");
   renderSearchTab();
 }})();
 </script>

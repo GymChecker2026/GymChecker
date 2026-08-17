@@ -131,7 +131,7 @@
     "line": "中央線、青梅線など",
     "display_name": "Dボルダリング立川店",
     "official_url": "https://www.d-b-c.jp/top/tachikawa/",
-    "data_note": "月次カレンダーが画像のため予定を取得できません",
+    "data_note": "取得失敗 以下の情報源を参照",
     "instagram_url": "https://www.instagram.com/dbouldering_tachikawa/"
   },
   {
@@ -192,7 +192,7 @@
     "line": "横浜線、東急東横線など",
     "display_name": "Dボルダリング横浜店",
     "official_url": "https://www.d-b-c.jp/top/yokohama/",
-    "data_note": "月次カレンダーが画像のため予定を取得できません",
+    "data_note": "取得失敗 以下の情報源を参照",
     "instagram_url": "https://www.instagram.com/dbouldering_yokohama/"
   },
   {

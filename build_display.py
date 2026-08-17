@@ -34,7 +34,7 @@ for ev in events:
         ev_date = date.fromisoformat(ev.get("date", ""))
     except ValueError:
         continue
-    if today <= ev_date <= window_end:
+    if ev_date <= window_end:
         events_by_gym[ev["gym_id"]].append({
             "date": ev["date"],
             "type": ev.get("type"),
