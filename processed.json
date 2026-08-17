@@ -817,6 +817,21 @@
     "https://pump-climbing.com/gym/pump2/7%e6%9c%885%e6%97%a5%e6%97%a5%e3%83%8f%e3%83%bc%e3%83%8d%e3%82%b9%e8%a2%8b%e3%81%ae%e5%8f%96%e3%82%8a%e9%81%95%e3%81%88%e3%81%8c%e7%99%ba%e7%94%9f%e3%81%97%e3%81%a6%e3%81%84%e3%81%be%e3%81%99/": {
       "published": "2026-07-09",
       "events": []
+    },
+    "https://pump-climbing.com/gym/akiba/%e6%ac%a1%e9%80%b1%e3%82%bb%e3%83%83%e3%83%88%e6%83%85%e5%a0%b1-%e2%96%b7%e3%80%983f-space-right-%e3%80%99/blog-news/": {
+      "published": "2026-08-15",
+      "events": [
+        {
+          "date": "2026-08-20",
+          "type": "エリア制限",
+          "note": "3F Space Right ホールド外し 21:00-"
+        },
+        {
+          "date": "2026-08-21",
+          "type": "エリア制限",
+          "note": "3F Space Right Route Setting Day"
+        }
+      ]
     }
   },
   "pages": {
