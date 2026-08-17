@@ -99,6 +99,10 @@ body {{
   background: var(--bg);
   padding: 1.1rem 1.25rem 0.9rem;
   border-bottom: 1px solid var(--line);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
 }}
 
 .masthead h1 {{
@@ -107,6 +111,106 @@ body {{
   font-weight: 800;
   letter-spacing: -0.01em;
   text-wrap: balance;
+}}
+
+.menu-wrap {{
+  position: relative;
+  flex: none;
+}}
+
+.menu-wrap[hidden] {{ display: none; }}
+
+.menu-btn {{
+  width: 2.1rem;
+  height: 2.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  color: var(--ink-dim);
+  font-size: 1.2rem;
+  line-height: 1;
+  font-family: inherit;
+  cursor: pointer;
+}}
+
+.menu-btn:hover,
+.menu-btn:focus-visible {{
+  border-color: var(--accent);
+  color: var(--accent);
+  outline: none;
+}}
+
+.menu-popover {{
+  position: absolute;
+  top: calc(100% + 0.5rem);
+  right: 0;
+  z-index: 30;
+  min-width: 11rem;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+  padding: 0.4rem;
+}}
+
+.menu-popover[hidden] {{ display: none; }}
+
+.menu-label {{
+  margin: 0.35rem 0.6rem 0.2rem;
+  font-size: 0.66rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: var(--ink-dim);
+}}
+
+.menu-item {{
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 0.5rem 0.6rem;
+  border: none;
+  background: none;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  font-family: inherit;
+  color: var(--ink);
+  cursor: pointer;
+}}
+
+.menu-item:hover,
+.menu-item:focus-visible {{
+  background: var(--surface-2);
+  outline: none;
+}}
+
+.menu-item.active {{
+  color: var(--accent);
+  font-weight: 700;
+}}
+
+.menu-item.active::after {{
+  content: " \\2713";
+}}
+
+.menu-divider {{
+  height: 1px;
+  background: var(--line);
+  margin: 0.4rem 0.2rem;
+}}
+
+.menu-item-danger {{
+  color: var(--type-closed);
+}}
+
+.settings-note {{
+  margin: 3.5rem 1.25rem;
+  text-align: center;
+  color: var(--ink-dim);
+  font-size: 0.9rem;
+  line-height: 1.6;
 }}
 
 .tab-panel[hidden] {{ display: none; }}
@@ -416,7 +520,13 @@ footer.note .disclaimer {{
 </style>
 
 <div class="page">
-  <header class="masthead"><h1>ジムチェッカー</h1></header>
+  <header class="masthead">
+    <h1 id="tab-title">マイリスト</h1>
+    <div class="menu-wrap" id="mylist-menu-wrap">
+      <button type="button" id="mylist-menu-btn" class="menu-btn" aria-haspopup="true" aria-expanded="false" aria-label="メニュー">&#8943;</button>
+      <div class="menu-popover" id="mylist-menu" hidden></div>
+    </div>
+  </header>
 
   <main id="tab-mylist" class="tab-panel"></main>
 
@@ -427,11 +537,16 @@ footer.note .disclaimer {{
     <div id="chain-filter" class="chain-filter"></div>
     <div id="search-cards" class="cards"></div>
   </main>
+
+  <main id="tab-settings" class="tab-panel" hidden>
+    <p class="settings-note">通知設定は今後追加予定です。</p>
+  </main>
 </div>
 
 <nav class="tabbar">
   <button type="button" class="tab-btn active" data-tab="mylist">マイリスト</button>
   <button type="button" class="tab-btn" data-tab="search">検索</button>
+  <button type="button" class="tab-btn" data-tab="settings">設定</button>
 </nav>
 
 <script>
@@ -447,9 +562,19 @@ footer.note .disclaimer {{
   var DISPLAY_DATA = {gyms_json};
   var GENERATED_AT = {json.dumps(today.isoformat())};
   var FAVORITES_KEY = "gymchecker.favorites";
+  var SORT_ORDER_KEY = "gymchecker.sortOrder";
 
   function fetchGyms() {{
     return DISPLAY_DATA;
+  }}
+
+  function getSortOrder() {{
+    var v = localStorage.getItem(SORT_ORDER_KEY);
+    return v === "name" ? "name" : "added";
+  }}
+
+  function setSortOrder(order) {{
+    localStorage.setItem(SORT_ORDER_KEY, order);
   }}
 
   function getFavoriteIds() {{
@@ -591,6 +716,14 @@ footer.note .disclaimer {{
     var ids = getFavoriteIds();
     var list = ids.map(function (id) {{ return byId[id]; }}).filter(Boolean);
 
+    if (getSortOrder() === "name") {{
+      list = list.slice().sort(function (a, b) {{
+        var an = a.display_name || a.name;
+        var bn = b.display_name || b.name;
+        return an.localeCompare(bn, "ja");
+      }});
+    }}
+
     var bodyHtml;
     if (list.length === 0) {{
       bodyHtml = '<p class="empty-state">検索タブからジムを追加してください</p>';
@@ -600,8 +733,8 @@ footer.note .disclaimer {{
 
     container.innerHTML = bodyHtml +
       '<footer class="note">' +
-        '<p class="generated">display.json を元に生成 &middot; ' + escapeHtml(GENERATED_AT) + ' 時点</p>' +
-        '<p class="disclaimer">掲載情報は各ジムの公式サイトから自動収集したものです。正確性・網羅性を保証しません。ご利用前に必ず公式サイトでご確認ください。</p>' +
+        '<p class="generated">' + escapeHtml(GENERATED_AT) + ' 時点</p>' +
+        '<p class="disclaimer">掲載情報は自動収集したものです。正確性・網羅性を保証しません。ご利用前に必ず公式サイトでご確認ください。</p>' +
       '</footer>';
   }}
 
@@ -640,15 +773,41 @@ footer.note .disclaimer {{
     renderSearchCards();
   }}
 
+  function renderMylistMenu() {{
+    var menu = document.getElementById("mylist-menu");
+    var sort = getSortOrder();
+    menu.innerHTML =
+      '<p class="menu-label">並び順</p>' +
+      '<button type="button" class="menu-item' + (sort === "added" ? " active" : "") + '" data-sort="added">追加順</button>' +
+      '<button type="button" class="menu-item' + (sort === "name" ? " active" : "") + '" data-sort="name">名前順</button>' +
+      '<div class="menu-divider"></div>' +
+      '<button type="button" class="menu-item menu-item-danger" id="mylist-clear-btn">マイリストを全削除</button>';
+  }}
+
+  function toggleMylistMenu(force) {{
+    var menu = document.getElementById("mylist-menu");
+    var btn = document.getElementById("mylist-menu-btn");
+    var show = typeof force === "boolean" ? force : menu.hidden;
+    if (show) renderMylistMenu();
+    menu.hidden = !show;
+    btn.setAttribute("aria-expanded", String(show));
+  }}
+
   // =========================================================
   // 状態管理・イベント配線（コントローラ）
   // =========================================================
+  var TAB_LABELS = {{ mylist: "マイリスト", search: "検索", settings: "設定" }};
+
   function switchTab(tab) {{
     document.getElementById("tab-mylist").hidden = tab !== "mylist";
     document.getElementById("tab-search").hidden = tab !== "search";
+    document.getElementById("tab-settings").hidden = tab !== "settings";
     document.querySelectorAll(".tab-btn").forEach(function (btn) {{
       btn.classList.toggle("active", btn.getAttribute("data-tab") === tab);
     }});
+    document.getElementById("tab-title").textContent = TAB_LABELS[tab] || "";
+    document.getElementById("mylist-menu-wrap").hidden = tab !== "mylist";
+    if (tab !== "mylist") toggleMylistMenu(false);
     if (tab === "mylist") renderMyListTab();
   }}
 
@@ -671,6 +830,33 @@ footer.note .disclaimer {{
       renderSearchCards();
       return;
     }}
+    var menuBtn = e.target.closest("#mylist-menu-btn");
+    if (menuBtn) {{
+      toggleMylistMenu();
+      return;
+    }}
+    var sortItem = e.target.closest(".menu-item[data-sort]");
+    if (sortItem) {{
+      setSortOrder(sortItem.getAttribute("data-sort"));
+      toggleMylistMenu(false);
+      renderMyListTab();
+      return;
+    }}
+    var clearBtn = e.target.closest("#mylist-clear-btn");
+    if (clearBtn) {{
+      toggleMylistMenu(false);
+      if (window.confirm("マイリストを全て削除しますか？")) {{
+        setFavoriteIds([]);
+        renderMyListTab();
+        renderSearchCards();
+      }}
+      return;
+    }}
+    var insideMenu = e.target.closest("#mylist-menu-wrap");
+    if (!insideMenu) {{
+      var menu = document.getElementById("mylist-menu");
+      if (!menu.hidden) toggleMylistMenu(false);
+    }}
   }});
 
   document.addEventListener("input", function (e) {{
@@ -683,7 +869,7 @@ footer.note .disclaimer {{
   // =========================================================
   // 初期描画
   // =========================================================
-  renderMyListTab();
+  switchTab("mylist");
   renderSearchTab();
 }})();
 </script>
