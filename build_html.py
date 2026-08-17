@@ -461,6 +461,13 @@ body {{
   text-align: right;
 }}
 
+.last-changed {{
+  margin: 0.2rem 0 0;
+  font-size: 0.68rem;
+  color: var(--ink-dim);
+  text-align: right;
+}}
+
 .no-events {{
   margin: 0.2rem 0 0;
   font-size: 0.82rem;
@@ -771,6 +778,12 @@ footer.note .disclaimer {{
     return (dt.getMonth() + 1) + "/" + dt.getDate() + " " + hh + ":" + mm + " 取得";
   }}
 
+  function fmtLastChangedAt(iso) {{
+    if (!iso) return null;
+    var dt = new Date(iso);
+    return "ページ最終更新: " + (dt.getMonth() + 1) + "月" + dt.getDate() + "日";
+  }}
+
   function fieldHtml(value) {{
     if (value === null || value === undefined || value === "") {{
       return '<span class="no-data">No Data</span>';
@@ -856,6 +869,8 @@ footer.note .disclaimer {{
     var noteHtml = gym.data_note ? '<p class="data-note">' + escapeHtml(gym.data_note) + '</p>' : "";
     var fetchedLabel = fmtFetchedAt(gym.fetched_at);
     var fetchedHtml = fetchedLabel ? '<p class="fetched-at">' + escapeHtml(fetchedLabel) + '</p>' : "";
+    var lastChangedLabel = fmtLastChangedAt(gym.last_changed_at);
+    var lastChangedHtml = lastChangedLabel ? '<p class="last-changed">' + escapeHtml(lastChangedLabel) + '</p>' : "";
 
     return '<article class="card" data-gym-id="' + escapeHtml(gym.gym_id) + '">' +
       '<header class="card-head">' +
@@ -870,6 +885,7 @@ footer.note .disclaimer {{
       '<div class="events">' + eventsSectionHtml(gym) + '</div>' +
       noteHtml +
       linkRowHtml(gym) +
+      lastChangedHtml +
       fetchedHtml +
       '</article>';
   }}

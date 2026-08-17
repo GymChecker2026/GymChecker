@@ -832,6 +832,66 @@
           "note": "3F Space Right Route Setting Day"
         }
       ]
+    },
+    "https://www.d-b-c.jp/tsunashima/2026/07/9696/": {
+      "published": "2026-07-27",
+      "events": [
+        {
+          "date": "2026-08-01",
+          "type": "時間変更",
+          "note": "交流イベント開催の為、18時閉店"
+        },
+        {
+          "date": "2026-08-29",
+          "type": "時間変更",
+          "note": "13時からオープン"
+        },
+        {
+          "date": "2026-08-30",
+          "type": "時間変更",
+          "note": "13時からオープン"
+        }
+      ]
+    },
+    "https://www.d-b-c.jp/tsunashima/2026/07/9663/": {
+      "published": "2026-07-10",
+      "events": [
+        {
+          "date": "2026-07-30",
+          "type": "エリア制限",
+          "note": "16:30～18:00まで貸切営業"
+        }
+      ]
+    },
+    "https://pump-climbing.com/gym/akiba/%e6%ac%a1%e9%80%b1%e3%82%bb%e3%83%83%e3%83%88%e6%83%85%e5%a0%b1-%e2%96%b7%e3%80%982f-c-wall-left-side-%e3%80%99/blog-news/": {
+      "published": "2026-08-17",
+      "events": [
+        {
+          "date": "2026-08-24",
+          "type": "エリア制限",
+          "note": "2F C Wall -Left Side- ホールド外し 21:00-"
+        },
+        {
+          "date": "2026-08-25",
+          "type": "エリア制限",
+          "note": "2F C Wall -Left Side- メンテナンス"
+        },
+        {
+          "date": "2026-08-26",
+          "type": "エリア制限",
+          "note": "2F C Wall -Left Side- メンテナンス"
+        },
+        {
+          "date": "2026-08-27",
+          "type": "エリア制限",
+          "note": "2F C Wall -Left Side- メンテナンス"
+        },
+        {
+          "date": "2026-08-28",
+          "type": "エリア制限",
+          "note": "2F C Wall -Left Side- Route Setting Day"
+        }
+      ]
     }
   },
   "pages": {

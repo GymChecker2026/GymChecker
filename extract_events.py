@@ -28,6 +28,10 @@ DATE_RE = re.compile(r"(\d{4})[.\-]\s?(\d{1,2})[.\-]\s?(\d{1,2})")
 ARTICLE_URL_RE = re.compile(r"-news/\d{4}/\d{1,2}/\d+/?$")
 HENTRY_RE = re.compile(r"\bhentry\b")
 
+# 綱島店は記事URLに -news/ を含まない独自パターン(/tsunashima/YYYY/MM/ID/)のため専用の正規表現を使う。
+TSUNASHIMA_ARTICLE_URL_RE = re.compile(r"/tsunashima/\d{4}/\d{1,2}/\d+/?$")
+TSUNASHIMA_MAX_ARTICLES = 8
+
 PROMPT_TEMPLATE = """以下はクライミングジムのお知らせのテキストです。
 このテキストの基準日は{ref_date}です（記事単位の場合は公開日、店舗ページ単位の場合は取得日）。
 
@@ -179,10 +183,52 @@ def collect_page_target(gym, cutoff):
     return [(gym["url"], today_jst(), text)]
 
 
+def collect_tsunashima_articles(gym, cutoff):
+    """戻り値: [(記事URL, 公開日 date, 本文テキスト), ...]
+    綱島店トップページの新着情報リンク（上位8件、ページ掲載順）を対象に、
+    本厚木と同じフォールバック（記事ページのdatetime属性から日付取得）で処理する。
+    """
+    r = http_get(gym["url"])
+    r.raise_for_status()
+    soup = BeautifulSoup(r.text, "html.parser")
+
+    links = []
+    seen = set()
+    for a in soup.find_all("a", href=True):
+        full = urljoin(gym["url"], a["href"])
+        if TSUNASHIMA_ARTICLE_URL_RE.search(full) and full not in seen:
+            seen.add(full)
+            links.append(full)
+        if len(links) >= TSUNASHIMA_MAX_ARTICLES:
+            break
+
+    results = []
+    for link in links:
+        try:
+            ar = http_get(link)
+            ar.raise_for_status()
+        except Exception:
+            continue
+        asoup = BeautifulSoup(ar.text, "html.parser")
+        tag = asoup.find(attrs={"datetime": True})
+        if tag is None:
+            continue
+        try:
+            d = date.fromisoformat(tag["datetime"][:10])
+        except ValueError:
+            continue
+        if d < cutoff:
+            continue
+        results.append((link, d, dbc_article_body(ar.text)))
+
+    return results
+
+
 COLLECTORS = {
     "news_list": collect_dbc_recent_articles,
     "wp_rest_api": collect_bpump_recent_articles,
     "page": collect_page_target,
+    "tsunashima_news": collect_tsunashima_articles,
 }
 
 

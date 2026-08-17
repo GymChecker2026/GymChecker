@@ -251,9 +251,9 @@
     "id": "dbc-tsunashima",
     "name": "綱島",
     "chain": "D-BOULDERING",
-    "method": "page",
+    "method": "tsunashima_news",
     "url": "https://www.d-b-c.jp/top/tsunashima/",
-    "enabled": false,
+    "enabled": true,
     "hours": [
       {
         "label": "平日",
