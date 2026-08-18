@@ -923,9 +923,9 @@
       ]
     },
     "noborock-shibuya": {
-      "text_hash": "412a1feb7222e46b8ec4dcc3fdf378fe5cba77b9f4fc347cea935e63cd37ac82",
-      "last_changed_at": "2026-08-17T14:31:40",
-      "published": "2026-08-17",
+      "text_hash": "782c5e2f3cc54349465391c71a8eabeb61204da4916fc0a231b1c89572c619ee",
+      "last_changed_at": "2026-08-18T12:28:51+09:00",
+      "published": "2026-08-18",
       "events": [
         {
           "date": "2026-07-28",
@@ -946,6 +946,11 @@
           "date": "2026-08-25",
           "type": "時間変更",
           "note": "18:30 open"
+        },
+        {
+          "date": "2026-08-28",
+          "type": "エリア制限",
+          "note": "16:00~19:30 1Fメインエリア"
         }
       ]
     },

@@ -37,7 +37,7 @@
     "type": "セット完了",
     "note": "ルートセット完了",
     "source_url": "https://noborock-climbing.com/program/shibuya/",
-    "published": "2026-08-17"
+    "published": "2026-08-18"
   },
   {
     "gym_id": "noborock-shibuya",
@@ -45,7 +45,7 @@
     "type": "時間変更",
     "note": "17:00 close",
     "source_url": "https://noborock-climbing.com/program/shibuya/",
-    "published": "2026-08-17"
+    "published": "2026-08-18"
   },
   {
     "gym_id": "noborock-shibuya",
@@ -53,7 +53,7 @@
     "type": "休業",
     "note": "ルートセット",
     "source_url": "https://noborock-climbing.com/program/shibuya/",
-    "published": "2026-08-17"
+    "published": "2026-08-18"
   },
   {
     "gym_id": "noborock-shibuya",
@@ -61,7 +61,15 @@
     "type": "時間変更",
     "note": "18:30 open",
     "source_url": "https://noborock-climbing.com/program/shibuya/",
-    "published": "2026-08-17"
+    "published": "2026-08-18"
+  },
+  {
+    "gym_id": "noborock-shibuya",
+    "date": "2026-08-28",
+    "type": "エリア制限",
+    "note": "16:00~19:30 1Fメインエリア",
+    "source_url": "https://noborock-climbing.com/program/shibuya/",
+    "published": "2026-08-18"
   },
   {
     "gym_id": "noborock-takadanobaba",
@@ -790,14 +798,6 @@
     "note": "2F A Wall Route Setting Day",
     "source_url": "https://pump-climbing.com/gym/akiba/%e6%ac%a1%e9%80%b1%e3%82%bb%e3%83%83%e3%83%88%e6%83%85%e5%a0%b1-%e2%96%b7%e3%80%982f-a-wall-%e3%80%99/set-information/",
     "published": "2026-07-05"
-  },
-  {
-    "gym_id": "bpump-akihabara",
-    "date": "2026-07-03",
-    "type": "セット完了",
-    "note": "3F Space Boulder -Back Wall- セット完了、全23本",
-    "source_url": "https://pump-climbing.com/gym/akiba/3f-space-boulder-back-wall-%e3%82%bb%e3%83%83%e3%83%88%e5%ae%8c%e4%ba%86%e3%81%a7%e3%81%99%ef%bc%81/set-information/",
-    "published": "2026-07-03"
   },
   {
     "gym_id": "bpump-ogikubo",
