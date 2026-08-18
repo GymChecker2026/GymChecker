@@ -43,5 +43,29 @@
     { "gym_id": "dbc-yokohama", "date": "2026-08-24", "type": "休業", "note": "ルートセットのため休業", "source_url": null, "published": "2026-08-17" },
     { "gym_id": "dbc-yokohama", "date": "2026-08-25", "type": "休業", "note": "ルートセットのため休業", "source_url": null, "published": "2026-08-17" },
     { "gym_id": "dbc-yokohama", "date": "2026-08-26", "type": "時間変更", "note": "セット明け 16:00オープン", "source_url": null, "published": "2026-08-17" }
-]
+    {
+      "gym_id": "dbc-kawasaki",
+      "date": "2026-08-17",
+      "type": "イベント",
+      "note": "ワンデイセット",
+      "source_url": null,
+      "published": "2026-08-18"
+    },
+    {
+      "gym_id": "dbc-kawasaki",
+      "date": "2026-08-19",
+      "type": "セット完了",
+      "note": "8/16深夜〜のセット、18時完成予定",
+      "source_url": null,
+      "published": "2026-08-18"
+    },
+    {
+      "gym_id": "dbc-kawasaki",
+      "date": "2026-08-29",
+      "type": "時間変更",
+      "note": "キッズスクール発表会のため11:30開店",
+      "source_url": null,
+      "published": "2026-08-18"
+    }
+  ]
 }
