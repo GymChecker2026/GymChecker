@@ -23,7 +23,7 @@
     "official_url": "https://noborock-climbing.com/program/新宿店/",
     "instagram_url": "https://www.instagram.com/noborock_shinjuku/",
     "fetch_status": "success",
-    "fetched_at": "2026-08-20T04:12:27+09:00",
+    "fetched_at": "2026-08-21T04:45:26+09:00",
     "last_changed_at": "2026-08-17T14:31:40",
     "events": [
       {
@@ -84,15 +84,15 @@
     "official_url": "https://noborock-climbing.com/program/shibuya/",
     "instagram_url": "https://www.instagram.com/noborock_shibuya/",
     "fetch_status": "success",
-    "fetched_at": "2026-08-20T04:12:28+09:00",
-    "last_changed_at": "2026-08-20T04:12:27+09:00",
+    "fetched_at": "2026-08-21T04:45:27+09:00",
+    "last_changed_at": "2026-08-21T04:45:26+09:00",
     "events": [
       {
         "date": "2026-07-28",
         "type": "セット完了",
         "note": "ルートセット完了",
         "source_url": "https://noborock-climbing.com/program/shibuya/",
-        "published": "2026-08-20",
+        "published": "2026-08-21",
         "source": "auto"
       },
       {
@@ -100,7 +100,7 @@
         "type": "時間変更",
         "note": "渋谷店 17:00 close",
         "source_url": "https://noborock-climbing.com/program/shibuya/",
-        "published": "2026-08-20",
+        "published": "2026-08-21",
         "source": "auto"
       },
       {
@@ -108,7 +108,7 @@
         "type": "休業",
         "note": "渋谷店 ルートセット",
         "source_url": "https://noborock-climbing.com/program/shibuya/",
-        "published": "2026-08-20",
+        "published": "2026-08-21",
         "source": "auto"
       },
       {
@@ -116,7 +116,15 @@
         "type": "時間変更",
         "note": "渋谷店 18:30 open",
         "source_url": "https://noborock-climbing.com/program/shibuya/",
-        "published": "2026-08-20",
+        "published": "2026-08-21",
+        "source": "auto"
+      },
+      {
+        "date": "2026-08-28",
+        "type": "エリア制限",
+        "note": "1Fメインエリア 16:00~19:30",
+        "source_url": "https://noborock-climbing.com/program/shibuya/",
+        "published": "2026-08-21",
         "source": "auto"
       }
     ]
@@ -145,7 +153,7 @@
     "official_url": "https://noborock-climbing.com/program/takadanobaba/",
     "instagram_url": "https://www.instagram.com/noborock_takadanobaba/",
     "fetch_status": "success",
-    "fetched_at": "2026-08-20T04:12:33+09:00",
+    "fetched_at": "2026-08-21T04:45:32+09:00",
     "last_changed_at": "2026-08-19T12:19:52+09:00",
     "events": [
       {
@@ -214,7 +222,7 @@
     "official_url": "https://noborock-climbing.com/program/浅草店/",
     "instagram_url": "https://www.instagram.com/noborock_asakusa/",
     "fetch_status": "success",
-    "fetched_at": "2026-08-20T04:12:34+09:00",
+    "fetched_at": "2026-08-21T04:45:33+09:00",
     "last_changed_at": "2026-08-17T14:31:40",
     "events": [
       {
@@ -275,39 +283,39 @@
     "official_url": "https://noborock-climbing.com/program/ikebukuro/",
     "instagram_url": "https://www.instagram.com/noborock_ikebukuro/",
     "fetch_status": "success",
-    "fetched_at": "2026-08-20T04:12:37+09:00",
-    "last_changed_at": "2026-08-20T04:12:27+09:00",
+    "fetched_at": "2026-08-21T04:45:36+09:00",
+    "last_changed_at": "2026-08-21T04:45:26+09:00",
     "events": [
       {
         "date": "2026-07-14",
         "type": "セット完了",
-        "note": "ルートセット完了",
+        "note": "池袋店 ルートセット完了",
         "source_url": "https://noborock-climbing.com/program/ikebukuro/",
-        "published": "2026-08-20",
+        "published": "2026-08-21",
         "source": "auto"
       },
       {
         "date": "2026-08-11",
         "type": "時間変更",
-        "note": "17:00 close",
+        "note": "池袋店 17:00 close",
         "source_url": "https://noborock-climbing.com/program/ikebukuro/",
-        "published": "2026-08-20",
+        "published": "2026-08-21",
         "source": "auto"
       },
       {
         "date": "2026-08-12",
         "type": "休業",
-        "note": "ルートセット",
+        "note": "池袋店 ルートセット",
         "source_url": "https://noborock-climbing.com/program/ikebukuro/",
-        "published": "2026-08-20",
+        "published": "2026-08-21",
         "source": "auto"
       },
       {
         "date": "2026-08-13",
         "type": "時間変更",
-        "note": "18:30 open",
+        "note": "池袋店 18:30 open",
         "source_url": "https://noborock-climbing.com/program/ikebukuro/",
-        "published": "2026-08-20",
+        "published": "2026-08-21",
         "source": "auto"
       }
     ]
@@ -336,7 +344,7 @@
     "official_url": "https://noborock-climbing.com/program/machida/",
     "instagram_url": "https://www.instagram.com/noborock_machida/",
     "fetch_status": "success",
-    "fetched_at": "2026-08-20T04:12:42+09:00",
+    "fetched_at": "2026-08-21T04:45:40+09:00",
     "last_changed_at": "2026-08-17T14:31:40",
     "events": [
       {
@@ -405,7 +413,7 @@
     "official_url": "https://noborock-climbing.com/program/mizonokuchi/",
     "instagram_url": "https://www.instagram.com/noborock_mizonokuchi/",
     "fetch_status": "success",
-    "fetched_at": "2026-08-20T04:12:44+09:00",
+    "fetched_at": "2026-08-21T04:45:41+09:00",
     "last_changed_at": "2026-08-17T14:31:40",
     "events": [
       {
@@ -474,7 +482,7 @@
     "official_url": "https://noborock-climbing.com/program/omiya/",
     "instagram_url": "https://www.instagram.com/noborock_omiya/",
     "fetch_status": "success",
-    "fetched_at": "2026-08-20T04:12:47+09:00",
+    "fetched_at": "2026-08-21T04:45:44+09:00",
     "last_changed_at": "2026-08-17T14:31:40",
     "events": [
       {
@@ -535,7 +543,7 @@
     "official_url": "https://www.d-b-c.jp/top/tachikawa/",
     "instagram_url": "https://www.instagram.com/dbouldering_tachikawa/",
     "fetch_status": "success",
-    "fetched_at": "2026-08-20T04:12:50+09:00",
+    "fetched_at": "2026-08-21T04:45:47+09:00",
     "last_changed_at": null,
     "events": [
       {
@@ -636,7 +644,7 @@
     "official_url": "https://www.d-b-c.jp/top/tamachi/",
     "instagram_url": "https://www.instagram.com/dbouldering_tamachi/",
     "fetch_status": "success",
-    "fetched_at": "2026-08-20T04:12:56+09:00",
+    "fetched_at": "2026-08-21T04:45:52+09:00",
     "last_changed_at": null,
     "events": [
       {
@@ -737,7 +745,7 @@
     "official_url": "https://www.d-b-c.jp/top/tsunashima/",
     "instagram_url": "https://www.instagram.com/dbouldering_tsunashima/",
     "fetch_status": "success",
-    "fetched_at": "2026-08-20T04:13:15+09:00",
+    "fetched_at": "2026-08-21T04:46:10+09:00",
     "last_changed_at": null,
     "events": [
       {
@@ -798,7 +806,7 @@
     "official_url": "https://www.d-b-c.jp/top/honatsugi/",
     "instagram_url": "https://www.instagram.com/dbouldering_honatsugi/",
     "fetch_status": "success",
-    "fetched_at": "2026-08-20T04:13:41+09:00",
+    "fetched_at": "2026-08-21T04:46:32+09:00",
     "last_changed_at": null,
     "events": [
       {
@@ -899,7 +907,7 @@
     "official_url": "https://www.d-b-c.jp/top/yokohama/",
     "instagram_url": "https://www.instagram.com/dbouldering_yokohama/",
     "fetch_status": "success",
-    "fetched_at": "2026-08-20T04:14:30+09:00",
+    "fetched_at": "2026-08-21T04:47:17+09:00",
     "last_changed_at": null,
     "events": [
       {
@@ -964,7 +972,7 @@
     "official_url": "https://www.d-b-c.jp/top/kawasaki/",
     "instagram_url": "https://www.instagram.com/dbouldering_kawasaki/",
     "fetch_status": "success",
-    "fetched_at": "2026-08-20T04:14:40+09:00",
+    "fetched_at": "2026-08-21T04:47:26+09:00",
     "last_changed_at": null,
     "events": [
       {
@@ -1021,7 +1029,7 @@
     "official_url": "https://pump-climbing.com/gym/akiba/",
     "instagram_url": "https://www.instagram.com/bpumptokyo/",
     "fetch_status": "success",
-    "fetched_at": "2026-08-20T04:14:47+09:00",
+    "fetched_at": "2026-08-21T04:47:32+09:00",
     "last_changed_at": null,
     "events": [
       {
@@ -1370,7 +1378,7 @@
     "official_url": "https://pump-climbing.com/gym/bpump/",
     "instagram_url": "https://www.instagram.com/bpump_ogikubo/",
     "fetch_status": "success",
-    "fetched_at": "2026-08-20T04:14:53+09:00",
+    "fetched_at": "2026-08-21T04:47:38+09:00",
     "last_changed_at": null,
     "events": [
       {
@@ -1491,17 +1499,9 @@
     "official_url": "https://pump-climbing.com/gym/bpump2/",
     "instagram_url": "https://www.instagram.com/bpumpyokohama/",
     "fetch_status": "success",
-    "fetched_at": "2026-08-20T04:15:00+09:00",
+    "fetched_at": "2026-08-21T04:47:43+09:00",
     "last_changed_at": null,
     "events": [
-      {
-        "date": "2026-07-11",
-        "type": "時間変更",
-        "note": "営業時間を11:00 – 19:00に変更",
-        "source_url": "https://pump-climbing.com/gym/bpump2/7%e6%9c%8811%e6%97%a5%e5%96%b6%e6%a5%ad%e6%99%82%e9%96%93%e5%a4%89%e6%9b%b4%e3%81%ae%e3%81%8a%e3%81%97%e3%82%89%e3%81%9b/",
-        "published": "2026-07-06",
-        "source": "auto"
-      },
       {
         "date": "2026-07-13",
         "type": "エリア制限",
@@ -1588,7 +1588,7 @@
     "official_url": "https://pump-climbing.com/gym/pump1/",
     "instagram_url": "https://www.instagram.com/pump1_kawaguchi/",
     "fetch_status": "success",
-    "fetched_at": "2026-08-20T04:15:07+09:00",
+    "fetched_at": "2026-08-21T04:47:49+09:00",
     "last_changed_at": null,
     "events": [
       {
@@ -1696,6 +1696,14 @@
         "source": "auto"
       },
       {
+        "date": "2026-08-19",
+        "type": "イベント",
+        "note": "中級道場（毎週水曜日、2階ボルダーエリア、スタッフ響担当）",
+        "source_url": "https://pump-climbing.com/gym/pump1/%e6%b0%b4%e6%9b%9c%e9%81%93%e5%a0%b4%e6%af%8e%e9%80%b1%e9%96%8b%e5%82%ac%e4%b8%ad%e3%81%a7%e3%81%99%ef%bc%81/",
+        "published": "2026-08-20",
+        "source": "auto"
+      },
+      {
         "date": "2026-08-23",
         "type": "エリア制限",
         "note": "2F C、D壁 18時よりクローズ（8月24日のセット作業に伴うホールド外し作業）",
@@ -1745,7 +1753,7 @@
     "official_url": "https://pump-climbing.com/gym/pump2/",
     "instagram_url": "https://www.instagram.com/pump2climbing/",
     "fetch_status": "success",
-    "fetched_at": "2026-08-20T04:15:25+09:00",
+    "fetched_at": "2026-08-21T04:48:05+09:00",
     "last_changed_at": null,
     "events": [
       {

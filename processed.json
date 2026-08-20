@@ -912,6 +912,24 @@
           "note": "2F C、D壁 18時よりクローズ（8月24日のセット作業に伴うホールド外し作業）"
         }
       ]
+    },
+    "https://pump-climbing.com/gym/pump1/%e6%b0%b4%e6%9b%9c%e9%81%93%e5%a0%b4%e6%af%8e%e9%80%b1%e9%96%8b%e5%82%ac%e4%b8%ad%e3%81%a7%e3%81%99%ef%bc%81/": {
+      "published": "2026-08-20",
+      "events": [
+        {
+          "date": "2026-08-19",
+          "type": "イベント",
+          "note": "中級道場（毎週水曜日、2階ボルダーエリア、スタッフ響担当）"
+        }
+      ]
+    },
+    "https://pump-climbing.com/gym/pump1/29187-2/": {
+      "published": "2026-08-20",
+      "events": []
+    },
+    "https://pump-climbing.com/gym/pump2/%e5%8e%9f%e8%b3%a2%e4%b8%ad%e5%9b%bd%e5%87%ba%e5%bc%b5%e8%a8%98/": {
+      "published": "2026-08-20",
+      "events": []
     }
   },
   "pages": {
@@ -943,9 +961,9 @@
       ]
     },
     "noborock-shibuya": {
-      "text_hash": "3b5d2a6a37b8876e476cce1caba575ff93ad6455e6d7a8488b3b1bcb6714345b",
-      "last_changed_at": "2026-08-20T04:12:27+09:00",
-      "published": "2026-08-20",
+      "text_hash": "cd19d99f5f5f9658031b692cb0d94273e1c342f4f3ba3e4fef1184ac49e9a429",
+      "last_changed_at": "2026-08-21T04:45:26+09:00",
+      "published": "2026-08-21",
       "events": [
         {
           "date": "2026-07-28",
@@ -966,6 +984,11 @@
           "date": "2026-08-25",
           "type": "時間変更",
           "note": "渋谷店 18:30 open"
+        },
+        {
+          "date": "2026-08-28",
+          "type": "エリア制限",
+          "note": "1Fメインエリア 16:00~19:30"
         }
       ]
     },
@@ -1029,29 +1052,29 @@
       ]
     },
     "noborock-ikebukuro": {
-      "text_hash": "9a2a26253de671298020c2dc437548519bcf21500886d416049d47aa75ef4034",
-      "last_changed_at": "2026-08-20T04:12:27+09:00",
-      "published": "2026-08-20",
+      "text_hash": "f7eae9d1bc80aa2f88ea12b6caf525eac3dd229ce8b50e7776582857f4dc271d",
+      "last_changed_at": "2026-08-21T04:45:26+09:00",
+      "published": "2026-08-21",
       "events": [
         {
           "date": "2026-07-14",
           "type": "セット完了",
-          "note": "ルートセット完了"
+          "note": "池袋店 ルートセット完了"
         },
         {
           "date": "2026-08-11",
           "type": "時間変更",
-          "note": "17:00 close"
+          "note": "池袋店 17:00 close"
         },
         {
           "date": "2026-08-12",
           "type": "休業",
-          "note": "ルートセット"
+          "note": "池袋店 ルートセット"
         },
         {
           "date": "2026-08-13",
           "type": "時間変更",
-          "note": "18:30 open"
+          "note": "池袋店 18:30 open"
         }
       ]
     },
