@@ -930,6 +930,34 @@
     "https://pump-climbing.com/gym/pump2/%e5%8e%9f%e8%b3%a2%e4%b8%ad%e5%9b%bd%e5%87%ba%e5%bc%b5%e8%a8%98/": {
       "published": "2026-08-20",
       "events": []
+    },
+    "https://www.d-b-c.jp/tachikawa-news/%e3%82%a8%e3%82%a2%e3%82%b3%e3%83%b3%e6%b8%85%e6%8e%83%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b/": {
+      "published": "2026-08-21",
+      "events": []
+    },
+    "https://www.d-b-c.jp/yokohama-news/9%e6%9c%88%e3%81%8b%e3%82%89600%ef%bd%9e26%e6%99%82%e3%81%be%e3%81%a7%e3%81%94%e5%88%a9%e7%94%a8%e9%a0%82%e3%81%91%e3%81%be%e3%81%99%ef%bc%81": {
+      "published": "2026-08-21",
+      "events": [
+        {
+          "date": "2026-09-01",
+          "type": "時間変更",
+          "note": "9月1日より無人営業時間開始。平日6:00～10:00/23:00～26:00、土日祝6:00～10:00/21:00～26:00で利用可能に"
+        }
+      ]
+    },
+    "https://www.d-b-c.jp/yokohama-news/facility": {
+      "published": "2026-08-21",
+      "events": []
+    },
+    "https://pump-climbing.com/gym/akiba/3f-space-boulder-right-wall-%e3%82%bb%e3%83%83%e3%83%88%e5%ae%8c%e4%ba%86%ef%bc%81/blog-news/": {
+      "published": "2026-08-21",
+      "events": [
+        {
+          "date": "2026-08-21",
+          "type": "セット完了",
+          "note": "3F SPACE BOULDER -RIGHT WALL- セット完了。8Qから2Qまで24本。横浜店のセッターによるセット。"
+        }
+      ]
     }
   },
   "pages": {
