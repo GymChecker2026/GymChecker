@@ -12,6 +12,9 @@ from bs4 import BeautifulSoup
 
 HEADERS = {"User-Agent": "gym-checker/0.1"}
 INTERVAL_SEC = 2
+REQUEST_TIMEOUT_SEC = 60
+RETRY_COUNT = 3
+RETRY_WAIT_SEC = 5
 RECENT_DAYS = 45
 MODEL = "claude-haiku-4-5-20251001"
 JST = ZoneInfo("Asia/Tokyo")
@@ -71,13 +74,23 @@ _last_request_time = None
 
 def http_get(url, **kwargs):
     global _last_request_time
-    if _last_request_time is not None:
-        wait = INTERVAL_SEC - (time.time() - _last_request_time)
-        if wait > 0:
-            time.sleep(wait)
-    r = requests.get(url, headers=HEADERS, timeout=20, **kwargs)
-    _last_request_time = time.time()
-    return r
+    last_exc = None
+    for attempt in range(1, RETRY_COUNT + 1):
+        if _last_request_time is not None:
+            wait = INTERVAL_SEC - (time.time() - _last_request_time)
+            if wait > 0:
+                time.sleep(wait)
+        try:
+            r = requests.get(url, headers=HEADERS, timeout=REQUEST_TIMEOUT_SEC, **kwargs)
+            _last_request_time = time.time()
+            return r
+        except requests.exceptions.RequestException as e:
+            _last_request_time = time.time()
+            last_exc = e
+            if attempt < RETRY_COUNT:
+                print(f"  [retry {attempt}/{RETRY_COUNT - 1}] {url}: {e}")
+                time.sleep(RETRY_WAIT_SEC)
+    raise last_exc
 
 
 def dbc_article_body(html):
@@ -281,7 +294,12 @@ def main():
             articles = collector(gym, cutoff)
         except Exception as e:
             print(f"[{label}] 取得失敗: {e}")
-            status_records.append({"gym_id": gym["id"], "status": "failure", "fetched_at": fetched_at})
+            status_records.append({
+                "gym_id": gym["id"],
+                "status": "failure",
+                "fetched_at": fetched_at,
+                "error": str(e),
+            })
             continue
 
         status_records.append({"gym_id": gym["id"], "status": "success", "fetched_at": fetched_at})
