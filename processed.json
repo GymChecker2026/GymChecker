@@ -989,9 +989,9 @@
       ]
     },
     "noborock-shibuya": {
-      "text_hash": "cd19d99f5f5f9658031b692cb0d94273e1c342f4f3ba3e4fef1184ac49e9a429",
-      "last_changed_at": "2026-08-21T04:45:26+09:00",
-      "published": "2026-08-21",
+      "text_hash": "8dd5a75db9aaeeb7efd0c909489185d8745becc991e5e567504c9656e32e1748",
+      "last_changed_at": "2026-08-22T14:04:54+09:00",
+      "published": "2026-08-22",
       "events": [
         {
           "date": "2026-07-28",
@@ -1001,44 +1001,44 @@
         {
           "date": "2026-08-23",
           "type": "時間変更",
-          "note": "渋谷店 17:00 close"
+          "note": "17:00 close"
         },
         {
           "date": "2026-08-24",
           "type": "休業",
-          "note": "渋谷店 ルートセット"
+          "note": "ルートセット"
         },
         {
           "date": "2026-08-25",
           "type": "時間変更",
-          "note": "渋谷店 18:30 open"
+          "note": "18:30 open"
         },
         {
           "date": "2026-08-28",
           "type": "エリア制限",
-          "note": "1Fメインエリア 16:00~19:30"
+          "note": "16:00~19:30 1Fメインエリア"
         }
       ]
     },
     "noborock-takadanobaba": {
-      "text_hash": "9ca4cf020417860ce8e83c528b05ef9b318ae608c1a1d5aa490fd3f555bc2c2f",
-      "last_changed_at": "2026-08-19T12:19:52+09:00",
-      "published": "2026-08-19",
+      "text_hash": "987ec8fde3d757e5db159524ba397ccd6a7b3ed3d8c9f5d614e363e6678b01a9",
+      "last_changed_at": "2026-08-22T14:04:54+09:00",
+      "published": "2026-08-22",
       "events": [
         {
           "date": "2026-08-04",
           "type": "セット完了",
-          "note": "ルートセット完了！"
+          "note": "ルートセット完了"
         },
         {
           "date": "2026-08-24",
           "type": "時間変更",
-          "note": "貸切利用の為 18:00 close"
+          "note": "貸切利用の為18:00 close"
         },
         {
           "date": "2026-08-30",
-          "type": "時間変更",
-          "note": "17:00 close"
+          "type": "エリア制限",
+          "note": "ホールド替え準備の為17:00 close"
         },
         {
           "date": "2026-08-31",
@@ -1048,7 +1048,7 @@
         {
           "date": "2026-09-01",
           "type": "時間変更",
-          "note": "18:30 open!"
+          "note": "18:30 open"
         }
       ]
     },
@@ -1080,29 +1080,29 @@
       ]
     },
     "noborock-ikebukuro": {
-      "text_hash": "f7eae9d1bc80aa2f88ea12b6caf525eac3dd229ce8b50e7776582857f4dc271d",
-      "last_changed_at": "2026-08-21T04:45:26+09:00",
-      "published": "2026-08-21",
+      "text_hash": "0e0f077729375b31be99f065bebeacc3d0c3cdc1c48b6b4d631f875f28f941bc",
+      "last_changed_at": "2026-08-22T14:04:54+09:00",
+      "published": "2026-08-22",
       "events": [
         {
           "date": "2026-07-14",
           "type": "セット完了",
-          "note": "池袋店 ルートセット完了"
+          "note": "ルートセット完了"
         },
         {
           "date": "2026-08-11",
           "type": "時間変更",
-          "note": "池袋店 17:00 close"
+          "note": "17:00 close"
         },
         {
           "date": "2026-08-12",
           "type": "休業",
-          "note": "池袋店 ルートセット"
+          "note": "ルートセット"
         },
         {
           "date": "2026-08-13",
           "type": "時間変更",
-          "note": "池袋店 18:30 open"
+          "note": "18:30 open"
         }
       ]
     },
