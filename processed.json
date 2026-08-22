@@ -1080,9 +1080,9 @@
       ]
     },
     "noborock-ikebukuro": {
-      "text_hash": "0e0f077729375b31be99f065bebeacc3d0c3cdc1c48b6b4d631f875f28f941bc",
-      "last_changed_at": "2026-08-22T14:04:54+09:00",
-      "published": "2026-08-22",
+      "text_hash": "3ed5eed9a3e5d9582c72d420927e79c8f444bbf027c94a82f389fc09f92e3fe3",
+      "last_changed_at": "2026-08-23T04:03:07+09:00",
+      "published": "2026-08-23",
       "events": [
         {
           "date": "2026-07-14",
@@ -1092,17 +1092,17 @@
         {
           "date": "2026-08-11",
           "type": "時間変更",
-          "note": "17:00 close"
+          "note": "池袋店 17:00 close"
         },
         {
           "date": "2026-08-12",
           "type": "休業",
-          "note": "ルートセット"
+          "note": "池袋店 ルートセット"
         },
         {
           "date": "2026-08-13",
           "type": "時間変更",
-          "note": "18:30 open"
+          "note": "池袋店 18:30 open"
         }
       ]
     },

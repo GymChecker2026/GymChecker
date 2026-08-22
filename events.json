@@ -149,31 +149,31 @@
     "type": "セット完了",
     "note": "ルートセット完了",
     "source_url": "https://noborock-climbing.com/program/ikebukuro/",
-    "published": "2026-08-22"
+    "published": "2026-08-23"
   },
   {
     "gym_id": "noborock-ikebukuro",
     "date": "2026-08-11",
     "type": "時間変更",
-    "note": "17:00 close",
+    "note": "池袋店 17:00 close",
     "source_url": "https://noborock-climbing.com/program/ikebukuro/",
-    "published": "2026-08-22"
+    "published": "2026-08-23"
   },
   {
     "gym_id": "noborock-ikebukuro",
     "date": "2026-08-12",
     "type": "休業",
-    "note": "ルートセット",
+    "note": "池袋店 ルートセット",
     "source_url": "https://noborock-climbing.com/program/ikebukuro/",
-    "published": "2026-08-22"
+    "published": "2026-08-23"
   },
   {
     "gym_id": "noborock-ikebukuro",
     "date": "2026-08-13",
     "type": "時間変更",
-    "note": "18:30 open",
+    "note": "池袋店 18:30 open",
     "source_url": "https://noborock-climbing.com/program/ikebukuro/",
-    "published": "2026-08-22"
+    "published": "2026-08-23"
   },
   {
     "gym_id": "noborock-machida",
@@ -902,30 +902,6 @@
     "note": "2F CENTER NEW SET OPEN 18:00-",
     "source_url": "https://pump-climbing.com/gym/bpump2/2f-center%e3%82%bb%e3%83%83%e3%83%88%ef%bc%81/",
     "published": "2026-07-19"
-  },
-  {
-    "gym_id": "bpump-yokohama",
-    "date": "2026-07-13",
-    "type": "エリア制限",
-    "note": "1F RIGHT ホールド外し 20:00-",
-    "source_url": "https://pump-climbing.com/gym/bpump2/1f-right-%e3%82%bb%e3%83%83%e3%83%88%ef%bc%81/",
-    "published": "2026-07-08"
-  },
-  {
-    "gym_id": "bpump-yokohama",
-    "date": "2026-07-14",
-    "type": "イベント",
-    "note": "1F RIGHT 1Day OPEN 18:00-",
-    "source_url": "https://pump-climbing.com/gym/bpump2/1f-right-%e3%82%bb%e3%83%83%e3%83%88%ef%bc%81/",
-    "published": "2026-07-08"
-  },
-  {
-    "gym_id": "bpump-yokohama",
-    "date": "2026-07-15",
-    "type": "セット完了",
-    "note": "1F RIGHT NEW SET OPEN",
-    "source_url": "https://pump-climbing.com/gym/bpump2/1f-right-%e3%82%bb%e3%83%83%e3%83%88%ef%bc%81/",
-    "published": "2026-07-08"
   },
   {
     "gym_id": "bpump-kawaguchi",
