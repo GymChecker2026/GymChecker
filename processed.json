@@ -989,9 +989,9 @@
       ]
     },
     "noborock-shibuya": {
-      "text_hash": "8dd5a75db9aaeeb7efd0c909489185d8745becc991e5e567504c9656e32e1748",
-      "last_changed_at": "2026-08-22T14:04:54+09:00",
-      "published": "2026-08-22",
+      "text_hash": "a9cefdf21a8e653634467335b775d2384276505383e97853995e82614a69acf1",
+      "last_changed_at": "2026-08-24T04:02:03+09:00",
+      "published": "2026-08-24",
       "events": [
         {
           "date": "2026-07-28",
@@ -1021,9 +1021,9 @@
       ]
     },
     "noborock-takadanobaba": {
-      "text_hash": "987ec8fde3d757e5db159524ba397ccd6a7b3ed3d8c9f5d614e363e6678b01a9",
-      "last_changed_at": "2026-08-22T14:04:54+09:00",
-      "published": "2026-08-22",
+      "text_hash": "f9974b8f9d172943cf686f96b206cd6fd559ed74fdfd5c81fd2e17d887a49d3a",
+      "last_changed_at": "2026-08-24T04:02:03+09:00",
+      "published": "2026-08-24",
       "events": [
         {
           "date": "2026-08-04",
@@ -1037,8 +1037,8 @@
         },
         {
           "date": "2026-08-30",
-          "type": "エリア制限",
-          "note": "ホールド替え準備の為17:00 close"
+          "type": "時間変更",
+          "note": "17:00 close"
         },
         {
           "date": "2026-08-31",
@@ -1080,9 +1080,9 @@
       ]
     },
     "noborock-ikebukuro": {
-      "text_hash": "3ed5eed9a3e5d9582c72d420927e79c8f444bbf027c94a82f389fc09f92e3fe3",
-      "last_changed_at": "2026-08-23T04:03:07+09:00",
-      "published": "2026-08-23",
+      "text_hash": "88bd24e8e441884cd4ed3494bee5a73ee633cc267de4463e8251c2da5e95ed2b",
+      "last_changed_at": "2026-08-24T04:02:03+09:00",
+      "published": "2026-08-24",
       "events": [
         {
           "date": "2026-07-14",
