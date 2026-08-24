@@ -37,7 +37,7 @@
     "type": "セット完了",
     "note": "ルートセット完了",
     "source_url": "https://noborock-climbing.com/program/shibuya/",
-    "published": "2026-08-24"
+    "published": "2026-08-25"
   },
   {
     "gym_id": "noborock-shibuya",
@@ -45,7 +45,7 @@
     "type": "時間変更",
     "note": "17:00 close",
     "source_url": "https://noborock-climbing.com/program/shibuya/",
-    "published": "2026-08-24"
+    "published": "2026-08-25"
   },
   {
     "gym_id": "noborock-shibuya",
@@ -53,7 +53,7 @@
     "type": "休業",
     "note": "ルートセット",
     "source_url": "https://noborock-climbing.com/program/shibuya/",
-    "published": "2026-08-24"
+    "published": "2026-08-25"
   },
   {
     "gym_id": "noborock-shibuya",
@@ -61,7 +61,7 @@
     "type": "時間変更",
     "note": "18:30 open",
     "source_url": "https://noborock-climbing.com/program/shibuya/",
-    "published": "2026-08-24"
+    "published": "2026-08-25"
   },
   {
     "gym_id": "noborock-shibuya",
@@ -69,7 +69,7 @@
     "type": "エリア制限",
     "note": "16:00~19:30 1Fメインエリア",
     "source_url": "https://noborock-climbing.com/program/shibuya/",
-    "published": "2026-08-24"
+    "published": "2026-08-25"
   },
   {
     "gym_id": "noborock-takadanobaba",
@@ -281,6 +281,14 @@
   },
   {
     "gym_id": "dbc-tamachi",
+    "date": "2026-08-30",
+    "type": "時間変更",
+    "note": "キッズスクール発表会に伴い営業時間変更。～12時：キッズスクール発表会、12時～21時：一般営業",
+    "source_url": "https://www.d-b-c.jp/tamachi-news/8%e6%9c%8830%e6%97%a5%e6%97%a5%ef%bc%9a%e3%82%b9%e3%82%af%e3%83%bc%e3%83%ab%e7%99%ba%e8%a1%a8%e4%bc%9a%e3%81%ab%e4%bc%b4%e3%81%86%e5%96%b6%e6%a5%ad%e6%99%82%e9%96%93%e5%a4%89%e6%9b%b4%e3%81%ae/",
+    "published": "2026-08-24"
+  },
+  {
+    "gym_id": "dbc-tamachi",
     "date": "2026-08-17",
     "type": "休業",
     "note": "ホールド替えに伴うセット作業のため",
@@ -374,14 +382,6 @@
     "note": "13時からオープン",
     "source_url": "https://www.d-b-c.jp/tsunashima/2026/07/9696/",
     "published": "2026-07-27"
-  },
-  {
-    "gym_id": "dbc-tsunashima",
-    "date": "2026-07-30",
-    "type": "エリア制限",
-    "note": "16:30～18:00まで貸切営業",
-    "source_url": "https://www.d-b-c.jp/tsunashima/2026/07/9663/",
-    "published": "2026-07-10"
   },
   {
     "gym_id": "dbc-honatsugi",
@@ -766,14 +766,6 @@
     "note": "1F ALL Route Setting Day",
     "source_url": "https://pump-climbing.com/gym/akiba/%e6%ac%a1%e9%80%b1%e3%82%bb%e3%83%83%e3%83%88%e6%83%85%e5%a0%b1-%e2%96%b7%e3%80%981f-main-wall-%e3%80%99/set-information/",
     "published": "2026-07-11"
-  },
-  {
-    "gym_id": "bpump-akihabara",
-    "date": "2026-07-10",
-    "type": "セット完了",
-    "note": "2F A壁SET完了。7Q～2Dの18本。傾斜強めのパワー&ダイナミックなムーブ多めで構成。",
-    "source_url": "https://pump-climbing.com/gym/akiba/2f-a%e5%a3%81-%e3%82%bb%e3%83%83%e3%83%88%e5%ae%8c%e4%ba%86%e3%81%a7%e3%81%99/set-information/",
-    "published": "2026-07-10"
   },
   {
     "gym_id": "bpump-ogikubo",
