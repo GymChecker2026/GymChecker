@@ -23,7 +23,7 @@
     "official_url": "https://noborock-climbing.com/program/新宿店/",
     "instagram_url": "https://www.instagram.com/noborock_shinjuku/",
     "fetch_status": "success",
-    "fetched_at": "2026-08-25T04:19:51+09:00",
+    "fetched_at": "2026-08-26T02:42:38+09:00",
     "last_changed_at": "2026-08-17T14:31:40",
     "events": [
       {
@@ -84,15 +84,15 @@
     "official_url": "https://noborock-climbing.com/program/shibuya/",
     "instagram_url": "https://www.instagram.com/noborock_shibuya/",
     "fetch_status": "success",
-    "fetched_at": "2026-08-25T04:19:53+09:00",
-    "last_changed_at": "2026-08-25T04:19:51+09:00",
+    "fetched_at": "2026-08-26T02:42:38+09:00",
+    "last_changed_at": "2026-08-26T02:42:37+09:00",
     "events": [
       {
         "date": "2026-07-28",
         "type": "セット完了",
         "note": "ルートセット完了",
         "source_url": "https://noborock-climbing.com/program/shibuya/",
-        "published": "2026-08-25",
+        "published": "2026-08-26",
         "source": "auto"
       },
       {
@@ -100,7 +100,7 @@
         "type": "時間変更",
         "note": "17:00 close",
         "source_url": "https://noborock-climbing.com/program/shibuya/",
-        "published": "2026-08-25",
+        "published": "2026-08-26",
         "source": "auto"
       },
       {
@@ -108,7 +108,7 @@
         "type": "休業",
         "note": "ルートセット",
         "source_url": "https://noborock-climbing.com/program/shibuya/",
-        "published": "2026-08-25",
+        "published": "2026-08-26",
         "source": "auto"
       },
       {
@@ -116,7 +116,7 @@
         "type": "時間変更",
         "note": "18:30 open",
         "source_url": "https://noborock-climbing.com/program/shibuya/",
-        "published": "2026-08-25",
+        "published": "2026-08-26",
         "source": "auto"
       },
       {
@@ -124,7 +124,7 @@
         "type": "エリア制限",
         "note": "16:00~19:30 1Fメインエリア",
         "source_url": "https://noborock-climbing.com/program/shibuya/",
-        "published": "2026-08-25",
+        "published": "2026-08-26",
         "source": "auto"
       }
     ]
@@ -153,23 +153,23 @@
     "official_url": "https://noborock-climbing.com/program/takadanobaba/",
     "instagram_url": "https://www.instagram.com/noborock_takadanobaba/",
     "fetch_status": "success",
-    "fetched_at": "2026-08-25T04:19:59+09:00",
-    "last_changed_at": "2026-08-24T04:02:03+09:00",
+    "fetched_at": "2026-08-26T02:42:43+09:00",
+    "last_changed_at": "2026-08-26T02:42:37+09:00",
     "events": [
       {
         "date": "2026-08-04",
         "type": "セット完了",
         "note": "ルートセット完了",
         "source_url": "https://noborock-climbing.com/program/takadanobaba/",
-        "published": "2026-08-24",
+        "published": "2026-08-26",
         "source": "auto"
       },
       {
         "date": "2026-08-24",
         "type": "時間変更",
-        "note": "貸切利用の為18:00 close",
+        "note": "貸切利用の為 18:00 close",
         "source_url": "https://noborock-climbing.com/program/takadanobaba/",
-        "published": "2026-08-24",
+        "published": "2026-08-26",
         "source": "auto"
       },
       {
@@ -177,7 +177,7 @@
         "type": "時間変更",
         "note": "17:00 close",
         "source_url": "https://noborock-climbing.com/program/takadanobaba/",
-        "published": "2026-08-24",
+        "published": "2026-08-26",
         "source": "auto"
       },
       {
@@ -185,7 +185,7 @@
         "type": "休業",
         "note": "ルートセット",
         "source_url": "https://noborock-climbing.com/program/takadanobaba/",
-        "published": "2026-08-24",
+        "published": "2026-08-26",
         "source": "auto"
       },
       {
@@ -193,7 +193,7 @@
         "type": "時間変更",
         "note": "18:30 open",
         "source_url": "https://noborock-climbing.com/program/takadanobaba/",
-        "published": "2026-08-24",
+        "published": "2026-08-26",
         "source": "auto"
       }
     ]
@@ -222,7 +222,7 @@
     "official_url": "https://noborock-climbing.com/program/浅草店/",
     "instagram_url": "https://www.instagram.com/noborock_asakusa/",
     "fetch_status": "success",
-    "fetched_at": "2026-08-25T04:19:59+09:00",
+    "fetched_at": "2026-08-26T02:42:46+09:00",
     "last_changed_at": "2026-08-17T14:31:40",
     "events": [
       {
@@ -283,39 +283,39 @@
     "official_url": "https://noborock-climbing.com/program/ikebukuro/",
     "instagram_url": "https://www.instagram.com/noborock_ikebukuro/",
     "fetch_status": "success",
-    "fetched_at": "2026-08-25T04:20:02+09:00",
-    "last_changed_at": "2026-08-24T04:02:03+09:00",
+    "fetched_at": "2026-08-26T02:42:46+09:00",
+    "last_changed_at": "2026-08-26T02:42:37+09:00",
     "events": [
       {
         "date": "2026-07-14",
         "type": "セット完了",
         "note": "ルートセット完了",
         "source_url": "https://noborock-climbing.com/program/ikebukuro/",
-        "published": "2026-08-24",
+        "published": "2026-08-26",
         "source": "auto"
       },
       {
         "date": "2026-08-11",
         "type": "時間変更",
-        "note": "池袋店 17:00 close",
+        "note": "17:00 close",
         "source_url": "https://noborock-climbing.com/program/ikebukuro/",
-        "published": "2026-08-24",
+        "published": "2026-08-26",
         "source": "auto"
       },
       {
         "date": "2026-08-12",
         "type": "休業",
-        "note": "池袋店 ルートセット",
+        "note": "ルートセット",
         "source_url": "https://noborock-climbing.com/program/ikebukuro/",
-        "published": "2026-08-24",
+        "published": "2026-08-26",
         "source": "auto"
       },
       {
         "date": "2026-08-13",
         "type": "時間変更",
-        "note": "池袋店 18:30 open",
+        "note": "18:30 open",
         "source_url": "https://noborock-climbing.com/program/ikebukuro/",
-        "published": "2026-08-24",
+        "published": "2026-08-26",
         "source": "auto"
       }
     ]
@@ -344,7 +344,7 @@
     "official_url": "https://noborock-climbing.com/program/machida/",
     "instagram_url": "https://www.instagram.com/noborock_machida/",
     "fetch_status": "success",
-    "fetched_at": "2026-08-25T04:20:05+09:00",
+    "fetched_at": "2026-08-26T02:42:51+09:00",
     "last_changed_at": "2026-08-17T14:31:40",
     "events": [
       {
@@ -413,7 +413,7 @@
     "official_url": "https://noborock-climbing.com/program/mizonokuchi/",
     "instagram_url": "https://www.instagram.com/noborock_mizonokuchi/",
     "fetch_status": "success",
-    "fetched_at": "2026-08-25T04:20:08+09:00",
+    "fetched_at": "2026-08-26T02:42:52+09:00",
     "last_changed_at": "2026-08-17T14:31:40",
     "events": [
       {
@@ -482,7 +482,7 @@
     "official_url": "https://noborock-climbing.com/program/omiya/",
     "instagram_url": "https://www.instagram.com/noborock_omiya/",
     "fetch_status": "success",
-    "fetched_at": "2026-08-25T04:20:11+09:00",
+    "fetched_at": "2026-08-26T02:42:54+09:00",
     "last_changed_at": "2026-08-17T14:31:40",
     "events": [
       {
@@ -543,7 +543,7 @@
     "official_url": "https://www.d-b-c.jp/top/tachikawa/",
     "instagram_url": "https://www.instagram.com/dbouldering_tachikawa/",
     "fetch_status": "success",
-    "fetched_at": "2026-08-25T04:20:14+09:00",
+    "fetched_at": "2026-08-26T02:42:57+09:00",
     "last_changed_at": null,
     "events": [
       {
@@ -644,7 +644,7 @@
     "official_url": "https://www.d-b-c.jp/top/tamachi/",
     "instagram_url": "https://www.instagram.com/dbouldering_tamachi/",
     "fetch_status": "success",
-    "fetched_at": "2026-08-25T04:20:22+09:00",
+    "fetched_at": "2026-08-26T02:43:05+09:00",
     "last_changed_at": null,
     "events": [
       {
@@ -753,7 +753,7 @@
     "official_url": "https://www.d-b-c.jp/top/tsunashima/",
     "instagram_url": "https://www.instagram.com/dbouldering_tsunashima/",
     "fetch_status": "success",
-    "fetched_at": "2026-08-25T04:20:43+09:00",
+    "fetched_at": "2026-08-26T02:43:24+09:00",
     "last_changed_at": null,
     "events": [
       {
@@ -806,7 +806,7 @@
     "official_url": "https://www.d-b-c.jp/top/honatsugi/",
     "instagram_url": "https://www.instagram.com/dbouldering_honatsugi/",
     "fetch_status": "success",
-    "fetched_at": "2026-08-25T04:21:05+09:00",
+    "fetched_at": "2026-08-26T02:43:45+09:00",
     "last_changed_at": null,
     "events": [
       {
@@ -907,7 +907,7 @@
     "official_url": "https://www.d-b-c.jp/top/yokohama/",
     "instagram_url": "https://www.instagram.com/dbouldering_yokohama/",
     "fetch_status": "success",
-    "fetched_at": "2026-08-25T04:21:49+09:00",
+    "fetched_at": "2026-08-26T02:44:29+09:00",
     "last_changed_at": null,
     "events": [
       {
@@ -980,7 +980,7 @@
     "official_url": "https://www.d-b-c.jp/top/kawasaki/",
     "instagram_url": "https://www.instagram.com/dbouldering_kawasaki/",
     "fetch_status": "success",
-    "fetched_at": "2026-08-25T04:22:04+09:00",
+    "fetched_at": "2026-08-26T02:44:43+09:00",
     "last_changed_at": null,
     "events": [
       {
@@ -1037,7 +1037,7 @@
     "official_url": "https://pump-climbing.com/gym/akiba/",
     "instagram_url": "https://www.instagram.com/bpumptokyo/",
     "fetch_status": "success",
-    "fetched_at": "2026-08-25T04:22:09+09:00",
+    "fetched_at": "2026-08-26T02:44:49+09:00",
     "last_changed_at": null,
     "events": [
       {
@@ -1049,27 +1049,11 @@
         "source": "auto"
       },
       {
-        "date": "2026-07-16",
-        "type": "エリア制限",
-        "note": "1F ALL ホールド外し 21:00-",
-        "source_url": "https://pump-climbing.com/gym/akiba/%e6%ac%a1%e9%80%b1%e3%82%bb%e3%83%83%e3%83%88%e6%83%85%e5%a0%b1-%e2%96%b7%e3%80%981f-main-wall-%e3%80%99/set-information/",
-        "published": "2026-07-11",
-        "source": "auto"
-      },
-      {
         "date": "2026-07-17",
         "type": "セット完了",
         "note": "1F MAIN & BEGINNER WALL セット完了。8Q～3Qの26本。ビギナーウォール、メインウォールチェンジ。",
         "source_url": "https://pump-climbing.com/gym/akiba/1f-main-beginner-wall-%e3%82%bb%e3%83%83%e3%83%88%e5%ae%8c%e4%ba%86%e3%81%a7%e3%81%99/blog-news/",
         "published": "2026-07-17",
-        "source": "auto"
-      },
-      {
-        "date": "2026-07-17",
-        "type": "エリア制限",
-        "note": "1F ALL Route Setting Day",
-        "source_url": "https://pump-climbing.com/gym/akiba/%e6%ac%a1%e9%80%b1%e3%82%bb%e3%83%83%e3%83%88%e6%83%85%e5%a0%b1-%e2%96%b7%e3%80%981f-main-wall-%e3%80%99/set-information/",
-        "published": "2026-07-11",
         "source": "auto"
       },
       {
@@ -1370,7 +1354,7 @@
     "official_url": "https://pump-climbing.com/gym/bpump/",
     "instagram_url": "https://www.instagram.com/bpump_ogikubo/",
     "fetch_status": "success",
-    "fetched_at": "2026-08-25T04:22:15+09:00",
+    "fetched_at": "2026-08-26T02:44:53+09:00",
     "last_changed_at": null,
     "events": [
       {
@@ -1491,7 +1475,7 @@
     "official_url": "https://pump-climbing.com/gym/bpump2/",
     "instagram_url": "https://www.instagram.com/bpumpyokohama/",
     "fetch_status": "success",
-    "fetched_at": "2026-08-25T04:22:21+09:00",
+    "fetched_at": "2026-08-26T02:44:57+09:00",
     "last_changed_at": null,
     "events": [
       {
@@ -1556,7 +1540,7 @@
     "official_url": "https://pump-climbing.com/gym/pump1/",
     "instagram_url": "https://www.instagram.com/pump1_kawaguchi/",
     "fetch_status": "success",
-    "fetched_at": "2026-08-25T04:22:26+09:00",
+    "fetched_at": "2026-08-26T02:45:01+09:00",
     "last_changed_at": null,
     "events": [
       {
@@ -1664,6 +1648,14 @@
         "source": "auto"
       },
       {
+        "date": "2026-08-25",
+        "type": "セット完了",
+        "note": "2階ボルダーエリアC-D壁を全面リニューアル。25本のボルダー課題をセット完了",
+        "source_url": "https://pump-climbing.com/gym/pump1/%e3%83%9c%e3%83%ab%e3%83%80%e3%83%bcc-d%e5%a3%81%e5%a4%89%e3%82%8f%e3%82%8a%e3%81%be%e3%81%97%e3%81%9f%ef%bc%81/",
+        "published": "2026-08-25",
+        "source": "auto"
+      },
+      {
         "date": "2026-08-31",
         "type": "セット完了",
         "note": "2F BOULDER SET",
@@ -1705,7 +1697,7 @@
     "official_url": "https://pump-climbing.com/gym/pump2/",
     "instagram_url": "https://www.instagram.com/pump2climbing/",
     "fetch_status": "success",
-    "fetched_at": "2026-08-25T04:22:39+09:00",
+    "fetched_at": "2026-08-26T02:45:14+09:00",
     "last_changed_at": null,
     "events": [
       {
@@ -1739,6 +1731,373 @@
         "source_url": "https://pump-climbing.com/gym/pump2/8%e6%9c%8811%e6%97%a5%e7%a5%9d%e6%97%a5%e5%96%b6%e6%a5%ad%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b-2/",
         "published": "2026-08-06",
         "source": "auto"
+      },
+      {
+        "date": "2026-08-25",
+        "type": "イベント",
+        "note": "府中花火大会観賞イベント（PUMP2バルコニーから観賞、16時頃開始、飲み物・食べ物提供あり）",
+        "source_url": "https://pump-climbing.com/gym/pump2/%e8%8a%b1%e7%81%ab%e3%81%8c%e4%b8%8a%e3%81%8c%e3%82%8b%e3%81%ae%e3%81%a7%e8%82%89%e3%82%84%e9%87%8e%e8%8f%9c%e3%82%92%e7%84%bc%e3%81%8d%e3%80%81%e9%a3%9f%e3%81%b9%e3%82%8b2026/",
+        "published": "2026-08-25",
+        "source": "auto"
+      }
+    ]
+  },
+  {
+    "gym_id": "rocky-shinagawa",
+    "name": "品川",
+    "display_name": "ロッキー品川店",
+    "sort_key": "ろっきーしながわ",
+    "chain": "rocky",
+    "hours": [
+      {
+        "label": "平日",
+        "value": "10:00〜23:00"
+      },
+      {
+        "label": "土日祝",
+        "value": "10:00〜21:00"
+      }
+    ],
+    "hours_note": null,
+    "station": "品川駅、天王洲アイル駅",
+    "line": "山手線、りんかい線など",
+    "enabled": true,
+    "data_note": null,
+    "official_url": "https://www.rockyclimbing.com/shinagawa/",
+    "instagram_url": null,
+    "fetch_status": "success",
+    "fetched_at": "2026-08-26T02:49:38+09:00",
+    "last_changed_at": null,
+    "events": [
+      {
+        "date": "2026-07-10",
+        "type": "イベント",
+        "note": "SHINA ROCKY'S Open to anyone regardless of level:) Fun 18:30~20:30",
+        "source_url": null,
+        "published": "2026-08-26",
+        "source": "manual"
+      },
+      {
+        "date": "2026-07-12",
+        "type": "イベント",
+        "note": "メンバーシップナイト ★メンバーシップ限定★ 18:00~",
+        "source_url": null,
+        "published": "2026-08-26",
+        "source": "manual"
+      },
+      {
+        "date": "2026-07-15",
+        "type": "エリア制限",
+        "note": "ホールド外し ・全面 / 10:00~17:00 (全面ホールド外しの為時短営業)",
+        "source_url": null,
+        "published": "2026-08-26",
+        "source": "manual"
+      },
+      {
+        "date": "2026-07-16",
+        "type": "休業",
+        "note": "MOVING3セット DAY1 / 終日休業",
+        "source_url": null,
+        "published": "2026-08-26",
+        "source": "manual"
+      },
+      {
+        "date": "2026-07-17",
+        "type": "休業",
+        "note": "MOVING3セット DAY2 / 終日休業",
+        "source_url": null,
+        "published": "2026-08-26",
+        "source": "manual"
+      },
+      {
+        "date": "2026-07-18",
+        "type": "休業",
+        "note": "MOVING3 本戦 ※コンペ参加者のみ 利用可能 / 終日休業",
+        "source_url": null,
+        "published": "2026-08-26",
+        "source": "manual"
+      },
+      {
+        "date": "2026-07-21",
+        "type": "休業",
+        "note": "追加セット 休業 / 終日休業",
+        "source_url": null,
+        "published": "2026-08-26",
+        "source": "manual"
+      },
+      {
+        "date": "2026-07-31",
+        "type": "イベント",
+        "note": "メンバーシップナイト ★メンバーシップ限定★ 20:00~",
+        "source_url": null,
+        "published": "2026-08-26",
+        "source": "manual"
+      },
+      {
+        "date": "2026-08-07",
+        "type": "イベント",
+        "note": "SHINA ROCKY'S 18:30~20:30",
+        "source_url": null,
+        "published": "2026-08-26",
+        "source": "manual"
+      },
+      {
+        "date": "2026-08-13",
+        "type": "イベント",
+        "note": "メンバーシップナイト ★メンバーシップ限定★ 20:00~",
+        "source_url": null,
+        "published": "2026-08-26",
+        "source": "manual"
+      },
+      {
+        "date": "2026-08-19",
+        "type": "エリア制限",
+        "note": "ホールド外し ・全面 / 10:00~17:00 (全面ホールド外しの為時短営業)",
+        "source_url": null,
+        "published": "2026-08-26",
+        "source": "manual"
+      },
+      {
+        "date": "2026-08-29",
+        "type": "イベント",
+        "note": "メンバーシップナイト ★メンバーシップ限定★ 18:00~",
+        "source_url": null,
+        "published": "2026-08-26",
+        "source": "manual"
+      }
+    ]
+  },
+  {
+    "gym_id": "rocky-akebonobashi",
+    "name": "新宿曙橋",
+    "display_name": "ロッキー新宿曙橋店",
+    "sort_key": "ろっきーしんじゅくあけぼのばし",
+    "chain": "rocky",
+    "hours": [
+      {
+        "label": "平日",
+        "value": "10:00〜23:00"
+      },
+      {
+        "label": "土日祝",
+        "value": "10:00〜21:00"
+      }
+    ],
+    "hours_note": null,
+    "station": "曙橋駅、若松河田駅",
+    "line": "都営新宿線、都営大江戸線など",
+    "enabled": true,
+    "data_note": null,
+    "official_url": "https://www.rockyclimbing.com/shinjukuakebonobashi/",
+    "instagram_url": null,
+    "fetch_status": "success",
+    "fetched_at": "2026-08-26T02:49:38+09:00",
+    "last_changed_at": null,
+    "events": [
+      {
+        "date": "2026-07-10",
+        "type": "イベント",
+        "note": "ENTRY DOJO FOR BEGINNERS! 19:00~20:00",
+        "source_url": null,
+        "published": "2026-08-26",
+        "source": "manual"
+      },
+      {
+        "date": "2026-07-12",
+        "type": "エリア制限",
+        "note": "ホールド外し ・KING ・QUEEN ・JACK ・LAGOON / 10:00~21:00（外しエリアは17時以降登れません）",
+        "source_url": null,
+        "published": "2026-08-26",
+        "source": "manual"
+      },
+      {
+        "date": "2026-07-13",
+        "type": "セット完了",
+        "note": "セット ・KING ・QUEEN ・JACK ・LAGOON / 10:00~23:00（セットエリアは19時から登れます）",
+        "source_url": null,
+        "published": "2026-08-26",
+        "source": "manual"
+      },
+      {
+        "date": "2026-07-22",
+        "type": "イベント",
+        "note": "ENTRY DOJO FOR BEGINNERS! 19:00~20:00",
+        "source_url": null,
+        "published": "2026-08-26",
+        "source": "manual"
+      },
+      {
+        "date": "2026-07-26",
+        "type": "エリア制限",
+        "note": "ホールド外し ・MONSTER / 10:00~21:00（外しエリアは17時以降登れません）",
+        "source_url": null,
+        "published": "2026-08-26",
+        "source": "manual"
+      },
+      {
+        "date": "2026-07-27",
+        "type": "セット完了",
+        "note": "セット ・MONSTER / 10:00~23:00（セットエリアは19時から登れます）",
+        "source_url": null,
+        "published": "2026-08-26",
+        "source": "manual"
+      },
+      {
+        "date": "2026-08-06",
+        "type": "イベント",
+        "note": "ENTRY DOJO FOR BEGINNERS! 19:00~20:00",
+        "source_url": null,
+        "published": "2026-08-26",
+        "source": "manual"
+      },
+      {
+        "date": "2026-08-09",
+        "type": "エリア制限",
+        "note": "ホールド外し ・WELCOME ・BUFFALO ・SHALLOW / 10:00~21:00 (外しエリアは17時以降登れません)",
+        "source_url": null,
+        "published": "2026-08-26",
+        "source": "manual"
+      },
+      {
+        "date": "2026-08-10",
+        "type": "セット完了",
+        "note": "セット ・WELCOME ・BUFFALO ・SHALLOW / 10:00~23:00 (セットエリアは19時から登れます)",
+        "source_url": null,
+        "published": "2026-08-26",
+        "source": "manual"
+      },
+      {
+        "date": "2026-08-20",
+        "type": "イベント",
+        "note": "ENTRY DOJO FOR BEGINNERS! 19:00~20:00",
+        "source_url": null,
+        "published": "2026-08-26",
+        "source": "manual"
+      },
+      {
+        "date": "2026-08-27",
+        "type": "イベント",
+        "note": "?",
+        "source_url": null,
+        "published": "2026-08-26",
+        "source": "manual"
+      },
+      {
+        "date": "2026-08-29",
+        "type": "イベント",
+        "note": "HAPPY DOJO 17:00~18:00",
+        "source_url": null,
+        "published": "2026-08-26",
+        "source": "manual"
+      },
+      {
+        "date": "2026-08-30",
+        "type": "エリア制限",
+        "note": "ホールド外し ・JACK ・QUEEN ・KING ・LAGOON / 10:00~21:00 (外しエリアは17時以降登れません)",
+        "source_url": null,
+        "published": "2026-08-26",
+        "source": "manual"
+      },
+      {
+        "date": "2026-08-31",
+        "type": "セット完了",
+        "note": "セット ・JACK ・QUEEN ・KING ・LAGOON / 10:00~23:00 (セットエリアは19時から登れます)",
+        "source_url": null,
+        "published": "2026-08-26",
+        "source": "manual"
+      }
+    ]
+  },
+  {
+    "gym_id": "rocky-ryogoku",
+    "name": "両国",
+    "display_name": "ロッキー両国店",
+    "sort_key": "ろっきーりょうごく",
+    "chain": "rocky",
+    "hours": [
+      {
+        "label": "平日",
+        "value": "10:00〜23:00"
+      },
+      {
+        "label": "土日祝",
+        "value": "10:00〜21:00"
+      }
+    ],
+    "hours_note": null,
+    "station": "両国駅、蔵前駅",
+    "line": "JR総武線、都営大江戸線など",
+    "enabled": true,
+    "data_note": null,
+    "official_url": "https://www.rockyclimbing.com/ryougoku/",
+    "instagram_url": null,
+    "fetch_status": "success",
+    "fetched_at": "2026-08-26T02:49:38+09:00",
+    "last_changed_at": null,
+    "events": [
+      {
+        "date": "2026-07-25",
+        "type": "時間変更",
+        "note": "短縮営業 12:00-21:00 / 12:00-21:00 (貸切利用のため)",
+        "source_url": null,
+        "published": "2026-08-26",
+        "source": "manual"
+      },
+      {
+        "date": "2026-07-27",
+        "type": "イベント",
+        "note": "みんなで登ろう会 20:00〜",
+        "source_url": null,
+        "published": "2026-08-26",
+        "source": "manual"
+      },
+      {
+        "date": "2026-07-28",
+        "type": "エリア制限",
+        "note": "ホールド外し ・welcome ・Happiness / 10:00~23:00 (セット替えエリアのみ17時まで)",
+        "source_url": null,
+        "published": "2026-08-26",
+        "source": "manual"
+      },
+      {
+        "date": "2026-07-29",
+        "type": "休業",
+        "note": "セット ・welcome ・Happiness / 終日休業",
+        "source_url": null,
+        "published": "2026-08-26",
+        "source": "manual"
+      },
+      {
+        "date": "2026-08-20",
+        "type": "イベント",
+        "note": "みんなで登ろう会 20:00〜",
+        "source_url": null,
+        "published": "2026-08-26",
+        "source": "manual"
+      },
+      {
+        "date": "2026-08-22",
+        "type": "時間変更",
+        "note": "短縮営業 12:00-21:00 / 12:00-21:00(貸切のため)",
+        "source_url": null,
+        "published": "2026-08-26",
+        "source": "manual"
+      },
+      {
+        "date": "2026-08-25",
+        "type": "エリア制限",
+        "note": "ホールド外し ・Eden ・Shine / 10:00~23:00 (セット替えエリアのみ17時まで)",
+        "source_url": null,
+        "published": "2026-08-26",
+        "source": "manual"
+      },
+      {
+        "date": "2026-08-26",
+        "type": "休業",
+        "note": "セット ・Eden ・Shine / 終日休業",
+        "source_url": null,
+        "published": "2026-08-26",
+        "source": "manual"
       }
     ]
   }

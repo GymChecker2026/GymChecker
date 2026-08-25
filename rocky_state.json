@@ -1,0 +1,26 @@
+{
+  "rocky-shinagawa:0": {
+    "url": "https://www.rockyclimbing.com/img/set_167.png",
+    "sha256": "9d679f520b3c967e32183b76cfb1172f8ddc910b8f06ec2f8ace701b43c9ed2d"
+  },
+  "rocky-shinagawa:1": {
+    "url": "https://www.rockyclimbing.com/img/set_174.png",
+    "sha256": "f1b35553b6cc39834fc7fcb13c35132084008b7fda411b7a808811abccfa773e"
+  },
+  "rocky-akebonobashi:0": {
+    "url": "https://www.rockyclimbing.com/img/set_170.png",
+    "sha256": "5cc5e964f5779139790352c388f1f2bd1c5e9fdace53791a71c64079f00882c8"
+  },
+  "rocky-akebonobashi:1": {
+    "url": "https://www.rockyclimbing.com/img/set_177.png",
+    "sha256": "2835ae2a03bbe5e4f6e52d2b5b957b6ea8e008b4c3f9df4c1ab21ebca1ed2641"
+  },
+  "rocky-ryogoku:0": {
+    "url": "https://www.rockyclimbing.com/img/set_168.png",
+    "sha256": "6503f8985242dc53c31177f6621fc76a942987eec2773f8923c028f6c568fb97"
+  },
+  "rocky-ryogoku:1": {
+    "url": "https://www.rockyclimbing.com/img/set_179.png",
+    "sha256": "64b9c8c4bc137f695cb67fbd470f930b597d7d41682e9ea7d0566f4b1cb1f95b"
+  }
+}

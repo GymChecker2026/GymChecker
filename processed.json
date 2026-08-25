@@ -968,6 +968,26 @@
           "note": "キッズスクール発表会に伴い営業時間変更。～12時：キッズスクール発表会、12時～21時：一般営業"
         }
       ]
+    },
+    "https://pump-climbing.com/gym/pump1/%e3%83%9c%e3%83%ab%e3%83%80%e3%83%bcc-d%e5%a3%81%e5%a4%89%e3%82%8f%e3%82%8a%e3%81%be%e3%81%97%e3%81%9f%ef%bc%81/": {
+      "published": "2026-08-25",
+      "events": [
+        {
+          "date": "2026-08-25",
+          "type": "セット完了",
+          "note": "2階ボルダーエリアC-D壁を全面リニューアル。25本のボルダー課題をセット完了"
+        }
+      ]
+    },
+    "https://pump-climbing.com/gym/pump2/%e8%8a%b1%e7%81%ab%e3%81%8c%e4%b8%8a%e3%81%8c%e3%82%8b%e3%81%ae%e3%81%a7%e8%82%89%e3%82%84%e9%87%8e%e8%8f%9c%e3%82%92%e7%84%bc%e3%81%8d%e3%80%81%e9%a3%9f%e3%81%b9%e3%82%8b2026/": {
+      "published": "2026-08-25",
+      "events": [
+        {
+          "date": "2026-08-25",
+          "type": "イベント",
+          "note": "府中花火大会観賞イベント（PUMP2バルコニーから観賞、16時頃開始、飲み物・食べ物提供あり）"
+        }
+      ]
     }
   },
   "pages": {
@@ -999,9 +1019,9 @@
       ]
     },
     "noborock-shibuya": {
-      "text_hash": "3b8d8385b892741007ee118352388a22ff9c588b3911b67cc42b307573d364d2",
-      "last_changed_at": "2026-08-25T04:19:51+09:00",
-      "published": "2026-08-25",
+      "text_hash": "f10b4d75223173d86d48f2190a8fd6c87e03e8bbfaa6b2e18c6a4d23653ebde5",
+      "last_changed_at": "2026-08-26T02:42:37+09:00",
+      "published": "2026-08-26",
       "events": [
         {
           "date": "2026-07-28",
@@ -1031,9 +1051,9 @@
       ]
     },
     "noborock-takadanobaba": {
-      "text_hash": "f9974b8f9d172943cf686f96b206cd6fd559ed74fdfd5c81fd2e17d887a49d3a",
-      "last_changed_at": "2026-08-24T04:02:03+09:00",
-      "published": "2026-08-24",
+      "text_hash": "526ae54ed8194f94626fa38c16f40dfa54fd28af797255bb32e9cf9765151b93",
+      "last_changed_at": "2026-08-26T02:42:37+09:00",
+      "published": "2026-08-26",
       "events": [
         {
           "date": "2026-08-04",
@@ -1043,7 +1063,7 @@
         {
           "date": "2026-08-24",
           "type": "時間変更",
-          "note": "貸切利用の為18:00 close"
+          "note": "貸切利用の為 18:00 close"
         },
         {
           "date": "2026-08-30",
@@ -1090,9 +1110,9 @@
       ]
     },
     "noborock-ikebukuro": {
-      "text_hash": "88bd24e8e441884cd4ed3494bee5a73ee633cc267de4463e8251c2da5e95ed2b",
-      "last_changed_at": "2026-08-24T04:02:03+09:00",
-      "published": "2026-08-24",
+      "text_hash": "3a47b046d87aedfeb68e020300d67ad03f9691ec40b9f02f9675cc020172bb24",
+      "last_changed_at": "2026-08-26T02:42:37+09:00",
+      "published": "2026-08-26",
       "events": [
         {
           "date": "2026-07-14",
@@ -1102,17 +1122,17 @@
         {
           "date": "2026-08-11",
           "type": "時間変更",
-          "note": "池袋店 17:00 close"
+          "note": "17:00 close"
         },
         {
           "date": "2026-08-12",
           "type": "休業",
-          "note": "池袋店 ルートセット"
+          "note": "ルートセット"
         },
         {
           "date": "2026-08-13",
           "type": "時間変更",
-          "note": "池袋店 18:30 open"
+          "note": "18:30 open"
         }
       ]
     },

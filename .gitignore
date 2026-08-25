@@ -3,3 +3,6 @@ APIキー*.txt
 .env
 __pycache__/
 .claude/
+rocky_images/
+raw_*.json
+set_page.html

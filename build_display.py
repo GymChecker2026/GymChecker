@@ -53,6 +53,11 @@ except FileNotFoundError:
     status_records = []
 
 status_by_gym = {s["gym_id"]: s for s in status_records}
+try:
+    with open("rocky_status.json", encoding="utf-8") as f:
+        rocky_status = json.load(f)
+except FileNotFoundError:
+    rocky_status = {}
 
 try:
     with open("processed.json", encoding="utf-8") as f:
@@ -102,6 +107,7 @@ for gym_events in events_by_gym.values():
 display = []
 for gym in gyms:
     status = status_by_gym.get(gym["id"])
+    rocky = rocky_status.get(gym["id"])
     display.append({
         "gym_id": gym["id"],
         "name": gym["name"],
@@ -112,13 +118,11 @@ for gym in gyms:
         "hours_note": gym.get("hours_note"),
         "station": gym.get("station"),
         "line": gym.get("line"),
-        "enabled": gym.get("enabled", True),
-        "data_note": gym.get("data_note"),
+        "enabled": True if rocky else gym.get("enabled", True),        "data_note": gym.get("data_note"),
         "official_url": gym.get("official_url"),
         "instagram_url": gym.get("instagram_url"),
-        "fetch_status": status["status"] if status else None,
-        "fetched_at": status["fetched_at"] if status else None,
-        "last_changed_at": pages_by_gym.get(gym["id"], {}).get("last_changed_at"),
+        "fetch_status": rocky["status"] if rocky else (status["status"] if status else None),
+        "fetched_at": rocky["fetched_at"] if rocky else (status["fetched_at"] if status else None),        "last_changed_at": pages_by_gym.get(gym["id"], {}).get("last_changed_at"),
         "events": events_by_gym.get(gym["id"], []),
     })
 

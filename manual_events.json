@@ -30,19 +30,239 @@
     "    \"published\": \"2026-08-17\"",
     "  }"
   ],
-  "events": [    { "gym_id": "dbc-tachikawa", "date": "2026-08-03", "type": "エリア制限", "note": "リードセット：オートビレイ壁1〜5", "source_url": null, "published": "2026-08-17" },
-    { "gym_id": "dbc-tachikawa", "date": "2026-08-04", "type": "エリア制限", "note": "リードセット：オートビレイ壁1〜5", "source_url": null, "published": "2026-08-17" },
-    { "gym_id": "dbc-tachikawa", "date": "2026-08-05", "type": "エリア制限", "note": "リードセット：オートビレイ壁1〜5", "source_url": null, "published": "2026-08-17" },
-    { "gym_id": "dbc-tachikawa", "date": "2026-08-12", "type": "エリア制限", "note": "ボルダーセット：B壁", "source_url": null, "published": "2026-08-17" },
-    { "gym_id": "dbc-tachikawa", "date": "2026-08-13", "type": "エリア制限", "note": "ボルダーセット：B壁", "source_url": null, "published": "2026-08-17" },
-    { "gym_id": "dbc-tachikawa", "date": "2026-08-14", "type": "エリア制限", "note": "ボルダーセット：B壁", "source_url": null, "published": "2026-08-17" },
-    { "gym_id": "dbc-tachikawa", "date": "2026-08-26", "type": "エリア制限", "note": "ボルダーセット：C壁", "source_url": null, "published": "2026-08-17" },
-    { "gym_id": "dbc-tachikawa", "date": "2026-08-27", "type": "エリア制限", "note": "ボルダーセット：C壁", "source_url": null, "published": "2026-08-17" },
-    { "gym_id": "dbc-tachikawa", "date": "2026-08-28", "type": "エリア制限", "note": "ボルダーセット：C壁", "source_url": null, "published": "2026-08-17" },
-    { "gym_id": "dbc-yokohama", "date": "2026-08-23", "type": "時間変更", "note": "10:00〜16:00に短縮（ホールド外し）", "source_url": null, "published": "2026-08-17" },
-    { "gym_id": "dbc-yokohama", "date": "2026-08-24", "type": "休業", "note": "ルートセットのため休業", "source_url": null, "published": "2026-08-17" },
-    { "gym_id": "dbc-yokohama", "date": "2026-08-25", "type": "休業", "note": "ルートセットのため休業", "source_url": null, "published": "2026-08-17" },
-    { "gym_id": "dbc-yokohama", "date": "2026-08-26", "type": "時間変更", "note": "セット明け 16:00オープン", "source_url": null, "published": "2026-08-17" },
+  "events": [
+    {
+      "gym_id": "rocky-akebonobashi",
+      "date": "2026-07-10",
+      "type": "イベント",
+      "note": "ENTRY DOJO FOR BEGINNERS! 19:00~20:00",
+      "source_url": null,
+      "published": "2026-08-26"
+    },
+    {
+      "gym_id": "rocky-shinagawa",
+      "date": "2026-07-10",
+      "type": "イベント",
+      "note": "SHINA ROCKY'S Open to anyone regardless of level:) Fun 18:30~20:30",
+      "source_url": null,
+      "published": "2026-08-26"
+    },
+    {
+      "gym_id": "rocky-akebonobashi",
+      "date": "2026-07-12",
+      "type": "エリア制限",
+      "note": "ホールド外し ・KING ・QUEEN ・JACK ・LAGOON / 10:00~21:00（外しエリアは17時以降登れません）",
+      "source_url": null,
+      "published": "2026-08-26"
+    },
+    {
+      "gym_id": "rocky-shinagawa",
+      "date": "2026-07-12",
+      "type": "イベント",
+      "note": "メンバーシップナイト ★メンバーシップ限定★ 18:00~",
+      "source_url": null,
+      "published": "2026-08-26"
+    },
+    {
+      "gym_id": "rocky-akebonobashi",
+      "date": "2026-07-13",
+      "type": "セット完了",
+      "note": "セット ・KING ・QUEEN ・JACK ・LAGOON / 10:00~23:00（セットエリアは19時から登れます）",
+      "source_url": null,
+      "published": "2026-08-26"
+    },
+    {
+      "gym_id": "rocky-shinagawa",
+      "date": "2026-07-15",
+      "type": "エリア制限",
+      "note": "ホールド外し ・全面 / 10:00~17:00 (全面ホールド外しの為時短営業)",
+      "source_url": null,
+      "published": "2026-08-26"
+    },
+    {
+      "gym_id": "rocky-shinagawa",
+      "date": "2026-07-16",
+      "type": "休業",
+      "note": "MOVING3セット DAY1 / 終日休業",
+      "source_url": null,
+      "published": "2026-08-26"
+    },
+    {
+      "gym_id": "rocky-shinagawa",
+      "date": "2026-07-17",
+      "type": "休業",
+      "note": "MOVING3セット DAY2 / 終日休業",
+      "source_url": null,
+      "published": "2026-08-26"
+    },
+    {
+      "gym_id": "rocky-shinagawa",
+      "date": "2026-07-18",
+      "type": "休業",
+      "note": "MOVING3 本戦 ※コンペ参加者のみ 利用可能 / 終日休業",
+      "source_url": null,
+      "published": "2026-08-26"
+    },
+    {
+      "gym_id": "rocky-shinagawa",
+      "date": "2026-07-21",
+      "type": "休業",
+      "note": "追加セット 休業 / 終日休業",
+      "source_url": null,
+      "published": "2026-08-26"
+    },
+    {
+      "gym_id": "rocky-akebonobashi",
+      "date": "2026-07-22",
+      "type": "イベント",
+      "note": "ENTRY DOJO FOR BEGINNERS! 19:00~20:00",
+      "source_url": null,
+      "published": "2026-08-26"
+    },
+    {
+      "gym_id": "rocky-ryogoku",
+      "date": "2026-07-25",
+      "type": "時間変更",
+      "note": "短縮営業 12:00-21:00 / 12:00-21:00 (貸切利用のため)",
+      "source_url": null,
+      "published": "2026-08-26"
+    },
+    {
+      "gym_id": "rocky-akebonobashi",
+      "date": "2026-07-26",
+      "type": "エリア制限",
+      "note": "ホールド外し ・MONSTER / 10:00~21:00（外しエリアは17時以降登れません）",
+      "source_url": null,
+      "published": "2026-08-26"
+    },
+    {
+      "gym_id": "rocky-akebonobashi",
+      "date": "2026-07-27",
+      "type": "セット完了",
+      "note": "セット ・MONSTER / 10:00~23:00（セットエリアは19時から登れます）",
+      "source_url": null,
+      "published": "2026-08-26"
+    },
+    {
+      "gym_id": "rocky-ryogoku",
+      "date": "2026-07-27",
+      "type": "イベント",
+      "note": "みんなで登ろう会 20:00〜",
+      "source_url": null,
+      "published": "2026-08-26"
+    },
+    {
+      "gym_id": "rocky-ryogoku",
+      "date": "2026-07-28",
+      "type": "エリア制限",
+      "note": "ホールド外し ・welcome ・Happiness / 10:00~23:00 (セット替えエリアのみ17時まで)",
+      "source_url": null,
+      "published": "2026-08-26"
+    },
+    {
+      "gym_id": "rocky-ryogoku",
+      "date": "2026-07-29",
+      "type": "休業",
+      "note": "セット ・welcome ・Happiness / 終日休業",
+      "source_url": null,
+      "published": "2026-08-26"
+    },
+    {
+      "gym_id": "rocky-shinagawa",
+      "date": "2026-07-31",
+      "type": "イベント",
+      "note": "メンバーシップナイト ★メンバーシップ限定★ 20:00~",
+      "source_url": null,
+      "published": "2026-08-26"
+    },
+    {
+      "gym_id": "dbc-tachikawa",
+      "date": "2026-08-03",
+      "type": "エリア制限",
+      "note": "リードセット：オートビレイ壁1〜5",
+      "source_url": null,
+      "published": "2026-08-17"
+    },
+    {
+      "gym_id": "dbc-tachikawa",
+      "date": "2026-08-04",
+      "type": "エリア制限",
+      "note": "リードセット：オートビレイ壁1〜5",
+      "source_url": null,
+      "published": "2026-08-17"
+    },
+    {
+      "gym_id": "dbc-tachikawa",
+      "date": "2026-08-05",
+      "type": "エリア制限",
+      "note": "リードセット：オートビレイ壁1〜5",
+      "source_url": null,
+      "published": "2026-08-17"
+    },
+    {
+      "gym_id": "rocky-akebonobashi",
+      "date": "2026-08-06",
+      "type": "イベント",
+      "note": "ENTRY DOJO FOR BEGINNERS! 19:00~20:00",
+      "source_url": null,
+      "published": "2026-08-26"
+    },
+    {
+      "gym_id": "rocky-shinagawa",
+      "date": "2026-08-07",
+      "type": "イベント",
+      "note": "SHINA ROCKY'S 18:30~20:30",
+      "source_url": null,
+      "published": "2026-08-26"
+    },
+    {
+      "gym_id": "rocky-akebonobashi",
+      "date": "2026-08-09",
+      "type": "エリア制限",
+      "note": "ホールド外し ・WELCOME ・BUFFALO ・SHALLOW / 10:00~21:00 (外しエリアは17時以降登れません)",
+      "source_url": null,
+      "published": "2026-08-26"
+    },
+    {
+      "gym_id": "rocky-akebonobashi",
+      "date": "2026-08-10",
+      "type": "セット完了",
+      "note": "セット ・WELCOME ・BUFFALO ・SHALLOW / 10:00~23:00 (セットエリアは19時から登れます)",
+      "source_url": null,
+      "published": "2026-08-26"
+    },
+    {
+      "gym_id": "dbc-tachikawa",
+      "date": "2026-08-12",
+      "type": "エリア制限",
+      "note": "ボルダーセット：B壁",
+      "source_url": null,
+      "published": "2026-08-17"
+    },
+    {
+      "gym_id": "dbc-tachikawa",
+      "date": "2026-08-13",
+      "type": "エリア制限",
+      "note": "ボルダーセット：B壁",
+      "source_url": null,
+      "published": "2026-08-17"
+    },
+    {
+      "gym_id": "rocky-shinagawa",
+      "date": "2026-08-13",
+      "type": "イベント",
+      "note": "メンバーシップナイト ★メンバーシップ限定★ 20:00~",
+      "source_url": null,
+      "published": "2026-08-26"
+    },
+    {
+      "gym_id": "dbc-tachikawa",
+      "date": "2026-08-14",
+      "type": "エリア制限",
+      "note": "ボルダーセット：B壁",
+      "source_url": null,
+      "published": "2026-08-17"
+    },
     {
       "gym_id": "dbc-kawasaki",
       "date": "2026-08-17",
@@ -60,12 +280,156 @@
       "published": "2026-08-18"
     },
     {
+      "gym_id": "rocky-shinagawa",
+      "date": "2026-08-19",
+      "type": "エリア制限",
+      "note": "ホールド外し ・全面 / 10:00~17:00 (全面ホールド外しの為時短営業)",
+      "source_url": null,
+      "published": "2026-08-26"
+    },
+    {
+      "gym_id": "rocky-akebonobashi",
+      "date": "2026-08-20",
+      "type": "イベント",
+      "note": "ENTRY DOJO FOR BEGINNERS! 19:00~20:00",
+      "source_url": null,
+      "published": "2026-08-26"
+    },
+    {
+      "gym_id": "rocky-ryogoku",
+      "date": "2026-08-20",
+      "type": "イベント",
+      "note": "みんなで登ろう会 20:00〜",
+      "source_url": null,
+      "published": "2026-08-26"
+    },
+    {
+      "gym_id": "rocky-ryogoku",
+      "date": "2026-08-22",
+      "type": "時間変更",
+      "note": "短縮営業 12:00-21:00 / 12:00-21:00(貸切のため)",
+      "source_url": null,
+      "published": "2026-08-26"
+    },
+    {
+      "gym_id": "dbc-yokohama",
+      "date": "2026-08-23",
+      "type": "時間変更",
+      "note": "10:00〜16:00に短縮（ホールド外し）",
+      "source_url": null,
+      "published": "2026-08-17"
+    },
+    {
+      "gym_id": "dbc-yokohama",
+      "date": "2026-08-24",
+      "type": "休業",
+      "note": "ルートセットのため休業",
+      "source_url": null,
+      "published": "2026-08-17"
+    },
+    {
+      "gym_id": "dbc-yokohama",
+      "date": "2026-08-25",
+      "type": "休業",
+      "note": "ルートセットのため休業",
+      "source_url": null,
+      "published": "2026-08-17"
+    },
+    {
+      "gym_id": "rocky-ryogoku",
+      "date": "2026-08-25",
+      "type": "エリア制限",
+      "note": "ホールド外し ・Eden ・Shine / 10:00~23:00 (セット替えエリアのみ17時まで)",
+      "source_url": null,
+      "published": "2026-08-26"
+    },
+    {
+      "gym_id": "dbc-tachikawa",
+      "date": "2026-08-26",
+      "type": "エリア制限",
+      "note": "ボルダーセット：C壁",
+      "source_url": null,
+      "published": "2026-08-17"
+    },
+    {
+      "gym_id": "dbc-yokohama",
+      "date": "2026-08-26",
+      "type": "時間変更",
+      "note": "セット明け 16:00オープン",
+      "source_url": null,
+      "published": "2026-08-17"
+    },
+    {
+      "gym_id": "rocky-ryogoku",
+      "date": "2026-08-26",
+      "type": "休業",
+      "note": "セット ・Eden ・Shine / 終日休業",
+      "source_url": null,
+      "published": "2026-08-26"
+    },
+    {
+      "gym_id": "dbc-tachikawa",
+      "date": "2026-08-27",
+      "type": "エリア制限",
+      "note": "ボルダーセット：C壁",
+      "source_url": null,
+      "published": "2026-08-17"
+    },
+    {
+      "gym_id": "rocky-akebonobashi",
+      "date": "2026-08-27",
+      "type": "イベント",
+      "note": "?",
+      "source_url": null,
+      "published": "2026-08-26"
+    },
+    {
+      "gym_id": "dbc-tachikawa",
+      "date": "2026-08-28",
+      "type": "エリア制限",
+      "note": "ボルダーセット：C壁",
+      "source_url": null,
+      "published": "2026-08-17"
+    },
+    {
       "gym_id": "dbc-kawasaki",
       "date": "2026-08-29",
       "type": "時間変更",
       "note": "キッズスクール発表会のため11:30開店",
       "source_url": null,
       "published": "2026-08-18"
+    },
+    {
+      "gym_id": "rocky-akebonobashi",
+      "date": "2026-08-29",
+      "type": "イベント",
+      "note": "HAPPY DOJO 17:00~18:00",
+      "source_url": null,
+      "published": "2026-08-26"
+    },
+    {
+      "gym_id": "rocky-shinagawa",
+      "date": "2026-08-29",
+      "type": "イベント",
+      "note": "メンバーシップナイト ★メンバーシップ限定★ 18:00~",
+      "source_url": null,
+      "published": "2026-08-26"
+    },
+    {
+      "gym_id": "rocky-akebonobashi",
+      "date": "2026-08-30",
+      "type": "エリア制限",
+      "note": "ホールド外し ・JACK ・QUEEN ・KING ・LAGOON / 10:00~21:00 (外しエリアは17時以降登れません)",
+      "source_url": null,
+      "published": "2026-08-26"
+    },
+    {
+      "gym_id": "rocky-akebonobashi",
+      "date": "2026-08-31",
+      "type": "セット完了",
+      "note": "セット ・JACK ・QUEEN ・KING ・LAGOON / 10:00~23:00 (セットエリアは19時から登れます)",
+      "source_url": null,
+      "published": "2026-08-26"
     }
   ]
 }

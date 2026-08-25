@@ -506,5 +506,83 @@
     "instagram_url": "https://www.instagram.com/pump2climbing/",
     "hours_note": null,
     "sort_key": "PUMP2かわさき"
+  },
+  {
+    "id": "rocky-shinagawa",
+    "name": "品川",
+    "chain": "rocky",
+    "method": "calendar_image",
+    "url": "https://www.rockyclimbing.com/set/",
+    "enabled": false,
+    "hours": [
+      {
+        "label": "平日",
+        "value": "10:00〜23:00"
+      },
+      {
+        "label": "土日祝",
+        "value": "10:00〜21:00"
+      }
+    ],
+    "station": "品川駅、天王洲アイル駅",
+    "line": "山手線、りんかい線など",
+    "display_name": "ロッキー品川店",
+    "official_url": "https://www.rockyclimbing.com/shinagawa/",
+    "data_note": null,
+    "instagram_url": null,
+    "hours_note": null,
+    "sort_key": "ろっきーしながわ"
+  },
+  {
+    "id": "rocky-akebonobashi",
+    "name": "新宿曙橋",
+    "chain": "rocky",
+    "method": "calendar_image",
+    "url": "https://www.rockyclimbing.com/set/",
+    "enabled": false,
+    "hours": [
+      {
+        "label": "平日",
+        "value": "10:00〜23:00"
+      },
+      {
+        "label": "土日祝",
+        "value": "10:00〜21:00"
+      }
+    ],
+    "station": "曙橋駅、若松河田駅",
+    "line": "都営新宿線、都営大江戸線など",
+    "display_name": "ロッキー新宿曙橋店",
+    "official_url": "https://www.rockyclimbing.com/shinjukuakebonobashi/",
+    "data_note": null,
+    "instagram_url": null,
+    "hours_note": null,
+    "sort_key": "ろっきーしんじゅくあけぼのばし"
+  },
+  {
+    "id": "rocky-ryogoku",
+    "name": "両国",
+    "chain": "rocky",
+    "method": "calendar_image",
+    "url": "https://www.rockyclimbing.com/set/",
+    "enabled": false,
+    "hours": [
+      {
+        "label": "平日",
+        "value": "10:00〜23:00"
+      },
+      {
+        "label": "土日祝",
+        "value": "10:00〜21:00"
+      }
+    ],
+    "station": "両国駅、蔵前駅",
+    "line": "JR総武線、都営大江戸線など",
+    "display_name": "ロッキー両国店",
+    "official_url": "https://www.rockyclimbing.com/ryougoku/",
+    "data_note": null,
+    "instagram_url": null,
+    "hours_note": null,
+    "sort_key": "ろっきーりょうごく"
   }
 ]
