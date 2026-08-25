@@ -595,14 +595,6 @@
         "source": "manual"
       },
       {
-        "date": "2026-08-25",
-        "type": "イベント",
-        "note": "キャッシュ検証用テスト",
-        "source_url": null,
-        "published": "2026-08-25",
-        "source": "manual"
-      },
-      {
         "date": "2026-08-26",
         "type": "エリア制限",
         "note": "ボルダーセット：C壁",
