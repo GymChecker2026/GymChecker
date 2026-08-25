@@ -2,96 +2,96 @@
   {
     "gym_id": "noborock-shinjuku",
     "status": "success",
-    "fetched_at": "2026-08-26T02:42:38+09:00"
+    "fetched_at": "2026-08-26T04:45:35+09:00"
   },
   {
     "gym_id": "noborock-shibuya",
     "status": "success",
-    "fetched_at": "2026-08-26T02:42:38+09:00"
+    "fetched_at": "2026-08-26T04:45:36+09:00"
   },
   {
     "gym_id": "noborock-takadanobaba",
     "status": "success",
-    "fetched_at": "2026-08-26T02:42:43+09:00"
+    "fetched_at": "2026-08-26T04:45:39+09:00"
   },
   {
     "gym_id": "noborock-asakusa",
     "status": "success",
-    "fetched_at": "2026-08-26T02:42:46+09:00"
+    "fetched_at": "2026-08-26T04:45:42+09:00"
   },
   {
     "gym_id": "noborock-ikebukuro",
     "status": "success",
-    "fetched_at": "2026-08-26T02:42:46+09:00"
+    "fetched_at": "2026-08-26T04:45:45+09:00"
   },
   {
     "gym_id": "noborock-machida",
     "status": "success",
-    "fetched_at": "2026-08-26T02:42:51+09:00"
+    "fetched_at": "2026-08-26T04:45:48+09:00"
   },
   {
     "gym_id": "noborock-mizonokuchi",
     "status": "success",
-    "fetched_at": "2026-08-26T02:42:52+09:00"
+    "fetched_at": "2026-08-26T04:45:51+09:00"
   },
   {
     "gym_id": "noborock-omiya",
     "status": "success",
-    "fetched_at": "2026-08-26T02:42:54+09:00"
+    "fetched_at": "2026-08-26T04:45:55+09:00"
   },
   {
     "gym_id": "dbc-tachikawa",
     "status": "success",
-    "fetched_at": "2026-08-26T02:42:57+09:00"
+    "fetched_at": "2026-08-26T04:45:58+09:00"
   },
   {
     "gym_id": "dbc-tamachi",
     "status": "success",
-    "fetched_at": "2026-08-26T02:43:05+09:00"
+    "fetched_at": "2026-08-26T04:46:07+09:00"
   },
   {
     "gym_id": "dbc-tsunashima",
     "status": "success",
-    "fetched_at": "2026-08-26T02:43:24+09:00"
+    "fetched_at": "2026-08-26T04:46:29+09:00"
   },
   {
     "gym_id": "dbc-honatsugi",
     "status": "success",
-    "fetched_at": "2026-08-26T02:43:45+09:00"
+    "fetched_at": "2026-08-26T04:46:53+09:00"
   },
   {
     "gym_id": "dbc-yokohama",
     "status": "success",
-    "fetched_at": "2026-08-26T02:44:29+09:00"
+    "fetched_at": "2026-08-26T04:47:42+09:00"
   },
   {
     "gym_id": "dbc-kawasaki",
     "status": "success",
-    "fetched_at": "2026-08-26T02:44:43+09:00"
+    "fetched_at": "2026-08-26T04:47:58+09:00"
   },
   {
     "gym_id": "bpump-akihabara",
     "status": "success",
-    "fetched_at": "2026-08-26T02:44:49+09:00"
+    "fetched_at": "2026-08-26T04:48:05+09:00"
   },
   {
     "gym_id": "bpump-ogikubo",
     "status": "success",
-    "fetched_at": "2026-08-26T02:44:53+09:00"
+    "fetched_at": "2026-08-26T04:48:12+09:00"
   },
   {
     "gym_id": "bpump-yokohama",
     "status": "success",
-    "fetched_at": "2026-08-26T02:44:57+09:00"
+    "fetched_at": "2026-08-26T04:48:19+09:00"
   },
   {
     "gym_id": "bpump-kawaguchi",
     "status": "success",
-    "fetched_at": "2026-08-26T02:45:01+09:00"
+    "fetched_at": "2026-08-26T04:48:25+09:00"
   },
   {
     "gym_id": "bpump-kawasaki",
     "status": "success",
-    "fetched_at": "2026-08-26T02:45:14+09:00"
+    "fetched_at": "2026-08-26T04:48:42+09:00"
   }
 ]
