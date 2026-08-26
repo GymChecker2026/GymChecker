@@ -26,13 +26,14 @@ jobs:
           python-version: "3.12"
 
       - name: Install dependencies
-        run: pip install requests beautifulsoup4 anthropic
+        run: pip install requests beautifulsoup4 anthropic jpholiday
 
       - name: Run pipeline
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
           python extract_events.py
+          python rocky_fetch.py
           python build_display.py
           python build_html.py
 
@@ -40,7 +41,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add processed.json events.json collection_status.json display.json index.html
+          git add processed.json events.json collection_status.json display.json index.html manual_events.json rocky_state.json rocky_status.json pending_review.json
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
