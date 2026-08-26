@@ -1102,5 +1102,837 @@
     "note": "YosemiteFall～CandyLand セットスケジュール",
     "source_url": "https://b-camp.jp/shinjuku/route/",
     "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-shinbashi",
+    "date": "2026-09-14",
+    "type": "休業",
+    "note": "ルートセット作業のため臨時休業",
+    "source_url": "https://b-camp.jp/shinbashi/pickup/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-shinbashi",
+    "date": "2026-08-17",
+    "type": "休業",
+    "note": "ルートセット作業のため臨時休業",
+    "source_url": "https://b-camp.jp/shinbashi/pickup/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-shinbashi",
+    "date": "2026-08-11",
+    "type": "時間変更",
+    "note": "祝日営業",
+    "source_url": "https://b-camp.jp/shinbashi/pickup/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-shinbashi",
+    "date": "2026-08-16",
+    "type": "時間変更",
+    "note": "ホールド外し作業のため18:00クローズ",
+    "source_url": "https://b-camp.jp/shinbashi/pickup/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-shinbashi",
+    "date": "2026-08-18",
+    "type": "時間変更",
+    "note": "ラインセットリニューアルのため18:00オープン23:00クローズ",
+    "source_url": "https://b-camp.jp/shinbashi/pickup/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-shinbashi",
+    "date": "2026-07-21",
+    "type": "休業",
+    "note": "ルートセット作業のため臨時休業",
+    "source_url": "https://b-camp.jp/shinbashi/pickup/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-shinbashi",
+    "date": "2026-09-03",
+    "type": "エリア制限",
+    "note": "Hubbleセットのため一部エリア制限",
+    "source_url": "https://b-camp.jp/shinbashi/route/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-shinbashi",
+    "date": "2026-09-13",
+    "type": "時間変更",
+    "note": "18:00close ホールド外し作業のため",
+    "source_url": "https://b-camp.jp/shinbashi/route/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-shinbashi",
+    "date": "2026-09-15",
+    "type": "時間変更",
+    "note": "18:00OPEN ラインセットリニューアル",
+    "source_url": "https://b-camp.jp/shinbashi/route/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-shinbashi",
+    "date": "2026-07-20",
+    "type": "時間変更",
+    "note": "18:00close ホールド外し作業のため",
+    "source_url": "https://b-camp.jp/shinbashi/route/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-shinbashi",
+    "date": "2026-07-22",
+    "type": "時間変更",
+    "note": "18:00OPEN ラインセットリニューアル",
+    "source_url": "https://b-camp.jp/shinbashi/route/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-edogawabashi",
+    "date": "2026-06-15",
+    "type": "エリア制限",
+    "note": "地下ルートクライミングエリア 終日封鎖（Profonde壁面塗装工事）",
+    "source_url": "https://b-camp.jp/edogawabashi/pickup/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-edogawabashi",
+    "date": "2026-06-16",
+    "type": "エリア制限",
+    "note": "Profonde ～ Cascade Right 終日封鎖（塗装工事）",
+    "source_url": "https://b-camp.jp/edogawabashi/pickup/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-edogawabashi",
+    "date": "2026-06-17",
+    "type": "エリア制限",
+    "note": "Profonde ～ Cascade Right 終日封鎖（塗装工事）",
+    "source_url": "https://b-camp.jp/edogawabashi/pickup/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-edogawabashi",
+    "date": "2026-06-18",
+    "type": "エリア制限",
+    "note": "Profonde ～ Cascade Right 終日封鎖（塗装工事）",
+    "source_url": "https://b-camp.jp/edogawabashi/pickup/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-edogawabashi",
+    "date": "2026-06-19",
+    "type": "エリア制限",
+    "note": "地下ルートクライミングエリア 12:00～18:00封鎖（塗装工事）",
+    "source_url": "https://b-camp.jp/edogawabashi/pickup/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-edogawabashi",
+    "date": "2026-07-13",
+    "type": "エリア制限",
+    "note": "地下ルートクライミングエリア 終日封鎖（Cascade Right壁面塗装工事）",
+    "source_url": "https://b-camp.jp/edogawabashi/pickup/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-edogawabashi",
+    "date": "2026-07-14",
+    "type": "エリア制限",
+    "note": "Cascade Right 終日封鎖（塗装工事）",
+    "source_url": "https://b-camp.jp/edogawabashi/pickup/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-edogawabashi",
+    "date": "2026-07-15",
+    "type": "エリア制限",
+    "note": "Cascade Right 終日封鎖（塗装工事）",
+    "source_url": "https://b-camp.jp/edogawabashi/pickup/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-edogawabashi",
+    "date": "2026-07-16",
+    "type": "エリア制限",
+    "note": "Cascade Right 終日封鎖（塗装工事）",
+    "source_url": "https://b-camp.jp/edogawabashi/pickup/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-edogawabashi",
+    "date": "2026-07-17",
+    "type": "エリア制限",
+    "note": "地下ルートクライミングエリア 12:00～18:00封鎖（塗装工事）",
+    "source_url": "https://b-camp.jp/edogawabashi/pickup/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-edogawabashi",
+    "date": "2026-08-17",
+    "type": "エリア制限",
+    "note": "地下ルートクライミングエリア 終日封鎖（Cascade Left壁面塗装工事）",
+    "source_url": "https://b-camp.jp/edogawabashi/pickup/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-edogawabashi",
+    "date": "2026-08-18",
+    "type": "エリア制限",
+    "note": "Cascade Left 終日封鎖（塗装工事）",
+    "source_url": "https://b-camp.jp/edogawabashi/pickup/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-edogawabashi",
+    "date": "2026-08-19",
+    "type": "エリア制限",
+    "note": "Cascade Left 終日封鎖（塗装工事）",
+    "source_url": "https://b-camp.jp/edogawabashi/pickup/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-edogawabashi",
+    "date": "2026-08-20",
+    "type": "エリア制限",
+    "note": "Cascade Left 終日封鎖（塗装工事）",
+    "source_url": "https://b-camp.jp/edogawabashi/pickup/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-edogawabashi",
+    "date": "2026-08-21",
+    "type": "エリア制限",
+    "note": "地下ルートクライミングエリア 12:00～18:00封鎖（塗装工事）",
+    "source_url": "https://b-camp.jp/edogawabashi/pickup/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-edogawabashi",
+    "date": "2026-08-23",
+    "type": "エリア制限",
+    "note": "2Fボルダー「Debut」セット作業のため利用不可",
+    "source_url": "https://b-camp.jp/edogawabashi/route/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-edogawabashi",
+    "date": "2026-08-24",
+    "type": "エリア制限",
+    "note": "2Fボルダー「Debut」セット作業のため利用不可",
+    "source_url": "https://b-camp.jp/edogawabashi/route/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-edogawabashi",
+    "date": "2026-08-27",
+    "type": "エリア制限",
+    "note": "2Fボルダー「Tokyo Cave ～ DEBUT」セット作業のため利用不可",
+    "source_url": "https://b-camp.jp/edogawabashi/route/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-edogawabashi",
+    "date": "2026-08-28",
+    "type": "エリア制限",
+    "note": "2Fボルダー「Tokyo Cave ～ DEBUT」セット作業のため利用不可",
+    "source_url": "https://b-camp.jp/edogawabashi/route/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-edogawabashi",
+    "date": "2026-08-30",
+    "type": "エリア制限",
+    "note": "1階ボルダーエリア全体及び地下リードエリアリニューアル作業のため利用不可",
+    "source_url": "https://b-camp.jp/edogawabashi/route/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-edogawabashi",
+    "date": "2026-08-31",
+    "type": "エリア制限",
+    "note": "1階ボルダーエリア全体リニューアル作業のため利用不可",
+    "source_url": "https://b-camp.jp/edogawabashi/route/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-edogawabashi",
+    "date": "2026-09-01",
+    "type": "エリア制限",
+    "note": "1階ボルダーエリア全体リニューアル作業のため利用不可",
+    "source_url": "https://b-camp.jp/edogawabashi/route/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-edogawabashi",
+    "date": "2026-08-02",
+    "type": "エリア制限",
+    "note": "1階ボルダーエリア全体及び地下リードエリアリニューアル作業のため利用不可",
+    "source_url": "https://b-camp.jp/edogawabashi/route/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-edogawabashi",
+    "date": "2026-08-03",
+    "type": "エリア制限",
+    "note": "1階ボルダーエリア全体リニューアル作業のため利用不可",
+    "source_url": "https://b-camp.jp/edogawabashi/route/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-edogawabashi",
+    "date": "2026-08-04",
+    "type": "エリア制限",
+    "note": "1階ボルダーエリア全体リニューアル作業のため利用不可",
+    "source_url": "https://b-camp.jp/edogawabashi/route/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-edogawabashi",
+    "date": "2026-07-30",
+    "type": "エリア制限",
+    "note": "2Fボルダー「NINJA ～ DEBUT」セット作業のため利用不可",
+    "source_url": "https://b-camp.jp/edogawabashi/route/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-edogawabashi",
+    "date": "2026-07-31",
+    "type": "エリア制限",
+    "note": "2Fボルダー「NINJA ～ DEBUT」セット作業のため利用不可",
+    "source_url": "https://b-camp.jp/edogawabashi/route/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-edogawabashi",
+    "date": "2026-07-26",
+    "type": "エリア制限",
+    "note": "2Fボルダー「Debut」セット作業のため利用不可",
+    "source_url": "https://b-camp.jp/edogawabashi/route/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-edogawabashi",
+    "date": "2026-07-27",
+    "type": "エリア制限",
+    "note": "2Fボルダー「Debut」セット作業のため利用不可",
+    "source_url": "https://b-camp.jp/edogawabashi/route/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-edogawabashi",
+    "date": "2026-07-05",
+    "type": "エリア制限",
+    "note": "1階ボルダーエリア全体及び地下リードエリアリニューアル作業のため利用不可",
+    "source_url": "https://b-camp.jp/edogawabashi/route/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-edogawabashi",
+    "date": "2026-07-06",
+    "type": "エリア制限",
+    "note": "1階ボルダーエリア全体リニューアル作業のため利用不可",
+    "source_url": "https://b-camp.jp/edogawabashi/route/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-edogawabashi",
+    "date": "2026-07-07",
+    "type": "エリア制限",
+    "note": "1階ボルダーエリア全体リニューアル作業のため利用不可",
+    "source_url": "https://b-camp.jp/edogawabashi/route/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-edogawabashi",
+    "date": "2026-06-21",
+    "type": "エリア制限",
+    "note": "2Fボルダー「Debut」セット作業のため利用不可",
+    "source_url": "https://b-camp.jp/edogawabashi/route/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-edogawabashi",
+    "date": "2026-06-22",
+    "type": "エリア制限",
+    "note": "2Fボルダー「Debut」セット作業のため利用不可",
+    "source_url": "https://b-camp.jp/edogawabashi/route/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-kinshicho",
+    "date": "2026-09-01",
+    "type": "エリア制限",
+    "note": "９月リードエリア\"Rostrum\"リニューアルセット",
+    "source_url": "https://b-camp.jp/kinshicho/pickup/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-kinshicho",
+    "date": "2026-09-16",
+    "type": "エリア制限",
+    "note": "9月リードエリア\"Rostrum\"リニューアルセット（9/16-18 18:00まで）",
+    "source_url": "https://b-camp.jp/kinshicho/route/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-kinshicho",
+    "date": "2026-09-17",
+    "type": "エリア制限",
+    "note": "9月リードエリア\"Rostrum\"リニューアルセット（9/16-18 18:00まで）",
+    "source_url": "https://b-camp.jp/kinshicho/route/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-kinshicho",
+    "date": "2026-09-18",
+    "type": "エリア制限",
+    "note": "9月リードエリア\"Rostrum\"リニューアルセット（9/16-18 18:00まで）",
+    "source_url": "https://b-camp.jp/kinshicho/route/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-kinshicho",
+    "date": "2026-09-09",
+    "type": "エリア制限",
+    "note": "9月ボルダー全面リニューアルセット（9/9-11 18:00まで）",
+    "source_url": "https://b-camp.jp/kinshicho/route/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-kinshicho",
+    "date": "2026-09-10",
+    "type": "エリア制限",
+    "note": "9月ボルダー全面リニューアルセット（9/9-11 18:00まで）",
+    "source_url": "https://b-camp.jp/kinshicho/route/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-kinshicho",
+    "date": "2026-09-11",
+    "type": "エリア制限",
+    "note": "9月ボルダー全面リニューアルセット（9/9-11 18:00まで）",
+    "source_url": "https://b-camp.jp/kinshicho/route/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-kinshicho",
+    "date": "2026-08-05",
+    "type": "エリア制限",
+    "note": "8月ボルダー全面リニューアルセット（8/5-7）",
+    "source_url": "https://b-camp.jp/kinshicho/route/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-kinshicho",
+    "date": "2026-08-06",
+    "type": "エリア制限",
+    "note": "8月ボルダー全面リニューアルセット（8/5-7）",
+    "source_url": "https://b-camp.jp/kinshicho/route/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-kinshicho",
+    "date": "2026-08-07",
+    "type": "エリア制限",
+    "note": "8月ボルダー全面リニューアルセット（8/5-7）",
+    "source_url": "https://b-camp.jp/kinshicho/route/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-kinshicho",
+    "date": "2026-07-15",
+    "type": "エリア制限",
+    "note": "リードエリア\"Cathedral\"リニューアルセット（7/15-17 18:00まで）",
+    "source_url": "https://b-camp.jp/kinshicho/route/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-kinshicho",
+    "date": "2026-07-16",
+    "type": "エリア制限",
+    "note": "リードエリア\"Cathedral\"リニューアルセット（7/15-17 18:00まで）",
+    "source_url": "https://b-camp.jp/kinshicho/route/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-kinshicho",
+    "date": "2026-07-17",
+    "type": "エリア制限",
+    "note": "リードエリア\"Cathedral\"リニューアルセット（7/15-17 18:00まで）",
+    "source_url": "https://b-camp.jp/kinshicho/route/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-kinshicho",
+    "date": "2026-07-08",
+    "type": "エリア制限",
+    "note": "7月ボルダー全面リニューアルセット（7/8-10 18:00まで）",
+    "source_url": "https://b-camp.jp/kinshicho/route/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-kinshicho",
+    "date": "2026-07-09",
+    "type": "エリア制限",
+    "note": "7月ボルダー全面リニューアルセット（7/8-10 18:00まで）",
+    "source_url": "https://b-camp.jp/kinshicho/route/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-kinshicho",
+    "date": "2026-07-10",
+    "type": "エリア制限",
+    "note": "7月ボルダー全面リニューアルセット（7/8-10 18:00まで）",
+    "source_url": "https://b-camp.jp/kinshicho/route/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-kinshicho",
+    "date": "2026-07-09",
+    "type": "時間変更",
+    "note": "18:00～2階ボルダー解放予定",
+    "source_url": "https://b-camp.jp/kinshicho/route/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-kinshicho",
+    "date": "2026-06-29",
+    "type": "エリア制限",
+    "note": "ボルダー2階まぶし壁【T-WALLL】ホールド替え（6/29-30 18:00まで）",
+    "source_url": "https://b-camp.jp/kinshicho/route/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-kinshicho",
+    "date": "2026-06-30",
+    "type": "エリア制限",
+    "note": "ボルダー2階まぶし壁【T-WALLL】ホールド替え（6/29-30 18:00まで）",
+    "source_url": "https://b-camp.jp/kinshicho/route/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-kinshicho",
+    "date": "2026-06-24",
+    "type": "エリア制限",
+    "note": "リードエリア\"Glacier point\"リニューアルセット（6/24-26 18:00まで）",
+    "source_url": "https://b-camp.jp/kinshicho/route/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-kinshicho",
+    "date": "2026-06-25",
+    "type": "エリア制限",
+    "note": "リードエリア\"Glacier point\"リニューアルセット（6/24-26 18:00まで）",
+    "source_url": "https://b-camp.jp/kinshicho/route/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-kinshicho",
+    "date": "2026-06-26",
+    "type": "エリア制限",
+    "note": "リードエリア\"Glacier point\"リニューアルセット（6/24-26 18:00まで）",
+    "source_url": "https://b-camp.jp/kinshicho/route/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-kinshicho",
+    "date": "2026-06-10",
+    "type": "エリア制限",
+    "note": "ボルダーエリア全面セット（6/10-12）",
+    "source_url": "https://b-camp.jp/kinshicho/route/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-kinshicho",
+    "date": "2026-06-11",
+    "type": "エリア制限",
+    "note": "ボルダーエリア全面セット（6/10-12）",
+    "source_url": "https://b-camp.jp/kinshicho/route/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-kinshicho",
+    "date": "2026-06-12",
+    "type": "エリア制限",
+    "note": "ボルダーエリア全面セット（6/10-12）",
+    "source_url": "https://b-camp.jp/kinshicho/route/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-higashimurayama",
+    "date": "2026-09-02",
+    "type": "エリア制限",
+    "note": "Kusa wall Leftのホールド外し",
+    "source_url": "https://b-camp.jp/higashimurayama/route/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-higashimurayama",
+    "date": "2026-09-03",
+    "type": "エリア制限",
+    "note": "強傾斜エリア封鎖",
+    "source_url": "https://b-camp.jp/higashimurayama/route/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-higashimurayama",
+    "date": "2026-09-04",
+    "type": "エリア制限",
+    "note": "強傾斜ホールド替え",
+    "source_url": "https://b-camp.jp/higashimurayama/route/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-higashimurayama",
+    "date": "2026-09-23",
+    "type": "エリア制限",
+    "note": "Slab 92のホールド外し",
+    "source_url": "https://b-camp.jp/higashimurayama/route/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-higashimurayama",
+    "date": "2026-09-24",
+    "type": "エリア制限",
+    "note": "緩傾斜エリア封鎖",
+    "source_url": "https://b-camp.jp/higashimurayama/route/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-higashimurayama",
+    "date": "2026-09-25",
+    "type": "エリア制限",
+    "note": "緩傾斜ホールド替え",
+    "source_url": "https://b-camp.jp/higashimurayama/route/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-higashimurayama",
+    "date": "2026-08-05",
+    "type": "エリア制限",
+    "note": "Kusa wall Leftのホールド外し",
+    "source_url": "https://b-camp.jp/higashimurayama/route/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-higashimurayama",
+    "date": "2026-08-06",
+    "type": "エリア制限",
+    "note": "強傾斜エリア封鎖",
+    "source_url": "https://b-camp.jp/higashimurayama/route/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-higashimurayama",
+    "date": "2026-08-07",
+    "type": "エリア制限",
+    "note": "強傾斜ホールド替え",
+    "source_url": "https://b-camp.jp/higashimurayama/route/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-higashimurayama",
+    "date": "2026-08-19",
+    "type": "エリア制限",
+    "note": "Slab 92のホールド外し",
+    "source_url": "https://b-camp.jp/higashimurayama/route/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-higashimurayama",
+    "date": "2026-08-20",
+    "type": "エリア制限",
+    "note": "緩傾斜エリア封鎖",
+    "source_url": "https://b-camp.jp/higashimurayama/route/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-higashimurayama",
+    "date": "2026-08-21",
+    "type": "エリア制限",
+    "note": "緩傾斜ホールド替え",
+    "source_url": "https://b-camp.jp/higashimurayama/route/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-higashimurayama",
+    "date": "2026-07-01",
+    "type": "エリア制限",
+    "note": "Kusa wall Leftのホールド外し",
+    "source_url": "https://b-camp.jp/higashimurayama/route/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-higashimurayama",
+    "date": "2026-07-02",
+    "type": "エリア制限",
+    "note": "強傾斜エリア封鎖",
+    "source_url": "https://b-camp.jp/higashimurayama/route/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-higashimurayama",
+    "date": "2026-07-03",
+    "type": "エリア制限",
+    "note": "強傾斜ホールド替え",
+    "source_url": "https://b-camp.jp/higashimurayama/route/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-higashimurayama",
+    "date": "2026-07-15",
+    "type": "エリア制限",
+    "note": "Slab 92のホールド外し",
+    "source_url": "https://b-camp.jp/higashimurayama/route/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-higashimurayama",
+    "date": "2026-07-16",
+    "type": "エリア制限",
+    "note": "緩傾斜エリア封鎖",
+    "source_url": "https://b-camp.jp/higashimurayama/route/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-higashimurayama",
+    "date": "2026-07-17",
+    "type": "エリア制限",
+    "note": "緩傾斜ホールド替え",
+    "source_url": "https://b-camp.jp/higashimurayama/route/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-higashimurayama",
+    "date": "2026-06-03",
+    "type": "エリア制限",
+    "note": "Kusa wall Leftのホールド外し",
+    "source_url": "https://b-camp.jp/higashimurayama/route/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-higashimurayama",
+    "date": "2026-06-04",
+    "type": "エリア制限",
+    "note": "強傾斜エリア封鎖",
+    "source_url": "https://b-camp.jp/higashimurayama/route/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-higashimurayama",
+    "date": "2026-06-05",
+    "type": "エリア制限",
+    "note": "強傾斜ホールド替え",
+    "source_url": "https://b-camp.jp/higashimurayama/route/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-higashimurayama",
+    "date": "2026-06-17",
+    "type": "エリア制限",
+    "note": "Slab 92のホールド外し",
+    "source_url": "https://b-camp.jp/higashimurayama/route/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-higashimurayama",
+    "date": "2026-06-18",
+    "type": "エリア制限",
+    "note": "緩傾斜エリア封鎖",
+    "source_url": "https://b-camp.jp/higashimurayama/route/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-higashimurayama",
+    "date": "2026-06-19",
+    "type": "エリア制限",
+    "note": "緩傾斜ホールド替え",
+    "source_url": "https://b-camp.jp/higashimurayama/route/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-kawagoe",
+    "date": "2026-08-10",
+    "type": "休業",
+    "note": "コナミスポーツクラブ川越のお盆休業に伴う臨時休業",
+    "source_url": "https://b-camp.jp/kawagoe/pickup/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-kawagoe",
+    "date": "2026-08-12",
+    "type": "休業",
+    "note": "コナミスポーツクラブ川越のお盆休業に伴う臨時休業",
+    "source_url": "https://b-camp.jp/kawagoe/pickup/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-kawagoe",
+    "date": "2026-08-13",
+    "type": "休業",
+    "note": "コナミスポーツクラブ川越のお盆休業に伴う臨時休業",
+    "source_url": "https://b-camp.jp/kawagoe/pickup/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-kawagoe",
+    "date": "2026-08-14",
+    "type": "休業",
+    "note": "コナミスポーツクラブ川越のお盆休業に伴う臨時休業",
+    "source_url": "https://b-camp.jp/kawagoe/pickup/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-kawagoe",
+    "date": "2026-07-08",
+    "type": "エリア制限",
+    "note": "Berlin ~ Demi Lune (奥面) セット作業",
+    "source_url": "https://b-camp.jp/kawagoe/route/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-kawagoe",
+    "date": "2026-07-15",
+    "type": "エリア制限",
+    "note": "Biographie ~ Instruction Wall (右面) セット作業",
+    "source_url": "https://b-camp.jp/kawagoe/route/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-kawagoe",
+    "date": "2026-07-22",
+    "type": "エリア制限",
+    "note": "Grande Face ~ Berlin (左面) セット作業",
+    "source_url": "https://b-camp.jp/kawagoe/route/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-kawagoe",
+    "date": "2026-08-05",
+    "type": "エリア制限",
+    "note": "Berlin ~ Demi Lune (奥面) セット作業",
+    "source_url": "https://b-camp.jp/kawagoe/route/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-kawagoe",
+    "date": "2026-08-19",
+    "type": "エリア制限",
+    "note": "Biographie ~ Instruction Wall (右面) セット作業",
+    "source_url": "https://b-camp.jp/kawagoe/route/",
+    "published": "2026-08-26"
+  },
+  {
+    "gym_id": "bc-kawagoe",
+    "date": "2026-08-26",
+    "type": "エリア制限",
+    "note": "Grande Face ~ Berlin (左面) セット作業",
+    "source_url": "https://b-camp.jp/kawagoe/route/",
+    "published": "2026-08-26"
   }
 ]

@@ -6,6 +6,13 @@ from zoneinfo import ZoneInfo
 
 JST = ZoneInfo("Asia/Tokyo")
 
+# イベントの表示対象期間（この日数だけ変更すれば調整できる）。
+# EVENT_WINDOW_PAST_DAYS: 今日からこの日数より前のイベントは対象外にする（下限）。
+#   selectDisplayEvents側で「直近の過去1件」を表示に使うため、0にはしないこと。
+# EVENT_WINDOW_FUTURE_DAYS: 今日からこの日数より先のイベントは対象外にする（上限）。
+EVENT_WINDOW_PAST_DAYS = 60
+EVENT_WINDOW_FUTURE_DAYS = 14
+
 VALID_TYPES = {"休業", "時間変更", "エリア制限", "セット完了", "イベント"}
 DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 
@@ -67,7 +74,8 @@ except FileNotFoundError:
 pages_by_gym = processed.get("pages", {})
 
 today = datetime.now(JST).date()
-window_end = today + timedelta(days=14)
+window_start = today - timedelta(days=EVENT_WINDOW_PAST_DAYS)
+window_end = today + timedelta(days=EVENT_WINDOW_FUTURE_DAYS)
 gym_ids = {g["id"] for g in gyms}
 
 for i, ev in enumerate(manual_events):
@@ -79,7 +87,7 @@ for ev in events:
         ev_date = date.fromisoformat(ev.get("date", ""))
     except ValueError:
         continue
-    if ev_date <= window_end:
+    if window_start <= ev_date <= window_end:
         events_by_gym[ev["gym_id"]].append({
             "date": ev["date"],
             "type": ev.get("type"),
@@ -91,7 +99,7 @@ for ev in events:
 
 for ev in manual_events:
     ev_date = date.fromisoformat(ev["date"])
-    if ev_date <= window_end:
+    if window_start <= ev_date <= window_end:
         events_by_gym[ev["gym_id"]].append({
             "date": ev["date"],
             "type": ev["type"],
@@ -131,6 +139,6 @@ with open("display.json", "w", encoding="utf-8") as f:
 
 total = sum(len(g["events"]) for g in display)
 manual_total = sum(1 for g in display for e in g["events"] if e["source"] == "manual")
-print(f"{len(display)}店舗、イベント{total}件（うち手動{manual_total}件）（{today}〜{window_end}）を display.json に保存しました。")
+print(f"{len(display)}店舗、イベント{total}件（うち手動{manual_total}件）（{window_start}〜{window_end}）を display.json に保存しました。")
 for g in display:
     print(f"  {g['chain']} {g['name']}: {len(g['events'])}件")

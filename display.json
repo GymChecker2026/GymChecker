@@ -23,8 +23,8 @@
     "official_url": "https://noborock-climbing.com/program/新宿店/",
     "instagram_url": "https://www.instagram.com/noborock_shinjuku/",
     "fetch_status": "success",
-    "fetched_at": "2026-08-26T18:13:51+09:00",
-    "last_changed_at": "2026-08-17T14:31:40",
+    "fetched_at": "2026-08-26T23:32:37+09:00",
+    "last_changed_at": null,
     "events": [
       {
         "date": "2026-07-28",
@@ -84,8 +84,8 @@
     "official_url": "https://noborock-climbing.com/program/shibuya/",
     "instagram_url": "https://www.instagram.com/noborock_shibuya/",
     "fetch_status": "success",
-    "fetched_at": "2026-08-26T18:13:53+09:00",
-    "last_changed_at": "2026-08-26T02:42:37+09:00",
+    "fetched_at": "2026-08-26T23:32:38+09:00",
+    "last_changed_at": null,
     "events": [
       {
         "date": "2026-07-28",
@@ -153,8 +153,8 @@
     "official_url": "https://noborock-climbing.com/program/takadanobaba/",
     "instagram_url": "https://www.instagram.com/noborock_takadanobaba/",
     "fetch_status": "success",
-    "fetched_at": "2026-08-26T18:13:56+09:00",
-    "last_changed_at": "2026-08-26T02:42:37+09:00",
+    "fetched_at": "2026-08-26T23:32:41+09:00",
+    "last_changed_at": null,
     "events": [
       {
         "date": "2026-08-04",
@@ -222,8 +222,8 @@
     "official_url": "https://noborock-climbing.com/program/浅草店/",
     "instagram_url": "https://www.instagram.com/noborock_asakusa/",
     "fetch_status": "success",
-    "fetched_at": "2026-08-26T18:13:59+09:00",
-    "last_changed_at": "2026-08-17T14:31:40",
+    "fetched_at": "2026-08-26T23:32:44+09:00",
+    "last_changed_at": null,
     "events": [
       {
         "date": "2026-07-14",
@@ -283,8 +283,8 @@
     "official_url": "https://noborock-climbing.com/program/ikebukuro/",
     "instagram_url": "https://www.instagram.com/noborock_ikebukuro/",
     "fetch_status": "success",
-    "fetched_at": "2026-08-26T18:14:02+09:00",
-    "last_changed_at": "2026-08-26T18:13:51+09:00",
+    "fetched_at": "2026-08-26T23:32:48+09:00",
+    "last_changed_at": null,
     "events": [
       {
         "date": "2026-07-14",
@@ -344,8 +344,8 @@
     "official_url": "https://noborock-climbing.com/program/machida/",
     "instagram_url": "https://www.instagram.com/noborock_machida/",
     "fetch_status": "success",
-    "fetched_at": "2026-08-26T18:14:07+09:00",
-    "last_changed_at": "2026-08-17T14:31:40",
+    "fetched_at": "2026-08-26T23:32:52+09:00",
+    "last_changed_at": null,
     "events": [
       {
         "date": "2026-07-22",
@@ -413,8 +413,8 @@
     "official_url": "https://noborock-climbing.com/program/mizonokuchi/",
     "instagram_url": "https://www.instagram.com/noborock_mizonokuchi/",
     "fetch_status": "success",
-    "fetched_at": "2026-08-26T18:14:09+09:00",
-    "last_changed_at": "2026-08-17T14:31:40",
+    "fetched_at": "2026-08-26T23:32:55+09:00",
+    "last_changed_at": null,
     "events": [
       {
         "date": "2026-07-21",
@@ -482,8 +482,8 @@
     "official_url": "https://noborock-climbing.com/program/omiya/",
     "instagram_url": "https://www.instagram.com/noborock_omiya/",
     "fetch_status": "success",
-    "fetched_at": "2026-08-26T18:14:11+09:00",
-    "last_changed_at": "2026-08-17T14:31:40",
+    "fetched_at": "2026-08-26T23:32:58+09:00",
+    "last_changed_at": null,
     "events": [
       {
         "date": "2026-08-04",
@@ -543,7 +543,7 @@
     "official_url": "https://www.d-b-c.jp/top/tachikawa/",
     "instagram_url": "https://www.instagram.com/dbouldering_tachikawa/",
     "fetch_status": "success",
-    "fetched_at": "2026-08-26T18:14:14+09:00",
+    "fetched_at": "2026-08-26T23:33:02+09:00",
     "last_changed_at": null,
     "events": [
       {
@@ -644,7 +644,7 @@
     "official_url": "https://www.d-b-c.jp/top/tamachi/",
     "instagram_url": "https://www.instagram.com/dbouldering_tamachi/",
     "fetch_status": "success",
-    "fetched_at": "2026-08-26T18:14:24+09:00",
+    "fetched_at": "2026-08-26T23:33:11+09:00",
     "last_changed_at": null,
     "events": [
       {
@@ -753,7 +753,7 @@
     "official_url": "https://www.d-b-c.jp/top/tsunashima/",
     "instagram_url": "https://www.instagram.com/dbouldering_tsunashima/",
     "fetch_status": "success",
-    "fetched_at": "2026-08-26T18:14:46+09:00",
+    "fetched_at": "2026-08-26T23:33:34+09:00",
     "last_changed_at": null,
     "events": [
       {
@@ -806,7 +806,7 @@
     "official_url": "https://www.d-b-c.jp/top/honatsugi/",
     "instagram_url": "https://www.instagram.com/dbouldering_honatsugi/",
     "fetch_status": "success",
-    "fetched_at": "2026-08-26T18:15:10+09:00",
+    "fetched_at": "2026-08-26T23:34:00+09:00",
     "last_changed_at": null,
     "events": [
       {
@@ -907,7 +907,7 @@
     "official_url": "https://www.d-b-c.jp/top/yokohama/",
     "instagram_url": "https://www.instagram.com/dbouldering_yokohama/",
     "fetch_status": "success",
-    "fetched_at": "2026-08-26T18:16:00+09:00",
+    "fetched_at": "2026-08-26T23:34:51+09:00",
     "last_changed_at": null,
     "events": [
       {
@@ -980,7 +980,7 @@
     "official_url": "https://www.d-b-c.jp/top/kawasaki/",
     "instagram_url": "https://www.instagram.com/dbouldering_kawasaki/",
     "fetch_status": "success",
-    "fetched_at": "2026-08-26T18:16:17+09:00",
+    "fetched_at": "2026-08-26T23:35:08+09:00",
     "last_changed_at": null,
     "events": [
       {
@@ -1037,7 +1037,7 @@
     "official_url": "https://pump-climbing.com/gym/akiba/",
     "instagram_url": "https://www.instagram.com/bpumptokyo/",
     "fetch_status": "success",
-    "fetched_at": "2026-08-26T18:16:27+09:00",
+    "fetched_at": "2026-08-26T23:35:15+09:00",
     "last_changed_at": null,
     "events": [
       {
@@ -1354,7 +1354,7 @@
     "official_url": "https://pump-climbing.com/gym/bpump/",
     "instagram_url": "https://www.instagram.com/bpump_ogikubo/",
     "fetch_status": "success",
-    "fetched_at": "2026-08-26T18:16:34+09:00",
+    "fetched_at": "2026-08-26T23:35:20+09:00",
     "last_changed_at": null,
     "events": [
       {
@@ -1475,7 +1475,7 @@
     "official_url": "https://pump-climbing.com/gym/bpump2/",
     "instagram_url": "https://www.instagram.com/bpumpyokohama/",
     "fetch_status": "success",
-    "fetched_at": "2026-08-26T18:16:40+09:00",
+    "fetched_at": "2026-08-26T23:35:25+09:00",
     "last_changed_at": null,
     "events": [
       {
@@ -1540,7 +1540,7 @@
     "official_url": "https://pump-climbing.com/gym/pump1/",
     "instagram_url": "https://www.instagram.com/pump1_kawaguchi/",
     "fetch_status": "success",
-    "fetched_at": "2026-08-26T18:16:46+09:00",
+    "fetched_at": "2026-08-26T23:35:29+09:00",
     "last_changed_at": null,
     "events": [
       {
@@ -1697,7 +1697,7 @@
     "official_url": "https://pump-climbing.com/gym/pump2/",
     "instagram_url": "https://www.instagram.com/pump2climbing/",
     "fetch_status": "success",
-    "fetched_at": "2026-08-26T18:17:01+09:00",
+    "fetched_at": "2026-08-26T23:35:41+09:00",
     "last_changed_at": null,
     "events": [
       {
@@ -2489,6 +2489,852 @@
         "source_url": null,
         "published": "2026-08-27",
         "source": "manual"
+      }
+    ]
+  },
+  {
+    "gym_id": "bc-shinjuku",
+    "name": "新宿",
+    "display_name": "Base Camp 新宿",
+    "sort_key": "べーすきゃんぷしんじゅく",
+    "chain": "Base Camp",
+    "hours": [
+      {
+        "label": "平日",
+        "value": "10:00〜23:00"
+      },
+      {
+        "label": "土日祝",
+        "value": "10:00〜22:00"
+      }
+    ],
+    "hours_note": "定休日なし（臨時休業あり）",
+    "station": "西武新宿駅、JR新宿駅",
+    "line": "中央線、山手線など",
+    "enabled": true,
+    "data_note": null,
+    "official_url": "https://b-camp.jp/shinjuku/",
+    "instagram_url": "https://www.instagram.com/basecamp_shinjuku/",
+    "fetch_status": "success",
+    "fetched_at": "2026-08-26T23:35:46+09:00",
+    "last_changed_at": null,
+    "events": [
+      {
+        "date": "2026-07-13",
+        "type": "エリア制限",
+        "note": "King Cobra～SunnySide セットスケジュール",
+        "source_url": "https://b-camp.jp/shinjuku/route/",
+        "published": "2026-08-26",
+        "source": "auto"
+      },
+      {
+        "date": "2026-07-14",
+        "type": "エリア制限",
+        "note": "King Cobra～SunnySide セットスケジュール",
+        "source_url": "https://b-camp.jp/shinjuku/route/",
+        "published": "2026-08-26",
+        "source": "auto"
+      },
+      {
+        "date": "2026-07-27",
+        "type": "エリア制限",
+        "note": "YosemiteFall～CandyLand セットスケジュール",
+        "source_url": "https://b-camp.jp/shinjuku/route/",
+        "published": "2026-08-26",
+        "source": "auto"
+      },
+      {
+        "date": "2026-07-28",
+        "type": "エリア制限",
+        "note": "YosemiteFall～CandyLand セットスケジュール",
+        "source_url": "https://b-camp.jp/shinjuku/route/",
+        "published": "2026-08-26",
+        "source": "auto"
+      },
+      {
+        "date": "2026-08-11",
+        "type": "時間変更",
+        "note": "18:00クローズ",
+        "source_url": "https://b-camp.jp/shinjuku/pickup/",
+        "published": "2026-08-26",
+        "source": "auto"
+      },
+      {
+        "date": "2026-08-12",
+        "type": "エリア制限",
+        "note": "ルートセット のため Open～18:00 利用エリア制限",
+        "source_url": "https://b-camp.jp/shinjuku/pickup/",
+        "published": "2026-08-26",
+        "source": "auto"
+      },
+      {
+        "date": "2026-08-13",
+        "type": "エリア制限",
+        "note": "ルートセット のため Open～18:00 利用エリア制限",
+        "source_url": "https://b-camp.jp/shinjuku/pickup/",
+        "published": "2026-08-26",
+        "source": "auto"
+      },
+      {
+        "date": "2026-08-24",
+        "type": "エリア制限",
+        "note": "YosemiteFall～CandyLand セットスケジュール",
+        "source_url": "https://b-camp.jp/shinjuku/route/",
+        "published": "2026-08-26",
+        "source": "auto"
+      },
+      {
+        "date": "2026-08-25",
+        "type": "エリア制限",
+        "note": "YosemiteFall～CandyLand セットスケジュール",
+        "source_url": "https://b-camp.jp/shinjuku/route/",
+        "published": "2026-08-26",
+        "source": "auto"
+      }
+    ]
+  },
+  {
+    "gym_id": "bc-shinbashi",
+    "name": "新橋",
+    "display_name": "Base Camp 新橋",
+    "sort_key": "べーすきゃんぷしんばし",
+    "chain": "Base Camp",
+    "hours": [
+      {
+        "label": "平日",
+        "value": "10:00〜23:00"
+      },
+      {
+        "label": "土日祝",
+        "value": "10:00〜21:00"
+      }
+    ],
+    "hours_note": "定休日なし（臨時休業あり）",
+    "station": "内幸町駅、新橋駅",
+    "line": "都営三田線、JRなど",
+    "enabled": true,
+    "data_note": null,
+    "official_url": "https://b-camp.jp/shinbashi/",
+    "instagram_url": "https://www.instagram.com/basecamp_shinbashi/",
+    "fetch_status": "success",
+    "fetched_at": "2026-08-26T23:35:53+09:00",
+    "last_changed_at": null,
+    "events": [
+      {
+        "date": "2026-07-20",
+        "type": "時間変更",
+        "note": "18:00close ホールド外し作業のため",
+        "source_url": "https://b-camp.jp/shinbashi/route/",
+        "published": "2026-08-26",
+        "source": "auto"
+      },
+      {
+        "date": "2026-07-21",
+        "type": "休業",
+        "note": "ルートセット作業のため臨時休業",
+        "source_url": "https://b-camp.jp/shinbashi/pickup/",
+        "published": "2026-08-26",
+        "source": "auto"
+      },
+      {
+        "date": "2026-07-22",
+        "type": "時間変更",
+        "note": "18:00OPEN ラインセットリニューアル",
+        "source_url": "https://b-camp.jp/shinbashi/route/",
+        "published": "2026-08-26",
+        "source": "auto"
+      },
+      {
+        "date": "2026-08-11",
+        "type": "時間変更",
+        "note": "祝日営業",
+        "source_url": "https://b-camp.jp/shinbashi/pickup/",
+        "published": "2026-08-26",
+        "source": "auto"
+      },
+      {
+        "date": "2026-08-16",
+        "type": "時間変更",
+        "note": "ホールド外し作業のため18:00クローズ",
+        "source_url": "https://b-camp.jp/shinbashi/pickup/",
+        "published": "2026-08-26",
+        "source": "auto"
+      },
+      {
+        "date": "2026-08-17",
+        "type": "休業",
+        "note": "ルートセット作業のため臨時休業",
+        "source_url": "https://b-camp.jp/shinbashi/pickup/",
+        "published": "2026-08-26",
+        "source": "auto"
+      },
+      {
+        "date": "2026-08-18",
+        "type": "時間変更",
+        "note": "ラインセットリニューアルのため18:00オープン23:00クローズ",
+        "source_url": "https://b-camp.jp/shinbashi/pickup/",
+        "published": "2026-08-26",
+        "source": "auto"
+      },
+      {
+        "date": "2026-09-03",
+        "type": "エリア制限",
+        "note": "Hubbleセットのため一部エリア制限",
+        "source_url": "https://b-camp.jp/shinbashi/route/",
+        "published": "2026-08-26",
+        "source": "auto"
+      }
+    ]
+  },
+  {
+    "gym_id": "bc-edogawabashi",
+    "name": "江戸川橋",
+    "display_name": "Base Camp 江戸川橋",
+    "sort_key": "べーすきゃんぷえどがわばし",
+    "chain": "Base Camp",
+    "hours": [
+      {
+        "label": "平日",
+        "value": "12:00〜23:00"
+      },
+      {
+        "label": "土日祝",
+        "value": "10:00〜21:00"
+      }
+    ],
+    "hours_note": "定休日なし（臨時休業あり）",
+    "station": "江戸川橋駅、神楽坂駅",
+    "line": "有楽町線、東京メトロ東西線など",
+    "enabled": true,
+    "data_note": null,
+    "official_url": "https://b-camp.jp/edogawabashi/",
+    "instagram_url": "https://www.instagram.com/basecamp_edogawabashi/",
+    "fetch_status": "success",
+    "fetched_at": "2026-08-26T23:36:04+09:00",
+    "last_changed_at": null,
+    "events": [
+      {
+        "date": "2026-07-05",
+        "type": "エリア制限",
+        "note": "1階ボルダーエリア全体及び地下リードエリアリニューアル作業のため利用不可",
+        "source_url": "https://b-camp.jp/edogawabashi/route/",
+        "published": "2026-08-26",
+        "source": "auto"
+      },
+      {
+        "date": "2026-07-06",
+        "type": "エリア制限",
+        "note": "1階ボルダーエリア全体リニューアル作業のため利用不可",
+        "source_url": "https://b-camp.jp/edogawabashi/route/",
+        "published": "2026-08-26",
+        "source": "auto"
+      },
+      {
+        "date": "2026-07-07",
+        "type": "エリア制限",
+        "note": "1階ボルダーエリア全体リニューアル作業のため利用不可",
+        "source_url": "https://b-camp.jp/edogawabashi/route/",
+        "published": "2026-08-26",
+        "source": "auto"
+      },
+      {
+        "date": "2026-07-13",
+        "type": "エリア制限",
+        "note": "地下ルートクライミングエリア 終日封鎖（Cascade Right壁面塗装工事）",
+        "source_url": "https://b-camp.jp/edogawabashi/pickup/",
+        "published": "2026-08-26",
+        "source": "auto"
+      },
+      {
+        "date": "2026-07-14",
+        "type": "エリア制限",
+        "note": "Cascade Right 終日封鎖（塗装工事）",
+        "source_url": "https://b-camp.jp/edogawabashi/pickup/",
+        "published": "2026-08-26",
+        "source": "auto"
+      },
+      {
+        "date": "2026-07-15",
+        "type": "エリア制限",
+        "note": "Cascade Right 終日封鎖（塗装工事）",
+        "source_url": "https://b-camp.jp/edogawabashi/pickup/",
+        "published": "2026-08-26",
+        "source": "auto"
+      },
+      {
+        "date": "2026-07-16",
+        "type": "エリア制限",
+        "note": "Cascade Right 終日封鎖（塗装工事）",
+        "source_url": "https://b-camp.jp/edogawabashi/pickup/",
+        "published": "2026-08-26",
+        "source": "auto"
+      },
+      {
+        "date": "2026-07-17",
+        "type": "エリア制限",
+        "note": "地下ルートクライミングエリア 12:00～18:00封鎖（塗装工事）",
+        "source_url": "https://b-camp.jp/edogawabashi/pickup/",
+        "published": "2026-08-26",
+        "source": "auto"
+      },
+      {
+        "date": "2026-07-26",
+        "type": "エリア制限",
+        "note": "2Fボルダー「Debut」セット作業のため利用不可",
+        "source_url": "https://b-camp.jp/edogawabashi/route/",
+        "published": "2026-08-26",
+        "source": "auto"
+      },
+      {
+        "date": "2026-07-27",
+        "type": "エリア制限",
+        "note": "2Fボルダー「Debut」セット作業のため利用不可",
+        "source_url": "https://b-camp.jp/edogawabashi/route/",
+        "published": "2026-08-26",
+        "source": "auto"
+      },
+      {
+        "date": "2026-07-30",
+        "type": "エリア制限",
+        "note": "2Fボルダー「NINJA ～ DEBUT」セット作業のため利用不可",
+        "source_url": "https://b-camp.jp/edogawabashi/route/",
+        "published": "2026-08-26",
+        "source": "auto"
+      },
+      {
+        "date": "2026-07-31",
+        "type": "エリア制限",
+        "note": "2Fボルダー「NINJA ～ DEBUT」セット作業のため利用不可",
+        "source_url": "https://b-camp.jp/edogawabashi/route/",
+        "published": "2026-08-26",
+        "source": "auto"
+      },
+      {
+        "date": "2026-08-02",
+        "type": "エリア制限",
+        "note": "1階ボルダーエリア全体及び地下リードエリアリニューアル作業のため利用不可",
+        "source_url": "https://b-camp.jp/edogawabashi/route/",
+        "published": "2026-08-26",
+        "source": "auto"
+      },
+      {
+        "date": "2026-08-03",
+        "type": "エリア制限",
+        "note": "1階ボルダーエリア全体リニューアル作業のため利用不可",
+        "source_url": "https://b-camp.jp/edogawabashi/route/",
+        "published": "2026-08-26",
+        "source": "auto"
+      },
+      {
+        "date": "2026-08-04",
+        "type": "エリア制限",
+        "note": "1階ボルダーエリア全体リニューアル作業のため利用不可",
+        "source_url": "https://b-camp.jp/edogawabashi/route/",
+        "published": "2026-08-26",
+        "source": "auto"
+      },
+      {
+        "date": "2026-08-17",
+        "type": "エリア制限",
+        "note": "地下ルートクライミングエリア 終日封鎖（Cascade Left壁面塗装工事）",
+        "source_url": "https://b-camp.jp/edogawabashi/pickup/",
+        "published": "2026-08-26",
+        "source": "auto"
+      },
+      {
+        "date": "2026-08-18",
+        "type": "エリア制限",
+        "note": "Cascade Left 終日封鎖（塗装工事）",
+        "source_url": "https://b-camp.jp/edogawabashi/pickup/",
+        "published": "2026-08-26",
+        "source": "auto"
+      },
+      {
+        "date": "2026-08-19",
+        "type": "エリア制限",
+        "note": "Cascade Left 終日封鎖（塗装工事）",
+        "source_url": "https://b-camp.jp/edogawabashi/pickup/",
+        "published": "2026-08-26",
+        "source": "auto"
+      },
+      {
+        "date": "2026-08-20",
+        "type": "エリア制限",
+        "note": "Cascade Left 終日封鎖（塗装工事）",
+        "source_url": "https://b-camp.jp/edogawabashi/pickup/",
+        "published": "2026-08-26",
+        "source": "auto"
+      },
+      {
+        "date": "2026-08-21",
+        "type": "エリア制限",
+        "note": "地下ルートクライミングエリア 12:00～18:00封鎖（塗装工事）",
+        "source_url": "https://b-camp.jp/edogawabashi/pickup/",
+        "published": "2026-08-26",
+        "source": "auto"
+      },
+      {
+        "date": "2026-08-23",
+        "type": "エリア制限",
+        "note": "2Fボルダー「Debut」セット作業のため利用不可",
+        "source_url": "https://b-camp.jp/edogawabashi/route/",
+        "published": "2026-08-26",
+        "source": "auto"
+      },
+      {
+        "date": "2026-08-24",
+        "type": "エリア制限",
+        "note": "2Fボルダー「Debut」セット作業のため利用不可",
+        "source_url": "https://b-camp.jp/edogawabashi/route/",
+        "published": "2026-08-26",
+        "source": "auto"
+      },
+      {
+        "date": "2026-08-27",
+        "type": "エリア制限",
+        "note": "2Fボルダー「Tokyo Cave ～ DEBUT」セット作業のため利用不可",
+        "source_url": "https://b-camp.jp/edogawabashi/route/",
+        "published": "2026-08-26",
+        "source": "auto"
+      },
+      {
+        "date": "2026-08-28",
+        "type": "エリア制限",
+        "note": "2Fボルダー「Tokyo Cave ～ DEBUT」セット作業のため利用不可",
+        "source_url": "https://b-camp.jp/edogawabashi/route/",
+        "published": "2026-08-26",
+        "source": "auto"
+      },
+      {
+        "date": "2026-08-30",
+        "type": "エリア制限",
+        "note": "1階ボルダーエリア全体及び地下リードエリアリニューアル作業のため利用不可",
+        "source_url": "https://b-camp.jp/edogawabashi/route/",
+        "published": "2026-08-26",
+        "source": "auto"
+      },
+      {
+        "date": "2026-08-31",
+        "type": "エリア制限",
+        "note": "1階ボルダーエリア全体リニューアル作業のため利用不可",
+        "source_url": "https://b-camp.jp/edogawabashi/route/",
+        "published": "2026-08-26",
+        "source": "auto"
+      },
+      {
+        "date": "2026-09-01",
+        "type": "エリア制限",
+        "note": "1階ボルダーエリア全体リニューアル作業のため利用不可",
+        "source_url": "https://b-camp.jp/edogawabashi/route/",
+        "published": "2026-08-26",
+        "source": "auto"
+      }
+    ]
+  },
+  {
+    "gym_id": "bc-kinshicho",
+    "name": "錦糸町",
+    "display_name": "Base Camp 錦糸町",
+    "sort_key": "べーすきゃんぷきんしちょう",
+    "chain": "Base Camp",
+    "hours": [
+      {
+        "label": "平日",
+        "value": "12:00〜23:00"
+      },
+      {
+        "label": "土日祝",
+        "value": "10:00〜21:00"
+      }
+    ],
+    "hours_note": "定休日なし（臨時休業あり）",
+    "station": "錦糸町駅、住吉駅",
+    "line": "JR総武線、都営新宿線など",
+    "enabled": true,
+    "data_note": null,
+    "official_url": "https://b-camp.jp/kinshicho/",
+    "instagram_url": "https://www.instagram.com/basecamp_kinshicho/",
+    "fetch_status": "success",
+    "fetched_at": "2026-08-26T23:36:14+09:00",
+    "last_changed_at": null,
+    "events": [
+      {
+        "date": "2026-06-29",
+        "type": "エリア制限",
+        "note": "ボルダー2階まぶし壁【T-WALLL】ホールド替え（6/29-30 18:00まで）",
+        "source_url": "https://b-camp.jp/kinshicho/route/",
+        "published": "2026-08-26",
+        "source": "auto"
+      },
+      {
+        "date": "2026-06-30",
+        "type": "エリア制限",
+        "note": "ボルダー2階まぶし壁【T-WALLL】ホールド替え（6/29-30 18:00まで）",
+        "source_url": "https://b-camp.jp/kinshicho/route/",
+        "published": "2026-08-26",
+        "source": "auto"
+      },
+      {
+        "date": "2026-07-08",
+        "type": "エリア制限",
+        "note": "7月ボルダー全面リニューアルセット（7/8-10 18:00まで）",
+        "source_url": "https://b-camp.jp/kinshicho/route/",
+        "published": "2026-08-26",
+        "source": "auto"
+      },
+      {
+        "date": "2026-07-09",
+        "type": "エリア制限",
+        "note": "7月ボルダー全面リニューアルセット（7/8-10 18:00まで）",
+        "source_url": "https://b-camp.jp/kinshicho/route/",
+        "published": "2026-08-26",
+        "source": "auto"
+      },
+      {
+        "date": "2026-07-09",
+        "type": "時間変更",
+        "note": "18:00～2階ボルダー解放予定",
+        "source_url": "https://b-camp.jp/kinshicho/route/",
+        "published": "2026-08-26",
+        "source": "auto"
+      },
+      {
+        "date": "2026-07-10",
+        "type": "エリア制限",
+        "note": "7月ボルダー全面リニューアルセット（7/8-10 18:00まで）",
+        "source_url": "https://b-camp.jp/kinshicho/route/",
+        "published": "2026-08-26",
+        "source": "auto"
+      },
+      {
+        "date": "2026-07-15",
+        "type": "エリア制限",
+        "note": "リードエリア\"Cathedral\"リニューアルセット（7/15-17 18:00まで）",
+        "source_url": "https://b-camp.jp/kinshicho/route/",
+        "published": "2026-08-26",
+        "source": "auto"
+      },
+      {
+        "date": "2026-07-16",
+        "type": "エリア制限",
+        "note": "リードエリア\"Cathedral\"リニューアルセット（7/15-17 18:00まで）",
+        "source_url": "https://b-camp.jp/kinshicho/route/",
+        "published": "2026-08-26",
+        "source": "auto"
+      },
+      {
+        "date": "2026-07-17",
+        "type": "エリア制限",
+        "note": "リードエリア\"Cathedral\"リニューアルセット（7/15-17 18:00まで）",
+        "source_url": "https://b-camp.jp/kinshicho/route/",
+        "published": "2026-08-26",
+        "source": "auto"
+      },
+      {
+        "date": "2026-08-05",
+        "type": "エリア制限",
+        "note": "8月ボルダー全面リニューアルセット（8/5-7）",
+        "source_url": "https://b-camp.jp/kinshicho/route/",
+        "published": "2026-08-26",
+        "source": "auto"
+      },
+      {
+        "date": "2026-08-06",
+        "type": "エリア制限",
+        "note": "8月ボルダー全面リニューアルセット（8/5-7）",
+        "source_url": "https://b-camp.jp/kinshicho/route/",
+        "published": "2026-08-26",
+        "source": "auto"
+      },
+      {
+        "date": "2026-08-07",
+        "type": "エリア制限",
+        "note": "8月ボルダー全面リニューアルセット（8/5-7）",
+        "source_url": "https://b-camp.jp/kinshicho/route/",
+        "published": "2026-08-26",
+        "source": "auto"
+      },
+      {
+        "date": "2026-09-01",
+        "type": "エリア制限",
+        "note": "９月リードエリア\"Rostrum\"リニューアルセット",
+        "source_url": "https://b-camp.jp/kinshicho/pickup/",
+        "published": "2026-08-26",
+        "source": "auto"
+      },
+      {
+        "date": "2026-09-09",
+        "type": "エリア制限",
+        "note": "9月ボルダー全面リニューアルセット（9/9-11 18:00まで）",
+        "source_url": "https://b-camp.jp/kinshicho/route/",
+        "published": "2026-08-26",
+        "source": "auto"
+      }
+    ]
+  },
+  {
+    "gym_id": "bc-higashimurayama",
+    "name": "東村山",
+    "display_name": "Base Camp 東村山",
+    "sort_key": "べーすきゃんぷひがしむらやま",
+    "chain": "Base Camp",
+    "hours": [
+      {
+        "label": "平日",
+        "value": "14:00〜22:30"
+      },
+      {
+        "label": "土曜",
+        "value": "10:00〜21:00"
+      },
+      {
+        "label": "日曜・祝日",
+        "value": "10:00〜20:00"
+      }
+    ],
+    "hours_note": "定休日なし（臨時休業あり）",
+    "station": "東村山駅",
+    "line": "西武線",
+    "enabled": true,
+    "data_note": null,
+    "official_url": "https://b-camp.jp/higashimurayama/",
+    "instagram_url": "https://www.instagram.com/basecamp_higashimurayama/",
+    "fetch_status": "success",
+    "fetched_at": "2026-08-26T23:36:25+09:00",
+    "last_changed_at": null,
+    "events": [
+      {
+        "date": "2026-07-01",
+        "type": "エリア制限",
+        "note": "Kusa wall Leftのホールド外し",
+        "source_url": "https://b-camp.jp/higashimurayama/route/",
+        "published": "2026-08-26",
+        "source": "auto"
+      },
+      {
+        "date": "2026-07-02",
+        "type": "エリア制限",
+        "note": "強傾斜エリア封鎖",
+        "source_url": "https://b-camp.jp/higashimurayama/route/",
+        "published": "2026-08-26",
+        "source": "auto"
+      },
+      {
+        "date": "2026-07-03",
+        "type": "エリア制限",
+        "note": "強傾斜ホールド替え",
+        "source_url": "https://b-camp.jp/higashimurayama/route/",
+        "published": "2026-08-26",
+        "source": "auto"
+      },
+      {
+        "date": "2026-07-15",
+        "type": "エリア制限",
+        "note": "Slab 92のホールド外し",
+        "source_url": "https://b-camp.jp/higashimurayama/route/",
+        "published": "2026-08-26",
+        "source": "auto"
+      },
+      {
+        "date": "2026-07-16",
+        "type": "エリア制限",
+        "note": "緩傾斜エリア封鎖",
+        "source_url": "https://b-camp.jp/higashimurayama/route/",
+        "published": "2026-08-26",
+        "source": "auto"
+      },
+      {
+        "date": "2026-07-17",
+        "type": "エリア制限",
+        "note": "緩傾斜ホールド替え",
+        "source_url": "https://b-camp.jp/higashimurayama/route/",
+        "published": "2026-08-26",
+        "source": "auto"
+      },
+      {
+        "date": "2026-08-05",
+        "type": "エリア制限",
+        "note": "Kusa wall Leftのホールド外し",
+        "source_url": "https://b-camp.jp/higashimurayama/route/",
+        "published": "2026-08-26",
+        "source": "auto"
+      },
+      {
+        "date": "2026-08-06",
+        "type": "エリア制限",
+        "note": "強傾斜エリア封鎖",
+        "source_url": "https://b-camp.jp/higashimurayama/route/",
+        "published": "2026-08-26",
+        "source": "auto"
+      },
+      {
+        "date": "2026-08-07",
+        "type": "エリア制限",
+        "note": "強傾斜ホールド替え",
+        "source_url": "https://b-camp.jp/higashimurayama/route/",
+        "published": "2026-08-26",
+        "source": "auto"
+      },
+      {
+        "date": "2026-08-19",
+        "type": "エリア制限",
+        "note": "Slab 92のホールド外し",
+        "source_url": "https://b-camp.jp/higashimurayama/route/",
+        "published": "2026-08-26",
+        "source": "auto"
+      },
+      {
+        "date": "2026-08-20",
+        "type": "エリア制限",
+        "note": "緩傾斜エリア封鎖",
+        "source_url": "https://b-camp.jp/higashimurayama/route/",
+        "published": "2026-08-26",
+        "source": "auto"
+      },
+      {
+        "date": "2026-08-21",
+        "type": "エリア制限",
+        "note": "緩傾斜ホールド替え",
+        "source_url": "https://b-camp.jp/higashimurayama/route/",
+        "published": "2026-08-26",
+        "source": "auto"
+      },
+      {
+        "date": "2026-09-02",
+        "type": "エリア制限",
+        "note": "Kusa wall Leftのホールド外し",
+        "source_url": "https://b-camp.jp/higashimurayama/route/",
+        "published": "2026-08-26",
+        "source": "auto"
+      },
+      {
+        "date": "2026-09-03",
+        "type": "エリア制限",
+        "note": "強傾斜エリア封鎖",
+        "source_url": "https://b-camp.jp/higashimurayama/route/",
+        "published": "2026-08-26",
+        "source": "auto"
+      },
+      {
+        "date": "2026-09-04",
+        "type": "エリア制限",
+        "note": "強傾斜ホールド替え",
+        "source_url": "https://b-camp.jp/higashimurayama/route/",
+        "published": "2026-08-26",
+        "source": "auto"
+      }
+    ]
+  },
+  {
+    "gym_id": "bc-kawagoe",
+    "name": "川越",
+    "display_name": "Base Camp 川越",
+    "sort_key": "べーすきゃんぷかわごえ",
+    "chain": "Base Camp",
+    "hours": [
+      {
+        "label": "平日",
+        "value": "14:00〜22:30"
+      },
+      {
+        "label": "土曜",
+        "value": "10:00〜21:00"
+      },
+      {
+        "label": "日曜・祝日",
+        "value": "10:00〜20:00"
+      }
+    ],
+    "hours_note": "毎週火曜日定休（祝日の場合も定休。この他、臨時休業あり）",
+    "station": "鶴ヶ島駅",
+    "line": "東武東上線",
+    "enabled": true,
+    "data_note": null,
+    "official_url": "https://b-camp.jp/kawagoe/",
+    "instagram_url": "https://www.instagram.com/basecamp_kawagoe/",
+    "fetch_status": "success",
+    "fetched_at": "2026-08-26T23:36:36+09:00",
+    "last_changed_at": null,
+    "events": [
+      {
+        "date": "2026-07-08",
+        "type": "エリア制限",
+        "note": "Berlin ~ Demi Lune (奥面) セット作業",
+        "source_url": "https://b-camp.jp/kawagoe/route/",
+        "published": "2026-08-26",
+        "source": "auto"
+      },
+      {
+        "date": "2026-07-15",
+        "type": "エリア制限",
+        "note": "Biographie ~ Instruction Wall (右面) セット作業",
+        "source_url": "https://b-camp.jp/kawagoe/route/",
+        "published": "2026-08-26",
+        "source": "auto"
+      },
+      {
+        "date": "2026-07-22",
+        "type": "エリア制限",
+        "note": "Grande Face ~ Berlin (左面) セット作業",
+        "source_url": "https://b-camp.jp/kawagoe/route/",
+        "published": "2026-08-26",
+        "source": "auto"
+      },
+      {
+        "date": "2026-08-05",
+        "type": "エリア制限",
+        "note": "Berlin ~ Demi Lune (奥面) セット作業",
+        "source_url": "https://b-camp.jp/kawagoe/route/",
+        "published": "2026-08-26",
+        "source": "auto"
+      },
+      {
+        "date": "2026-08-10",
+        "type": "休業",
+        "note": "コナミスポーツクラブ川越のお盆休業に伴う臨時休業",
+        "source_url": "https://b-camp.jp/kawagoe/pickup/",
+        "published": "2026-08-26",
+        "source": "auto"
+      },
+      {
+        "date": "2026-08-12",
+        "type": "休業",
+        "note": "コナミスポーツクラブ川越のお盆休業に伴う臨時休業",
+        "source_url": "https://b-camp.jp/kawagoe/pickup/",
+        "published": "2026-08-26",
+        "source": "auto"
+      },
+      {
+        "date": "2026-08-13",
+        "type": "休業",
+        "note": "コナミスポーツクラブ川越のお盆休業に伴う臨時休業",
+        "source_url": "https://b-camp.jp/kawagoe/pickup/",
+        "published": "2026-08-26",
+        "source": "auto"
+      },
+      {
+        "date": "2026-08-14",
+        "type": "休業",
+        "note": "コナミスポーツクラブ川越のお盆休業に伴う臨時休業",
+        "source_url": "https://b-camp.jp/kawagoe/pickup/",
+        "published": "2026-08-26",
+        "source": "auto"
+      },
+      {
+        "date": "2026-08-19",
+        "type": "エリア制限",
+        "note": "Biographie ~ Instruction Wall (右面) セット作業",
+        "source_url": "https://b-camp.jp/kawagoe/route/",
+        "published": "2026-08-26",
+        "source": "auto"
+      },
+      {
+        "date": "2026-08-26",
+        "type": "エリア制限",
+        "note": "Grande Face ~ Berlin (左面) セット作業",
+        "source_url": "https://b-camp.jp/kawagoe/route/",
+        "published": "2026-08-26",
+        "source": "auto"
       }
     ]
   }

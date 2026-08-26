@@ -684,12 +684,165 @@
       }
     ],
     "station": "西武新宿駅、JR新宿駅",
-    "line": "",
+    "line": "中央線、山手線など",
     "display_name": "Base Camp 新宿",
     "official_url": "https://b-camp.jp/shinjuku/",
     "data_note": null,
     "instagram_url": "https://www.instagram.com/basecamp_shinjuku/",
     "hours_note": "定休日なし（臨時休業あり）",
     "sort_key": "べーすきゃんぷしんじゅく"
+  },
+  {
+    "id": "bc-shinbashi",
+    "name": "新橋",
+    "chain": "Base Camp",
+    "method": "page",
+    "urls": [
+      "https://b-camp.jp/shinbashi/pickup/",
+      "https://b-camp.jp/shinbashi/route/"
+    ],
+    "list_page": true,
+    "hours": [
+      {
+        "label": "平日",
+        "value": "10:00〜23:00"
+      },
+      {
+        "label": "土日祝",
+        "value": "10:00〜21:00"
+      }
+    ],
+    "station": "内幸町駅、新橋駅",
+    "line": "都営三田線、JRなど",
+    "display_name": "Base Camp 新橋",
+    "official_url": "https://b-camp.jp/shinbashi/",
+    "data_note": null,
+    "instagram_url": "https://www.instagram.com/basecamp_shinbashi/",
+    "hours_note": "定休日なし（臨時休業あり）",
+    "sort_key": "べーすきゃんぷしんばし"
+  },
+  {
+    "id": "bc-edogawabashi",
+    "name": "江戸川橋",
+    "chain": "Base Camp",
+    "method": "page",
+    "urls": [
+      "https://b-camp.jp/edogawabashi/pickup/",
+      "https://b-camp.jp/edogawabashi/route/"
+    ],
+    "list_page": true,
+    "hours": [
+      {
+        "label": "平日",
+        "value": "12:00〜23:00"
+      },
+      {
+        "label": "土日祝",
+        "value": "10:00〜21:00"
+      }
+    ],
+    "station": "江戸川橋駅、神楽坂駅",
+    "line": "有楽町線、東京メトロ東西線など",
+    "display_name": "Base Camp 江戸川橋",
+    "official_url": "https://b-camp.jp/edogawabashi/",
+    "data_note": null,
+    "instagram_url": "https://www.instagram.com/basecamp_edogawabashi/",
+    "hours_note": "定休日なし（臨時休業あり）",
+    "sort_key": "べーすきゃんぷえどがわばし"
+  },
+  {
+    "id": "bc-kinshicho",
+    "name": "錦糸町",
+    "chain": "Base Camp",
+    "method": "page",
+    "urls": [
+      "https://b-camp.jp/kinshicho/pickup/",
+      "https://b-camp.jp/kinshicho/route/"
+    ],
+    "list_page": true,
+    "hours": [
+      {
+        "label": "平日",
+        "value": "12:00〜23:00"
+      },
+      {
+        "label": "土日祝",
+        "value": "10:00〜21:00"
+      }
+    ],
+    "station": "錦糸町駅、住吉駅",
+    "line": "JR総武線、都営新宿線など",
+    "display_name": "Base Camp 錦糸町",
+    "official_url": "https://b-camp.jp/kinshicho/",
+    "data_note": null,
+    "instagram_url": "https://www.instagram.com/basecamp_kinshicho/",
+    "hours_note": "定休日なし（臨時休業あり）",
+    "sort_key": "べーすきゃんぷきんしちょう"
+  },
+  {
+    "id": "bc-higashimurayama",
+    "name": "東村山",
+    "chain": "Base Camp",
+    "method": "page",
+    "urls": [
+      "https://b-camp.jp/higashimurayama/pickup/",
+      "https://b-camp.jp/higashimurayama/route/"
+    ],
+    "list_page": true,
+    "hours": [
+      {
+        "label": "平日",
+        "value": "14:00〜22:30"
+      },
+      {
+        "label": "土曜",
+        "value": "10:00〜21:00"
+      },
+      {
+        "label": "日曜・祝日",
+        "value": "10:00〜20:00"
+      }
+    ],
+    "station": "東村山駅",
+    "line": "西武線",
+    "display_name": "Base Camp 東村山",
+    "official_url": "https://b-camp.jp/higashimurayama/",
+    "data_note": null,
+    "instagram_url": "https://www.instagram.com/basecamp_higashimurayama/",
+    "hours_note": "定休日なし（臨時休業あり）",
+    "sort_key": "べーすきゃんぷひがしむらやま"
+  },
+  {
+    "id": "bc-kawagoe",
+    "name": "川越",
+    "chain": "Base Camp",
+    "method": "page",
+    "urls": [
+      "https://b-camp.jp/kawagoe/pickup/",
+      "https://b-camp.jp/kawagoe/route/"
+    ],
+    "list_page": true,
+    "hours": [
+      {
+        "label": "平日",
+        "value": "14:00〜22:30"
+      },
+      {
+        "label": "土曜",
+        "value": "10:00〜21:00"
+      },
+      {
+        "label": "日曜・祝日",
+        "value": "10:00〜20:00"
+      }
+    ],
+    "station": "鶴ヶ島駅",
+    "line": "東武東上線",
+    "display_name": "Base Camp 川越",
+    "official_url": "https://b-camp.jp/kawagoe/",
+    "data_note": null,
+    "instagram_url": "https://www.instagram.com/basecamp_kawagoe/",
+    "hours_note": "毎週火曜日定休（祝日の場合も定休。この他、臨時休業あり）",
+    "sort_key": "べーすきゃんぷかわごえ"
   }
 ]
