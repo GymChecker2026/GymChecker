@@ -22,5 +22,25 @@
   "rocky-ryogoku:1": {
     "url": "https://www.rockyclimbing.com/img/set_179.png",
     "sha256": "64b9c8c4bc137f695cb67fbd470f930b597d7d41682e9ea7d0566f4b1cb1f95b"
+  },
+  "rocky-inzai:0": {
+    "url": "https://www.rockyclimbing.com/img/set_172.png",
+    "sha256": "a462d87e52b4467f3ccdaa5e2f4418cdef84ecccb18150518006b68f73b2bb14"
+  },
+  "rocky-inzai:1": {
+    "url": "https://www.rockyclimbing.com/img/set_180.png",
+    "sha256": "8ca8632f744d5856b0d6648efadf10639af87b1d69660a368f846cd7f25b1e4f"
+  },
+  "rocky-tsukuba:0": {
+    "url": "https://www.rockyclimbing.com/img/set_171.png",
+    "sha256": "f510c2674a97e76538f5b0e9c12eb16a1c694a89ba8d93c2cfcb9db2150579ad"
+  },
+  "rocky-tsukuba:1": {
+    "url": "https://www.rockyclimbing.com/img/set_178.png",
+    "sha256": "72452e0f0f80249cb5978b99003772998f34702fb6d7a52913e756de75551cad"
+  },
+  "rocky-funabashi:0": {
+    "url": "https://www.rockyclimbing.com/img/set_169.png",
+    "sha256": "054ad8e0551f189a2b6d69e2b41bb5c3b18344a92cb75d8cd8c619f074ef36e9"
   }
 }

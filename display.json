@@ -1766,13 +1766,13 @@
     "official_url": "https://www.rockyclimbing.com/shinagawa/",
     "instagram_url": null,
     "fetch_status": "success",
-    "fetched_at": "2026-08-26T02:49:38+09:00",
+    "fetched_at": "2026-08-26T18:00:54+09:00",
     "last_changed_at": null,
     "events": [
       {
         "date": "2026-07-10",
         "type": "イベント",
-        "note": "SHINA ROCKY'S Open to anyone regardless of level:) Fun 18:30~20:30",
+        "note": "SHINA ROCKY'S Fun 18:30~20:30",
         "source_url": null,
         "published": "2026-08-26",
         "source": "manual"
@@ -1844,7 +1844,7 @@
       {
         "date": "2026-08-13",
         "type": "イベント",
-        "note": "メンバーシップナイト ★メンバーシップ限定★ 20:00~",
+        "note": "メンバーシップナイト 20:00~",
         "source_url": null,
         "published": "2026-08-26",
         "source": "manual"
@@ -1858,9 +1858,41 @@
         "source": "manual"
       },
       {
+        "date": "2026-08-20",
+        "type": "休業",
+        "note": "THE NIGHT GAME セットDAY1 / 終日休業",
+        "source_url": null,
+        "published": "2026-08-26",
+        "source": "manual"
+      },
+      {
+        "date": "2026-08-21",
+        "type": "休業",
+        "note": "THE NIGHT GAME セットDAY2 / 終日休業",
+        "source_url": null,
+        "published": "2026-08-26",
+        "source": "manual"
+      },
+      {
+        "date": "2026-08-22",
+        "type": "休業",
+        "note": "THE NIGHT GAME DAY1 ※コンペ参加者のみ利用可能 / 終日休業",
+        "source_url": null,
+        "published": "2026-08-26",
+        "source": "manual"
+      },
+      {
+        "date": "2026-08-23",
+        "type": "休業",
+        "note": "THE NIGHT GAME DAY2 ※コンペ参加者のみ利用可能 / 終日休業",
+        "source_url": null,
+        "published": "2026-08-26",
+        "source": "manual"
+      },
+      {
         "date": "2026-08-29",
         "type": "イベント",
-        "note": "メンバーシップナイト ★メンバーシップ限定★ 18:00~",
+        "note": "メンバーシップナイト 18:00~",
         "source_url": null,
         "published": "2026-08-26",
         "source": "manual"
@@ -1891,7 +1923,7 @@
     "official_url": "https://www.rockyclimbing.com/shinjukuakebonobashi/",
     "instagram_url": null,
     "fetch_status": "success",
-    "fetched_at": "2026-08-26T02:49:38+09:00",
+    "fetched_at": "2026-08-26T18:00:54+09:00",
     "last_changed_at": null,
     "events": [
       {
@@ -1905,7 +1937,7 @@
       {
         "date": "2026-07-12",
         "type": "エリア制限",
-        "note": "ホールド外し ・KING ・QUEEN ・JACK ・LAGOON / 10:00~21:00（外しエリアは17時以降登れません）",
+        "note": "ホールド外し ・KING ・QUEEN ・JACK ・LAGOON / 10:00~21:00 (外しエリアは17時以降登れません)",
         "source_url": null,
         "published": "2026-08-26",
         "source": "manual"
@@ -1913,7 +1945,7 @@
       {
         "date": "2026-07-13",
         "type": "セット完了",
-        "note": "セット ・KING ・QUEEN ・JACK ・LAGOON / 10:00~23:00（セットエリアは19時から登れます）",
+        "note": "セット ・KING ・QUEEN ・JACK ・LAGOON / 10:00~23:00 (セットエリアは19時から登れます)",
         "source_url": null,
         "published": "2026-08-26",
         "source": "manual"
@@ -1929,7 +1961,7 @@
       {
         "date": "2026-07-26",
         "type": "エリア制限",
-        "note": "ホールド外し ・MONSTER / 10:00~21:00（外しエリアは17時以降登れません）",
+        "note": "ホールド外し ・MONSTER / 10:00~21:00 (外しエリアは17時以降登れません)",
         "source_url": null,
         "published": "2026-08-26",
         "source": "manual"
@@ -1937,7 +1969,7 @@
       {
         "date": "2026-07-27",
         "type": "セット完了",
-        "note": "セット ・MONSTER / 10:00~23:00（セットエリアは19時から登れます）",
+        "note": "セット ・MONSTER / 10:00~23:00 (セットエリアは19時から登れます)",
         "source_url": null,
         "published": "2026-08-26",
         "source": "manual"
@@ -1953,7 +1985,7 @@
       {
         "date": "2026-08-09",
         "type": "エリア制限",
-        "note": "ホールド外し ・WELCOME ・BUFFALO ・SHALLOW / 10:00~21:00 (外しエリアは17時以降登れません)",
+        "note": "ホールド外し •WELCOME •BUFFALO •SHALLOW / 10:00~21:00 (外しエリアは17時以降登れません)",
         "source_url": null,
         "published": "2026-08-26",
         "source": "manual"
@@ -1961,7 +1993,7 @@
       {
         "date": "2026-08-10",
         "type": "セット完了",
-        "note": "セット ・WELCOME ・BUFFALO ・SHALLOW / 10:00~23:00 (セットエリアは19時から登れます)",
+        "note": "セット •WELCOME •BUFFALO •SHALLOW / 10:00~23:00 (セットエリアは19時から登れます)",
         "source_url": null,
         "published": "2026-08-26",
         "source": "manual"
@@ -1993,7 +2025,7 @@
       {
         "date": "2026-08-30",
         "type": "エリア制限",
-        "note": "ホールド外し ・JACK ・QUEEN ・KING ・LAGOON / 10:00~21:00 (外しエリアは17時以降登れません)",
+        "note": "ホールド外し • JACK • QUEEN • KING • LAGOON / 10:00~21:00 (外しエリアは17時以降登れません)",
         "source_url": null,
         "published": "2026-08-26",
         "source": "manual"
@@ -2001,7 +2033,7 @@
       {
         "date": "2026-08-31",
         "type": "セット完了",
-        "note": "セット ・JACK ・QUEEN ・KING ・LAGOON / 10:00~23:00 (セットエリアは19時から登れます)",
+        "note": "セット • JACK • QUEEN • KING • LAGOON / 10:00~23:00 (セットエリアは19時から登れます)",
         "source_url": null,
         "published": "2026-08-26",
         "source": "manual"
@@ -2032,7 +2064,7 @@
     "official_url": "https://www.rockyclimbing.com/ryougoku/",
     "instagram_url": null,
     "fetch_status": "success",
-    "fetched_at": "2026-08-26T02:49:38+09:00",
+    "fetched_at": "2026-08-26T18:00:54+09:00",
     "last_changed_at": null,
     "events": [
       {
@@ -2046,7 +2078,7 @@
       {
         "date": "2026-07-27",
         "type": "イベント",
-        "note": "みんなで登ろう会 20:00〜",
+        "note": "みんなで登ろう会 20:00~",
         "source_url": null,
         "published": "2026-08-26",
         "source": "manual"
@@ -2097,6 +2129,325 @@
         "note": "セット ・Eden ・Shine / 終日休業",
         "source_url": null,
         "published": "2026-08-26",
+        "source": "manual"
+      }
+    ]
+  },
+  {
+    "gym_id": "rocky-inzai",
+    "name": "印西",
+    "display_name": "ロッキー印西店",
+    "sort_key": "ろっきーいんざい",
+    "chain": "rocky",
+    "hours": [
+      {
+        "label": "平日",
+        "value": "10:00〜23:00"
+      },
+      {
+        "label": "土日祝",
+        "value": "10:00〜21:00"
+      }
+    ],
+    "hours_note": null,
+    "station": "印西牧の原駅",
+    "line": "北総線",
+    "enabled": true,
+    "data_note": null,
+    "official_url": "https://www.rockyclimbing.com/inzai/",
+    "instagram_url": null,
+    "fetch_status": "success",
+    "fetched_at": "2026-08-26T18:00:54+09:00",
+    "last_changed_at": null,
+    "events": [
+      {
+        "date": "2026-08-06",
+        "type": "エリア制限",
+        "note": "ホールド外し Bulge BlackHole Rocket / 10:00~23:00 (外しエリアは17時以降登れません)",
+        "source_url": null,
+        "published": "2026-08-26",
+        "source": "manual"
+      },
+      {
+        "date": "2026-08-07",
+        "type": "セット完了",
+        "note": "セット Bulge BlackHole Rocket / 10:00~23:00 (セットエリアは19時から登れます)",
+        "source_url": null,
+        "published": "2026-08-26",
+        "source": "manual"
+      },
+      {
+        "date": "2026-08-08",
+        "type": "イベント",
+        "note": "いろは農園 11:00~17:00",
+        "source_url": null,
+        "published": "2026-08-26",
+        "source": "manual"
+      },
+      {
+        "date": "2026-08-10",
+        "type": "イベント",
+        "note": "初心者歓迎 きむきむレッスン 20:00~21:00",
+        "source_url": null,
+        "published": "2026-08-26",
+        "source": "manual"
+      },
+      {
+        "date": "2026-08-16",
+        "type": "エリア制限",
+        "note": "ホールド外し Planet UFO / 10:00~23:00 (外しエリアは17時以降登れません)",
+        "source_url": null,
+        "published": "2026-08-26",
+        "source": "manual"
+      },
+      {
+        "date": "2026-08-17",
+        "type": "セット完了",
+        "note": "セット Planet UFO / 10:00~23:00 (セットエリアは19時から登れます)",
+        "source_url": null,
+        "published": "2026-08-26",
+        "source": "manual"
+      },
+      {
+        "date": "2026-08-24",
+        "type": "イベント",
+        "note": "初心者歓迎 きむきむレッスン 20:00~21:00",
+        "source_url": null,
+        "published": "2026-08-26",
+        "source": "manual"
+      },
+      {
+        "date": "2026-08-27",
+        "type": "イベント",
+        "note": "193in spray",
+        "source_url": null,
+        "published": "2026-08-26",
+        "source": "manual"
+      },
+      {
+        "date": "2026-08-29",
+        "type": "イベント",
+        "note": "いろは農園 11:00~17:00",
+        "source_url": null,
+        "published": "2026-08-26",
+        "source": "manual"
+      },
+      {
+        "date": "2026-08-31",
+        "type": "イベント",
+        "note": "初心者歓迎 きむきむレッスン 20:00~21:00",
+        "source_url": null,
+        "published": "2026-08-26",
+        "source": "manual"
+      },
+      {
+        "date": "2026-09-03",
+        "type": "エリア制限",
+        "note": "ホールド外し Milky Way / 10:00~23:00 (外しエリアは17時以降登れません)",
+        "source_url": null,
+        "published": "2026-08-26",
+        "source": "manual"
+      },
+      {
+        "date": "2026-09-04",
+        "type": "セット完了",
+        "note": "セット Milky Way / 10:00~23:00 (セットエリアは19時から登れます)",
+        "source_url": null,
+        "published": "2026-08-26",
+        "source": "manual"
+      },
+      {
+        "date": "2026-09-08",
+        "type": "エリア制限",
+        "note": "ホールド外し STAR / 10:00~23:00 (外しエリアは17時以降登れません)",
+        "source_url": null,
+        "published": "2026-08-26",
+        "source": "manual"
+      },
+      {
+        "date": "2026-09-09",
+        "type": "セット完了",
+        "note": "セット STAR / 10:00~23:00 (セットエリアは19時から登れます)",
+        "source_url": null,
+        "published": "2026-08-26",
+        "source": "manual"
+      }
+    ]
+  },
+  {
+    "gym_id": "rocky-tsukuba",
+    "name": "つくば阿見",
+    "display_name": "ロッキーつくば阿見店",
+    "sort_key": "ろっきーつくばあみ",
+    "chain": "rocky",
+    "hours": [
+      {
+        "label": "平日",
+        "value": "10:00〜23:00"
+      },
+      {
+        "label": "土日祝",
+        "value": "10:00〜21:00"
+      }
+    ],
+    "hours_note": null,
+    "station": "荒川沖駅",
+    "line": "常磐線",
+    "enabled": true,
+    "data_note": null,
+    "official_url": "https://www.rockyclimbing.com/tsukubaami/",
+    "instagram_url": null,
+    "fetch_status": "success",
+    "fetched_at": "2026-08-26T18:00:54+09:00",
+    "last_changed_at": null,
+    "events": [
+      {
+        "date": "2026-07-09",
+        "type": "エリア制限",
+        "note": "ホールド外し ・Tower ・Eagle ・Abyss / 10:00~21:00 (外しエリアは17時以降登れません)",
+        "source_url": null,
+        "published": "2026-08-26",
+        "source": "manual"
+      },
+      {
+        "date": "2026-07-10",
+        "type": "セット完了",
+        "note": "セット ・Tower ・Eagle ・Abyss / 10:00~23:00 (セットエリアは19時から登れます)",
+        "source_url": null,
+        "published": "2026-08-26",
+        "source": "manual"
+      },
+      {
+        "date": "2026-07-23",
+        "type": "エリア制限",
+        "note": "ホールド外し ・Super Cave ・WelcomeA ・WelcomeB / 10:00~21:00 (外しエリアは17時以降登れません)",
+        "source_url": null,
+        "published": "2026-08-26",
+        "source": "manual"
+      },
+      {
+        "date": "2026-07-24",
+        "type": "セット完了",
+        "note": "セット ・Super Cave ・WelcomeA ・WelcomeB / 10:00~23:00 (セットエリアは19時から登れます)",
+        "source_url": null,
+        "published": "2026-08-26",
+        "source": "manual"
+      },
+      {
+        "date": "2026-08-13",
+        "type": "エリア制限",
+        "note": "ホールド外し ・Cube ・Laputa / 10:00~21:00（外しエリアは17時以降登れません）",
+        "source_url": null,
+        "published": "2026-08-26",
+        "source": "manual"
+      },
+      {
+        "date": "2026-08-14",
+        "type": "セット完了",
+        "note": "セット ・Cube ・Laputa / 10:00~23:00（セットエリアは19時から登れます）",
+        "source_url": null,
+        "published": "2026-08-26",
+        "source": "manual"
+      },
+      {
+        "date": "2026-08-16",
+        "type": "時間変更",
+        "note": "貸切営業あり 【短縮営業】 11：00〜21：00 / 11：00〜21：00（貸切営業のため）",
+        "source_url": null,
+        "published": "2026-08-26",
+        "source": "manual"
+      },
+      {
+        "date": "2026-08-27",
+        "type": "エリア制限",
+        "note": "ホールド外し ・Tower ・Eagle ・Abyss / 10:00~21:00（外しエリアは17時以降登れません）",
+        "source_url": null,
+        "published": "2026-08-26",
+        "source": "manual"
+      },
+      {
+        "date": "2026-08-28",
+        "type": "セット完了",
+        "note": "セット ・Tower ・Eagle ・Abyss / 10:00~23:00（セットエリアは19時から登れます）",
+        "source_url": null,
+        "published": "2026-08-26",
+        "source": "manual"
+      }
+    ]
+  },
+  {
+    "gym_id": "rocky-funabashi",
+    "name": "船橋",
+    "display_name": "ロッキー船橋店",
+    "sort_key": "ろっきーふなばし",
+    "chain": "rocky",
+    "hours": [
+      {
+        "label": "平日",
+        "value": "10:00〜23:00"
+      },
+      {
+        "label": "土日祝",
+        "value": "10:00〜21:00"
+      }
+    ],
+    "hours_note": null,
+    "station": "船橋駅、京成海神駅",
+    "line": "JR総武線、京成本線など",
+    "enabled": true,
+    "data_note": null,
+    "official_url": "https://www.rockyclimbing.com/funabashi/",
+    "instagram_url": null,
+    "fetch_status": "failure",
+    "fetched_at": "2026-08-26T18:00:54+09:00",
+    "last_changed_at": null,
+    "events": [
+      {
+        "date": "2026-07-09",
+        "type": "イベント",
+        "note": "TRAINING SESSION 20:30~",
+        "source_url": null,
+        "published": "2026-08-26",
+        "source": "manual"
+      },
+      {
+        "date": "2026-07-14",
+        "type": "イベント",
+        "note": "TRAINING SESSION 20:30~",
+        "source_url": null,
+        "published": "2026-08-26",
+        "source": "manual"
+      },
+      {
+        "date": "2026-07-21",
+        "type": "エリア制限",
+        "note": "ホールド外し ・BombLeft ・Welcome / 10:00~23:00 (外しエリアは17時以降登れません)",
+        "source_url": null,
+        "published": "2026-08-26",
+        "source": "manual"
+      },
+      {
+        "date": "2026-07-22",
+        "type": "休業",
+        "note": "セット ・BombLeft ・Welocme / 終日休業",
+        "source_url": null,
+        "published": "2026-08-26",
+        "source": "manual"
+      },
+      {
+        "date": "2026-07-30",
+        "type": "イベント",
+        "note": "TRAINING SESSION 20:30~",
+        "source_url": null,
+        "published": "2026-08-26",
+        "source": "manual"
+      },
+      {
+        "date": "2026-08-27",
+        "type": "イベント",
+        "note": "TRAINING SESSION 20:00~",
+        "source_url": null,
+        "published": "2026-08-27",
         "source": "manual"
       }
     ]

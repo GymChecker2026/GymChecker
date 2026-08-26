@@ -9,12 +9,13 @@ method: calendar_image
 
 事前準備:
     py -m pip install jpholiday anthropic
-    set ANTHROPIC_API_KEY=sk-ant-...
+    setx ANTHROPIC_API_KEY "sk-ant-..."   （初回のみ。以後は不要）
 
 設計方針:
     - VLMは「見えているものを写す」だけ。分類はPython側のルールで行う
     - 凡例(色 -> 営業時間)を1回だけ読ませ、各日は色だけ答えさせて表を引く
-    - 営業状態が確定できた日は採用。確定できない日は公開せず pending に回す
+    - 凡例に載っていない色は rocky_colors.json から引く
+    - どちらにも無い色は営業状態が確定できないので公開せず pending に回す
 """
 
 import base64
@@ -45,6 +46,8 @@ WEEKDAY_FIX = {"FRY": "FRI", "THUR": "THU", "TUES": "TUE",
                "SUNDAY": "SUN", "SATURDAY": "SAT"}
 WEEKDAY_ORDER = ["MON", "TUE", "WED", "THU", "FRI", "SAT", "SUN"]
 
+COLOR_TABLE_PATH = Path("rocky_colors.json")
+
 
 # ---------------------------------------------------------------- プロンプト
 
@@ -67,7 +70,7 @@ PROMPT = """このボルダリングジムの月間営業カレンダー画像�
 
 【legend の作り方】
 画像下部の「STORE HOURS」欄には、色見本と営業時間が対になって並んでいます。
-1項目ずつ、その色見本の色を日本語で `color` に、隣に書かれた文字を `hours` に入れてください。
+1項目ずつ、その色見本の色を `color` に、隣に書かれた文字を `hours` に入れてください。
 色と文字の対応を取り違えないよう、1つずつ順に確認してください。
 欄に載っている項目を全て含めてください。載っていない色は含めないでください。
 
@@ -76,9 +79,14 @@ PROMPT = """このボルダリングジムの月間営業カレンダー画像�
 - `d` は日付
 - `w` は、そのセルが置かれている列の見出しをそのまま。綴りが FRY などでも見たまま書く。
   曜日を自分で計算しないでください
-- `c` は、そのセルの背景色を日本語で。legend の color と同じ言葉を使ってください
 - `t` はセル内の文字をそのまま。改行は半角スペースに置き換える。文字が無ければ null。
   イラストやロゴに文字が含まれていれば、それも `t` に入れてください
+
+【色の呼び方】
+`c` と legend の `color` は、必ず次の12語のいずれかで書いてください。
+他の言葉（黄緑、薄紫、オレンジなど）は使わず、最も近いものを選んでください。
+
+  白 / 灰 / 黒 / 赤 / ピンク / 橙 / 黄 / 緑 / 水色 / 青 / 紫 / 茶
 
 【読み取らないもの】
 EVENT INFO 欄の説明文。ヘッダーのロゴマークの文字。
@@ -107,7 +115,6 @@ def plain_hours(s):
 
 
 def is_normal(hours):
-    """通常営業（特記なし）かどうか"""
     return plain_hours(hours) in NORMAL_HOURS
 
 
@@ -120,6 +127,17 @@ def is_holiday(y, m, d):
         return jpholiday.is_holiday(date(y, m, d))
     except ImportError:
         return False
+
+
+def load_color_table():
+    """
+    rocky_colors.json から「凡例に載っていない色」の意味を読む。
+    凡例が主、この表は補助。
+    """
+    if COLOR_TABLE_PATH.exists():
+        data = json.loads(COLOR_TABLE_PATH.read_text(encoding="utf-8"))
+        return data.get("colors", {})
+    return {}
 
 
 # ---------------------------------------------------------------- VLM呼び出し
@@ -199,7 +217,6 @@ def read_calendar_votes(image_path):
     for dn in sorted(k for k in per_day if isinstance(k, int)):
         cands = per_day[dn]
         merged, ok = {"d": dn}, True
-        # 色は営業状態を左右するので厳密に。テキストの表記揺れは無視する
         for field in ("w", "c"):
             counts = Counter(norm(x.get(field)) for x in cands)
             val, n = counts.most_common(1)[0]
@@ -209,9 +226,8 @@ def read_calendar_votes(image_path):
                 if norm(x.get(field)) == val:
                     merged[field] = x.get(field)
                     break
-        merged["t"] = Counter(
-            [x.get("t") for x in cands if x.get("t")]).most_common(1)[0][0] \
-            if any(x.get("t") for x in cands) else None
+        texts = [x.get("t") for x in cands if x.get("t")]
+        merged["t"] = Counter(texts).most_common(1)[0][0] if texts else None
         merged["unstable"] = not ok
         if not ok:
             unstable += 1
@@ -317,10 +333,11 @@ def build_note(text, hours):
 def convert(data, gym_id):
     """
     採用の基準は「営業状態が確定できたか」の一点。
-    セル内に画像があっても、色が凡例で引けていれば採用する。
+    凡例 -> rocky_colors.json の順に色を引き、どちらにも無ければ保留。
     """
     events, pending = [], []
     lm = data.get("legend_map", {})
+    table = load_color_table()
     y, m = data["year"], data["month"]
     today = date.today().isoformat()
 
@@ -328,7 +345,9 @@ def convert(data, gym_id):
         day = d["d"]
         iso = f"{y:04d}-{m:02d}-{day:02d}"
         text, color = d.get("t"), d.get("c")
-        hours = lm.get(color, "")
+
+        # 凡例が主、対応表は補助
+        hours = lm.get(color) or table.get(color, "")
 
         def hold(reason):
             pending.append({"gym_id": gym_id, "date": iso,
@@ -339,13 +358,12 @@ def convert(data, gym_id):
             hold("読み取りが安定しなかった")
             continue
 
-        # 2) 凡例に無い色は営業状態が分からない
+        # 2) 凡例にも対応表にも無い色は営業状態が分からない
         if not hours:
-            hold(f"色 '{color}' が凡例に無い")
+            hold(f"色 '{color}' が凡例にも rocky_colors.json にも無い")
             continue
 
-        # 3) 祝日セルの背景色は一貫して読み違える傾向があるため、
-        #    土日祝が平日の営業時間になっていたら休日の営業時間に補正する。
+        # 3) 土日祝なのに平日の営業時間なら読み間違いを疑い、補正する
         #    （逆方向は金曜短縮などの運用がありうるので補正しない）
         if plain_hours(hours) == WEEKDAY_HOURS and is_holiday(y, m, day):
             hours = HOLIDAY_HOURS
@@ -376,8 +394,6 @@ def main():
     image_path, gym_id = sys.argv[1], sys.argv[2]
 
     data = read_calendar_votes(image_path)
-    Path(f"raw_{Path(image_path).stem}.json").write_text(
-        json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
 
     print("\n--- 凡例（色 -> 営業時間） ---")
     for c, h in data.get("legend_map", {}).items():
@@ -401,8 +417,7 @@ def main():
         print("\n--- pending（目視で確認する） ---")
         for p in pending:
             print(f"  {p['date']}  {p['reason']}")
-            print(f"            t={p['raw'].get('t')!r} "
-                  f"c={p['raw'].get('c')!r} hours={p['hours']!r}")
+            print(f"            t={p['raw'].get('t')!r} c={p['raw'].get('c')!r}")
 
 
 if __name__ == "__main__":

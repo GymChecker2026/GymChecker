@@ -13,13 +13,18 @@ ROCKY系列 営業カレンダーの取得と反映
 
 事前準備:
     py -m pip install requests beautifulsoup4 jpholiday anthropic
-    set ANTHROPIC_API_KEY=sk-ant-...
+
+失敗の扱い:
+    - 読み取りや検証に失敗した画像は、その場で1回だけ読み直す
+    - それでも駄目なら pending_review.json に月単位のレコードとして記録する
+      （コンソールを見なくても、保留リストだけ見れば全ての失敗が分かる）
+    - 1つの月が失敗しても、他の月が成功していればその店舗は success のまま
 
 生成/更新されるファイル:
     rocky_images/        ... 取得した画像
     rocky_state.json     ... 画像のハッシュ（差分検知用）
     rocky_status.json    ... 店舗ごとの取得成否（build_display.py が読む）
-    pending_review.json  ... 自動判定できなかった日
+    pending_review.json  ... 自動判定できなかった日・月
     manual_events.json   ... 既存ファイルに反映
 """
 
@@ -49,6 +54,9 @@ STATUS_PATH = Path("rocky_status.json")
 MANUAL_PATH = Path("manual_events.json")
 PENDING_PATH = Path("pending_review.json")
 
+# 失敗した画像を読み直す回数（成功した画像は1回で終わる）
+RETRY = 1
+
 # ページ上の店舗名 -> gym_id
 GYM_IDS = {
     "品川店": "rocky-shinagawa",
@@ -59,12 +67,14 @@ GYM_IDS = {
     "船橋店": "rocky-funabashi",
 }
 
-# 予定を取得する店舗。ここに無い店舗は画像を取得しない。
-# 千葉・茨城まで広げるなら追加する
+# 予定を取得する店舗
 TARGET_GYMS = {
     "rocky-shinagawa",
     "rocky-akebonobashi",
     "rocky-ryogoku",
+    "rocky-inzai",
+    "rocky-tsukuba",
+    "rocky-funabashi",
 }
 
 
@@ -116,6 +126,33 @@ def download(url, dest):
     return hashlib.sha256(res.content).hexdigest()
 
 
+# ---------------------------------------------------------------- 読み取り
+
+def read_with_retry(path, label):
+    """
+    読み取りと検証を行う。失敗したら RETRY 回だけ読み直す。
+    成功なら (data, None)、最後まで駄目なら (None, 理由) を返す。
+    """
+    reason = None
+    for attempt in range(RETRY + 1):
+        if attempt:
+            print(f"  {label} 読み直します（{attempt}回目の再試行）")
+        try:
+            data = read_calendar_votes(path)
+        except Exception as e:
+            reason = f"読み取りに失敗: {e}"
+            print(f"  {reason}")
+            continue
+
+        errors = validate(data)
+        if not errors:
+            return data, None
+
+        reason = "検証に失敗: " + " / ".join(errors)
+        print(f"  {reason}")
+    return None, reason
+
+
 # ---------------------------------------------------------------- 反映
 
 def load_json(path, default):
@@ -127,11 +164,22 @@ def load_json(path, default):
 def merge_events(manual, new_events, touched_months):
     """
     処理した gym_id・年月の既存レコードを差し替える。
-    再実行しても重複せず、手入力した他店舗のレコードには触れない。
+    ただし "locked": true が付いたレコードは手入力なので残す。
     """
-    kept = [e for e in manual.get("events", [])
-            if (e.get("gym_id"), str(e.get("date", ""))[:7]) not in touched_months]
-    merged = kept + new_events
+    kept = []
+    for e in manual.get("events", []):
+        key = (e.get("gym_id"), str(e.get("date", ""))[:7])
+        if key in touched_months and not e.get("locked"):
+            continue
+        kept.append(e)
+
+    # 手入力で押さえた日は自動生成より優先する
+    locked_dates = {(e.get("gym_id"), e.get("date"))
+                    for e in kept if e.get("locked")}
+    fresh = [e for e in new_events
+             if (e["gym_id"], e["date"]) not in locked_dates]
+
+    merged = kept + fresh
     merged.sort(key=lambda e: (str(e.get("date", "")), str(e.get("gym_id", ""))))
     manual["events"] = merged
 
@@ -156,41 +204,38 @@ def main():
 
     all_events, all_pending = [], []
     touched_months = set()
-    ok_gyms, ng_gyms = set(), set()
+    seen_gyms, failed_gyms = set(), set()
     processed = 0
 
     for gym_id, name, slot, url in rows:
         key = f"{gym_id}:{slot}"
         dest = IMAGE_DIR / f"{gym_id}_{slot}.png"
+        label = f"[{name} {slot}]"
+        seen_gyms.add(gym_id)
 
         try:
             digest = download(url, dest)
         except Exception as e:
-            print(f"[{name} {slot}] 画像の取得に失敗: {e}")
-            ng_gyms.add(gym_id)
+            print(f"{label} 画像の取得に失敗: {e}")
+            all_pending.append({"gym_id": gym_id, "date": f"slot{slot}",
+                                "reason": f"画像の取得に失敗: {e}"})
+            failed_gyms.add(gym_id)
             continue
         time.sleep(2)  # 相手のサーバに負荷をかけない
 
         if not args.all and state.get(key, {}).get("sha256") == digest:
-            print(f"[{name} {slot}] 変化なし。スキップ")
-            ok_gyms.add(gym_id)
+            print(f"{label} 変化なし。スキップ")
             continue
 
-        print(f"[{name} {slot}] {url}")
-        try:
-            data = read_calendar_votes(str(dest))
-        except Exception as e:
-            print(f"  読み取りに失敗: {e}\n")
-            ng_gyms.add(gym_id)
-            continue
+        print(f"{label} {url}")
+        data, reason = read_with_retry(str(dest), label)
 
-        errors = validate(data)
-        if errors:
-            print("  検証に失敗。この月は採用しません")
-            for msg in errors:
-                print("   -", msg)
+        if data is None:
+            # 月単位の失敗も保留に記録する。コンソールを見なくても気づけるように
+            all_pending.append({"gym_id": gym_id, "date": f"slot{slot}",
+                                "reason": reason or "原因不明の失敗"})
+            failed_gyms.add(gym_id)
             print()
-            ng_gyms.add(gym_id)
             continue
 
         events, pending = convert(data, gym_id)
@@ -201,15 +246,16 @@ def main():
         all_pending += [{k: v for k, v in p.items() if k != "raw"} for p in pending]
         touched_months.add((gym_id, f"{data['year']:04d}-{data['month']:02d}"))
         state[key] = {"url": url, "sha256": digest}
-        ok_gyms.add(gym_id)
         processed += 1
 
-    # 1枚でも失敗した店舗は成功扱いにしない
+    # 1つの月が失敗しても、その店舗のデータが全く無いわけではない。
+    # 画像の取得自体に失敗した店舗だけを failure にする
     now = datetime.now(JST).isoformat(timespec="seconds")
-    for gym_id in ok_gyms - ng_gyms:
-        status[gym_id] = {"status": "success", "fetched_at": now}
-    for gym_id in ng_gyms:
-        status[gym_id] = {"status": "failure", "fetched_at": now}
+    for gym_id in seen_gyms:
+        prev = status.get(gym_id, {}).get("status")
+        ok = gym_id not in failed_gyms or prev == "success"
+        status[gym_id] = {"status": "success" if ok else "failure",
+                          "fetched_at": now}
 
     print(f"=== 採用 {len(all_events)}件 / 保留 {len(all_pending)}件 "
           f"/ 処理した画像 {processed}枚 ===")
@@ -225,12 +271,11 @@ def main():
         MANUAL_PATH.write_text(
             json.dumps(manual, ensure_ascii=False, indent=2), encoding="utf-8")
         print(f"{MANUAL_PATH} を更新しました（該当月を差し替え）")
-
-        PENDING_PATH.write_text(
-            json.dumps(all_pending, ensure_ascii=False, indent=2), encoding="utf-8")
         STATE_PATH.write_text(
             json.dumps(state, ensure_ascii=False, indent=2), encoding="utf-8")
 
+    PENDING_PATH.write_text(
+        json.dumps(all_pending, ensure_ascii=False, indent=2), encoding="utf-8")
     STATUS_PATH.write_text(
         json.dumps(status, ensure_ascii=False, indent=2), encoding="utf-8")
 

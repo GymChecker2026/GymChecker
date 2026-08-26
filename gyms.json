@@ -584,5 +584,83 @@
     "instagram_url": null,
     "hours_note": null,
     "sort_key": "ろっきーりょうごく"
+  },
+  {
+    "id": "rocky-inzai",
+    "name": "印西",
+    "chain": "rocky",
+    "method": "calendar_image",
+    "url": "https://www.rockyclimbing.com/set/",
+    "enabled": false,
+    "hours": [
+      {
+        "label": "平日",
+        "value": "10:00〜23:00"
+      },
+      {
+        "label": "土日祝",
+        "value": "10:00〜21:00"
+      }
+    ],
+    "station": "印西牧の原駅",
+    "line": "北総線",
+    "display_name": "ロッキー印西店",
+    "official_url": "https://www.rockyclimbing.com/inzai/",
+    "data_note": null,
+    "instagram_url": null,
+    "hours_note": null,
+    "sort_key": "ろっきーいんざい"
+  },
+  {
+    "id": "rocky-tsukuba",
+    "name": "つくば阿見",
+    "chain": "rocky",
+    "method": "calendar_image",
+    "url": "https://www.rockyclimbing.com/set/",
+    "enabled": false,
+    "hours": [
+      {
+        "label": "平日",
+        "value": "10:00〜23:00"
+      },
+      {
+        "label": "土日祝",
+        "value": "10:00〜21:00"
+      }
+    ],
+    "station": "荒川沖駅",
+    "line": "常磐線",
+    "display_name": "ロッキーつくば阿見店",
+    "official_url": "https://www.rockyclimbing.com/tsukubaami/",
+    "data_note": null,
+    "instagram_url": null,
+    "hours_note": null,
+    "sort_key": "ろっきーつくばあみ"
+  },
+  {
+    "id": "rocky-funabashi",
+    "name": "船橋",
+    "chain": "rocky",
+    "method": "calendar_image",
+    "url": "https://www.rockyclimbing.com/set/",
+    "enabled": false,
+    "hours": [
+      {
+        "label": "平日",
+        "value": "10:00〜23:00"
+      },
+      {
+        "label": "土日祝",
+        "value": "10:00〜21:00"
+      }
+    ],
+    "station": "船橋駅、京成海神駅",
+    "line": "JR総武線、京成本線など",
+    "display_name": "ロッキー船橋店",
+    "official_url": "https://www.rockyclimbing.com/funabashi/",
+    "data_note": null,
+    "instagram_url": null,
+    "hours_note": null,
+    "sort_key": "ろっきーふなばし"
   }
 ]
