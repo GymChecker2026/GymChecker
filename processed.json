@@ -991,7 +991,7 @@
     }
   },
   "pages": {
-    "noborock-shinjuku": {
+    "noborock-shinjuku::https://noborock-climbing.com/program/新宿店/": {
       "text_hash": "9e826ea69ca2f0b7da83c1ceb2e3020033c5aefad93309106b2eae6d64c09396",
       "last_changed_at": "2026-08-17T14:31:40",
       "published": "2026-08-17",
@@ -1018,7 +1018,7 @@
         }
       ]
     },
-    "noborock-shibuya": {
+    "noborock-shibuya::https://noborock-climbing.com/program/shibuya/": {
       "text_hash": "f10b4d75223173d86d48f2190a8fd6c87e03e8bbfaa6b2e18c6a4d23653ebde5",
       "last_changed_at": "2026-08-26T02:42:37+09:00",
       "published": "2026-08-26",
@@ -1050,7 +1050,7 @@
         }
       ]
     },
-    "noborock-takadanobaba": {
+    "noborock-takadanobaba::https://noborock-climbing.com/program/takadanobaba/": {
       "text_hash": "526ae54ed8194f94626fa38c16f40dfa54fd28af797255bb32e9cf9765151b93",
       "last_changed_at": "2026-08-26T02:42:37+09:00",
       "published": "2026-08-26",
@@ -1082,7 +1082,7 @@
         }
       ]
     },
-    "noborock-asakusa": {
+    "noborock-asakusa::https://noborock-climbing.com/program/浅草店/": {
       "text_hash": "244c0ff8a0a9ee655f138ea370c0d137d1f34cdde97441366cbd3d55dfd84c95",
       "last_changed_at": "2026-08-17T14:31:40",
       "published": "2026-08-17",
@@ -1109,7 +1109,7 @@
         }
       ]
     },
-    "noborock-ikebukuro": {
+    "noborock-ikebukuro::https://noborock-climbing.com/program/ikebukuro/": {
       "text_hash": "cf8cc9f6e43135d63ce7b1667e07b62fb3100e808d59c5dcc1878b3d3899d4da",
       "last_changed_at": "2026-08-26T18:13:51+09:00",
       "published": "2026-08-26",
@@ -1136,7 +1136,7 @@
         }
       ]
     },
-    "noborock-machida": {
+    "noborock-machida::https://noborock-climbing.com/program/machida/": {
       "text_hash": "55941af75d3f5da7f72d05d17b246ce040e73878de9cf4a1f82f6a243871f07e",
       "last_changed_at": "2026-08-17T14:31:40",
       "published": "2026-08-17",
@@ -1163,7 +1163,7 @@
         }
       ]
     },
-    "noborock-mizonokuchi": {
+    "noborock-mizonokuchi::https://noborock-climbing.com/program/mizonokuchi/": {
       "text_hash": "6005991f25c4b1d6afbe887ee4f90208d16192ea9f718ed506b05469f5853b2b",
       "last_changed_at": "2026-08-17T14:31:40",
       "published": "2026-08-17",
@@ -1195,7 +1195,7 @@
         }
       ]
     },
-    "noborock-omiya": {
+    "noborock-omiya::https://noborock-climbing.com/program/omiya/": {
       "text_hash": "b71423562670ed59b9155a7ae3696b36d2968c29a44d26d00721d7c92b983114",
       "last_changed_at": "2026-08-17T14:31:40",
       "published": "2026-08-17",
@@ -1219,6 +1219,75 @@
           "date": "2026-09-01",
           "type": "時間変更",
           "note": "18:30 open"
+        }
+      ]
+    },
+    "bc-shinjuku::https://b-camp.jp/shinjuku/route/": {
+      "text_hash": "0bd0e6fc6b358d9fb0b01802946e6a0e599936bb1160403e3f62f0d28fcd3f2e",
+      "last_changed_at": "2026-08-26T23:05:00+09:00",
+      "published": "2026-08-26",
+      "events": [
+        {
+          "date": "2026-08-12",
+          "type": "エリア制限",
+          "note": "King Cobra～SunnySide セットスケジュール"
+        },
+        {
+          "date": "2026-08-13",
+          "type": "エリア制限",
+          "note": "King Cobra～SunnySide セットスケジュール"
+        },
+        {
+          "date": "2026-08-24",
+          "type": "エリア制限",
+          "note": "YosemiteFall～CandyLand セットスケジュール"
+        },
+        {
+          "date": "2026-08-25",
+          "type": "エリア制限",
+          "note": "YosemiteFall～CandyLand セットスケジュール"
+        },
+        {
+          "date": "2026-07-13",
+          "type": "エリア制限",
+          "note": "King Cobra～SunnySide セットスケジュール"
+        },
+        {
+          "date": "2026-07-14",
+          "type": "エリア制限",
+          "note": "King Cobra～SunnySide セットスケジュール"
+        },
+        {
+          "date": "2026-07-27",
+          "type": "エリア制限",
+          "note": "YosemiteFall～CandyLand セットスケジュール"
+        },
+        {
+          "date": "2026-07-28",
+          "type": "エリア制限",
+          "note": "YosemiteFall～CandyLand セットスケジュール"
+        }
+      ]
+    },
+    "bc-shinjuku::https://b-camp.jp/shinjuku/pickup/": {
+      "text_hash": "f64870f32bc8172da8beb5220c9256ee579af9f9af795338c1a1769aaf400db9",
+      "last_changed_at": "2026-08-26T23:05:00+09:00",
+      "published": "2026-08-26",
+      "events": [
+        {
+          "date": "2026-08-11",
+          "type": "時間変更",
+          "note": "18:00クローズ"
+        },
+        {
+          "date": "2026-08-12",
+          "type": "エリア制限",
+          "note": "ルートセット のため Open～18:00 利用エリア制限"
+        },
+        {
+          "date": "2026-08-13",
+          "type": "エリア制限",
+          "note": "ルートセット のため Open～18:00 利用エリア制限"
         }
       ]
     }

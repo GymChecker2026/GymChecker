@@ -662,5 +662,34 @@
     "instagram_url": "https://www.instagram.com/funabashirocky/",
     "hours_note": null,
     "sort_key": "ろっきーふなばし"
+  },
+  {
+    "id": "bc-shinjuku",
+    "name": "新宿",
+    "chain": "Base Camp",
+    "method": "page",
+    "urls": [
+      "https://b-camp.jp/shinjuku/pickup/",
+      "https://b-camp.jp/shinjuku/route/"
+    ],
+    "list_page": true,
+    "hours": [
+      {
+        "label": "平日",
+        "value": "10:00〜23:00"
+      },
+      {
+        "label": "土日祝",
+        "value": "10:00〜22:00"
+      }
+    ],
+    "station": "西武新宿駅、JR新宿駅",
+    "line": "",
+    "display_name": "Base Camp 新宿",
+    "official_url": "https://b-camp.jp/shinjuku/",
+    "data_note": null,
+    "instagram_url": "https://www.instagram.com/basecamp_shinjuku/",
+    "hours_note": "定休日なし（臨時休業あり）",
+    "sort_key": "べーすきゃんぷしんじゅく"
   }
 ]
