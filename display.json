@@ -3362,11 +3362,11 @@
         "value": "11:30〜21:00"
       }
     ],
-    "hours_note": "パス会員は10:00〜21:00で利用可。休業日：年中無休（年1〜2回メンテナンス休業の可能性あり）",
+    "hours_note": "パス会員は10:00〜21:00で利用可",
     "station": "八王子駅",
     "line": "JR",
     "enabled": true,
-    "data_note": "予定は店舗のInstagramをもとに手入力しています",
+    "data_note": null,
     "official_url": "https://www.d-b-c.jp/top/hachioji/",
     "instagram_url": "https://www.instagram.com/dbouldering_hachioji/",
     "fetch_status": "success",
