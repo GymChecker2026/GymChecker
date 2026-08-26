@@ -844,5 +844,32 @@
     "instagram_url": "https://www.instagram.com/basecamp_kawagoe/",
     "hours_note": "毎週火曜日定休（祝日の場合も定休。この他、臨時休業あり）",
     "sort_key": "べーすきゃんぷかわごえ"
+  },
+  {
+    "id": "dbc-hachioji",
+    "name": "八王子",
+    "chain": "D-BOULDERING",
+    "method": "manual",
+    "data_source": "manual",
+    "url": "https://www.d-b-c.jp/top/hachioji/",
+    "enabled": false,
+    "hours": [
+      {
+        "label": "平日",
+        "value": "10:00〜22:00"
+      },
+      {
+        "label": "土日・祝日",
+        "value": "11:30〜21:00"
+      }
+    ],
+    "station": "八王子駅",
+    "line": "JR",
+    "display_name": "Dボルダリング八王子OPA店",
+    "official_url": "https://www.d-b-c.jp/top/hachioji/",
+    "data_note": "予定は店舗のInstagramをもとに手入力しています",
+    "instagram_url": "https://www.instagram.com/dbouldering_hachioji/",
+    "hours_note": "パス会員は10:00〜21:00で利用可。休業日：年中無休（年1〜2回メンテナンス休業の可能性あり）",
+    "sort_key": "Dはちおうじ"
   }
 ]

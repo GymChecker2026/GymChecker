@@ -3069,6 +3069,14 @@
         "source_url": "https://b-camp.jp/kinshicho/route/",
         "published": "2026-08-26",
         "source": "auto"
+      },
+      {
+        "date": "2026-09-10",
+        "type": "エリア制限",
+        "note": "9月ボルダー全面リニューアルセット（9/9-11 18:00まで）",
+        "source_url": "https://b-camp.jp/kinshicho/route/",
+        "published": "2026-08-26",
+        "source": "auto"
       }
     ]
   },
@@ -3337,5 +3345,33 @@
         "source": "auto"
       }
     ]
+  },
+  {
+    "gym_id": "dbc-hachioji",
+    "name": "八王子",
+    "display_name": "Dボルダリング八王子OPA店",
+    "sort_key": "Dはちおうじ",
+    "chain": "D-BOULDERING",
+    "hours": [
+      {
+        "label": "平日",
+        "value": "10:00〜22:00"
+      },
+      {
+        "label": "土日・祝日",
+        "value": "11:30〜21:00"
+      }
+    ],
+    "hours_note": "パス会員は10:00〜21:00で利用可。休業日：年中無休（年1〜2回メンテナンス休業の可能性あり）",
+    "station": "八王子駅",
+    "line": "JR",
+    "enabled": true,
+    "data_note": "予定は店舗のInstagramをもとに手入力しています",
+    "official_url": "https://www.d-b-c.jp/top/hachioji/",
+    "instagram_url": "https://www.instagram.com/dbouldering_hachioji/",
+    "fetch_status": "success",
+    "fetched_at": null,
+    "last_changed_at": null,
+    "events": []
   }
 ]

@@ -28,7 +28,15 @@
     "    \"note\": \"ボルダーセット:B壁（カレンダー画像より手動転記）\",",
     "    \"source_url\": null,",
     "    \"published\": \"2026-08-17\"",
-    "  }"
+    "  }",
+    "",
+    "coverage（継続的な手動運用の店舗用）:",
+    "  トップレベルの \"coverage\" は { gym_id: \"YYYY-MM-DD\" } の形で、",
+    "  「その日付まで転記済み」を表す。build_display.py がこの日付と実行日を比較し、",
+    "  期限内なら fetch_status を \"success\"、切れていれば \"stale\" として扱う",
+    "  （enabled: false かつ data_source: \"manual\" の店舗にのみ適用される）。",
+    "  月次など、実際に転記した範囲に合わせて手動で日付を更新すること。",
+    "  該当 gym_id のエントリが無い場合や日付形式が不正な場合は、安全側で未転記（stale）扱いになる。"
   ],
   "events": [
     {
@@ -792,5 +800,8 @@
       "source_url": null,
       "published": "2026-08-26"
     }
-  ]
+  ],
+  "coverage": {
+    "dbc-hachioji": "2026-09-30"
+  }
 }

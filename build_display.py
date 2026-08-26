@@ -42,16 +42,33 @@ def validate_manual_event(ev, gym_ids, index):
         )
 
 
+def is_covered(gym_id, coverage, today):
+    """継続的な手動運用の店舗（data_source: "manual"）について、coverageの日付が
+    今日以降かどうかを返す。エントリが無い・日付形式が不正な場合は安全側で False。
+    """
+    raw = coverage.get(gym_id)
+    if not raw:
+        return False
+    try:
+        covered_until = date.fromisoformat(raw)
+    except (TypeError, ValueError):
+        return False
+    return covered_until >= today
+
+
 with open("gyms.json", encoding="utf-8") as f:
     gyms = json.load(f)
 with open("events.json", encoding="utf-8") as f:
     events = json.load(f)
 try:
     with open("manual_events.json", encoding="utf-8") as f:
-        manual_events = json.load(f).get("events", [])
+        manual_data = json.load(f)
+        manual_events = manual_data.get("events", [])
+        coverage = manual_data.get("coverage", {})
 except FileNotFoundError:
     print("manual_events.json が見つかりません。手動イベントなしで続行します。")
     manual_events = []
+    coverage = {}
 try:
     with open("collection_status.json", encoding="utf-8") as f:
         status_records = json.load(f)
@@ -116,6 +133,10 @@ display = []
 for gym in gyms:
     status = status_by_gym.get(gym["id"])
     rocky = rocky_status.get(gym["id"])
+    manual_only = gym.get("data_source") == "manual"
+    covered = is_covered(gym["id"], coverage, today) if manual_only else False
+    if manual_only and not covered:
+        print(f"[警告] {gym['id']} は coverage の期限が切れています（fetch_status: stale）。")
     display.append({
         "gym_id": gym["id"],
         "name": gym["name"],
@@ -126,11 +147,16 @@ for gym in gyms:
         "hours_note": gym.get("hours_note"),
         "station": gym.get("station"),
         "line": gym.get("line"),
-        "enabled": True if rocky else gym.get("enabled", True),        "data_note": gym.get("data_note"),
+        "enabled": True if (rocky or manual_only) else gym.get("enabled", True),
+        "data_note": gym.get("data_note"),
         "official_url": gym.get("official_url"),
         "instagram_url": gym.get("instagram_url"),
-        "fetch_status": rocky["status"] if rocky else (status["status"] if status else None),
-        "fetched_at": rocky["fetched_at"] if rocky else (status["fetched_at"] if status else None),        "last_changed_at": pages_by_gym.get(gym["id"], {}).get("last_changed_at"),
+        "fetch_status": (
+            ("success" if covered else "stale") if manual_only
+            else (rocky["status"] if rocky else (status["status"] if status else None))
+        ),
+        "fetched_at": rocky["fetched_at"] if rocky else (status["fetched_at"] if status else None),
+        "last_changed_at": pages_by_gym.get(gym["id"], {}).get("last_changed_at"),
         "events": events_by_gym.get(gym["id"], []),
     })
 
