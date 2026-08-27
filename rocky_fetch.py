@@ -32,6 +32,7 @@ import argparse
 import hashlib
 import json
 import re
+import sys
 import time
 from datetime import datetime
 from pathlib import Path
@@ -47,6 +48,9 @@ JST = ZoneInfo("Asia/Tokyo")
 
 SET_URL = "https://www.rockyclimbing.com/set/"
 UA = "Mozilla/5.0 (compatible; GymChecker/1.0; +npplun995@gmail.com)"
+# (connect, read)。ConnectTimeoutは待っても結果が変わらないため接続は10秒で見切り、
+# 応答が返り始めてからのReadTimeoutだけ従来通り60秒許容する。
+REQUEST_TIMEOUT = (10, 60)
 
 IMAGE_DIR = Path("rocky_images")
 STATE_PATH = Path("rocky_state.json")
@@ -91,7 +95,7 @@ def fetch_calendar_urls(gym_ids):
     スロット0が今月、1が来月。
     gym_ids: load_rocky_targets() が返す「ページ上の店舗名 -> gym_id」の辞書。
     """
-    res = requests.get(SET_URL, headers={"User-Agent": UA}, timeout=30)
+    res = requests.get(SET_URL, headers={"User-Agent": UA}, timeout=REQUEST_TIMEOUT)
     res.raise_for_status()
     res.encoding = res.apparent_encoding
     soup = BeautifulSoup(res.text, "html.parser")
@@ -126,7 +130,7 @@ def fetch_calendar_urls(gym_ids):
 
 
 def download(url, dest):
-    res = requests.get(url, headers={"User-Agent": UA}, timeout=60)
+    res = requests.get(url, headers={"User-Agent": UA}, timeout=REQUEST_TIMEOUT)
     res.raise_for_status()
     dest.write_bytes(res.content)
     return hashlib.sha256(res.content).hexdigest()
@@ -207,7 +211,12 @@ def main():
     gym_ids, target_gyms = load_rocky_targets()
 
     print(f"{SET_URL} を取得中...")
-    rows = [r for r in fetch_calendar_urls(gym_ids) if r[0] in target_gyms]
+    try:
+        rows = [r for r in fetch_calendar_urls(gym_ids) if r[0] in target_gyms]
+    except Exception as e:
+        print(f"警告: {SET_URL} の取得に失敗しました（{e}）。")
+        print(f"{STATUS_PATH} / {MANUAL_PATH} は更新せず、前回の内容を維持したまま終了します。")
+        sys.exit(0)
     print(f"対象 {len(rows)} 枚\n")
 
     all_events, all_pending = [], []
