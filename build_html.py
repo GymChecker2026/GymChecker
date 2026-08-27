@@ -981,8 +981,7 @@ footer.note .contact a {{
         '<p class="generated">' + escapeHtml(GENERATED_AT) + ' 時点</p>' +
         '<p class="disclaimer">本アプリは非公式のツールであり、掲載各ジムとは無関係です。掲載情報は自動収集したものであり、正確性・網羅性を保証しません。ご利用前に必ず公式サイトでご確認ください。</p>' +
         '<p class="contact">' +
-          '<a href="https://docs.google.com/forms/d/e/1FAIpQLSdtbwAd35cDHh-LynHptFWlsBzafz5Qf6hATgnquO-pVquGgw/viewform" target="_blank" rel="noopener">お問い合わせ・情報の誤りのご報告</a><br>' +
-          '本サイト・アプリは非公式です。掲載内容についてのご連絡は <a href="mailto:npplun995@gmail.com">npplun995@gmail.com</a> までお願いいたします。' +
+          '<a href="https://docs.google.com/forms/d/e/1FAIpQLSdtbwAd35cDHh-LynHptFWlsBzafz5Qf6hATgnquO-pVquGgw/viewform" target="_blank" rel="noopener">お問い合わせ・情報の誤りのご報告</a>' +
         '</p>' +
       '</footer>';
   }}
