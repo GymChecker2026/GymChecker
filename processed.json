@@ -1027,9 +1027,9 @@
       ]
     },
     "noborock-shibuya::https://noborock-climbing.com/program/shibuya/": {
-      "text_hash": "e3b5d2c547369ceebab457930688d0b76d7a5c08ea1777a5ecdcf863ceff30b1",
-      "last_changed_at": "2026-08-27T21:30:32+09:00",
-      "published": "2026-08-27",
+      "text_hash": "3c5c1e77333322407f61195673f5e860ed783792f44cb2757c5b816a4a8f3b2b",
+      "last_changed_at": "2026-08-28T02:30:19+09:00",
+      "published": "2026-08-28",
       "events": [
         {
           "date": "2026-07-28",
@@ -1054,14 +1054,14 @@
         {
           "date": "2026-08-28",
           "type": "エリア制限",
-          "note": "16:00~19:30 1Fメインエリア利用制限"
+          "note": "16:00~19:30 1Fメインエリア 利用エリア制限"
         }
       ]
     },
     "noborock-takadanobaba::https://noborock-climbing.com/program/takadanobaba/": {
-      "text_hash": "526ae54ed8194f94626fa38c16f40dfa54fd28af797255bb32e9cf9765151b93",
-      "last_changed_at": "2026-08-26T02:42:37+09:00",
-      "published": "2026-08-26",
+      "text_hash": "9245abf0e4b06f927267791492597ae224a3c1da86c128465c0183b1d0d0e7c9",
+      "last_changed_at": "2026-08-28T02:30:19+09:00",
+      "published": "2026-08-28",
       "events": [
         {
           "date": "2026-08-04",
@@ -1071,7 +1071,7 @@
         {
           "date": "2026-08-24",
           "type": "時間変更",
-          "note": "貸切利用の為 18:00 close"
+          "note": "貸切利用の為18:00 close"
         },
         {
           "date": "2026-08-30",
