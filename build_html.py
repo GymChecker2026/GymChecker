@@ -603,6 +603,19 @@ footer.note .disclaimer {{
   opacity: 0.8;
 }}
 
+footer.note .contact {{
+  margin: 0.6rem 0 0;
+  font-size: 0.66rem;
+  line-height: 1.6;
+  color: var(--ink-dim);
+  opacity: 0.8;
+  overflow-wrap: break-word;
+}}
+
+footer.note .contact a {{
+  color: var(--accent);
+}}
+
 .tabbar {{
   position: fixed;
   left: 50%;
@@ -967,6 +980,10 @@ footer.note .disclaimer {{
       '<footer class="note">' +
         '<p class="generated">' + escapeHtml(GENERATED_AT) + ' 時点</p>' +
         '<p class="disclaimer">本アプリは非公式のツールであり、掲載各ジムとは無関係です。掲載情報は自動収集したものであり、正確性・網羅性を保証しません。ご利用前に必ず公式サイトでご確認ください。</p>' +
+        '<p class="contact">' +
+          '<a href="https://docs.google.com/forms/d/e/1FAIpQLSdtbwAd35cDHh-LynHptFWlsBzafz5Qf6hATgnquO-pVquGgw/viewform" target="_blank" rel="noopener">お問い合わせ・情報の誤りのご報告</a><br>' +
+          '本サイト・アプリは非公式です。掲載内容についてのご連絡は <a href="mailto:npplun995@gmail.com">npplun995@gmail.com</a> までお願いいたします。' +
+        '</p>' +
       '</footer>';
   }}
 
