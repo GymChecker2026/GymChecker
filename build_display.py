@@ -131,6 +131,8 @@ for gym_events in events_by_gym.values():
 
 display = []
 for gym in gyms:
+    if not gym.get("visible", True):
+        continue
     status = status_by_gym.get(gym["id"])
     rocky = rocky_status.get(gym["id"])
     manual_only = gym.get("data_source") == "manual"

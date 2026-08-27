@@ -57,33 +57,39 @@ PENDING_PATH = Path("pending_review.json")
 # 失敗した画像を読み直す回数（成功した画像は1回で終わる）
 RETRY = 1
 
-# ページ上の店舗名 -> gym_id
-GYM_IDS = {
-    "品川店": "rocky-shinagawa",
-    "新宿曙橋店": "rocky-akebonobashi",
-    "両国店": "rocky-ryogoku",
-    "印西店": "rocky-inzai",
-    "つくば阿見店": "rocky-tsukuba",
-    "船橋店": "rocky-funabashi",
-}
+GYMS_PATH = Path("gyms.json")
 
-# 予定を取得する店舗
-TARGET_GYMS = {
-    "rocky-shinagawa",
-    "rocky-akebonobashi",
-    "rocky-ryogoku",
-    "rocky-inzai",
-    "rocky-tsukuba",
-    "rocky-funabashi",
-}
+
+def load_rocky_targets():
+    """
+    gyms.json から ROCKY チェーンの店舗を読み、
+    (ページ上の店舗名 -> gym_id の辞書, 予定を取得する gym_id の集合) を返す。
+
+    対象は chain == "rocky" かつ visible が false でない店舗（省略時 true）。
+    enabled は条件に含めない（ROCKY は enabled: false のまま運用する前提のため）。
+    ページ上の店舗名は、gyms.json の "name" に "店" を付けた形（例: "品川" -> "品川店"）
+    で統一されている。
+    """
+    gyms = json.loads(GYMS_PATH.read_text(encoding="utf-8"))
+    gym_ids = {}
+    target_gyms = set()
+    for g in gyms:
+        if g.get("chain") != "rocky":
+            continue
+        if not g.get("visible", True):
+            continue
+        gym_ids[f"{g['name']}店"] = g["id"]
+        target_gyms.add(g["id"])
+    return gym_ids, target_gyms
 
 
 # ---------------------------------------------------------------- ページ解析
 
-def fetch_calendar_urls():
+def fetch_calendar_urls(gym_ids):
     """
     /set/ を取得し、[(gym_id, 店舗名, スロット番号, 画像URL), ...] を返す。
     スロット0が今月、1が来月。
+    gym_ids: load_rocky_targets() が返す「ページ上の店舗名 -> gym_id」の辞書。
     """
     res = requests.get(SET_URL, headers={"User-Agent": UA}, timeout=30)
     res.raise_for_status()
@@ -95,7 +101,7 @@ def fetch_calendar_urls():
     for label in soup.find_all("label"):
         m = re.fullmatch(r"tab(\d+)", label.get("for", "") or "")
         name = label.get_text(strip=True)
-        if m and name in GYM_IDS:
+        if m and name in gym_ids:
             tab_names[m.group(1)] = name
 
     out = []
@@ -107,7 +113,7 @@ def fetch_calendar_urls():
         for slot, img in enumerate(div.find_all("img")):
             src = img.get("src")
             if src:
-                out.append((GYM_IDS[name], name, slot, urljoin(SET_URL, src)))
+                out.append((gym_ids[name], name, slot, urljoin(SET_URL, src)))
 
     # PC版とスマホ版で同じ画像が重複するので (gym_id, slot) で最初だけ残す
     seen, uniq = set(), []
@@ -198,8 +204,10 @@ def main():
     state = load_json(STATE_PATH, {})
     status = load_json(STATUS_PATH, {})
 
+    gym_ids, target_gyms = load_rocky_targets()
+
     print(f"{SET_URL} を取得中...")
-    rows = [r for r in fetch_calendar_urls() if r[0] in TARGET_GYMS]
+    rows = [r for r in fetch_calendar_urls(gym_ids) if r[0] in target_gyms]
     print(f"対象 {len(rows)} 枚\n")
 
     all_events, all_pending = [], []

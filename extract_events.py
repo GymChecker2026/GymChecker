@@ -418,10 +418,10 @@ def main():
 
     for gym in targets:
         label = f"{gym['chain']} {gym['name']}"
-        collector = COLLECTORS[gym["method"]]
         fetched_at = now_jst().isoformat(timespec="seconds")
 
         try:
+            collector = COLLECTORS[gym["method"]]
             articles = collector(gym, cutoff)
         except Exception as e:
             print(f"[{label}] 取得失敗: {e}")
