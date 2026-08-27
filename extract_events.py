@@ -4,7 +4,7 @@ import re
 import sys
 import time
 from datetime import date, datetime, timedelta
-from urllib.parse import urljoin
+from urllib.parse import urljoin, urlparse
 from zoneinfo import ZoneInfo
 
 import anthropic
@@ -13,10 +13,17 @@ from bs4 import BeautifulSoup
 
 HEADERS = {"User-Agent": "gym-checker/0.1"}
 INTERVAL_SEC = 2
-REQUEST_TIMEOUT_SEC = 60
+# (connect, read)。ConnectTimeoutは待っても結果が変わらないため接続は10秒で見切り、
+# 応答が返り始めてからのReadTimeoutだけ従来通り60秒許容する。
+CONNECT_TIMEOUT_SEC = 10
+READ_TIMEOUT_SEC = 60
+REQUEST_TIMEOUT = (CONNECT_TIMEOUT_SEC, READ_TIMEOUT_SEC)
 RETRY_COUNT = 3
 RETRY_WAIT_SEC = 5
 RECENT_DAYS = 45
+# 同一ホストへの ConnectTimeout が連続でこの回数に達したら、そのホストの残り店舗は
+# リトライせず即座に失敗扱いにする（Actions側からブロックされているホスト向け）。
+HOST_TIMEOUT_BLOCK_THRESHOLD = 2
 MODEL = "claude-haiku-4-5-20251001"
 JST = ZoneInfo("Asia/Tokyo")
 
@@ -142,7 +149,7 @@ def http_get(url, **kwargs):
             if wait > 0:
                 time.sleep(wait)
         try:
-            r = requests.get(url, headers=HEADERS, timeout=REQUEST_TIMEOUT_SEC, **kwargs)
+            r = requests.get(url, headers=HEADERS, timeout=REQUEST_TIMEOUT, **kwargs)
             _last_request_time = time.time()
             return r
         except requests.exceptions.RequestException as e:
@@ -416,14 +423,45 @@ def main():
     if requested_ids:
         targets = [g for g in targets if g["id"] in requested_ids]
 
+    # ホスト単位でConnectTimeoutが連続した回数。閾値に達したホストは blocked_hosts に入れ、
+    # 残りの店舗はリトライせず即座に失敗扱いにする（Actionsからブロックされたホスト対策）。
+    host_timeout_streak = {}
+    blocked_hosts = set()
+
     for gym in targets:
         label = f"{gym['chain']} {gym['name']}"
         fetched_at = now_jst().isoformat(timespec="seconds")
+        host = urlparse((gym.get("urls") or [gym.get("url")])[0]).netloc
+
+        if host in blocked_hosts:
+            print(f"[{label}] スキップ: {host} への接続が連続{HOST_TIMEOUT_BLOCK_THRESHOLD}回タイムアウトしたためリトライしません")
+            status_records.append({
+                "gym_id": gym["id"],
+                "status": "failure",
+                "fetched_at": fetched_at,
+                "error": f"{host} への接続が連続{HOST_TIMEOUT_BLOCK_THRESHOLD}回タイムアウトしたためスキップ",
+                "reason": "host_blocked",
+            })
+            continue
 
         try:
             collector = COLLECTORS[gym["method"]]
             articles = collector(gym, cutoff)
+        except requests.exceptions.ConnectTimeout as e:
+            host_timeout_streak[host] = host_timeout_streak.get(host, 0) + 1
+            print(f"[{label}] 取得失敗: {e}")
+            status_records.append({
+                "gym_id": gym["id"],
+                "status": "failure",
+                "fetched_at": fetched_at,
+                "error": str(e),
+            })
+            if host_timeout_streak[host] >= HOST_TIMEOUT_BLOCK_THRESHOLD:
+                blocked_hosts.add(host)
+                print(f"  [{host}] 連続{HOST_TIMEOUT_BLOCK_THRESHOLD}回 ConnectTimeout のため、以降このホストの店舗はスキップします")
+            continue
         except Exception as e:
+            host_timeout_streak[host] = 0
             print(f"[{label}] 取得失敗: {e}")
             status_records.append({
                 "gym_id": gym["id"],
@@ -432,6 +470,8 @@ def main():
                 "error": str(e),
             })
             continue
+
+        host_timeout_streak[host] = 0
 
         status_records.append({"gym_id": gym["id"], "status": "success", "fetched_at": fetched_at})
         print(f"[{label}] 対象 {len(articles)}件")
