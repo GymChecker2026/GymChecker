@@ -56,6 +56,22 @@ def is_covered(gym_id, coverage, today):
     return covered_until >= today
 
 
+def parse_page_datetime(raw):
+    """processed.json の last_changed_at 文字列を aware な datetime に変換する。
+    タイムゾーンなしの文字列（旧形式）は JST とみなす。パースできない場合は
+    None を返す（呼び出し側でそのレコードを無視して処理を続けるため）。
+    """
+    if not isinstance(raw, str):
+        return None
+    try:
+        dt = datetime.fromisoformat(raw)
+    except ValueError:
+        return None
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=JST)
+    return dt
+
+
 with open("gyms.json", encoding="utf-8") as f:
     gyms = json.load(f)
 with open("events.json", encoding="utf-8") as f:
@@ -88,7 +104,21 @@ try:
         processed = json.load(f)
 except FileNotFoundError:
     processed = {"pages": {}}
-pages_by_gym = processed.get("pages", {})
+
+# processed["pages"] のキーは "{gym_id}::{url}" 形式（例: Base Camp は urls が
+# [pickup, route] の2件あるため、1店舗につきレコードが2件存在する）。
+# gym_id ごとに集約し、last_changed_at が最も新しいレコードを採用する
+# （どちらか一方のページが更新されていれば、その店舗の情報は更新されているため）。
+last_changed_by_gym = {}
+for page_key, record in processed.get("pages", {}).items():
+    gym_id = page_key.split("::", 1)[0]
+    raw_last_changed = record.get("last_changed_at")
+    dt = parse_page_datetime(raw_last_changed)
+    if dt is None:
+        continue
+    best = last_changed_by_gym.get(gym_id)
+    if best is None or dt > best[0]:
+        last_changed_by_gym[gym_id] = (dt, raw_last_changed)
 
 today = datetime.now(JST).date()
 window_start = today - timedelta(days=EVENT_WINDOW_PAST_DAYS)
@@ -158,7 +188,9 @@ for gym in gyms:
             else (rocky["status"] if rocky else (status["status"] if status else None))
         ),
         "fetched_at": rocky["fetched_at"] if rocky else (status["fetched_at"] if status else None),
-        "last_changed_at": pages_by_gym.get(gym["id"], {}).get("last_changed_at"),
+        "last_changed_at": (
+            last_changed_by_gym[gym["id"]][1] if gym["id"] in last_changed_by_gym else None
+        ),
         "events": events_by_gym.get(gym["id"], []),
     })
 
