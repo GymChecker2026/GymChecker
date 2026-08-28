@@ -1071,72 +1071,82 @@
           "note": "エリアAのホールド外し&セット"
         }
       ]
+    },
+    "https://pump-climbing.com/gym/akiba/2f-c-wall-left-side-%e3%82%bb%e3%83%83%e3%83%88%e5%ae%8c%e4%ba%86%ef%bc%81%ef%bc%81/blog-news/": {
+      "published": "2026-08-28",
+      "events": [
+        {
+          "date": "2026-08-28",
+          "type": "セット完了",
+          "note": "2F C壁左面 7Qから1D合計16本"
+        }
+      ]
     }
   },
   "pages": {
     "noborock-shinjuku::https://noborock-climbing.com/program/新宿店/": {
-      "text_hash": "9e826ea69ca2f0b7da83c1ceb2e3020033c5aefad93309106b2eae6d64c09396",
-      "last_changed_at": "2026-08-17T14:31:40",
-      "published": "2026-08-17",
+      "text_hash": "d50d45f6937c8a4c42daaf9b3a3e95d7ba54a53ff8f7760c79199b6601544deb",
+      "last_changed_at": "2026-08-29T06:59:16+09:00",
+      "published": "2026-08-29",
       "events": [
-        {
-          "date": "2026-07-28",
-          "type": "セット完了",
-          "note": "ルートセット完了"
-        },
-        {
-          "date": "2026-08-23",
-          "type": "時間変更",
-          "note": "新宿店 17:00 close"
-        },
-        {
-          "date": "2026-08-24",
-          "type": "休業",
-          "note": "新宿店 ルートセット"
-        },
         {
           "date": "2026-08-25",
-          "type": "時間変更",
-          "note": "新宿店 18:30 open"
-        }
-      ]
-    },
-    "noborock-shibuya::https://noborock-climbing.com/program/shibuya/": {
-      "text_hash": "3c5c1e77333322407f61195673f5e860ed783792f44cb2757c5b816a4a8f3b2b",
-      "last_changed_at": "2026-08-28T02:30:19+09:00",
-      "published": "2026-08-28",
-      "events": [
-        {
-          "date": "2026-07-28",
           "type": "セット完了",
-          "note": "ルートセット完了"
+          "note": "ルートセット完了、18:30 open"
         },
         {
-          "date": "2026-08-23",
+          "date": "2026-09-23",
           "type": "時間変更",
           "note": "17:00 close"
         },
         {
-          "date": "2026-08-24",
+          "date": "2026-09-24",
           "type": "休業",
           "note": "ルートセット"
         },
         {
-          "date": "2026-08-25",
+          "date": "2026-09-25",
           "type": "時間変更",
           "note": "18:30 open"
+        }
+      ]
+    },
+    "noborock-shibuya::https://noborock-climbing.com/program/shibuya/": {
+      "text_hash": "2a0d083f4e82ac2c9b8ca022a341870800336c21d6ee208f938ef916026a4c92",
+      "last_changed_at": "2026-08-29T06:59:16+09:00",
+      "published": "2026-08-29",
+      "events": [
+        {
+          "date": "2026-08-25",
+          "type": "セット完了",
+          "note": "ルートセット完了"
         },
         {
           "date": "2026-08-28",
           "type": "エリア制限",
-          "note": "16:00~19:30 1Fメインエリア 利用エリア制限"
+          "note": "1Fメインエリア 16:00~19:30 利用エリア制限"
+        },
+        {
+          "date": "2026-09-23",
+          "type": "時間変更",
+          "note": "17:00 close"
+        },
+        {
+          "date": "2026-09-24",
+          "type": "休業",
+          "note": "ルートセット"
+        },
+        {
+          "date": "2026-09-25",
+          "type": "時間変更",
+          "note": "18:30 open"
         }
       ]
     },
     "noborock-takadanobaba::https://noborock-climbing.com/program/takadanobaba/": {
-      "text_hash": "9245abf0e4b06f927267791492597ae224a3c1da86c128465c0183b1d0d0e7c9",
-      "last_changed_at": "2026-08-28T02:30:19+09:00",
-      "published": "2026-08-28",
+      "text_hash": "0db25cbf7ddcfb1bcfb81fc6a0fd8e7170e7c270f151df9fb98645bf9afed5aa",
+      "last_changed_at": "2026-08-29T06:59:16+09:00",
+      "published": "2026-08-29",
       "events": [
         {
           "date": "2026-08-04",
@@ -1220,61 +1230,56 @@
       ]
     },
     "noborock-machida::https://noborock-climbing.com/program/machida/": {
-      "text_hash": "55941af75d3f5da7f72d05d17b246ce040e73878de9cf4a1f82f6a243871f07e",
-      "last_changed_at": "2026-08-17T14:31:40",
-      "published": "2026-08-17",
+      "text_hash": "bd19e864e65055d043854728bb4e80f4e75d3bf8901699bb525a1cd522ec55c3",
+      "last_changed_at": "2026-08-29T06:59:16+09:00",
+      "published": "2026-08-29",
       "events": [
         {
-          "date": "2026-07-22",
+          "date": "2026-08-18",
           "type": "セット完了",
           "note": "ルートセット完了"
         },
         {
-          "date": "2026-08-16",
+          "date": "2026-09-13",
           "type": "時間変更",
           "note": "17:00 close"
         },
         {
-          "date": "2026-08-17",
+          "date": "2026-09-14",
           "type": "休業",
-          "note": "ルートセット"
+          "note": ""
         },
         {
-          "date": "2026-08-18",
+          "date": "2026-09-15",
           "type": "時間変更",
           "note": "18:30 open"
         }
       ]
     },
     "noborock-mizonokuchi::https://noborock-climbing.com/program/mizonokuchi/": {
-      "text_hash": "6005991f25c4b1d6afbe887ee4f90208d16192ea9f718ed506b05469f5853b2b",
-      "last_changed_at": "2026-08-17T14:31:40",
-      "published": "2026-08-17",
+      "text_hash": "37db74dc9bff90b33614eedb1d9e38d48139e15ef1f9941fb9b674406ef157b6",
+      "last_changed_at": "2026-08-29T06:59:16+09:00",
+      "published": "2026-08-29",
       "events": [
         {
-          "date": "2026-07-21",
+          "date": "2026-08-17",
           "type": "セット完了",
           "note": "ルートセット完了"
         },
         {
-          "date": "2026-08-14",
-          "type": "休業",
-          "note": "ルートセット"
+          "date": "2026-09-13",
+          "type": "時間変更",
+          "note": "17:00 close"
         },
         {
-          "date": "2026-08-15",
+          "date": "2026-09-14",
           "type": "休業",
-          "note": "ルートセット"
+          "note": ""
         },
         {
-          "date": "2026-08-16",
-          "type": "休業",
-          "note": "ルートセット"
-        },
-        {
-          "date": "2026-08-17",
-          "type": "休業",
-          "note": "ルートセット"
+          "date": "2026-09-15",
+          "type": "時間変更",
+          "note": "18:30 open"
         }
       ]
     },
@@ -1977,22 +1982,22 @@
       ]
     },
     "bc-kawagoe::https://b-camp.jp/kawagoe/route/": {
-      "text_hash": "66d23a366268bf4da5ef735c4827a39031845fe065546ae90ba5de0b3687cc07",
-      "last_changed_at": "2026-08-26T23:19:37+09:00",
-      "published": "2026-08-26",
+      "text_hash": "9b195f9a4a20daf617310c48db83991c77a22c8b7e67f2a93717ff9d125a37d9",
+      "last_changed_at": "2026-08-29T06:59:16+09:00",
+      "published": "2026-08-29",
       "events": [
         {
-          "date": "2026-07-08",
+          "date": "2026-09-09",
           "type": "エリア制限",
           "note": "Berlin ~ Demi Lune (奥面) セット作業"
         },
         {
-          "date": "2026-07-15",
+          "date": "2026-09-16",
           "type": "エリア制限",
           "note": "Biographie ~ Instruction Wall (右面) セット作業"
         },
         {
-          "date": "2026-07-22",
+          "date": "2026-09-30",
           "type": "エリア制限",
           "note": "Grande Face ~ Berlin (左面) セット作業"
         },
@@ -2008,6 +2013,21 @@
         },
         {
           "date": "2026-08-26",
+          "type": "エリア制限",
+          "note": "Grande Face ~ Berlin (左面) セット作業"
+        },
+        {
+          "date": "2026-07-08",
+          "type": "エリア制限",
+          "note": "Berlin ~ Demi Lune (奥面) セット作業"
+        },
+        {
+          "date": "2026-07-15",
+          "type": "エリア制限",
+          "note": "Biographie ~ Instruction Wall (右面) セット作業"
+        },
+        {
+          "date": "2026-07-22",
           "type": "エリア制限",
           "note": "Grande Face ~ Berlin (左面) セット作業"
         }
