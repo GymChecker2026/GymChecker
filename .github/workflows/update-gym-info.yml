@@ -2,8 +2,12 @@ name: Update gym set info
 
 on:
   schedule:
-    # 18:00 UTC = 03:00 JST
-    - cron: "0 18 * * *"
+    # 毎時0分・18:00 UTC はGitHub Actions側のキューが混雑しやすく、
+    # 遅延（実績で1〜2時間）や発火自体の破棄が起きるため、ずらした時刻を主枠にする。
+    # 03:30〜04:30 JST 着地を狙う主枠。
+    - cron: "37 17 * * *"
+    # 主枠が破棄された場合の保険となる予備枠。
+    - cron: "23 22 * * *"
   workflow_dispatch:
 
 permissions:
@@ -28,16 +32,28 @@ jobs:
       - name: Install dependencies
         run: pip install requests beautifulsoup4 anthropic jpholiday
 
-      - name: Run pipeline
+      - name: Extract events
+        continue-on-error: true
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: |
-          python extract_events.py
-          python rocky_fetch.py
-          python build_display.py
-          python build_html.py
+        run: python extract_events.py
+
+      - name: Fetch ROCKY calendars
+        continue-on-error: true
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python rocky_fetch.py
+
+      - name: Build display data
+        if: always()
+        run: python build_display.py
+
+      - name: Build HTML
+        if: always()
+        run: python build_html.py
 
       - name: Commit and push if changed
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
