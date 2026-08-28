@@ -2,127 +2,126 @@
   {
     "gym_id": "noborock-shinjuku",
     "status": "success",
-    "fetched_at": "2026-08-28T10:37:38+09:00"
+    "fetched_at": "2026-08-28T15:39:26+09:00"
   },
   {
     "gym_id": "noborock-shibuya",
     "status": "success",
-    "fetched_at": "2026-08-28T10:37:39+09:00"
+    "fetched_at": "2026-08-28T15:39:27+09:00"
   },
   {
     "gym_id": "noborock-takadanobaba",
     "status": "success",
-    "fetched_at": "2026-08-28T10:37:42+09:00"
+    "fetched_at": "2026-08-28T15:39:29+09:00"
   },
   {
     "gym_id": "noborock-asakusa",
     "status": "success",
-    "fetched_at": "2026-08-28T10:37:45+09:00"
+    "fetched_at": "2026-08-28T15:39:32+09:00"
   },
   {
     "gym_id": "noborock-ikebukuro",
     "status": "success",
-    "fetched_at": "2026-08-28T10:37:48+09:00"
+    "fetched_at": "2026-08-28T15:39:35+09:00"
   },
   {
     "gym_id": "noborock-machida",
     "status": "success",
-    "fetched_at": "2026-08-28T10:37:51+09:00"
+    "fetched_at": "2026-08-28T15:39:40+09:00"
   },
   {
     "gym_id": "noborock-mizonokuchi",
     "status": "success",
-    "fetched_at": "2026-08-28T10:37:53+09:00"
+    "fetched_at": "2026-08-28T15:39:41+09:00"
   },
   {
     "gym_id": "noborock-omiya",
     "status": "success",
-    "fetched_at": "2026-08-28T10:37:56+09:00"
+    "fetched_at": "2026-08-28T15:39:45+09:00"
   },
   {
     "gym_id": "dbc-tachikawa",
     "status": "success",
-    "fetched_at": "2026-08-28T10:37:59+09:00"
+    "fetched_at": "2026-08-28T15:39:48+09:00"
   },
   {
     "gym_id": "dbc-tamachi",
     "status": "success",
-    "fetched_at": "2026-08-28T10:38:08+09:00"
+    "fetched_at": "2026-08-28T15:40:05+09:00"
   },
   {
     "gym_id": "dbc-tsunashima",
     "status": "success",
-    "fetched_at": "2026-08-28T10:38:28+09:00"
+    "fetched_at": "2026-08-28T15:40:23+09:00"
   },
   {
     "gym_id": "dbc-honatsugi",
     "status": "success",
-    "fetched_at": "2026-08-28T10:38:51+09:00"
+    "fetched_at": "2026-08-28T15:40:46+09:00"
   },
   {
     "gym_id": "dbc-yokohama",
     "status": "success",
-    "fetched_at": "2026-08-28T10:39:35+09:00"
+    "fetched_at": "2026-08-28T15:41:32+09:00"
   },
   {
     "gym_id": "dbc-kawasaki",
     "status": "success",
-    "fetched_at": "2026-08-28T10:39:50+09:00"
+    "fetched_at": "2026-08-28T15:41:45+09:00"
   },
   {
     "gym_id": "bpump-akihabara",
     "status": "success",
-    "fetched_at": "2026-08-28T10:39:56+09:00"
+    "fetched_at": "2026-08-28T15:41:51+09:00"
   },
   {
     "gym_id": "bpump-ogikubo",
     "status": "success",
-    "fetched_at": "2026-08-28T10:40:03+09:00"
+    "fetched_at": "2026-08-28T15:41:58+09:00"
   },
   {
     "gym_id": "bpump-yokohama",
     "status": "success",
-    "fetched_at": "2026-08-28T10:40:08+09:00"
+    "fetched_at": "2026-08-28T15:42:04+09:00"
   },
   {
     "gym_id": "bpump-kawaguchi",
     "status": "success",
-    "fetched_at": "2026-08-28T10:40:15+09:00"
+    "fetched_at": "2026-08-28T15:42:09+09:00"
   },
   {
     "gym_id": "bpump-kawasaki",
     "status": "success",
-    "fetched_at": "2026-08-28T10:40:32+09:00"
+    "fetched_at": "2026-08-28T15:42:24+09:00"
   },
   {
     "gym_id": "bc-shinjuku",
     "status": "success",
-    "fetched_at": "2026-08-28T10:40:37+09:00"
+    "fetched_at": "2026-08-28T15:42:30+09:00"
   },
   {
     "gym_id": "bc-shinbashi",
     "status": "success",
-    "fetched_at": "2026-08-28T10:40:45+09:00"
+    "fetched_at": "2026-08-28T15:42:37+09:00"
   },
   {
     "gym_id": "bc-edogawabashi",
-    "status": "failure",
-    "fetched_at": "2026-08-28T10:40:54+09:00",
-    "error": "503 Server Error: Service Unavailable for url: https://b-camp.jp/edogawabashi/route/"
+    "status": "success",
+    "fetched_at": "2026-08-28T15:42:47+09:00"
   },
   {
     "gym_id": "bc-kinshicho",
     "status": "success",
-    "fetched_at": "2026-08-28T10:41:02+09:00"
+    "fetched_at": "2026-08-28T15:42:52+09:00"
   },
   {
     "gym_id": "bc-higashimurayama",
     "status": "success",
-    "fetched_at": "2026-08-28T10:41:07+09:00"
+    "fetched_at": "2026-08-28T15:42:59+09:00"
   },
   {
     "gym_id": "bc-kawagoe",
     "status": "success",
-    "fetched_at": "2026-08-28T10:41:17+09:00"
+    "fetched_at": "2026-08-28T15:43:09+09:00"
   }
 ]
