@@ -37,15 +37,7 @@
     "type": "セット完了",
     "note": "ルートセット完了",
     "source_url": "https://noborock-climbing.com/program/shibuya/",
-    "published": "2026-08-29"
-  },
-  {
-    "gym_id": "noborock-shibuya",
-    "date": "2026-08-28",
-    "type": "エリア制限",
-    "note": "1Fメインエリア 16:00~19:30 利用エリア制限",
-    "source_url": "https://noborock-climbing.com/program/shibuya/",
-    "published": "2026-08-29"
+    "published": "2026-08-30"
   },
   {
     "gym_id": "noborock-shibuya",
@@ -53,15 +45,15 @@
     "type": "時間変更",
     "note": "17:00 close",
     "source_url": "https://noborock-climbing.com/program/shibuya/",
-    "published": "2026-08-29"
+    "published": "2026-08-30"
   },
   {
     "gym_id": "noborock-shibuya",
     "date": "2026-09-24",
     "type": "休業",
-    "note": "ルートセット",
+    "note": "",
     "source_url": "https://noborock-climbing.com/program/shibuya/",
-    "published": "2026-08-29"
+    "published": "2026-08-30"
   },
   {
     "gym_id": "noborock-shibuya",
@@ -69,7 +61,7 @@
     "type": "時間変更",
     "note": "18:30 open",
     "source_url": "https://noborock-climbing.com/program/shibuya/",
-    "published": "2026-08-29"
+    "published": "2026-08-30"
   },
   {
     "gym_id": "noborock-takadanobaba",
@@ -149,7 +141,7 @@
     "type": "セット完了",
     "note": "ルートセット完了",
     "source_url": "https://noborock-climbing.com/program/ikebukuro/",
-    "published": "2026-08-28"
+    "published": "2026-08-30"
   },
   {
     "gym_id": "noborock-ikebukuro",
@@ -157,7 +149,7 @@
     "type": "時間変更",
     "note": "17:00 close",
     "source_url": "https://noborock-climbing.com/program/ikebukuro/",
-    "published": "2026-08-28"
+    "published": "2026-08-30"
   },
   {
     "gym_id": "noborock-ikebukuro",
@@ -165,7 +157,7 @@
     "type": "休業",
     "note": "ルートセット",
     "source_url": "https://noborock-climbing.com/program/ikebukuro/",
-    "published": "2026-08-28"
+    "published": "2026-08-30"
   },
   {
     "gym_id": "noborock-ikebukuro",
@@ -173,7 +165,7 @@
     "type": "時間変更",
     "note": "18:30 open",
     "source_url": "https://noborock-climbing.com/program/ikebukuro/",
-    "published": "2026-08-28"
+    "published": "2026-08-30"
   },
   {
     "gym_id": "noborock-machida",
@@ -342,38 +334,6 @@
     "note": "18時より営業再開",
     "source_url": "https://www.d-b-c.jp/tamachi-news/7%e6%9c%88%ef%bc%9a%e3%83%9b%e3%83%bc%e3%83%ab%e3%83%89%e6%9b%bf%e3%81%88%e3%81%ab%e3%82%88%e3%82%8b%e4%bc%91%e6%a5%ad%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b/",
     "published": "2026-07-16"
-  },
-  {
-    "gym_id": "dbc-tamachi",
-    "date": "2026-07-26",
-    "type": "休業",
-    "note": "田町タワー設備更新作業に伴う全館休館のため休業",
-    "source_url": "https://www.d-b-c.jp/tamachi-news/7%e6%9c%8826%e6%97%a5%e4%bc%91%e6%a5%ad%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b/",
-    "published": "2026-07-15"
-  },
-  {
-    "gym_id": "dbc-tamachi",
-    "date": "2026-07-27",
-    "type": "エリア制限",
-    "note": "セット作業（2日間）",
-    "source_url": "https://www.d-b-c.jp/tamachi-news/7%e6%9c%8826%e6%97%a5%e4%bc%91%e6%a5%ad%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b/",
-    "published": "2026-07-15"
-  },
-  {
-    "gym_id": "dbc-tamachi",
-    "date": "2026-07-28",
-    "type": "時間変更",
-    "note": "18:00オープン、セット完了",
-    "source_url": "https://www.d-b-c.jp/tamachi-news/7%e6%9c%8826%e6%97%a5%e4%bc%91%e6%a5%ad%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b/",
-    "published": "2026-07-15"
-  },
-  {
-    "gym_id": "dbc-tamachi",
-    "date": "2026-07-28",
-    "type": "セット完了",
-    "note": "新セット完成",
-    "source_url": "https://www.d-b-c.jp/tamachi-news/7%e6%9c%8826%e6%97%a5%e4%bc%91%e6%a5%ad%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b/",
-    "published": "2026-07-15"
   },
   {
     "gym_id": "dbc-tsunashima",
@@ -800,12 +760,12 @@
     "published": "2026-07-17"
   },
   {
-    "gym_id": "bpump-akihabara",
-    "date": "2026-07-16",
+    "gym_id": "bpump-ogikubo",
+    "date": "2026-10-03",
     "type": "イベント",
-    "note": "15周年",
-    "source_url": "https://pump-climbing.com/gym/akiba/b-pump-tokyo-15th-anniversary/blog-news/",
-    "published": "2026-07-15"
+    "note": "THE18 – TO THE NEXT LEVEL – Vol.10（2日間、10月3日-4日、B-PUMP OGIKUBO）",
+    "source_url": "https://pump-climbing.com/gym/bpump/%e3%80%90%e9%96%8b%e5%82%ac%e7%99%ba%e8%a1%a8%e3%80%91the-18-%e2%80%92-to-the-next-level%e2%80%92-vol-10/",
+    "published": "2026-08-29"
   },
   {
     "gym_id": "bpump-ogikubo",

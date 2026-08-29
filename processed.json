@@ -1081,6 +1081,16 @@
           "note": "2F C壁左面 7Qから1D合計16本"
         }
       ]
+    },
+    "https://pump-climbing.com/gym/bpump/%e3%80%90%e9%96%8b%e5%82%ac%e7%99%ba%e8%a1%a8%e3%80%91the-18-%e2%80%92-to-the-next-level%e2%80%92-vol-10/": {
+      "published": "2026-08-29",
+      "events": [
+        {
+          "date": "2026-10-03",
+          "type": "イベント",
+          "note": "THE18 – TO THE NEXT LEVEL – Vol.10（2日間、10月3日-4日、B-PUMP OGIKUBO）"
+        }
+      ]
     }
   },
   "pages": {
@@ -1112,19 +1122,14 @@
       ]
     },
     "noborock-shibuya::https://noborock-climbing.com/program/shibuya/": {
-      "text_hash": "2a0d083f4e82ac2c9b8ca022a341870800336c21d6ee208f938ef916026a4c92",
-      "last_changed_at": "2026-08-29T06:59:16+09:00",
-      "published": "2026-08-29",
+      "text_hash": "a0a1c37107c3b0a8cac6b12d5af38ee6f844e4a43bba7e97e626c2ac50eb76fd",
+      "last_changed_at": "2026-08-30T02:45:31+09:00",
+      "published": "2026-08-30",
       "events": [
         {
           "date": "2026-08-25",
           "type": "セット完了",
           "note": "ルートセット完了"
-        },
-        {
-          "date": "2026-08-28",
-          "type": "エリア制限",
-          "note": "1Fメインエリア 16:00~19:30 利用エリア制限"
         },
         {
           "date": "2026-09-23",
@@ -1134,7 +1139,7 @@
         {
           "date": "2026-09-24",
           "type": "休業",
-          "note": "ルートセット"
+          "note": ""
         },
         {
           "date": "2026-09-25",
@@ -1203,9 +1208,9 @@
       ]
     },
     "noborock-ikebukuro::https://noborock-climbing.com/program/ikebukuro/": {
-      "text_hash": "2e560061b4fd825c9e03408872074d81b6595bb60b38c55f0fe32c475622cf3e",
-      "last_changed_at": "2026-08-28T15:39:26+09:00",
-      "published": "2026-08-28",
+      "text_hash": "535c9fb5fb9b45577e749f7d4c143c6b3b6741f723f17ebb7e26c89c5c5e27eb",
+      "last_changed_at": "2026-08-30T02:45:31+09:00",
+      "published": "2026-08-30",
       "events": [
         {
           "date": "2026-07-14",
