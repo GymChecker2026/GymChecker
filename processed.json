@@ -1091,6 +1091,55 @@
           "note": "THE18 – TO THE NEXT LEVEL – Vol.10（2日間、10月3日-4日、B-PUMP OGIKUBO）"
         }
       ]
+    },
+    "https://www.d-b-c.jp/yokohama-news/9%e6%9c%88%e3%82%ad%e3%83%83%e3%82%ba%e3%82%b9%e3%82%af%e3%83%bc%e3%83%ab%e4%bd%93%e9%a8%93%e4%bc%9a%e6%97%a5%e7%a8%8b%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6": {
+      "published": "2026-08-30",
+      "events": []
+    },
+    "https://www.d-b-c.jp/kawasaki-news/2026%e5%b9%b49%e6%9c%88%e3%82%ab%e3%83%ac%e3%83%b3%e3%83%80%e3%83%bc": {
+      "published": "2026-08-30",
+      "events": [
+        {
+          "date": "2026-09-09",
+          "type": "エリア制限",
+          "note": "3D壁 深夜～9/11深夜"
+        },
+        {
+          "date": "2026-09-10",
+          "type": "イベント",
+          "note": "ワンデイセット"
+        },
+        {
+          "date": "2026-09-23",
+          "type": "エリア制限",
+          "note": "ステージ 深夜～9/25深夜"
+        }
+      ]
+    },
+    "https://pump-climbing.com/gym/akiba/%e6%ac%a1%e9%80%b1%e3%82%bb%e3%83%83%e3%83%88%e6%83%85%e5%a0%b1-%e2%96%b7%e3%80%982f-d-wall%e3%80%99/blog-news/": {
+      "published": "2026-08-30",
+      "events": [
+        {
+          "date": "2026-09-03",
+          "type": "エリア制限",
+          "note": "2F D Wall ホールド外し 21:00-"
+        },
+        {
+          "date": "2026-09-04",
+          "type": "エリア制限",
+          "note": "2F D Wall Route Setting Day"
+        }
+      ]
+    },
+    "https://pump-climbing.com/gym/pump1/%e6%88%a6%e8%89%a6%e5%a5%a5%e5%a3%81%e3%81%ae%e3%82%b0%e3%83%ac%e3%83%bc%e3%83%89%e7%a2%ba%e5%ae%9a%e3%81%97%e3%81%be%e3%81%97%e3%81%9f-%e6%97%a5%e3%80%85%e3%81%aep1/": {
+      "published": "2026-08-30",
+      "events": [
+        {
+          "date": "2026-09-07",
+          "type": "エリア制限",
+          "note": "スラブ壁リニューアル"
+        }
+      ]
     }
   },
   "pages": {
@@ -1122,9 +1171,9 @@
       ]
     },
     "noborock-shibuya::https://noborock-climbing.com/program/shibuya/": {
-      "text_hash": "a0a1c37107c3b0a8cac6b12d5af38ee6f844e4a43bba7e97e626c2ac50eb76fd",
-      "last_changed_at": "2026-08-30T02:45:31+09:00",
-      "published": "2026-08-30",
+      "text_hash": "1afd1ff6091e436cebecaaead0643ccfcddd45b7ebc4edd10359f1560a4e5bb1",
+      "last_changed_at": "2026-08-31T02:45:31+09:00",
+      "published": "2026-08-31",
       "events": [
         {
           "date": "2026-08-25",
@@ -1139,19 +1188,24 @@
         {
           "date": "2026-09-24",
           "type": "休業",
-          "note": ""
+          "note": "ルートセット"
         },
         {
           "date": "2026-09-25",
           "type": "時間変更",
           "note": "18:30 open"
+        },
+        {
+          "date": "2026-08-28",
+          "type": "エリア制限",
+          "note": "16:00~19:30 1Fメインエリア"
         }
       ]
     },
     "noborock-takadanobaba::https://noborock-climbing.com/program/takadanobaba/": {
-      "text_hash": "0db25cbf7ddcfb1bcfb81fc6a0fd8e7170e7c270f151df9fb98645bf9afed5aa",
-      "last_changed_at": "2026-08-29T06:59:16+09:00",
-      "published": "2026-08-29",
+      "text_hash": "c6b1ac71420b52d74cab2fcc8d98dda762b30e49c5e5dd71fd37190779c5118b",
+      "last_changed_at": "2026-08-31T02:45:31+09:00",
+      "published": "2026-08-31",
       "events": [
         {
           "date": "2026-08-04",
@@ -1161,7 +1215,7 @@
         {
           "date": "2026-08-24",
           "type": "時間変更",
-          "note": "貸切利用の為18:00 close"
+          "note": "貸切利用のため18:00 close"
         },
         {
           "date": "2026-08-30",
@@ -1208,9 +1262,9 @@
       ]
     },
     "noborock-ikebukuro::https://noborock-climbing.com/program/ikebukuro/": {
-      "text_hash": "535c9fb5fb9b45577e749f7d4c143c6b3b6741f723f17ebb7e26c89c5c5e27eb",
-      "last_changed_at": "2026-08-30T02:45:31+09:00",
-      "published": "2026-08-30",
+      "text_hash": "90e5b77908766939b276620ae6bd0acd6c753d71a7beae3344170d8734092b27",
+      "last_changed_at": "2026-08-31T02:45:31+09:00",
+      "published": "2026-08-31",
       "events": [
         {
           "date": "2026-07-14",
@@ -1316,10 +1370,30 @@
       ]
     },
     "bc-shinjuku::https://b-camp.jp/shinjuku/route/": {
-      "text_hash": "0bd0e6fc6b358d9fb0b01802946e6a0e599936bb1160403e3f62f0d28fcd3f2e",
-      "last_changed_at": "2026-08-26T23:05:00+09:00",
-      "published": "2026-08-26",
+      "text_hash": "f55f41e509c475ab7d49ec3396bc01f52d11e4ca257cc84c50cc45b165aedebe",
+      "last_changed_at": "2026-08-31T02:45:31+09:00",
+      "published": "2026-08-31",
       "events": [
+        {
+          "date": "2026-09-07",
+          "type": "エリア制限",
+          "note": "King Cobra～SunnySide セットスケジュール"
+        },
+        {
+          "date": "2026-09-08",
+          "type": "エリア制限",
+          "note": "King Cobra～SunnySide セットスケジュール"
+        },
+        {
+          "date": "2026-09-28",
+          "type": "エリア制限",
+          "note": "YosemiteFall～CandyLand セットスケジュール"
+        },
+        {
+          "date": "2026-09-29",
+          "type": "エリア制限",
+          "note": "YosemiteFall～CandyLand セットスケジュール"
+        },
         {
           "date": "2026-08-12",
           "type": "エリア制限",

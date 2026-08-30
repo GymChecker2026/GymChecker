@@ -16,12 +16,12 @@
     "sha256": "2835ae2a03bbe5e4f6e52d2b5b957b6ea8e008b4c3f9df4c1ab21ebca1ed2641"
   },
   "rocky-ryogoku:0": {
-    "url": "https://www.rockyclimbing.com/img/set_168.png",
-    "sha256": "6503f8985242dc53c31177f6621fc76a942987eec2773f8923c028f6c568fb97"
-  },
-  "rocky-ryogoku:1": {
     "url": "https://www.rockyclimbing.com/img/set_179.png",
     "sha256": "64b9c8c4bc137f695cb67fbd470f930b597d7d41682e9ea7d0566f4b1cb1f95b"
+  },
+  "rocky-ryogoku:1": {
+    "url": "https://www.rockyclimbing.com/img/set_181.png",
+    "sha256": "93299ef304edcdd4b5d512f0f327b8f479ba650625e2ade18006db00546fec32"
   },
   "rocky-inzai:0": {
     "url": "https://www.rockyclimbing.com/img/set_172.png",
