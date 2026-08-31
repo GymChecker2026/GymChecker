@@ -569,6 +569,22 @@
         "source_url": "https://www.d-b-c.jp/tachikawa-news/%e9%87%8d%e8%a6%81%ef%bc%9a8%e6%9c%8829%e6%97%a530%e6%97%a5%e3%80%80%e3%83%a1%e3%82%a4%e3%83%b3%e3%82%a6%e3%82%a9%e3%83%bc%e3%83%ab%e3%81%ae%e5%88%a9%e7%94%a8%e5%88%b6%e9%99%90%e3%81%ab%e3%81%a4/",
         "published": "2026-08-28",
         "source": "auto"
+      },
+      {
+        "date": "2026-09-01",
+        "type": "時間変更",
+        "note": "エアコン清掃 22:00~",
+        "source_url": null,
+        "published": "2026-08-31",
+        "source": "manual"
+      },
+      {
+        "date": "2026-09-02",
+        "type": "時間変更",
+        "note": "エアコン清掃 ~6:00",
+        "source_url": null,
+        "published": "2026-08-31",
+        "source": "manual"
       }
     ]
   },
