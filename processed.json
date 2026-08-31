@@ -1140,40 +1140,140 @@
           "note": "スラブ壁リニューアル"
         }
       ]
+    },
+    "https://www.d-b-c.jp/tsunashima/2026/08/9862/": {
+      "published": "2026-08-31",
+      "events": [
+        {
+          "date": "2026-09-26",
+          "type": "時間変更",
+          "note": "18時までの営業"
+        }
+      ]
     }
   },
   "pages": {
     "noborock-shinjuku::https://noborock-climbing.com/program/新宿店/": {
-      "text_hash": "d50d45f6937c8a4c42daaf9b3a3e95d7ba54a53ff8f7760c79199b6601544deb",
-      "last_changed_at": "2026-08-29T06:59:16+09:00",
-      "published": "2026-08-29",
+      "text_hash": "01d206469feef2af2c2c4bb04b0f03811c7b651f62500fc5e5c3d572f90e811b",
+      "last_changed_at": "2026-09-01T02:45:15+09:00",
+      "published": "2026-09-01",
       "events": [
         {
           "date": "2026-08-25",
           "type": "セット完了",
-          "note": "ルートセット完了、18:30 open"
+          "note": "新宿店ルートセット完了"
+        },
+        {
+          "date": "2026-09-01",
+          "type": "時間変更",
+          "note": "大宮店18:30 open"
+        },
+        {
+          "date": "2026-09-01",
+          "type": "時間変更",
+          "note": "高田馬場店18:30 open"
+        },
+        {
+          "date": "2026-09-06",
+          "type": "時間変更",
+          "note": "池袋店17:00 close"
+        },
+        {
+          "date": "2026-09-06",
+          "type": "時間変更",
+          "note": "浅草店17:00 close"
+        },
+        {
+          "date": "2026-09-07",
+          "type": "休業",
+          "note": "池袋店休業【ルートセット】"
+        },
+        {
+          "date": "2026-09-07",
+          "type": "休業",
+          "note": "浅草店休業【ルートセット】"
+        },
+        {
+          "date": "2026-09-08",
+          "type": "時間変更",
+          "note": "池袋店18:30 open"
+        },
+        {
+          "date": "2026-09-08",
+          "type": "時間変更",
+          "note": "浅草店18:30 open"
+        },
+        {
+          "date": "2026-09-13",
+          "type": "時間変更",
+          "note": "溝ノ口店18:45 close"
+        },
+        {
+          "date": "2026-09-13",
+          "type": "時間変更",
+          "note": "町田店17:00 close"
+        },
+        {
+          "date": "2026-09-14",
+          "type": "休業",
+          "note": "溝ノ口店休業【ルートセット】"
+        },
+        {
+          "date": "2026-09-14",
+          "type": "休業",
+          "note": "町田店休業【ルートセット】"
+        },
+        {
+          "date": "2026-09-15",
+          "type": "時間変更",
+          "note": "溝ノ口店18:30 open"
+        },
+        {
+          "date": "2026-09-15",
+          "type": "時間変更",
+          "note": "町田店18:30 open"
         },
         {
           "date": "2026-09-23",
           "type": "時間変更",
-          "note": "17:00 close"
+          "note": "新宿店17:00 close"
+        },
+        {
+          "date": "2026-09-23",
+          "type": "時間変更",
+          "note": "渋谷店17:00 close"
         },
         {
           "date": "2026-09-24",
           "type": "休業",
-          "note": "ルートセット"
+          "note": "新宿店休業【ルートセット】"
+        },
+        {
+          "date": "2026-09-24",
+          "type": "休業",
+          "note": "渋谷店休業【ルートセット】"
         },
         {
           "date": "2026-09-25",
           "type": "時間変更",
-          "note": "18:30 open"
+          "note": "新宿店18:30 open"
+        },
+        {
+          "date": "2026-09-25",
+          "type": "時間変更",
+          "note": "渋谷店18:30 open"
+        },
+        {
+          "date": "2026-09-28",
+          "type": "時間変更",
+          "note": "高田馬場店18:00 close"
         }
       ]
     },
     "noborock-shibuya::https://noborock-climbing.com/program/shibuya/": {
-      "text_hash": "1afd1ff6091e436cebecaaead0643ccfcddd45b7ebc4edd10359f1560a4e5bb1",
-      "last_changed_at": "2026-08-31T02:45:31+09:00",
-      "published": "2026-08-31",
+      "text_hash": "98f1a044fcbdd0fa8ed8ca91d6d3314f47aaca0af12fc29d225480a9907e1193",
+      "last_changed_at": "2026-09-01T02:45:15+09:00",
+      "published": "2026-09-01",
       "events": [
         {
           "date": "2026-08-25",
@@ -1196,30 +1296,25 @@
           "note": "18:30 open"
         },
         {
-          "date": "2026-08-28",
+          "date": "2026-09-28",
           "type": "エリア制限",
-          "note": "16:00~19:30 1Fメインエリア"
+          "note": "B1メインエリア 18:00 Open"
         }
       ]
     },
     "noborock-takadanobaba::https://noborock-climbing.com/program/takadanobaba/": {
-      "text_hash": "c6b1ac71420b52d74cab2fcc8d98dda762b30e49c5e5dd71fd37190779c5118b",
-      "last_changed_at": "2026-08-31T02:45:31+09:00",
-      "published": "2026-08-31",
+      "text_hash": "546ad959a9b9a29ce9f094c313f9bd00f3060d79270489847abe4073502db7fb",
+      "last_changed_at": "2026-09-01T02:45:15+09:00",
+      "published": "2026-09-01",
       "events": [
         {
-          "date": "2026-08-04",
-          "type": "セット完了",
-          "note": "ルートセット完了"
-        },
-        {
           "date": "2026-08-24",
-          "type": "時間変更",
-          "note": "貸切利用のため18:00 close"
+          "type": "時間変更（早じまい、遅い開店、祝日営業、営業再開を含む）",
+          "note": "貸切利用の為18:00 close"
         },
         {
           "date": "2026-08-30",
-          "type": "時間変更",
+          "type": "時間変更（早じまい、遅い開店、祝日営業、営業再開を含む）",
           "note": "17:00 close"
         },
         {
@@ -1229,42 +1324,15 @@
         },
         {
           "date": "2026-09-01",
-          "type": "時間変更",
+          "type": "時間変更（早じまい、遅い開店、祝日営業、営業再開を含む）",
           "note": "18:30 open"
         }
       ]
     },
     "noborock-asakusa::https://noborock-climbing.com/program/浅草店/": {
-      "text_hash": "244c0ff8a0a9ee655f138ea370c0d137d1f34cdde97441366cbd3d55dfd84c95",
-      "last_changed_at": "2026-08-17T14:31:40",
-      "published": "2026-08-17",
-      "events": [
-        {
-          "date": "2026-07-14",
-          "type": "セット完了",
-          "note": "ルートセット完了"
-        },
-        {
-          "date": "2026-08-11",
-          "type": "時間変更",
-          "note": "浅草店 17:00 close"
-        },
-        {
-          "date": "2026-08-12",
-          "type": "休業",
-          "note": "浅草店 ルートセット"
-        },
-        {
-          "date": "2026-08-13",
-          "type": "時間変更",
-          "note": "浅草店 18:30 open"
-        }
-      ]
-    },
-    "noborock-ikebukuro::https://noborock-climbing.com/program/ikebukuro/": {
-      "text_hash": "90e5b77908766939b276620ae6bd0acd6c753d71a7beae3344170d8734092b27",
-      "last_changed_at": "2026-08-31T02:45:31+09:00",
-      "published": "2026-08-31",
+      "text_hash": "630e708a59c1771828888f75c061353a9aab50280a00193182c2f4a3060be064",
+      "last_changed_at": "2026-09-01T02:45:15+09:00",
+      "published": "2026-09-01",
       "events": [
         {
           "date": "2026-07-14",
@@ -1279,19 +1347,166 @@
         {
           "date": "2026-08-12",
           "type": "休業",
-          "note": "ルートセット"
+          "note": ""
         },
         {
           "date": "2026-08-13",
+          "type": "時間変更",
+          "note": "18:30 open"
+        },
+        {
+          "date": "2026-09-01",
+          "type": "時間変更",
+          "note": "大宮18:30 open"
+        },
+        {
+          "date": "2026-09-01",
+          "type": "時間変更",
+          "note": "高田馬場18:30 open"
+        },
+        {
+          "date": "2026-09-06",
+          "type": "時間変更",
+          "note": "池袋17:00 close"
+        },
+        {
+          "date": "2026-09-06",
+          "type": "時間変更",
+          "note": "浅草17:00 close"
+        },
+        {
+          "date": "2026-09-07",
+          "type": "休業",
+          "note": "池袋【ルートセット】"
+        },
+        {
+          "date": "2026-09-07",
+          "type": "休業",
+          "note": "浅草【ルートセット】"
+        },
+        {
+          "date": "2026-09-08",
+          "type": "時間変更",
+          "note": "池袋18:30 open"
+        },
+        {
+          "date": "2026-09-08",
+          "type": "時間変更",
+          "note": "浅草18:30 open"
+        },
+        {
+          "date": "2026-09-13",
+          "type": "時間変更",
+          "note": "溝ノ口18:45 close"
+        },
+        {
+          "date": "2026-09-13",
+          "type": "時間変更",
+          "note": "町田17:00 close"
+        },
+        {
+          "date": "2026-09-14",
+          "type": "休業",
+          "note": "溝ノ口【ルートセット】"
+        },
+        {
+          "date": "2026-09-14",
+          "type": "休業",
+          "note": "町田【ルートセット】"
+        },
+        {
+          "date": "2026-09-15",
+          "type": "時間変更",
+          "note": "溝ノ口18:30 open"
+        },
+        {
+          "date": "2026-09-15",
+          "type": "時間変更",
+          "note": "町田18:30 open"
+        },
+        {
+          "date": "2026-09-23",
+          "type": "時間変更",
+          "note": "新宿17:00 close"
+        },
+        {
+          "date": "2026-09-23",
+          "type": "時間変更",
+          "note": "渋谷17:00 close"
+        },
+        {
+          "date": "2026-09-24",
+          "type": "休業",
+          "note": "新宿【ルートセット】"
+        },
+        {
+          "date": "2026-09-24",
+          "type": "休業",
+          "note": "渋谷【ルートセット】"
+        },
+        {
+          "date": "2026-09-25",
+          "type": "時間変更",
+          "note": "新宿18:30 open"
+        },
+        {
+          "date": "2026-09-25",
+          "type": "時間変更",
+          "note": "渋谷18:30 open"
+        },
+        {
+          "date": "2026-09-28",
+          "type": "時間変更",
+          "note": "高田馬場18:00 close"
+        }
+      ]
+    },
+    "noborock-ikebukuro::https://noborock-climbing.com/program/ikebukuro/": {
+      "text_hash": "275ab8b48c90b39924c9d818fc229649f990041a238c6505814c1adc60454409",
+      "last_changed_at": "2026-09-01T02:45:15+09:00",
+      "published": "2026-09-01",
+      "events": [
+        {
+          "date": "2026-07-14",
+          "type": "セット完了",
+          "note": "ルートセット完了"
+        },
+        {
+          "date": "2026-08-11",
+          "type": "時間変更",
+          "note": "17:00 close"
+        },
+        {
+          "date": "2026-08-12",
+          "type": "休業",
+          "note": ""
+        },
+        {
+          "date": "2026-08-13",
+          "type": "時間変更",
+          "note": "18:30 open"
+        },
+        {
+          "date": "2026-09-06",
+          "type": "時間変更",
+          "note": "17:00 close"
+        },
+        {
+          "date": "2026-09-07",
+          "type": "休業",
+          "note": "ルートセット"
+        },
+        {
+          "date": "2026-09-08",
           "type": "時間変更",
           "note": "18:30 open"
         }
       ]
     },
     "noborock-machida::https://noborock-climbing.com/program/machida/": {
-      "text_hash": "bd19e864e65055d043854728bb4e80f4e75d3bf8901699bb525a1cd522ec55c3",
-      "last_changed_at": "2026-08-29T06:59:16+09:00",
-      "published": "2026-08-29",
+      "text_hash": "c199e8a68bf529d160491fdccbd8c78917b0aa473e18d3812cdb58702cd33a6b",
+      "last_changed_at": "2026-09-01T02:45:15+09:00",
+      "published": "2026-09-01",
       "events": [
         {
           "date": "2026-08-18",
@@ -1306,7 +1521,7 @@
         {
           "date": "2026-09-14",
           "type": "休業",
-          "note": ""
+          "note": "ルートセット"
         },
         {
           "date": "2026-09-15",
@@ -1316,9 +1531,9 @@
       ]
     },
     "noborock-mizonokuchi::https://noborock-climbing.com/program/mizonokuchi/": {
-      "text_hash": "37db74dc9bff90b33614eedb1d9e38d48139e15ef1f9941fb9b674406ef157b6",
-      "last_changed_at": "2026-08-29T06:59:16+09:00",
-      "published": "2026-08-29",
+      "text_hash": "e1bbd36b5c1b11de0620b963688ee20a357cf4f86c7dfed122374269b10258ec",
+      "last_changed_at": "2026-09-01T02:45:15+09:00",
+      "published": "2026-09-01",
       "events": [
         {
           "date": "2026-08-17",
@@ -1333,7 +1548,7 @@
         {
           "date": "2026-09-14",
           "type": "休業",
-          "note": ""
+          "note": "ルートセット"
         },
         {
           "date": "2026-09-15",
@@ -1343,15 +1558,10 @@
       ]
     },
     "noborock-omiya::https://noborock-climbing.com/program/omiya/": {
-      "text_hash": "b71423562670ed59b9155a7ae3696b36d2968c29a44d26d00721d7c92b983114",
-      "last_changed_at": "2026-08-17T14:31:40",
-      "published": "2026-08-17",
+      "text_hash": "656176cc142df1271f036cc05e4e7bb7f06bdbd694c984e49873b01328c688d9",
+      "last_changed_at": "2026-09-01T02:45:15+09:00",
+      "published": "2026-09-01",
       "events": [
-        {
-          "date": "2026-08-04",
-          "type": "セット完了",
-          "note": "ルートセット完了"
-        },
         {
           "date": "2026-08-30",
           "type": "時間変更",
@@ -1360,12 +1570,17 @@
         {
           "date": "2026-08-31",
           "type": "休業",
-          "note": "ルートセット"
+          "note": ""
         },
         {
           "date": "2026-09-01",
           "type": "時間変更",
           "note": "18:30 open"
+        },
+        {
+          "date": "2026-08-04",
+          "type": "セット完了",
+          "note": "ルートセット完了"
         }
       ]
     },

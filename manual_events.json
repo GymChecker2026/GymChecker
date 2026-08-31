@@ -713,6 +713,30 @@
       "published": "2026-08-26"
     },
     {
+      "gym_id": "dbc-tachikawa",
+      "date": "2026-09-01",
+      "type": "時間変更",
+      "note": "エアコン清掃 22:00~",
+      "source_url": null,
+      "published": "2026-08-31"
+    },
+    {
+      "gym_id": "dbc-tachikawa",
+      "date": "2026-09-02",
+      "type": "時間変更",
+      "note": "エアコン清掃 ~6:00",
+      "source_url": null,
+      "published": "2026-08-31"
+    },
+    {
+      "gym_id": "rocky-funabashi",
+      "date": "2026-09-03",
+      "type": "イベント",
+      "note": "TRAINING SESSION 20:30~",
+      "source_url": null,
+      "published": "2026-08-31"
+    },
+    {
       "gym_id": "rocky-inzai",
       "date": "2026-09-03",
       "type": "エリア制限",
@@ -745,6 +769,14 @@
       "published": "2026-08-26"
     },
     {
+      "gym_id": "rocky-funabashi",
+      "date": "2026-09-10",
+      "type": "イベント",
+      "note": "TRAINING SESSION 20:30~",
+      "source_url": null,
+      "published": "2026-08-31"
+    },
+    {
       "gym_id": "rocky-ryogoku",
       "date": "2026-09-12",
       "type": "時間変更",
@@ -759,6 +791,22 @@
       "note": "初心者歓迎 きむきむレッスン 20:00~21:00",
       "source_url": null,
       "published": "2026-08-26"
+    },
+    {
+      "gym_id": "rocky-funabashi",
+      "date": "2026-09-15",
+      "type": "エリア制限",
+      "note": "ホールド外し ・BombLeft ・Welcome / 10:00~23:00 (外しエリアは17時以降登れません)",
+      "source_url": null,
+      "published": "2026-08-31"
+    },
+    {
+      "gym_id": "rocky-funabashi",
+      "date": "2026-09-16",
+      "type": "休業",
+      "note": "セット ・BombLeft ・Welocme / 終日休業",
+      "source_url": null,
+      "published": "2026-08-31"
     },
     {
       "gym_id": "rocky-inzai",
@@ -793,6 +841,14 @@
       "published": "2026-08-26"
     },
     {
+      "gym_id": "rocky-funabashi",
+      "date": "2026-09-24",
+      "type": "イベント",
+      "note": "TRAINING SESSION 20:30~",
+      "source_url": null,
+      "published": "2026-08-31"
+    },
+    {
       "gym_id": "rocky-inzai",
       "date": "2026-09-25",
       "type": "イベント",
@@ -817,6 +873,14 @@
       "published": "2026-08-30"
     },
     {
+      "gym_id": "rocky-funabashi",
+      "date": "2026-09-29",
+      "type": "イベント",
+      "note": "TRAINING SESSION 20:30~",
+      "source_url": null,
+      "published": "2026-08-31"
+    },
+    {
       "gym_id": "rocky-ryogoku",
       "date": "2026-09-29",
       "type": "エリア制限",
@@ -831,22 +895,6 @@
       "note": "セット ・Welcome ・Happiness / 終日休業",
       "source_url": null,
       "published": "2026-08-30"
-    },
-    {
-      "gym_id": "dbc-tachikawa",
-      "date": "2026-09-01",
-      "type": "時間変更",
-      "note": "エアコン清掃 22:00~",
-      "source_url": null,
-      "published": "2026-08-31"
-    },
-    {
-      "gym_id": "dbc-tachikawa",
-      "date": "2026-09-02",
-      "type": "時間変更",
-      "note": "エアコン清掃 ~6:00",
-      "source_url": null,
-      "published": "2026-08-31"
     }
   ],
   "coverage": {
