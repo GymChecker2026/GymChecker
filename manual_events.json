@@ -831,6 +831,22 @@
       "note": "セット ・Welcome ・Happiness / 終日休業",
       "source_url": null,
       "published": "2026-08-30"
+    },
+    {
+      "gym_id": "dbc-tachikawa",
+      "date": "2026-09-01",
+      "type": "時間変更",
+      "note": "エアコン清掃 22:00~",
+      "source_url": null,
+      "published": "2026-08-31"
+    },
+    {
+      "gym_id": "dbc-tachikawa",
+      "date": "2026-09-02",
+      "type": "時間変更",
+      "note": "エアコン清掃 ~6:00",
+      "source_url": null,
+      "published": "2026-08-31"
     }
   ],
   "coverage": {
