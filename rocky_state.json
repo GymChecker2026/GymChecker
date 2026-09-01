@@ -1,11 +1,11 @@
 {
   "rocky-shinagawa:0": {
-    "url": "https://www.rockyclimbing.com/img/set_167.png",
-    "sha256": "9d679f520b3c967e32183b76cfb1172f8ddc910b8f06ec2f8ace701b43c9ed2d"
-  },
-  "rocky-shinagawa:1": {
     "url": "https://www.rockyclimbing.com/img/set_174.png",
     "sha256": "f1b35553b6cc39834fc7fcb13c35132084008b7fda411b7a808811abccfa773e"
+  },
+  "rocky-shinagawa:1": {
+    "url": "https://www.rockyclimbing.com/img/set_183.png",
+    "sha256": "a444a596cb29728746b47b30dfd3700e1c04983118a3278ade9b00b988055d5a"
   },
   "rocky-akebonobashi:0": {
     "url": "https://www.rockyclimbing.com/img/set_170.png",

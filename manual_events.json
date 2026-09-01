@@ -323,9 +323,9 @@
       "gym_id": "rocky-shinagawa",
       "date": "2026-08-07",
       "type": "イベント",
-      "note": "SHINA ROCKY'S 18:30~20:30",
+      "note": "SHINA ROCKY'S CLIMBING SESH' Open to anyone regardless of level :) fun 18:30~20:30",
       "source_url": null,
-      "published": "2026-08-26"
+      "published": "2026-09-01"
     },
     {
       "gym_id": "rocky-inzai",
@@ -397,7 +397,7 @@
       "type": "イベント",
       "note": "メンバーシップナイト 20:00~",
       "source_url": null,
-      "published": "2026-08-26"
+      "published": "2026-09-01"
     },
     {
       "gym_id": "rocky-tsukuba",
@@ -469,7 +469,7 @@
       "type": "エリア制限",
       "note": "ホールド外し ・全面 / 10:00~17:00 (全面ホールド外しの為時短営業)",
       "source_url": null,
-      "published": "2026-08-26"
+      "published": "2026-09-01"
     },
     {
       "gym_id": "rocky-akebonobashi",
@@ -501,7 +501,7 @@
       "type": "休業",
       "note": "THE NIGHT GAME セットDAY1 / 終日休業",
       "source_url": null,
-      "published": "2026-08-26"
+      "published": "2026-09-01"
     },
     {
       "gym_id": "rocky-shinagawa",
@@ -509,7 +509,7 @@
       "type": "休業",
       "note": "THE NIGHT GAME セットDAY2 / 終日休業",
       "source_url": null,
-      "published": "2026-08-26"
+      "published": "2026-09-01"
     },
     {
       "gym_id": "rocky-ryogoku",
@@ -525,7 +525,7 @@
       "type": "休業",
       "note": "THE NIGHT GAME DAY1 ※コンペ参加者のみ利用可能 / 終日休業",
       "source_url": null,
-      "published": "2026-08-26"
+      "published": "2026-09-01"
     },
     {
       "gym_id": "dbc-yokohama",
@@ -541,7 +541,7 @@
       "type": "休業",
       "note": "THE NIGHT GAME DAY2 ※コンペ参加者のみ利用可能 / 終日休業",
       "source_url": null,
-      "published": "2026-08-26"
+      "published": "2026-09-01"
     },
     {
       "gym_id": "dbc-yokohama",
@@ -686,7 +686,7 @@
       "type": "イベント",
       "note": "メンバーシップナイト 18:00~",
       "source_url": null,
-      "published": "2026-08-26"
+      "published": "2026-09-01"
     },
     {
       "gym_id": "rocky-akebonobashi",
@@ -777,6 +777,22 @@
       "published": "2026-08-31"
     },
     {
+      "gym_id": "rocky-shinagawa",
+      "date": "2026-09-10",
+      "type": "イベント",
+      "note": "メンバーシップ ナイト ★メンバーシップ限定★ 20:00~",
+      "source_url": null,
+      "published": "2026-09-01"
+    },
+    {
+      "gym_id": "rocky-shinagawa",
+      "date": "2026-09-11",
+      "type": "イベント",
+      "note": "SHINA ROCKY'S Open to anyone regardless of level :) Fun 18:30~20:30",
+      "source_url": null,
+      "published": "2026-09-01"
+    },
+    {
       "gym_id": "rocky-ryogoku",
       "date": "2026-09-12",
       "type": "時間変更",
@@ -785,12 +801,28 @@
       "published": "2026-08-30"
     },
     {
+      "gym_id": "rocky-shinagawa",
+      "date": "2026-09-13",
+      "type": "エリア制限",
+      "note": "ホールド外し ・Step up ・Box ・Fly / 10:00~21:00 (外しエリアは17時以降登れません)",
+      "source_url": null,
+      "published": "2026-09-01"
+    },
+    {
       "gym_id": "rocky-inzai",
       "date": "2026-09-14",
       "type": "イベント",
       "note": "初心者歓迎 きむきむレッスン 20:00~21:00",
       "source_url": null,
       "published": "2026-08-26"
+    },
+    {
+      "gym_id": "rocky-shinagawa",
+      "date": "2026-09-14",
+      "type": "セット完了",
+      "note": "セット ・Step up ・Box ・Fly / 10:00~23:00 (セットエリアは19時から登れます)",
+      "source_url": null,
+      "published": "2026-09-01"
     },
     {
       "gym_id": "rocky-funabashi",
@@ -857,6 +889,14 @@
       "published": "2026-08-26"
     },
     {
+      "gym_id": "rocky-shinagawa",
+      "date": "2026-09-27",
+      "type": "エリア制限",
+      "note": "ホールド外し ・Welcome ・Bubble ・The Face / 10:00~21:00 (外しエリアは17時以降登れません)",
+      "source_url": null,
+      "published": "2026-09-01"
+    },
+    {
       "gym_id": "rocky-inzai",
       "date": "2026-09-28",
       "type": "イベント",
@@ -871,6 +911,14 @@
       "note": "みんなで登ろう会 20:00〜 / 10:00~23:00 (セット替えエリアのみ17時まで)",
       "source_url": null,
       "published": "2026-08-30"
+    },
+    {
+      "gym_id": "rocky-shinagawa",
+      "date": "2026-09-28",
+      "type": "セット完了",
+      "note": "セット ・Welcome ・Bubble ・The Face / 10:00~23:00 (セットエリアは19時から登れます)",
+      "source_url": null,
+      "published": "2026-09-01"
     },
     {
       "gym_id": "rocky-funabashi",
