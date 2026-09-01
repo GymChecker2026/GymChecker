@@ -42,6 +42,27 @@ def validate_manual_event(ev, gym_ids, index):
         )
 
 
+def normalize_auto_event_type(ev_type, gym_id, date_str):
+    """events.json（LLM抽出）由来の type を検証する。VALID_TYPESに完全一致すればそのまま
+    採用し、5種のいずれかで「始まる」場合はその正規の種別名に正規化する（LLMがプロンプト中の
+    括弧書きの説明文ごと出力してしまう揺れに対応するため。前方一致の判定はVALID_TYPESの5種
+    そのものをprefixとして使うので、括弧が全角・半角どちらでも、あるいは括弧以外の余分な
+    文字が続く場合でも同じロジックで拾える）。
+    どちらにも当てはまらない場合は None を返し、呼び出し側でそのイベントを破棄する。
+    manual_events.json 側は validate_manual_event() で別途 ValueError を送出して厳格に検証して
+    いるが、こちらはLLM出力の揺れで日次バッチ全体を止めないよう、例外は送出しない。
+    """
+    if ev_type in VALID_TYPES:
+        return ev_type
+    if isinstance(ev_type, str):
+        for valid in VALID_TYPES:
+            if ev_type.startswith(valid):
+                print(f"[正規化] {gym_id} {date_str}: type '{ev_type}' → '{valid}'")
+                return valid
+    print(f"[破棄] {gym_id} {date_str}: type '{ev_type}' が5分類のいずれにも該当しないためイベントを破棄します")
+    return None
+
+
 def is_covered(gym_id, coverage, today):
     """継続的な手動運用の店舗（data_source: "manual"）について、coverageの日付が
     今日以降かどうかを返す。エントリが無い・日付形式が不正な場合は安全側で False。
@@ -135,9 +156,12 @@ for ev in events:
     except ValueError:
         continue
     if window_start <= ev_date <= window_end:
+        ev_type = normalize_auto_event_type(ev.get("type"), ev["gym_id"], ev["date"])
+        if ev_type is None:
+            continue
         events_by_gym[ev["gym_id"]].append({
             "date": ev["date"],
-            "type": ev.get("type"),
+            "type": ev_type,
             "note": ev.get("note"),
             "source_url": ev.get("source_url"),
             "published": ev.get("published"),

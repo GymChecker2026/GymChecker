@@ -214,7 +214,7 @@
     "events": [
       {
         "date": "2026-08-24",
-        "type": "時間変更（早じまい、遅い開店、祝日営業、営業再開を含む）",
+        "type": "時間変更",
         "note": "貸切利用の為18:00 close",
         "source_url": "https://noborock-climbing.com/program/takadanobaba/",
         "published": "2026-09-01",
@@ -222,7 +222,7 @@
       },
       {
         "date": "2026-08-30",
-        "type": "時間変更（早じまい、遅い開店、祝日営業、営業再開を含む）",
+        "type": "時間変更",
         "note": "17:00 close",
         "source_url": "https://noborock-climbing.com/program/takadanobaba/",
         "published": "2026-09-01",
@@ -238,7 +238,7 @@
       },
       {
         "date": "2026-09-01",
-        "type": "時間変更（早じまい、遅い開店、祝日営業、営業再開を含む）",
+        "type": "時間変更",
         "note": "18:30 open",
         "source_url": "https://noborock-climbing.com/program/takadanobaba/",
         "published": "2026-09-01",
@@ -1075,6 +1075,14 @@
       },
       {
         "date": "2026-09-15",
+        "type": "エリア制限",
+        "note": "エリアCのホールド外し&セット",
+        "source_url": "https://www.d-b-c.jp/honatsugi-news/2026/08/9850/",
+        "published": "2026-08-28",
+        "source": "auto"
+      },
+      {
+        "date": "2026-09-16",
         "type": "エリア制限",
         "note": "エリアCのホールド外し&セット",
         "source_url": "https://www.d-b-c.jp/honatsugi-news/2026/08/9850/",
@@ -2705,6 +2713,14 @@
         "source_url": null,
         "published": "2026-08-31",
         "source": "manual"
+      },
+      {
+        "date": "2026-09-16",
+        "type": "休業",
+        "note": "セット ・BombLeft ・Welocme / 終日休業",
+        "source_url": null,
+        "published": "2026-08-31",
+        "source": "manual"
       }
     ]
   },
@@ -3325,6 +3341,14 @@
         "source_url": "https://b-camp.jp/kinshicho/route/",
         "published": "2026-08-26",
         "source": "auto"
+      },
+      {
+        "date": "2026-09-16",
+        "type": "エリア制限",
+        "note": "9月リードエリア\"Rostrum\"リニューアルセット（9/16-18 18:00まで）",
+        "source_url": "https://b-camp.jp/kinshicho/route/",
+        "published": "2026-08-26",
+        "source": "auto"
       }
     ]
   },
@@ -3359,14 +3383,6 @@
     "fetched_at": "2026-09-01T07:31:18+09:00",
     "last_changed_at": "2026-08-26T23:19:37+09:00",
     "events": [
-      {
-        "date": "2026-07-03",
-        "type": "エリア制限",
-        "note": "強傾斜ホールド替え",
-        "source_url": "https://b-camp.jp/higashimurayama/route/",
-        "published": "2026-08-26",
-        "source": "auto"
-      },
       {
         "date": "2026-07-15",
         "type": "エリア制限",
@@ -3580,6 +3596,14 @@
         "date": "2026-09-09",
         "type": "エリア制限",
         "note": "Berlin ~ Demi Lune (奥面) セット作業",
+        "source_url": "https://b-camp.jp/kawagoe/route/",
+        "published": "2026-08-29",
+        "source": "auto"
+      },
+      {
+        "date": "2026-09-16",
+        "type": "エリア制限",
+        "note": "Biographie ~ Instruction Wall (右面) セット作業",
         "source_url": "https://b-camp.jp/kawagoe/route/",
         "published": "2026-08-29",
         "source": "auto"
