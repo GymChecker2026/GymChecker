@@ -285,7 +285,7 @@
       "type": "イベント",
       "note": "11:00~ OPEN",
       "source_url": null,
-      "published": "2026-08-26"
+      "published": "2026-09-01"
     },
     {
       "gym_id": "rocky-akebonobashi",
@@ -301,7 +301,7 @@
       "type": "イベント",
       "note": "TRAINING SESSION 20:00~",
       "source_url": null,
-      "published": "2026-08-26"
+      "published": "2026-09-01"
     },
     {
       "gym_id": "rocky-inzai",
@@ -363,9 +363,9 @@
       "gym_id": "rocky-funabashi",
       "date": "2026-08-11",
       "type": "エリア制限",
-      "note": "ホールド外し ・BombRight ・Niagara ・Sky ・Thriller / 10:00~23:00 (外しエリアは17時以降登れません)",
+      "note": "ホールド外し ・BombRight ・Niagara ・Sky ・Thriller / 10:00~23:00（外しエリアは17時以降登れません）",
       "source_url": null,
-      "published": "2026-08-26"
+      "published": "2026-09-01"
     },
     {
       "gym_id": "dbc-tachikawa",
@@ -381,7 +381,7 @@
       "type": "休業",
       "note": "セット ・BombRight ・Niagara ・Sky ・Thriller / 終日休業",
       "source_url": null,
-      "published": "2026-08-26"
+      "published": "2026-09-01"
     },
     {
       "gym_id": "dbc-tachikawa",
@@ -485,7 +485,7 @@
       "type": "イベント",
       "note": "TRAINING SESSION 20:00~",
       "source_url": null,
-      "published": "2026-08-26"
+      "published": "2026-09-01"
     },
     {
       "gym_id": "rocky-ryogoku",
