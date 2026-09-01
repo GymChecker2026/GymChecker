@@ -145,11 +145,24 @@ today = datetime.now(JST).date()
 window_start = today - timedelta(days=EVENT_WINDOW_PAST_DAYS)
 window_end = today + timedelta(days=EVENT_WINDOW_FUTURE_DAYS)
 gym_ids = {g["id"] for g in gyms}
+shared_calendar_gym_ids = {g["id"] for g in gyms if g.get("shared_calendar", False)}
 
 for i, ev in enumerate(manual_events):
     validate_manual_event(ev, gym_ids, i)
 
 events_by_gym = defaultdict(list)
+# events.json（自動抽出）由来のみを対象にした重複除去。正規化後の type を使った
+# (gym_id, date, type) をキーにする（正規化前のキーだと、括弧混入等の表記揺れで
+# 別イベント扱いになり、同じ予定が2件並んでしまうため）。先勝ちで、noteは連結しない。
+# 分類自体がブレているケース（同日で "休業" と "エリア制限" が両方あるなど）は type が
+# 異なるためキーが分かれ、意図的に両方残す（意味が違うものを機械的に消すのは危険なため）。
+# 適用対象は shared_calendar: true の店舗（NOBOROCK）のみに限定する。これらは
+# 「同じ告知が複数ページから抽出され、typeの表記だけが揺れて2件になる」ケースが
+# 前提だが、それ以外の店舗（B-PUMP等）では同日・同種別でも内容の異なる複数の
+# 告知が普通に存在するため、そちらに同じ重複除去を掛けると別イベントを
+# 誤って1件に潰してしまう（実際に発生した）。
+# manual_events.json 由来は対象外（下の別ループでそのまま追加する）。
+auto_seen = {}
 for ev in events:
     try:
         ev_date = date.fromisoformat(ev.get("date", ""))
@@ -159,6 +172,15 @@ for ev in events:
         ev_type = normalize_auto_event_type(ev.get("type"), ev["gym_id"], ev["date"])
         if ev_type is None:
             continue
+        if ev["gym_id"] in shared_calendar_gym_ids:
+            key = (ev["gym_id"], ev["date"], ev_type)
+            if key in auto_seen:
+                print(
+                    f"[重複除去] {ev['gym_id']} {ev['date']} {ev_type}: "
+                    f"note '{auto_seen[key]}' を残し、note '{ev.get('note')}' を破棄しました"
+                )
+                continue
+            auto_seen[key] = ev.get("note")
         events_by_gym[ev["gym_id"]].append({
             "date": ev["date"],
             "type": ev_type,

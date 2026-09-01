@@ -1,605 +1,5 @@
 [
   {
-    "gym_id": "noborock-shinjuku",
-    "date": "2026-08-25",
-    "type": "セット完了",
-    "note": "新宿店ルートセット完了",
-    "source_url": "https://noborock-climbing.com/program/新宿店/",
-    "published": "2026-09-01"
-  },
-  {
-    "gym_id": "noborock-shinjuku",
-    "date": "2026-09-01",
-    "type": "時間変更",
-    "note": "大宮店18:30 open",
-    "source_url": "https://noborock-climbing.com/program/新宿店/",
-    "published": "2026-09-01"
-  },
-  {
-    "gym_id": "noborock-shinjuku",
-    "date": "2026-09-01",
-    "type": "時間変更",
-    "note": "高田馬場店18:30 open",
-    "source_url": "https://noborock-climbing.com/program/新宿店/",
-    "published": "2026-09-01"
-  },
-  {
-    "gym_id": "noborock-shinjuku",
-    "date": "2026-09-06",
-    "type": "時間変更",
-    "note": "池袋店17:00 close",
-    "source_url": "https://noborock-climbing.com/program/新宿店/",
-    "published": "2026-09-01"
-  },
-  {
-    "gym_id": "noborock-shinjuku",
-    "date": "2026-09-06",
-    "type": "時間変更",
-    "note": "浅草店17:00 close",
-    "source_url": "https://noborock-climbing.com/program/新宿店/",
-    "published": "2026-09-01"
-  },
-  {
-    "gym_id": "noborock-shinjuku",
-    "date": "2026-09-07",
-    "type": "休業",
-    "note": "池袋店休業【ルートセット】",
-    "source_url": "https://noborock-climbing.com/program/新宿店/",
-    "published": "2026-09-01"
-  },
-  {
-    "gym_id": "noborock-shinjuku",
-    "date": "2026-09-07",
-    "type": "休業",
-    "note": "浅草店休業【ルートセット】",
-    "source_url": "https://noborock-climbing.com/program/新宿店/",
-    "published": "2026-09-01"
-  },
-  {
-    "gym_id": "noborock-shinjuku",
-    "date": "2026-09-08",
-    "type": "時間変更",
-    "note": "池袋店18:30 open",
-    "source_url": "https://noborock-climbing.com/program/新宿店/",
-    "published": "2026-09-01"
-  },
-  {
-    "gym_id": "noborock-shinjuku",
-    "date": "2026-09-08",
-    "type": "時間変更",
-    "note": "浅草店18:30 open",
-    "source_url": "https://noborock-climbing.com/program/新宿店/",
-    "published": "2026-09-01"
-  },
-  {
-    "gym_id": "noborock-shinjuku",
-    "date": "2026-09-13",
-    "type": "時間変更",
-    "note": "溝ノ口店18:45 close",
-    "source_url": "https://noborock-climbing.com/program/新宿店/",
-    "published": "2026-09-01"
-  },
-  {
-    "gym_id": "noborock-shinjuku",
-    "date": "2026-09-13",
-    "type": "時間変更",
-    "note": "町田店17:00 close",
-    "source_url": "https://noborock-climbing.com/program/新宿店/",
-    "published": "2026-09-01"
-  },
-  {
-    "gym_id": "noborock-shinjuku",
-    "date": "2026-09-14",
-    "type": "休業",
-    "note": "溝ノ口店休業【ルートセット】",
-    "source_url": "https://noborock-climbing.com/program/新宿店/",
-    "published": "2026-09-01"
-  },
-  {
-    "gym_id": "noborock-shinjuku",
-    "date": "2026-09-14",
-    "type": "休業",
-    "note": "町田店休業【ルートセット】",
-    "source_url": "https://noborock-climbing.com/program/新宿店/",
-    "published": "2026-09-01"
-  },
-  {
-    "gym_id": "noborock-shinjuku",
-    "date": "2026-09-15",
-    "type": "時間変更",
-    "note": "溝ノ口店18:30 open",
-    "source_url": "https://noborock-climbing.com/program/新宿店/",
-    "published": "2026-09-01"
-  },
-  {
-    "gym_id": "noborock-shinjuku",
-    "date": "2026-09-15",
-    "type": "時間変更",
-    "note": "町田店18:30 open",
-    "source_url": "https://noborock-climbing.com/program/新宿店/",
-    "published": "2026-09-01"
-  },
-  {
-    "gym_id": "noborock-shinjuku",
-    "date": "2026-09-23",
-    "type": "時間変更",
-    "note": "新宿店17:00 close",
-    "source_url": "https://noborock-climbing.com/program/新宿店/",
-    "published": "2026-09-01"
-  },
-  {
-    "gym_id": "noborock-shinjuku",
-    "date": "2026-09-23",
-    "type": "時間変更",
-    "note": "渋谷店17:00 close",
-    "source_url": "https://noborock-climbing.com/program/新宿店/",
-    "published": "2026-09-01"
-  },
-  {
-    "gym_id": "noborock-shinjuku",
-    "date": "2026-09-24",
-    "type": "休業",
-    "note": "新宿店休業【ルートセット】",
-    "source_url": "https://noborock-climbing.com/program/新宿店/",
-    "published": "2026-09-01"
-  },
-  {
-    "gym_id": "noborock-shinjuku",
-    "date": "2026-09-24",
-    "type": "休業",
-    "note": "渋谷店休業【ルートセット】",
-    "source_url": "https://noborock-climbing.com/program/新宿店/",
-    "published": "2026-09-01"
-  },
-  {
-    "gym_id": "noborock-shinjuku",
-    "date": "2026-09-25",
-    "type": "時間変更",
-    "note": "新宿店18:30 open",
-    "source_url": "https://noborock-climbing.com/program/新宿店/",
-    "published": "2026-09-01"
-  },
-  {
-    "gym_id": "noborock-shinjuku",
-    "date": "2026-09-25",
-    "type": "時間変更",
-    "note": "渋谷店18:30 open",
-    "source_url": "https://noborock-climbing.com/program/新宿店/",
-    "published": "2026-09-01"
-  },
-  {
-    "gym_id": "noborock-shinjuku",
-    "date": "2026-09-28",
-    "type": "時間変更",
-    "note": "高田馬場店18:00 close",
-    "source_url": "https://noborock-climbing.com/program/新宿店/",
-    "published": "2026-09-01"
-  },
-  {
-    "gym_id": "noborock-shibuya",
-    "date": "2026-08-25",
-    "type": "セット完了",
-    "note": "ルートセット完了",
-    "source_url": "https://noborock-climbing.com/program/shibuya/",
-    "published": "2026-09-01"
-  },
-  {
-    "gym_id": "noborock-shibuya",
-    "date": "2026-09-23",
-    "type": "時間変更",
-    "note": "17:00 close",
-    "source_url": "https://noborock-climbing.com/program/shibuya/",
-    "published": "2026-09-01"
-  },
-  {
-    "gym_id": "noborock-shibuya",
-    "date": "2026-09-24",
-    "type": "休業",
-    "note": "ルートセット",
-    "source_url": "https://noborock-climbing.com/program/shibuya/",
-    "published": "2026-09-01"
-  },
-  {
-    "gym_id": "noborock-shibuya",
-    "date": "2026-09-25",
-    "type": "時間変更",
-    "note": "18:30 open",
-    "source_url": "https://noborock-climbing.com/program/shibuya/",
-    "published": "2026-09-01"
-  },
-  {
-    "gym_id": "noborock-shibuya",
-    "date": "2026-09-28",
-    "type": "エリア制限",
-    "note": "B1メインエリア 18:00 Open",
-    "source_url": "https://noborock-climbing.com/program/shibuya/",
-    "published": "2026-09-01"
-  },
-  {
-    "gym_id": "noborock-takadanobaba",
-    "date": "2026-08-24",
-    "type": "時間変更（早じまい、遅い開店、祝日営業、営業再開を含む）",
-    "note": "貸切利用の為18:00 close",
-    "source_url": "https://noborock-climbing.com/program/takadanobaba/",
-    "published": "2026-09-01"
-  },
-  {
-    "gym_id": "noborock-takadanobaba",
-    "date": "2026-08-30",
-    "type": "時間変更（早じまい、遅い開店、祝日営業、営業再開を含む）",
-    "note": "17:00 close",
-    "source_url": "https://noborock-climbing.com/program/takadanobaba/",
-    "published": "2026-09-01"
-  },
-  {
-    "gym_id": "noborock-takadanobaba",
-    "date": "2026-08-31",
-    "type": "休業",
-    "note": "ルートセット",
-    "source_url": "https://noborock-climbing.com/program/takadanobaba/",
-    "published": "2026-09-01"
-  },
-  {
-    "gym_id": "noborock-takadanobaba",
-    "date": "2026-09-01",
-    "type": "時間変更（早じまい、遅い開店、祝日営業、営業再開を含む）",
-    "note": "18:30 open",
-    "source_url": "https://noborock-climbing.com/program/takadanobaba/",
-    "published": "2026-09-01"
-  },
-  {
-    "gym_id": "noborock-asakusa",
-    "date": "2026-07-14",
-    "type": "セット完了",
-    "note": "ルートセット完了",
-    "source_url": "https://noborock-climbing.com/program/浅草店/",
-    "published": "2026-09-01"
-  },
-  {
-    "gym_id": "noborock-asakusa",
-    "date": "2026-08-11",
-    "type": "時間変更",
-    "note": "17:00 close",
-    "source_url": "https://noborock-climbing.com/program/浅草店/",
-    "published": "2026-09-01"
-  },
-  {
-    "gym_id": "noborock-asakusa",
-    "date": "2026-08-12",
-    "type": "休業",
-    "note": "",
-    "source_url": "https://noborock-climbing.com/program/浅草店/",
-    "published": "2026-09-01"
-  },
-  {
-    "gym_id": "noborock-asakusa",
-    "date": "2026-08-13",
-    "type": "時間変更",
-    "note": "18:30 open",
-    "source_url": "https://noborock-climbing.com/program/浅草店/",
-    "published": "2026-09-01"
-  },
-  {
-    "gym_id": "noborock-asakusa",
-    "date": "2026-09-01",
-    "type": "時間変更",
-    "note": "大宮18:30 open",
-    "source_url": "https://noborock-climbing.com/program/浅草店/",
-    "published": "2026-09-01"
-  },
-  {
-    "gym_id": "noborock-asakusa",
-    "date": "2026-09-01",
-    "type": "時間変更",
-    "note": "高田馬場18:30 open",
-    "source_url": "https://noborock-climbing.com/program/浅草店/",
-    "published": "2026-09-01"
-  },
-  {
-    "gym_id": "noborock-asakusa",
-    "date": "2026-09-06",
-    "type": "時間変更",
-    "note": "池袋17:00 close",
-    "source_url": "https://noborock-climbing.com/program/浅草店/",
-    "published": "2026-09-01"
-  },
-  {
-    "gym_id": "noborock-asakusa",
-    "date": "2026-09-06",
-    "type": "時間変更",
-    "note": "浅草17:00 close",
-    "source_url": "https://noborock-climbing.com/program/浅草店/",
-    "published": "2026-09-01"
-  },
-  {
-    "gym_id": "noborock-asakusa",
-    "date": "2026-09-07",
-    "type": "休業",
-    "note": "池袋【ルートセット】",
-    "source_url": "https://noborock-climbing.com/program/浅草店/",
-    "published": "2026-09-01"
-  },
-  {
-    "gym_id": "noborock-asakusa",
-    "date": "2026-09-07",
-    "type": "休業",
-    "note": "浅草【ルートセット】",
-    "source_url": "https://noborock-climbing.com/program/浅草店/",
-    "published": "2026-09-01"
-  },
-  {
-    "gym_id": "noborock-asakusa",
-    "date": "2026-09-08",
-    "type": "時間変更",
-    "note": "池袋18:30 open",
-    "source_url": "https://noborock-climbing.com/program/浅草店/",
-    "published": "2026-09-01"
-  },
-  {
-    "gym_id": "noborock-asakusa",
-    "date": "2026-09-08",
-    "type": "時間変更",
-    "note": "浅草18:30 open",
-    "source_url": "https://noborock-climbing.com/program/浅草店/",
-    "published": "2026-09-01"
-  },
-  {
-    "gym_id": "noborock-asakusa",
-    "date": "2026-09-13",
-    "type": "時間変更",
-    "note": "溝ノ口18:45 close",
-    "source_url": "https://noborock-climbing.com/program/浅草店/",
-    "published": "2026-09-01"
-  },
-  {
-    "gym_id": "noborock-asakusa",
-    "date": "2026-09-13",
-    "type": "時間変更",
-    "note": "町田17:00 close",
-    "source_url": "https://noborock-climbing.com/program/浅草店/",
-    "published": "2026-09-01"
-  },
-  {
-    "gym_id": "noborock-asakusa",
-    "date": "2026-09-14",
-    "type": "休業",
-    "note": "溝ノ口【ルートセット】",
-    "source_url": "https://noborock-climbing.com/program/浅草店/",
-    "published": "2026-09-01"
-  },
-  {
-    "gym_id": "noborock-asakusa",
-    "date": "2026-09-14",
-    "type": "休業",
-    "note": "町田【ルートセット】",
-    "source_url": "https://noborock-climbing.com/program/浅草店/",
-    "published": "2026-09-01"
-  },
-  {
-    "gym_id": "noborock-asakusa",
-    "date": "2026-09-15",
-    "type": "時間変更",
-    "note": "溝ノ口18:30 open",
-    "source_url": "https://noborock-climbing.com/program/浅草店/",
-    "published": "2026-09-01"
-  },
-  {
-    "gym_id": "noborock-asakusa",
-    "date": "2026-09-15",
-    "type": "時間変更",
-    "note": "町田18:30 open",
-    "source_url": "https://noborock-climbing.com/program/浅草店/",
-    "published": "2026-09-01"
-  },
-  {
-    "gym_id": "noborock-asakusa",
-    "date": "2026-09-23",
-    "type": "時間変更",
-    "note": "新宿17:00 close",
-    "source_url": "https://noborock-climbing.com/program/浅草店/",
-    "published": "2026-09-01"
-  },
-  {
-    "gym_id": "noborock-asakusa",
-    "date": "2026-09-23",
-    "type": "時間変更",
-    "note": "渋谷17:00 close",
-    "source_url": "https://noborock-climbing.com/program/浅草店/",
-    "published": "2026-09-01"
-  },
-  {
-    "gym_id": "noborock-asakusa",
-    "date": "2026-09-24",
-    "type": "休業",
-    "note": "新宿【ルートセット】",
-    "source_url": "https://noborock-climbing.com/program/浅草店/",
-    "published": "2026-09-01"
-  },
-  {
-    "gym_id": "noborock-asakusa",
-    "date": "2026-09-24",
-    "type": "休業",
-    "note": "渋谷【ルートセット】",
-    "source_url": "https://noborock-climbing.com/program/浅草店/",
-    "published": "2026-09-01"
-  },
-  {
-    "gym_id": "noborock-asakusa",
-    "date": "2026-09-25",
-    "type": "時間変更",
-    "note": "新宿18:30 open",
-    "source_url": "https://noborock-climbing.com/program/浅草店/",
-    "published": "2026-09-01"
-  },
-  {
-    "gym_id": "noborock-asakusa",
-    "date": "2026-09-25",
-    "type": "時間変更",
-    "note": "渋谷18:30 open",
-    "source_url": "https://noborock-climbing.com/program/浅草店/",
-    "published": "2026-09-01"
-  },
-  {
-    "gym_id": "noborock-asakusa",
-    "date": "2026-09-28",
-    "type": "時間変更",
-    "note": "高田馬場18:00 close",
-    "source_url": "https://noborock-climbing.com/program/浅草店/",
-    "published": "2026-09-01"
-  },
-  {
-    "gym_id": "noborock-ikebukuro",
-    "date": "2026-07-14",
-    "type": "セット完了",
-    "note": "ルートセット完了",
-    "source_url": "https://noborock-climbing.com/program/ikebukuro/",
-    "published": "2026-09-01"
-  },
-  {
-    "gym_id": "noborock-ikebukuro",
-    "date": "2026-08-11",
-    "type": "時間変更",
-    "note": "17:00 close",
-    "source_url": "https://noborock-climbing.com/program/ikebukuro/",
-    "published": "2026-09-01"
-  },
-  {
-    "gym_id": "noborock-ikebukuro",
-    "date": "2026-08-12",
-    "type": "休業",
-    "note": "",
-    "source_url": "https://noborock-climbing.com/program/ikebukuro/",
-    "published": "2026-09-01"
-  },
-  {
-    "gym_id": "noborock-ikebukuro",
-    "date": "2026-08-13",
-    "type": "時間変更",
-    "note": "18:30 open",
-    "source_url": "https://noborock-climbing.com/program/ikebukuro/",
-    "published": "2026-09-01"
-  },
-  {
-    "gym_id": "noborock-ikebukuro",
-    "date": "2026-09-06",
-    "type": "時間変更",
-    "note": "17:00 close",
-    "source_url": "https://noborock-climbing.com/program/ikebukuro/",
-    "published": "2026-09-01"
-  },
-  {
-    "gym_id": "noborock-ikebukuro",
-    "date": "2026-09-07",
-    "type": "休業",
-    "note": "ルートセット",
-    "source_url": "https://noborock-climbing.com/program/ikebukuro/",
-    "published": "2026-09-01"
-  },
-  {
-    "gym_id": "noborock-ikebukuro",
-    "date": "2026-09-08",
-    "type": "時間変更",
-    "note": "18:30 open",
-    "source_url": "https://noborock-climbing.com/program/ikebukuro/",
-    "published": "2026-09-01"
-  },
-  {
-    "gym_id": "noborock-machida",
-    "date": "2026-08-18",
-    "type": "セット完了",
-    "note": "ルートセット完了",
-    "source_url": "https://noborock-climbing.com/program/machida/",
-    "published": "2026-09-01"
-  },
-  {
-    "gym_id": "noborock-machida",
-    "date": "2026-09-13",
-    "type": "時間変更",
-    "note": "17:00 close",
-    "source_url": "https://noborock-climbing.com/program/machida/",
-    "published": "2026-09-01"
-  },
-  {
-    "gym_id": "noborock-machida",
-    "date": "2026-09-14",
-    "type": "休業",
-    "note": "ルートセット",
-    "source_url": "https://noborock-climbing.com/program/machida/",
-    "published": "2026-09-01"
-  },
-  {
-    "gym_id": "noborock-machida",
-    "date": "2026-09-15",
-    "type": "時間変更",
-    "note": "18:30 open",
-    "source_url": "https://noborock-climbing.com/program/machida/",
-    "published": "2026-09-01"
-  },
-  {
-    "gym_id": "noborock-mizonokuchi",
-    "date": "2026-08-17",
-    "type": "セット完了",
-    "note": "ルートセット完了",
-    "source_url": "https://noborock-climbing.com/program/mizonokuchi/",
-    "published": "2026-09-01"
-  },
-  {
-    "gym_id": "noborock-mizonokuchi",
-    "date": "2026-09-13",
-    "type": "時間変更",
-    "note": "17:00 close",
-    "source_url": "https://noborock-climbing.com/program/mizonokuchi/",
-    "published": "2026-09-01"
-  },
-  {
-    "gym_id": "noborock-mizonokuchi",
-    "date": "2026-09-14",
-    "type": "休業",
-    "note": "ルートセット",
-    "source_url": "https://noborock-climbing.com/program/mizonokuchi/",
-    "published": "2026-09-01"
-  },
-  {
-    "gym_id": "noborock-mizonokuchi",
-    "date": "2026-09-15",
-    "type": "時間変更",
-    "note": "18:30 open",
-    "source_url": "https://noborock-climbing.com/program/mizonokuchi/",
-    "published": "2026-09-01"
-  },
-  {
-    "gym_id": "noborock-omiya",
-    "date": "2026-08-30",
-    "type": "時間変更",
-    "note": "17:00 close",
-    "source_url": "https://noborock-climbing.com/program/omiya/",
-    "published": "2026-09-01"
-  },
-  {
-    "gym_id": "noborock-omiya",
-    "date": "2026-08-31",
-    "type": "休業",
-    "note": "",
-    "source_url": "https://noborock-climbing.com/program/omiya/",
-    "published": "2026-09-01"
-  },
-  {
-    "gym_id": "noborock-omiya",
-    "date": "2026-09-01",
-    "type": "時間変更",
-    "note": "18:30 open",
-    "source_url": "https://noborock-climbing.com/program/omiya/",
-    "published": "2026-09-01"
-  },
-  {
-    "gym_id": "noborock-omiya",
-    "date": "2026-08-04",
-    "type": "セット完了",
-    "note": "ルートセット完了",
-    "source_url": "https://noborock-climbing.com/program/omiya/",
-    "published": "2026-09-01"
-  },
-  {
     "gym_id": "dbc-tachikawa",
     "date": "2026-08-28",
     "type": "イベント",
@@ -2358,5 +1758,536 @@
     "note": "Grande Face ~ Berlin (左面) セット作業",
     "source_url": "https://b-camp.jp/kawagoe/route/",
     "published": "2026-08-29"
+  },
+  {
+    "gym_id": "noborock-omiya",
+    "date": "2026-09-01",
+    "type": "時間変更",
+    "note": "18:30 open",
+    "gym_name": "大宮店",
+    "source_url": "https://noborock-climbing.com/program/omiya/",
+    "published": "2026-09-02"
+  },
+  {
+    "gym_id": "noborock-takadanobaba",
+    "date": "2026-09-01",
+    "type": "時間変更",
+    "note": "18:30 open",
+    "gym_name": "高田馬場店",
+    "source_url": "https://noborock-climbing.com/program/新宿店/",
+    "published": "2026-09-02"
+  },
+  {
+    "gym_id": "noborock-ikebukuro",
+    "date": "2026-09-06",
+    "type": "時間変更",
+    "note": "17:00 close",
+    "gym_name": "池袋店",
+    "source_url": "https://noborock-climbing.com/program/ikebukuro/",
+    "published": "2026-09-02"
+  },
+  {
+    "gym_id": "noborock-asakusa",
+    "date": "2026-09-06",
+    "type": "時間変更",
+    "note": "17:00 close",
+    "gym_name": "浅草",
+    "source_url": "https://noborock-climbing.com/program/浅草店/",
+    "published": "2026-09-02"
+  },
+  {
+    "gym_id": "noborock-ikebukuro",
+    "date": "2026-09-07",
+    "type": "エリア制限",
+    "note": "休業【ルートセット】",
+    "gym_name": "池袋店",
+    "source_url": "https://noborock-climbing.com/program/新宿店/",
+    "published": "2026-09-02"
+  },
+  {
+    "gym_id": "noborock-asakusa",
+    "date": "2026-09-07",
+    "type": "エリア制限",
+    "note": "休業【ルートセット】",
+    "gym_name": "浅草店",
+    "source_url": "https://noborock-climbing.com/program/新宿店/",
+    "published": "2026-09-02"
+  },
+  {
+    "gym_id": "noborock-ikebukuro",
+    "date": "2026-09-08",
+    "type": "時間変更",
+    "note": "18:30 open",
+    "gym_name": "池袋店",
+    "source_url": "https://noborock-climbing.com/program/ikebukuro/",
+    "published": "2026-09-02"
+  },
+  {
+    "gym_id": "noborock-asakusa",
+    "date": "2026-09-08",
+    "type": "時間変更",
+    "note": "18:30 open",
+    "gym_name": "浅草",
+    "source_url": "https://noborock-climbing.com/program/浅草店/",
+    "published": "2026-09-02"
+  },
+  {
+    "gym_id": "noborock-mizonokuchi",
+    "date": "2026-09-13",
+    "type": "時間変更",
+    "note": "18:45 close",
+    "gym_name": "溝ノ口店",
+    "source_url": "https://noborock-climbing.com/program/mizonokuchi/",
+    "published": "2026-09-02"
+  },
+  {
+    "gym_id": "noborock-machida",
+    "date": "2026-09-13",
+    "type": "時間変更",
+    "note": "17:00 close",
+    "gym_name": "町田店",
+    "source_url": "https://noborock-climbing.com/program/machida/",
+    "published": "2026-09-02"
+  },
+  {
+    "gym_id": "noborock-mizonokuchi",
+    "date": "2026-09-14",
+    "type": "エリア制限",
+    "note": "休業【ルートセット】",
+    "gym_name": "溝ノ口店",
+    "source_url": "https://noborock-climbing.com/program/新宿店/",
+    "published": "2026-09-02"
+  },
+  {
+    "gym_id": "noborock-machida",
+    "date": "2026-09-14",
+    "type": "エリア制限",
+    "note": "休業【ルートセット】",
+    "gym_name": "町田店",
+    "source_url": "https://noborock-climbing.com/program/新宿店/",
+    "published": "2026-09-02"
+  },
+  {
+    "gym_id": "noborock-mizonokuchi",
+    "date": "2026-09-15",
+    "type": "時間変更",
+    "note": "18:30 open",
+    "gym_name": "溝ノ口店",
+    "source_url": "https://noborock-climbing.com/program/mizonokuchi/",
+    "published": "2026-09-02"
+  },
+  {
+    "gym_id": "noborock-machida",
+    "date": "2026-09-15",
+    "type": "時間変更",
+    "note": "18:30 open",
+    "gym_name": "町田店",
+    "source_url": "https://noborock-climbing.com/program/machida/",
+    "published": "2026-09-02"
+  },
+  {
+    "gym_id": "noborock-shinjuku",
+    "date": "2026-09-23",
+    "type": "時間変更",
+    "note": "17:00 close",
+    "gym_name": "新宿店",
+    "source_url": "https://noborock-climbing.com/program/新宿店/",
+    "published": "2026-09-02"
+  },
+  {
+    "gym_id": "noborock-shibuya",
+    "date": "2026-09-23",
+    "type": "時間変更",
+    "note": "17:00 close",
+    "gym_name": "渋谷店",
+    "source_url": "https://noborock-climbing.com/program/shibuya/",
+    "published": "2026-09-02"
+  },
+  {
+    "gym_id": "noborock-shinjuku",
+    "date": "2026-09-24",
+    "type": "エリア制限",
+    "note": "休業【ルートセット】",
+    "gym_name": "新宿店",
+    "source_url": "https://noborock-climbing.com/program/新宿店/",
+    "published": "2026-09-02"
+  },
+  {
+    "gym_id": "noborock-shibuya",
+    "date": "2026-09-24",
+    "type": "エリア制限",
+    "note": "休業【ルートセット】",
+    "gym_name": "渋谷店",
+    "source_url": "https://noborock-climbing.com/program/新宿店/",
+    "published": "2026-09-02"
+  },
+  {
+    "gym_id": "noborock-shinjuku",
+    "date": "2026-09-25",
+    "type": "時間変更",
+    "note": "18:30 open",
+    "gym_name": "新宿店",
+    "source_url": "https://noborock-climbing.com/program/新宿店/",
+    "published": "2026-09-02"
+  },
+  {
+    "gym_id": "noborock-shibuya",
+    "date": "2026-09-25",
+    "type": "時間変更",
+    "note": "18:30 open",
+    "gym_name": "渋谷店",
+    "source_url": "https://noborock-climbing.com/program/shibuya/",
+    "published": "2026-09-02"
+  },
+  {
+    "gym_id": "noborock-takadanobaba",
+    "date": "2026-09-28",
+    "type": "時間変更",
+    "note": "18:00 close",
+    "gym_name": "高田馬場店",
+    "source_url": "https://noborock-climbing.com/program/新宿店/",
+    "published": "2026-09-02"
+  },
+  {
+    "gym_id": "noborock-shibuya",
+    "date": "2026-08-25",
+    "type": "セット完了",
+    "note": "ルートセット完了",
+    "gym_name": "渋谷店",
+    "source_url": "https://noborock-climbing.com/program/shibuya/",
+    "published": "2026-09-02"
+  },
+  {
+    "gym_id": "noborock-ikebukuro",
+    "date": "2026-09-07",
+    "type": "休業",
+    "note": "ルートセット",
+    "gym_name": "池袋店",
+    "source_url": "https://noborock-climbing.com/program/ikebukuro/",
+    "published": "2026-09-02"
+  },
+  {
+    "gym_id": "noborock-asakusa",
+    "date": "2026-09-07",
+    "type": "休業",
+    "note": "ルートセット",
+    "gym_name": "浅草",
+    "source_url": "https://noborock-climbing.com/program/浅草店/",
+    "published": "2026-09-02"
+  },
+  {
+    "gym_id": "noborock-mizonokuchi",
+    "date": "2026-09-14",
+    "type": "休業",
+    "note": "ルートセット",
+    "gym_name": "溝ノ口店",
+    "source_url": "https://noborock-climbing.com/program/mizonokuchi/",
+    "published": "2026-09-02"
+  },
+  {
+    "gym_id": "noborock-machida",
+    "date": "2026-09-14",
+    "type": "休業",
+    "note": "ルートセット",
+    "gym_name": "町田店",
+    "source_url": "https://noborock-climbing.com/program/machida/",
+    "published": "2026-09-02"
+  },
+  {
+    "gym_id": "noborock-shinjuku",
+    "date": "2026-09-24",
+    "type": "休業",
+    "note": "ルートセット",
+    "gym_name": "新宿店",
+    "source_url": "https://noborock-climbing.com/program/shibuya/",
+    "published": "2026-09-02"
+  },
+  {
+    "gym_id": "noborock-shibuya",
+    "date": "2026-09-24",
+    "type": "休業",
+    "note": "ルートセット",
+    "gym_name": "渋谷店",
+    "source_url": "https://noborock-climbing.com/program/shibuya/",
+    "published": "2026-09-02"
+  },
+  {
+    "gym_id": "noborock-takadanobaba",
+    "date": "2026-08-24",
+    "type": "時間変更（早じまい、遅い開店、祝日営業、営業再開を含む）",
+    "note": "貸切利用の為18:00 close",
+    "gym_name": "高田馬場店",
+    "source_url": "https://noborock-climbing.com/program/takadanobaba/",
+    "published": "2026-09-02"
+  },
+  {
+    "gym_id": "noborock-takadanobaba",
+    "date": "2026-08-30",
+    "type": "時間変更（早じまい、遅い開店、祝日営業、営業再開を含む）",
+    "note": "17:00 close",
+    "gym_name": "高田馬場店",
+    "source_url": "https://noborock-climbing.com/program/takadanobaba/",
+    "published": "2026-09-02"
+  },
+  {
+    "gym_id": "noborock-takadanobaba",
+    "date": "2026-08-31",
+    "type": "休業",
+    "note": "ルートセット",
+    "gym_name": "高田馬場店",
+    "source_url": "https://noborock-climbing.com/program/takadanobaba/",
+    "published": "2026-09-02"
+  },
+  {
+    "gym_id": "noborock-takadanobaba",
+    "date": "2026-09-01",
+    "type": "時間変更（早じまい、遅い開店、祝日営業、営業再開を含む）",
+    "note": "18:30 open",
+    "gym_name": "高田馬場店",
+    "source_url": "https://noborock-climbing.com/program/takadanobaba/",
+    "published": "2026-09-02"
+  },
+  {
+    "gym_id": "noborock-omiya",
+    "date": "2026-09-01",
+    "type": "時間変更（早じまい、遅い開店、祝日営業、営業再開を含む）",
+    "note": "18:30 open",
+    "gym_name": "大宮店",
+    "source_url": "https://noborock-climbing.com/program/takadanobaba/",
+    "published": "2026-09-02"
+  },
+  {
+    "gym_id": "noborock-ikebukuro",
+    "date": "2026-09-06",
+    "type": "時間変更（早じまい、遅い開店、祝日営業、営業再開を含む）",
+    "note": "17:00 close",
+    "gym_name": "池袋店",
+    "source_url": "https://noborock-climbing.com/program/takadanobaba/",
+    "published": "2026-09-02"
+  },
+  {
+    "gym_id": "noborock-asakusa",
+    "date": "2026-09-06",
+    "type": "時間変更（早じまい、遅い開店、祝日営業、営業再開を含む）",
+    "note": "17:00 close",
+    "gym_name": "浅草店",
+    "source_url": "https://noborock-climbing.com/program/takadanobaba/",
+    "published": "2026-09-02"
+  },
+  {
+    "gym_id": "noborock-ikebukuro",
+    "date": "2026-09-08",
+    "type": "時間変更（早じまい、遅い開店、祝日営業、営業再開を含む）",
+    "note": "18:30 open",
+    "gym_name": "池袋店",
+    "source_url": "https://noborock-climbing.com/program/takadanobaba/",
+    "published": "2026-09-02"
+  },
+  {
+    "gym_id": "noborock-asakusa",
+    "date": "2026-09-08",
+    "type": "時間変更（早じまい、遅い開店、祝日営業、営業再開を含む）",
+    "note": "18:30 open",
+    "gym_name": "浅草店",
+    "source_url": "https://noborock-climbing.com/program/takadanobaba/",
+    "published": "2026-09-02"
+  },
+  {
+    "gym_id": "noborock-mizonokuchi",
+    "date": "2026-09-13",
+    "type": "時間変更（早じまい、遅い開店、祝日営業、営業再開を含む）",
+    "note": "18:45 close",
+    "gym_name": "溝ノ口店",
+    "source_url": "https://noborock-climbing.com/program/takadanobaba/",
+    "published": "2026-09-02"
+  },
+  {
+    "gym_id": "noborock-machida",
+    "date": "2026-09-13",
+    "type": "時間変更（早じまい、遅い開店、祝日営業、営業再開を含む）",
+    "note": "17:00 close",
+    "gym_name": "町田店",
+    "source_url": "https://noborock-climbing.com/program/takadanobaba/",
+    "published": "2026-09-02"
+  },
+  {
+    "gym_id": "noborock-mizonokuchi",
+    "date": "2026-09-15",
+    "type": "時間変更（早じまい、遅い開店、祝日営業、営業再開を含む）",
+    "note": "18:30 open",
+    "gym_name": "溝ノ口店",
+    "source_url": "https://noborock-climbing.com/program/takadanobaba/",
+    "published": "2026-09-02"
+  },
+  {
+    "gym_id": "noborock-machida",
+    "date": "2026-09-15",
+    "type": "時間変更（早じまい、遅い開店、祝日営業、営業再開を含む）",
+    "note": "18:30 open",
+    "gym_name": "町田店",
+    "source_url": "https://noborock-climbing.com/program/takadanobaba/",
+    "published": "2026-09-02"
+  },
+  {
+    "gym_id": "noborock-shinjuku",
+    "date": "2026-09-23",
+    "type": "時間変更（早じまい、遅い開店、祝日営業、営業再開を含む）",
+    "note": "17:00 close",
+    "gym_name": "新宿店",
+    "source_url": "https://noborock-climbing.com/program/takadanobaba/",
+    "published": "2026-09-02"
+  },
+  {
+    "gym_id": "noborock-shibuya",
+    "date": "2026-09-23",
+    "type": "時間変更（早じまい、遅い開店、祝日営業、営業再開を含む）",
+    "note": "17:00 close",
+    "gym_name": "渋谷店",
+    "source_url": "https://noborock-climbing.com/program/takadanobaba/",
+    "published": "2026-09-02"
+  },
+  {
+    "gym_id": "noborock-shinjuku",
+    "date": "2026-09-25",
+    "type": "時間変更（早じまい、遅い開店、祝日営業、営業再開を含む）",
+    "note": "18:30 open",
+    "gym_name": "新宿店",
+    "source_url": "https://noborock-climbing.com/program/takadanobaba/",
+    "published": "2026-09-02"
+  },
+  {
+    "gym_id": "noborock-shibuya",
+    "date": "2026-09-25",
+    "type": "時間変更（早じまい、遅い開店、祝日営業、営業再開を含む）",
+    "note": "18:30 open",
+    "gym_name": "渋谷店",
+    "source_url": "https://noborock-climbing.com/program/takadanobaba/",
+    "published": "2026-09-02"
+  },
+  {
+    "gym_id": "noborock-takadanobaba",
+    "date": "2026-09-28",
+    "type": "時間変更（早じまい、遅い開店、祝日営業、営業再開を含む）",
+    "note": "18:00 close",
+    "gym_name": "高田馬場店",
+    "source_url": "https://noborock-climbing.com/program/takadanobaba/",
+    "published": "2026-09-02"
+  },
+  {
+    "gym_id": "noborock-asakusa",
+    "date": "2026-07-14",
+    "type": "セット完了",
+    "note": "ルートセット完了",
+    "gym_name": "浅草店",
+    "source_url": "https://noborock-climbing.com/program/浅草店/",
+    "published": "2026-09-02"
+  },
+  {
+    "gym_id": "noborock-asakusa",
+    "date": "2026-08-11",
+    "type": "時間変更",
+    "note": "17:00 close",
+    "gym_name": "浅草店",
+    "source_url": "https://noborock-climbing.com/program/浅草店/",
+    "published": "2026-09-02"
+  },
+  {
+    "gym_id": "noborock-asakusa",
+    "date": "2026-08-12",
+    "type": "休業",
+    "note": "",
+    "gym_name": "浅草店",
+    "source_url": "https://noborock-climbing.com/program/浅草店/",
+    "published": "2026-09-02"
+  },
+  {
+    "gym_id": "noborock-asakusa",
+    "date": "2026-08-13",
+    "type": "時間変更",
+    "note": "18:30 open",
+    "gym_name": "浅草店",
+    "source_url": "https://noborock-climbing.com/program/浅草店/",
+    "published": "2026-09-02"
+  },
+  {
+    "gym_id": "noborock-ikebukuro",
+    "date": "2026-07-14",
+    "type": "セット完了",
+    "note": "ルートセット完了",
+    "gym_name": "池袋店",
+    "source_url": "https://noborock-climbing.com/program/ikebukuro/",
+    "published": "2026-09-02"
+  },
+  {
+    "gym_id": "noborock-ikebukuro",
+    "date": "2026-08-11",
+    "type": "時間変更",
+    "note": "17:00 close",
+    "gym_name": "池袋店",
+    "source_url": "https://noborock-climbing.com/program/ikebukuro/",
+    "published": "2026-09-02"
+  },
+  {
+    "gym_id": "noborock-ikebukuro",
+    "date": "2026-08-12",
+    "type": "休業",
+    "note": "",
+    "gym_name": "池袋店",
+    "source_url": "https://noborock-climbing.com/program/ikebukuro/",
+    "published": "2026-09-02"
+  },
+  {
+    "gym_id": "noborock-ikebukuro",
+    "date": "2026-08-13",
+    "type": "時間変更",
+    "note": "18:30 open",
+    "gym_name": "池袋店",
+    "source_url": "https://noborock-climbing.com/program/ikebukuro/",
+    "published": "2026-09-02"
+  },
+  {
+    "gym_id": "noborock-machida",
+    "date": "2026-08-18",
+    "type": "セット完了",
+    "note": "ルートセット完了",
+    "gym_name": "町田店",
+    "source_url": "https://noborock-climbing.com/program/machida/",
+    "published": "2026-09-02"
+  },
+  {
+    "gym_id": "noborock-mizonokuchi",
+    "date": "2026-08-17",
+    "type": "セット完了",
+    "note": "ルートセット完了",
+    "gym_name": "溝ノ口店",
+    "source_url": "https://noborock-climbing.com/program/mizonokuchi/",
+    "published": "2026-09-02"
+  },
+  {
+    "gym_id": "noborock-omiya",
+    "date": "2026-08-04",
+    "type": "セット完了",
+    "note": "ルートセット完了",
+    "gym_name": "大宮店",
+    "source_url": "https://noborock-climbing.com/program/omiya/",
+    "published": "2026-09-02"
+  },
+  {
+    "gym_id": "noborock-omiya",
+    "date": "2026-08-30",
+    "type": "時間変更",
+    "note": "17:00 close",
+    "gym_name": "大宮店",
+    "source_url": "https://noborock-climbing.com/program/omiya/",
+    "published": "2026-09-02"
+  },
+  {
+    "gym_id": "noborock-omiya",
+    "date": "2026-08-31",
+    "type": "休業",
+    "note": "",
+    "gym_name": "大宮店",
+    "source_url": "https://noborock-climbing.com/program/omiya/",
+    "published": "2026-09-02"
   }
 ]

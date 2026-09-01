@@ -97,6 +97,24 @@ LIST_PAGE_EXTRA_RULES = """
   同じ内容で出力すること（この例なら8/24分と8/25分をそれぞれ出力する）
 """
 
+# shared_calendar: true の店舗（1ページに複数店舗ぶんの予定が1つのカレンダーとして
+# まとめて掲載されているタイプ）にのみ追加する解釈ルール。LIST_PAGE_EXTRA_RULESと同じ
+# パターンで、extract_events_from_text 内で "---\n{text}\n" の直前に差し込む。
+# 店舗への振り分けはこの段階では行わず、gym_name フィールドに原文表記のまま出力させるだけ
+# （振り分けは別段階でコード側が行う）。
+SHARED_CALENDAR_EXTRA_RULES = """
+このページには複数店舗の予定が1つのカレンダーとしてまとめて掲載されています。
+特定の店舗の分だけに絞り込まず、カレンダーに書かれている全ての項目を抽出してください。
+
+出力フォーマットについては、以下のルールを本文中の「形式」の指定より優先してください。
+各項目について、どの店舗の予定かを示す gym_name フィールドを追加すること。
+店舗名は原文の表記のまま出力すること（例：「大宮店」と書かれていれば「大宮店」、
+「大宮」とだけ書かれていれば「大宮」とする。表記を変換・正規化しないこと）。
+どの店舗の項目か読み取れない場合は、gym_name を空文字（""）にすること。
+
+{{"events": [{{"date": "YYYY-MM-DD", "type": "種別", "note": "補足", "gym_name": "店舗名"}}]}}
+"""
+
 # 掲載日（「2026年08月01日」のように全店で統一された半角形式）だけを対象にした区切り。
 # 記事本文中の予定日（表記ゆれがある）は対象外で、正規表現でのパースは行わない。
 LIST_PAGE_DATE_RE = re.compile(r"^(\d{4}年\d{2}月\d{2}日)$", re.MULTILINE)
@@ -323,11 +341,15 @@ COLLECTORS = {
 }
 
 
-def extract_events_from_text(client, text, ref_date, list_page=False):
+def extract_events_from_text(client, text, ref_date, list_page=False, shared_calendar=False):
+    extra_blocks = []
     if list_page:
+        extra_blocks.append(LIST_PAGE_EXTRA_RULES.format(ref_date=ref_date.isoformat()))
+    if shared_calendar:
+        extra_blocks.append(SHARED_CALENDAR_EXTRA_RULES)
+    if extra_blocks:
         marker = "\n---\n{text}\n"
-        extra = LIST_PAGE_EXTRA_RULES.format(ref_date=ref_date.isoformat())
-        template = PROMPT_TEMPLATE.replace(marker, extra + marker)
+        template = PROMPT_TEMPLATE.replace(marker, "".join(extra_blocks) + marker)
         prompt = template.format(ref_date=ref_date.isoformat(), text=text)
     else:
         prompt = PROMPT_TEMPLATE.format(ref_date=ref_date.isoformat(), text=text)
@@ -388,6 +410,69 @@ def migrate_page_cache(processed, gyms):
     return processed
 
 
+def route_shared_calendar_event(gym_name, chain, gyms):
+    """shared_calendar: true のページから抽出したイベント（gym_name付き）を、
+    本来の店舗の gym_id に振り分ける。同じ chain の全店舗の name のうち、
+    gym_name に部分文字列として含まれるものを候補とし、複数一致した場合は
+    最も長い name を採用する（NOBOROCK8店舗のnameは互いに部分文字列関係にないため
+    通常は複数一致しないが、将来chainが増えた場合の安全策）。
+    一致するnameが無い場合、あるいはgym_nameが空文字／Noneの場合は
+    None を返す（呼び出し側でイベントを破棄する）。
+    """
+    if not gym_name:
+        return None
+    matches = [g for g in gyms if g["chain"] == chain and g["name"] in gym_name]
+    if not matches:
+        return None
+    best = max(matches, key=lambda g: len(g["name"]))
+    return best["id"]
+
+
+def resolve_shared_calendar_duplicates(events):
+    """route_shared_calendar_event() で振り分け済みのイベントについて、同一の
+    (gym_id, date, type) が複数のページ（店舗）由来で重複することがあるため、
+    抽出元ページの gym_id（origin_gym_id）と振り分け先の gym_id が一致するもの
+    （＝自店舗ページ由来）を優先して1件だけ残す。
+
+    この優先順位は、溝ノ口 2026-09-13 の1例のみを根拠にした推測である
+    （新宿ページのカレンダーには「18:45 close」、溝ノ口自身のページには
+    「17:00 close」と書かれており、自店舗ページの方が正しかった。サイト側の
+    記載ミスと考えられるが、他の店舗・日付でも同様の傾向があるとは限らない）。
+
+    自店舗ページ由来が1件も無いキー（例：高田馬場 09-28 のように自店舗ページ側で
+    抽出漏れが起きているケース）では、他ページ由来のうち最初に出現したものを採用する。
+    """
+    best = {}
+    for ev in events:
+        key = (ev["gym_id"], ev["date"], ev["type"])
+        is_self = ev["origin_gym_id"] == ev["gym_id"]
+        existing = best.get(key)
+        if existing is None:
+            best[key] = (ev, is_self)
+            continue
+        _, existing_is_self = existing
+        if is_self and not existing_is_self:
+            print(
+                f"[重複排除] {key[0]} {key[1]} {key[2]}: "
+                f"自店舗ページ由来（{ev['origin_gym_id']}）を優先し、"
+                f"他ページ由来（{existing[0]['origin_gym_id']}）を破棄します"
+            )
+            best[key] = (ev, is_self)
+        elif existing_is_self and not is_self:
+            print(
+                f"[重複排除] {key[0]} {key[1]} {key[2]}: "
+                f"既に自店舗ページ由来（{existing[0]['origin_gym_id']}）を採用済みのため、"
+                f"他ページ由来（{ev['origin_gym_id']}）を破棄します"
+            )
+        else:
+            print(
+                f"[重複排除] {key[0]} {key[1]} {key[2]}: "
+                f"{existing[0]['origin_gym_id']} 由来を採用済みのため、"
+                f"{ev['origin_gym_id']} 由来を破棄します"
+            )
+    return [ev for ev, _ in best.values()]
+
+
 def main():
     with open("gyms.json", encoding="utf-8") as f:
         gyms = json.load(f)
@@ -417,6 +502,11 @@ def main():
     processed = migrate_page_cache(processed, gyms)
 
     all_events = []
+    # shared_calendar: true のページから振り分けたイベントの一時置き場。gym_events/all_events
+    # には直接積まず、全ターゲットの処理が終わってから resolve_shared_calendar_duplicates() で
+    # 自店舗ページ由来を優先する重複排除を行った上でまとめて all_events に加える
+    # （店舗をまたいだ重複判定になるため、店舗ごとのループの中では確定できない）。
+    shared_calendar_events = []
     status_records = []
     llm_calls = 0
     targets = [g for g in gyms if g.get("enabled", True)]
@@ -501,7 +591,8 @@ def main():
                             print(f"      除外した掲載日: {', '.join(excluded_dates)}")
                     try:
                         events = extract_events_from_text(
-                            client, llm_text, pub, list_page=list_page
+                            client, llm_text, pub, list_page=list_page,
+                            shared_calendar=gym.get("shared_calendar", False),
                         )
                         llm_calls += 1
                     except Exception as e:
@@ -536,14 +627,35 @@ def main():
                     print(f"  ({i}/{len(articles)}) {url} events: {len(events)}")
 
             for ev in events:
-                gym_events.append({
-                    "gym_id": gym["id"],
-                    "date": ev.get("date"),
-                    "type": ev.get("type"),
-                    "note": ev.get("note"),
-                    "source_url": url,
-                    "published": pub_iso,
-                })
+                if gym.get("shared_calendar", False):
+                    gym_name = ev.get("gym_name")
+                    target_gym_id = route_shared_calendar_event(gym_name, gym["chain"], gyms)
+                    if target_gym_id is None:
+                        print(
+                            f"[振り分け失敗] {gym['id']} {ev.get('date')} {ev.get('type')}: "
+                            f"gym_name='{gym_name}' が{gym['chain']}のどの店舗名にも一致しないため破棄します"
+                        )
+                        continue
+                    shared_calendar_events.append({
+                        "gym_id": target_gym_id,
+                        "origin_gym_id": gym["id"],
+                        "date": ev.get("date"),
+                        "type": ev.get("type"),
+                        "note": ev.get("note"),
+                        "gym_name": gym_name,
+                        "source_url": url,
+                        "published": pub_iso,
+                    })
+                else:
+                    gym_events.append({
+                        "gym_id": gym["id"],
+                        "date": ev.get("date"),
+                        "type": ev.get("type"),
+                        "note": ev.get("note"),
+                        "gym_name": ev.get("gym_name"),
+                        "source_url": url,
+                        "published": pub_iso,
+                    })
 
         # 複数URL（route/pickup等）の店舗のみ、同一店舗内で (date, type) が完全一致するイベントを
         # 重複排除する。urls に先に書いたURL由来を残す（先勝ち）。note の連結はしない。
@@ -563,6 +675,13 @@ def main():
             gym_events = deduped
 
         all_events.extend(gym_events)
+
+    # shared_calendar 由来で振り分けたイベントは、店舗をまたいだ重複排除
+    # （自店舗ページ由来を優先）を行ってから all_events に加える。
+    resolved_shared_events = resolve_shared_calendar_duplicates(shared_calendar_events)
+    for ev in resolved_shared_events:
+        del ev["origin_gym_id"]
+    all_events.extend(resolved_shared_events)
 
     # 絞り込み実行（requested_ids指定あり）のときだけ、既存の events.json / collection_status.json を
     # 読み込み、対象外の店舗分を温存してから今回の結果をマージする。無指定時は従来通り全体を書き出す。
