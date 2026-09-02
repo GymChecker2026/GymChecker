@@ -23,7 +23,7 @@
     "official_url": "https://noborock-climbing.com/program/新宿店/",
     "instagram_url": "https://www.instagram.com/noborock_shinjuku/",
     "fetch_status": "success",
-    "fetched_at": "2026-09-02T07:30:32+09:00",
+    "fetched_at": "2026-09-03T02:45:31+09:00",
     "last_changed_at": "2026-09-02T00:58:32+09:00",
     "events": []
   },
@@ -51,15 +51,15 @@
     "official_url": "https://noborock-climbing.com/program/shibuya/",
     "instagram_url": "https://www.instagram.com/noborock_shibuya/",
     "fetch_status": "success",
-    "fetched_at": "2026-09-02T07:30:34+09:00",
-    "last_changed_at": "2026-09-02T02:45:55+09:00",
+    "fetched_at": "2026-09-03T02:45:32+09:00",
+    "last_changed_at": "2026-09-03T02:45:31+09:00",
     "events": [
       {
         "date": "2026-08-25",
         "type": "セット完了",
         "note": "ルートセット完了",
         "source_url": "https://noborock-climbing.com/program/shibuya/",
-        "published": "2026-09-02",
+        "published": "2026-09-03",
         "source": "auto"
       }
     ]
@@ -88,15 +88,23 @@
     "official_url": "https://noborock-climbing.com/program/takadanobaba/",
     "instagram_url": "https://www.instagram.com/noborock_takadanobaba/",
     "fetch_status": "success",
-    "fetched_at": "2026-09-02T07:30:37+09:00",
-    "last_changed_at": "2026-09-02T02:45:55+09:00",
+    "fetched_at": "2026-09-03T02:45:45+09:00",
+    "last_changed_at": "2026-09-03T02:45:31+09:00",
     "events": [
+      {
+        "date": "2026-08-04",
+        "type": "セット完了",
+        "note": "ルートセット完了",
+        "source_url": "https://noborock-climbing.com/program/takadanobaba/",
+        "published": "2026-09-03",
+        "source": "auto"
+      },
       {
         "date": "2026-08-24",
         "type": "時間変更",
-        "note": "貸切利用の為 18:00 close",
+        "note": "貸切利用のため18:00 close",
         "source_url": "https://noborock-climbing.com/program/takadanobaba/",
-        "published": "2026-09-02",
+        "published": "2026-09-03",
         "source": "auto"
       },
       {
@@ -104,7 +112,7 @@
         "type": "時間変更",
         "note": "17:00 close",
         "source_url": "https://noborock-climbing.com/program/takadanobaba/",
-        "published": "2026-09-02",
+        "published": "2026-09-03",
         "source": "auto"
       },
       {
@@ -112,15 +120,15 @@
         "type": "休業",
         "note": "ルートセット",
         "source_url": "https://noborock-climbing.com/program/takadanobaba/",
-        "published": "2026-09-02",
+        "published": "2026-09-03",
         "source": "auto"
       },
       {
         "date": "2026-09-01",
         "type": "時間変更",
         "note": "18:30 open",
-        "source_url": "https://noborock-climbing.com/program/新宿店/",
-        "published": "2026-09-02",
+        "source_url": "https://noborock-climbing.com/program/takadanobaba/",
+        "published": "2026-09-03",
         "source": "auto"
       }
     ]
@@ -149,7 +157,7 @@
     "official_url": "https://noborock-climbing.com/program/浅草店/",
     "instagram_url": "https://www.instagram.com/noborock_asakusa/",
     "fetch_status": "success",
-    "fetched_at": "2026-09-02T07:30:40+09:00",
+    "fetched_at": "2026-09-03T02:45:52+09:00",
     "last_changed_at": "2026-09-02T00:58:32+09:00",
     "events": [
       {
@@ -242,15 +250,15 @@
     "official_url": "https://noborock-climbing.com/program/ikebukuro/",
     "instagram_url": "https://www.instagram.com/noborock_ikebukuro/",
     "fetch_status": "success",
-    "fetched_at": "2026-09-02T07:30:43+09:00",
-    "last_changed_at": "2026-09-02T00:58:32+09:00",
+    "fetched_at": "2026-09-03T02:45:53+09:00",
+    "last_changed_at": "2026-09-03T02:45:31+09:00",
     "events": [
       {
         "date": "2026-07-14",
         "type": "セット完了",
         "note": "ルートセット完了",
         "source_url": "https://noborock-climbing.com/program/ikebukuro/",
-        "published": "2026-09-02",
+        "published": "2026-09-03",
         "source": "auto"
       },
       {
@@ -258,7 +266,7 @@
         "type": "時間変更",
         "note": "17:00 close",
         "source_url": "https://noborock-climbing.com/program/ikebukuro/",
-        "published": "2026-09-02",
+        "published": "2026-09-03",
         "source": "auto"
       },
       {
@@ -266,7 +274,7 @@
         "type": "休業",
         "note": "",
         "source_url": "https://noborock-climbing.com/program/ikebukuro/",
-        "published": "2026-09-02",
+        "published": "2026-09-03",
         "source": "auto"
       },
       {
@@ -274,7 +282,7 @@
         "type": "時間変更",
         "note": "18:30 open",
         "source_url": "https://noborock-climbing.com/program/ikebukuro/",
-        "published": "2026-09-02",
+        "published": "2026-09-03",
         "source": "auto"
       },
       {
@@ -282,7 +290,7 @@
         "type": "時間変更",
         "note": "17:00 close",
         "source_url": "https://noborock-climbing.com/program/ikebukuro/",
-        "published": "2026-09-02",
+        "published": "2026-09-03",
         "source": "auto"
       },
       {
@@ -298,7 +306,7 @@
         "type": "休業",
         "note": "ルートセット",
         "source_url": "https://noborock-climbing.com/program/ikebukuro/",
-        "published": "2026-09-02",
+        "published": "2026-09-03",
         "source": "auto"
       },
       {
@@ -306,7 +314,7 @@
         "type": "時間変更",
         "note": "18:30 open",
         "source_url": "https://noborock-climbing.com/program/ikebukuro/",
-        "published": "2026-09-02",
+        "published": "2026-09-03",
         "source": "auto"
       }
     ]
@@ -335,7 +343,7 @@
     "official_url": "https://noborock-climbing.com/program/machida/",
     "instagram_url": "https://www.instagram.com/noborock_machida/",
     "fetch_status": "success",
-    "fetched_at": "2026-09-02T07:30:46+09:00",
+    "fetched_at": "2026-09-03T02:46:06+09:00",
     "last_changed_at": "2026-09-02T00:58:32+09:00",
     "events": [
       {
@@ -412,7 +420,7 @@
     "official_url": "https://noborock-climbing.com/program/mizonokuchi/",
     "instagram_url": "https://www.instagram.com/noborock_mizonokuchi/",
     "fetch_status": "success",
-    "fetched_at": "2026-09-02T07:30:49+09:00",
+    "fetched_at": "2026-09-03T02:46:07+09:00",
     "last_changed_at": "2026-09-02T00:58:32+09:00",
     "events": [
       {
@@ -481,7 +489,7 @@
     "official_url": "https://noborock-climbing.com/program/omiya/",
     "instagram_url": "https://www.instagram.com/noborock_omiya/",
     "fetch_status": "success",
-    "fetched_at": "2026-09-02T07:30:52+09:00",
+    "fetched_at": "2026-09-03T02:46:09+09:00",
     "last_changed_at": "2026-09-02T00:58:32+09:00",
     "events": [
       {
@@ -542,7 +550,7 @@
     "official_url": "https://www.d-b-c.jp/top/tachikawa/",
     "instagram_url": "https://www.instagram.com/dbouldering_tachikawa/",
     "fetch_status": "success",
-    "fetched_at": "2026-09-02T07:30:55+09:00",
+    "fetched_at": "2026-09-03T02:46:13+09:00",
     "last_changed_at": null,
     "events": [
       {
@@ -683,7 +691,7 @@
     "official_url": "https://www.d-b-c.jp/top/tamachi/",
     "instagram_url": "https://www.instagram.com/dbouldering_tamachi/",
     "fetch_status": "success",
-    "fetched_at": "2026-09-02T07:31:11+09:00",
+    "fetched_at": "2026-09-03T02:46:27+09:00",
     "last_changed_at": null,
     "events": [
       {
@@ -744,7 +752,7 @@
     "official_url": "https://www.d-b-c.jp/top/tsunashima/",
     "instagram_url": "https://www.instagram.com/dbouldering_tsunashima/",
     "fetch_status": "success",
-    "fetched_at": "2026-09-02T07:31:27+09:00",
+    "fetched_at": "2026-09-03T02:46:41+09:00",
     "last_changed_at": null,
     "events": [
       {
@@ -797,7 +805,7 @@
     "official_url": "https://www.d-b-c.jp/top/honatsugi/",
     "instagram_url": "https://www.instagram.com/dbouldering_honatsugi/",
     "fetch_status": "success",
-    "fetched_at": "2026-09-02T07:31:51+09:00",
+    "fetched_at": "2026-09-03T02:47:04+09:00",
     "last_changed_at": null,
     "events": [
       {
@@ -938,7 +946,7 @@
     "official_url": "https://www.d-b-c.jp/top/yokohama/",
     "instagram_url": "https://www.instagram.com/dbouldering_yokohama/",
     "fetch_status": "success",
-    "fetched_at": "2026-09-02T07:32:42+09:00",
+    "fetched_at": "2026-09-03T02:47:49+09:00",
     "last_changed_at": null,
     "events": [
       {
@@ -1011,7 +1019,7 @@
     "official_url": "https://www.d-b-c.jp/top/kawasaki/",
     "instagram_url": "https://www.instagram.com/dbouldering_kawasaki/",
     "fetch_status": "success",
-    "fetched_at": "2026-09-02T07:33:02+09:00",
+    "fetched_at": "2026-09-03T02:48:07+09:00",
     "last_changed_at": null,
     "events": [
       {
@@ -1084,7 +1092,7 @@
     "official_url": "https://pump-climbing.com/gym/akiba/",
     "instagram_url": "https://www.instagram.com/bpumptokyo/",
     "fetch_status": "success",
-    "fetched_at": "2026-09-02T07:33:12+09:00",
+    "fetched_at": "2026-09-03T02:48:16+09:00",
     "last_changed_at": null,
     "events": [
       {
@@ -1096,51 +1104,11 @@
         "source": "auto"
       },
       {
-        "date": "2026-07-26",
-        "type": "エリア制限",
-        "note": "2F Center Slab ホールド外し 20:00-",
-        "source_url": "https://pump-climbing.com/gym/akiba/%e6%ac%a1%e9%80%b1%e3%82%bb%e3%83%83%e3%83%88%e6%83%85%e5%a0%b1-%e2%96%b7%e3%80%982f-center-slab-%e3%80%99/blog-news/",
-        "published": "2026-07-19",
-        "source": "auto"
-      },
-      {
-        "date": "2026-07-27",
-        "type": "エリア制限",
-        "note": "2F Center Slab メンテナンス",
-        "source_url": "https://pump-climbing.com/gym/akiba/%e6%ac%a1%e9%80%b1%e3%82%bb%e3%83%83%e3%83%88%e6%83%85%e5%a0%b1-%e2%96%b7%e3%80%982f-center-slab-%e3%80%99/blog-news/",
-        "published": "2026-07-19",
-        "source": "auto"
-      },
-      {
-        "date": "2026-07-28",
-        "type": "エリア制限",
-        "note": "2F Center Slab メンテナンス",
-        "source_url": "https://pump-climbing.com/gym/akiba/%e6%ac%a1%e9%80%b1%e3%82%bb%e3%83%83%e3%83%88%e6%83%85%e5%a0%b1-%e2%96%b7%e3%80%982f-center-slab-%e3%80%99/blog-news/",
-        "published": "2026-07-19",
-        "source": "auto"
-      },
-      {
-        "date": "2026-07-29",
-        "type": "エリア制限",
-        "note": "2F Center Slab メンテナンス",
-        "source_url": "https://pump-climbing.com/gym/akiba/%e6%ac%a1%e9%80%b1%e3%82%bb%e3%83%83%e3%83%88%e6%83%85%e5%a0%b1-%e2%96%b7%e3%80%982f-center-slab-%e3%80%99/blog-news/",
-        "published": "2026-07-19",
-        "source": "auto"
-      },
-      {
         "date": "2026-07-30",
         "type": "エリア制限",
         "note": "3F Back Roof ホールド外し 21:00-",
         "source_url": "https://pump-climbing.com/gym/akiba/%e6%ac%a1%e9%80%b1%e3%82%bb%e3%83%83%e3%83%88%e6%83%85%e5%a0%b1-%e2%96%b7%e3%80%983f-back-roof-%e3%80%99/blog-news/",
         "published": "2026-07-25",
-        "source": "auto"
-      },
-      {
-        "date": "2026-07-30",
-        "type": "エリア制限",
-        "note": "2F Center Slab Route Setting Day",
-        "source_url": "https://pump-climbing.com/gym/akiba/%e6%ac%a1%e9%80%b1%e3%82%bb%e3%83%83%e3%83%88%e6%83%85%e5%a0%b1-%e2%96%b7%e3%80%982f-center-slab-%e3%80%99/blog-news/",
-        "published": "2026-07-19",
         "source": "auto"
       },
       {
@@ -1393,7 +1361,7 @@
     "official_url": "https://pump-climbing.com/gym/bpump/",
     "instagram_url": "https://www.instagram.com/bpump_ogikubo/",
     "fetch_status": "success",
-    "fetched_at": "2026-09-02T07:33:20+09:00",
+    "fetched_at": "2026-09-03T02:48:22+09:00",
     "last_changed_at": null,
     "events": [
       {
@@ -1514,33 +1482,9 @@
     "official_url": "https://pump-climbing.com/gym/bpump2/",
     "instagram_url": "https://www.instagram.com/bpumpyokohama/",
     "fetch_status": "success",
-    "fetched_at": "2026-09-02T07:33:25+09:00",
+    "fetched_at": "2026-09-03T02:48:28+09:00",
     "last_changed_at": null,
     "events": [
-      {
-        "date": "2026-07-27",
-        "type": "エリア制限",
-        "note": "2F CENTER ホールド外し 20:00-",
-        "source_url": "https://pump-climbing.com/gym/bpump2/2f-center%e3%82%bb%e3%83%83%e3%83%88%ef%bc%81/",
-        "published": "2026-07-19",
-        "source": "auto"
-      },
-      {
-        "date": "2026-07-28",
-        "type": "セット完了",
-        "note": "2F CENTER 1DAY SET OPEN 18:00-",
-        "source_url": "https://pump-climbing.com/gym/bpump2/2f-center%e3%82%bb%e3%83%83%e3%83%88%ef%bc%81/",
-        "published": "2026-07-19",
-        "source": "auto"
-      },
-      {
-        "date": "2026-07-29",
-        "type": "セット完了",
-        "note": "2F CENTER NEW SET OPEN 18:00-",
-        "source_url": "https://pump-climbing.com/gym/bpump2/2f-center%e3%82%bb%e3%83%83%e3%83%88%ef%bc%81/",
-        "published": "2026-07-19",
-        "source": "auto"
-      },
       {
         "date": "2026-08-19",
         "type": "セット完了",
@@ -1579,25 +1523,9 @@
     "official_url": "https://pump-climbing.com/gym/pump1/",
     "instagram_url": "https://www.instagram.com/pump1_kawaguchi/",
     "fetch_status": "success",
-    "fetched_at": "2026-09-02T07:33:31+09:00",
+    "fetched_at": "2026-09-03T02:48:33+09:00",
     "last_changed_at": null,
     "events": [
-      {
-        "date": "2026-07-19",
-        "type": "セット完了",
-        "note": "富士山NEW SET！5.8~5.12Cの計11本",
-        "source_url": "https://pump-climbing.com/gym/pump1/%e5%af%8c%e5%a3%ab%e5%b1%b1new-set%ef%bc%81%ef%bc%81/",
-        "published": "2026-07-19",
-        "source": "auto"
-      },
-      {
-        "date": "2026-07-20",
-        "type": "時間変更",
-        "note": "祝日営業",
-        "source_url": "https://pump-climbing.com/gym/pump1/%e7%a5%9d%e6%97%a5%e5%96%b6%e6%a5%ad%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b-3/",
-        "published": "2026-07-19",
-        "source": "auto"
-      },
       {
         "date": "2026-07-23",
         "type": "エリア制限",
@@ -1744,7 +1672,7 @@
     "official_url": "https://pump-climbing.com/gym/pump2/",
     "instagram_url": "https://www.instagram.com/pump2climbing/",
     "fetch_status": "success",
-    "fetched_at": "2026-09-02T07:33:46+09:00",
+    "fetched_at": "2026-09-03T02:48:47+09:00",
     "last_changed_at": null,
     "events": [
       {
@@ -1769,6 +1697,14 @@
         "note": "府中花火大会観賞イベント（PUMP2バルコニーから観賞、16時頃開始、飲み物・食べ物提供あり）",
         "source_url": "https://pump-climbing.com/gym/pump2/%e8%8a%b1%e7%81%ab%e3%81%8c%e4%b8%8a%e3%81%8c%e3%82%8b%e3%81%ae%e3%81%a7%e8%82%89%e3%82%84%e9%87%8e%e8%8f%9c%e3%82%92%e7%84%bc%e3%81%8d%e3%80%81%e9%a3%9f%e3%81%b9%e3%82%8b2026/",
         "published": "2026-08-25",
+        "source": "auto"
+      },
+      {
+        "date": "2026-09-12",
+        "type": "イベント",
+        "note": "アッキーセッション 15:00-16:00 3F 120°壁 参加無料（利用料別途）",
+        "source_url": "https://pump-climbing.com/gym/pump2/%e3%82%a2%e3%83%83%e3%82%ad%e3%83%bc%e3%82%bb%e3%83%83%e3%82%b7%e3%83%a7%e3%83%b3%e9%96%8b%e5%82%ac%ef%bc%81%ef%bc%81/",
+        "published": "2026-09-02",
         "source": "auto"
       }
     ]
@@ -1797,7 +1733,7 @@
     "official_url": "https://www.rockyclimbing.com/shinagawa/",
     "instagram_url": "https://www.instagram.com/shina_rocky/",
     "fetch_status": "success",
-    "fetched_at": "2026-09-02T07:36:50+09:00",
+    "fetched_at": "2026-09-03T02:50:26+09:00",
     "last_changed_at": null,
     "events": [
       {
@@ -1986,7 +1922,7 @@
     "official_url": "https://www.rockyclimbing.com/shinjukuakebonobashi/",
     "instagram_url": "https://www.instagram.com/jyuku_rocky/",
     "fetch_status": "success",
-    "fetched_at": "2026-09-02T07:36:50+09:00",
+    "fetched_at": "2026-09-03T02:50:26+09:00",
     "last_changed_at": null,
     "events": [
       {
@@ -2127,7 +2063,7 @@
     "official_url": "https://www.rockyclimbing.com/ryougoku/",
     "instagram_url": "https://www.instagram.com/ryougoku_rocky/",
     "fetch_status": "success",
-    "fetched_at": "2026-09-02T07:36:50+09:00",
+    "fetched_at": "2026-09-03T02:50:26+09:00",
     "last_changed_at": null,
     "events": [
       {
@@ -2228,7 +2164,7 @@
     "official_url": "https://www.rockyclimbing.com/inzai/",
     "instagram_url": "https://www.instagram.com/inzairocky/",
     "fetch_status": "success",
-    "fetched_at": "2026-09-02T07:36:50+09:00",
+    "fetched_at": "2026-09-03T02:50:26+09:00",
     "last_changed_at": null,
     "events": [
       {
@@ -2350,6 +2286,14 @@
         "source_url": null,
         "published": "2026-08-26",
         "source": "manual"
+      },
+      {
+        "date": "2026-09-17",
+        "type": "エリア制限",
+        "note": "ホールド外し Bulge Black Hole Rocket / 10:00~23:00 (外しエリアは17時以降登れません)",
+        "source_url": null,
+        "published": "2026-08-26",
+        "source": "manual"
       }
     ]
   },
@@ -2377,7 +2321,7 @@
     "official_url": "https://www.rockyclimbing.com/tsukubaami/",
     "instagram_url": "https://www.instagram.com/tsukuba_ami_rocky/",
     "fetch_status": "success",
-    "fetched_at": "2026-09-02T07:36:50+09:00",
+    "fetched_at": "2026-09-03T02:50:26+09:00",
     "last_changed_at": null,
     "events": [
       {
@@ -2478,7 +2422,7 @@
     "official_url": "https://www.rockyclimbing.com/funabashi/",
     "instagram_url": "https://www.instagram.com/funabashirocky/",
     "fetch_status": "success",
-    "fetched_at": "2026-09-02T07:36:50+09:00",
+    "fetched_at": "2026-09-03T02:50:26+09:00",
     "last_changed_at": null,
     "events": [
       {
@@ -2627,7 +2571,7 @@
     "official_url": "https://b-camp.jp/shinjuku/",
     "instagram_url": "https://www.instagram.com/basecamp_shinjuku/",
     "fetch_status": "success",
-    "fetched_at": "2026-09-02T07:33:51+09:00",
+    "fetched_at": "2026-09-03T02:48:53+09:00",
     "last_changed_at": "2026-08-31T02:45:31+09:00",
     "events": [
       {
@@ -2744,7 +2688,7 @@
     "official_url": "https://b-camp.jp/shinbashi/",
     "instagram_url": "https://www.instagram.com/basecamp_shinbashi/",
     "fetch_status": "success",
-    "fetched_at": "2026-09-02T07:33:59+09:00",
+    "fetched_at": "2026-09-03T02:48:58+09:00",
     "last_changed_at": "2026-08-26T23:19:37+09:00",
     "events": [
       {
@@ -2861,223 +2805,255 @@
     "official_url": "https://b-camp.jp/edogawabashi/",
     "instagram_url": "https://www.instagram.com/basecamp_edogawabashi/",
     "fetch_status": "success",
-    "fetched_at": "2026-09-02T07:34:09+09:00",
-    "last_changed_at": "2026-08-26T23:19:37+09:00",
+    "fetched_at": "2026-09-03T02:49:07+09:00",
+    "last_changed_at": "2026-09-03T02:45:31+09:00",
     "events": [
       {
         "date": "2026-07-05",
         "type": "エリア制限",
-        "note": "1階ボルダーエリア全体及び地下リードエリアリニューアル作業のため利用不可",
+        "note": "1階ボルダーエリア全体セット、地下リードエリアホールド洗い作業（7/5 18:00 CLOSE ～ 7/7 18:00 OPEN）",
         "source_url": "https://b-camp.jp/edogawabashi/route/",
-        "published": "2026-08-26",
+        "published": "2026-09-03",
         "source": "auto"
       },
       {
         "date": "2026-07-06",
         "type": "エリア制限",
-        "note": "1階ボルダーエリア全体リニューアル作業のため利用不可",
+        "note": "1階ボルダーエリア全体セット（7/5 18:00 CLOSE ～ 7/7 18:00 OPEN）",
         "source_url": "https://b-camp.jp/edogawabashi/route/",
-        "published": "2026-08-26",
+        "published": "2026-09-03",
         "source": "auto"
       },
       {
         "date": "2026-07-07",
         "type": "エリア制限",
-        "note": "1階ボルダーエリア全体リニューアル作業のため利用不可",
+        "note": "1階ボルダーエリア全体セット（7/5 18:00 CLOSE ～ 7/7 18:00 OPEN）",
         "source_url": "https://b-camp.jp/edogawabashi/route/",
-        "published": "2026-08-26",
+        "published": "2026-09-03",
         "source": "auto"
       },
       {
         "date": "2026-07-13",
         "type": "エリア制限",
-        "note": "地下ルートクライミングエリア 終日封鎖（Cascade Right壁面塗装工事）",
+        "note": "地下ルートクライミングエリア 終日封鎖",
         "source_url": "https://b-camp.jp/edogawabashi/pickup/",
-        "published": "2026-08-26",
+        "published": "2026-09-03",
         "source": "auto"
       },
       {
         "date": "2026-07-14",
         "type": "エリア制限",
-        "note": "Cascade Right 終日封鎖（塗装工事）",
+        "note": "Cascade Right 終日封鎖",
         "source_url": "https://b-camp.jp/edogawabashi/pickup/",
-        "published": "2026-08-26",
+        "published": "2026-09-03",
         "source": "auto"
       },
       {
         "date": "2026-07-15",
         "type": "エリア制限",
-        "note": "Cascade Right 終日封鎖（塗装工事）",
+        "note": "Cascade Right 終日封鎖",
         "source_url": "https://b-camp.jp/edogawabashi/pickup/",
-        "published": "2026-08-26",
+        "published": "2026-09-03",
         "source": "auto"
       },
       {
         "date": "2026-07-16",
         "type": "エリア制限",
-        "note": "Cascade Right 終日封鎖（塗装工事）",
+        "note": "Cascade Right 終日封鎖",
         "source_url": "https://b-camp.jp/edogawabashi/pickup/",
-        "published": "2026-08-26",
+        "published": "2026-09-03",
         "source": "auto"
       },
       {
         "date": "2026-07-17",
         "type": "エリア制限",
-        "note": "地下ルートクライミングエリア 12:00～18:00封鎖（塗装工事）",
+        "note": "地下ルートクライミングエリア 12:00～18:00封鎖",
         "source_url": "https://b-camp.jp/edogawabashi/pickup/",
-        "published": "2026-08-26",
+        "published": "2026-09-03",
         "source": "auto"
       },
       {
         "date": "2026-07-26",
         "type": "エリア制限",
-        "note": "2Fボルダー「Debut」セット作業のため利用不可",
+        "note": "2階ボルダー\"Debut\"セット（7/26 16:00 CLOSE ～ 7/27 18:00 OPEN）",
         "source_url": "https://b-camp.jp/edogawabashi/route/",
-        "published": "2026-08-26",
+        "published": "2026-09-03",
         "source": "auto"
       },
       {
         "date": "2026-07-27",
         "type": "エリア制限",
-        "note": "2Fボルダー「Debut」セット作業のため利用不可",
+        "note": "2階ボルダー\"Debut\"セット（7/26 16:00 CLOSE ～ 7/27 18:00 OPEN）",
         "source_url": "https://b-camp.jp/edogawabashi/route/",
-        "published": "2026-08-26",
+        "published": "2026-09-03",
         "source": "auto"
       },
       {
         "date": "2026-07-30",
         "type": "エリア制限",
-        "note": "2Fボルダー「NINJA ～ DEBUT」セット作業のため利用不可",
+        "note": "2階ボルダー\"NINJA～DEBUT\"セット（7/30 12:00 CLOSE ～ 7/31 18:00 OPEN）",
         "source_url": "https://b-camp.jp/edogawabashi/route/",
-        "published": "2026-08-26",
+        "published": "2026-09-03",
         "source": "auto"
       },
       {
         "date": "2026-07-31",
         "type": "エリア制限",
-        "note": "2Fボルダー「NINJA ～ DEBUT」セット作業のため利用不可",
+        "note": "2階ボルダー\"NINJA～DEBUT\"セット（7/30 12:00 CLOSE ～ 7/31 18:00 OPEN）",
         "source_url": "https://b-camp.jp/edogawabashi/route/",
-        "published": "2026-08-26",
+        "published": "2026-09-03",
         "source": "auto"
       },
       {
         "date": "2026-08-02",
         "type": "エリア制限",
-        "note": "1階ボルダーエリア全体及び地下リードエリアリニューアル作業のため利用不可",
+        "note": "1階ボルダーエリア全体セット、地下リードエリアホールド洗い作業（8/2 18:00 CLOSE ～ 8/4 18:00 OPEN）",
         "source_url": "https://b-camp.jp/edogawabashi/route/",
-        "published": "2026-08-26",
+        "published": "2026-09-03",
         "source": "auto"
       },
       {
         "date": "2026-08-03",
         "type": "エリア制限",
-        "note": "1階ボルダーエリア全体リニューアル作業のため利用不可",
+        "note": "1階ボルダーエリア全体セット（8/2 18:00 CLOSE ～ 8/4 18:00 OPEN）",
         "source_url": "https://b-camp.jp/edogawabashi/route/",
-        "published": "2026-08-26",
+        "published": "2026-09-03",
         "source": "auto"
       },
       {
         "date": "2026-08-04",
         "type": "エリア制限",
-        "note": "1階ボルダーエリア全体リニューアル作業のため利用不可",
+        "note": "1階ボルダーエリア全体セット（8/2 18:00 CLOSE ～ 8/4 18:00 OPEN）",
         "source_url": "https://b-camp.jp/edogawabashi/route/",
-        "published": "2026-08-26",
+        "published": "2026-09-03",
         "source": "auto"
       },
       {
         "date": "2026-08-17",
         "type": "エリア制限",
-        "note": "地下ルートクライミングエリア 終日封鎖（Cascade Left壁面塗装工事）",
+        "note": "地下ルートクライミングエリア 終日封鎖",
         "source_url": "https://b-camp.jp/edogawabashi/pickup/",
-        "published": "2026-08-26",
+        "published": "2026-09-03",
         "source": "auto"
       },
       {
         "date": "2026-08-18",
         "type": "エリア制限",
-        "note": "Cascade Left 終日封鎖（塗装工事）",
+        "note": "Cascade Left 終日封鎖",
         "source_url": "https://b-camp.jp/edogawabashi/pickup/",
-        "published": "2026-08-26",
+        "published": "2026-09-03",
         "source": "auto"
       },
       {
         "date": "2026-08-19",
         "type": "エリア制限",
-        "note": "Cascade Left 終日封鎖（塗装工事）",
+        "note": "Cascade Left 終日封鎖",
         "source_url": "https://b-camp.jp/edogawabashi/pickup/",
-        "published": "2026-08-26",
+        "published": "2026-09-03",
         "source": "auto"
       },
       {
         "date": "2026-08-20",
         "type": "エリア制限",
-        "note": "Cascade Left 終日封鎖（塗装工事）",
+        "note": "Cascade Left 終日封鎖",
         "source_url": "https://b-camp.jp/edogawabashi/pickup/",
-        "published": "2026-08-26",
+        "published": "2026-09-03",
         "source": "auto"
       },
       {
         "date": "2026-08-21",
         "type": "エリア制限",
-        "note": "地下ルートクライミングエリア 12:00～18:00封鎖（塗装工事）",
+        "note": "地下ルートクライミングエリア 12:00～18:00封鎖",
         "source_url": "https://b-camp.jp/edogawabashi/pickup/",
-        "published": "2026-08-26",
+        "published": "2026-09-03",
         "source": "auto"
       },
       {
         "date": "2026-08-23",
         "type": "エリア制限",
-        "note": "2Fボルダー「Debut」セット作業のため利用不可",
+        "note": "2階ボルダー\"Debut\"セット（8/23 16:00 CLOSE ～ 8/24 18:00 OPEN）",
         "source_url": "https://b-camp.jp/edogawabashi/route/",
-        "published": "2026-08-26",
+        "published": "2026-09-03",
         "source": "auto"
       },
       {
         "date": "2026-08-24",
         "type": "エリア制限",
-        "note": "2Fボルダー「Debut」セット作業のため利用不可",
+        "note": "2階ボルダー\"Debut\"セット（8/23 16:00 CLOSE ～ 8/24 18:00 OPEN）",
         "source_url": "https://b-camp.jp/edogawabashi/route/",
-        "published": "2026-08-26",
+        "published": "2026-09-03",
         "source": "auto"
       },
       {
         "date": "2026-08-27",
         "type": "エリア制限",
-        "note": "2Fボルダー「Tokyo Cave ～ DEBUT」セット作業のため利用不可",
+        "note": "2階ボルダー\"Tokyo Cave～DEBUT\"セット（8/27 12:00 CLOSE ～ 8/28 18:00 OPEN）",
         "source_url": "https://b-camp.jp/edogawabashi/route/",
-        "published": "2026-08-26",
+        "published": "2026-09-03",
         "source": "auto"
       },
       {
         "date": "2026-08-28",
         "type": "エリア制限",
-        "note": "2Fボルダー「Tokyo Cave ～ DEBUT」セット作業のため利用不可",
+        "note": "2階ボルダー\"Tokyo Cave～DEBUT\"セット（8/27 12:00 CLOSE ～ 8/28 18:00 OPEN）",
         "source_url": "https://b-camp.jp/edogawabashi/route/",
-        "published": "2026-08-26",
+        "published": "2026-09-03",
         "source": "auto"
       },
       {
         "date": "2026-08-30",
         "type": "エリア制限",
-        "note": "1階ボルダーエリア全体及び地下リードエリアリニューアル作業のため利用不可",
+        "note": "1階ボルダーエリア全体セット、地下リードエリアホールド洗い作業（8/30 18:00 CLOSE ～ 9/1 18:00 OPEN）",
         "source_url": "https://b-camp.jp/edogawabashi/route/",
-        "published": "2026-08-26",
+        "published": "2026-09-03",
         "source": "auto"
       },
       {
         "date": "2026-08-31",
         "type": "エリア制限",
-        "note": "1階ボルダーエリア全体リニューアル作業のため利用不可",
+        "note": "1階ボルダーエリア全体セット（8/30 18:00 CLOSE ～ 9/1 18:00 OPEN）",
         "source_url": "https://b-camp.jp/edogawabashi/route/",
-        "published": "2026-08-26",
+        "published": "2026-09-03",
         "source": "auto"
       },
       {
         "date": "2026-09-01",
         "type": "エリア制限",
-        "note": "1階ボルダーエリア全体リニューアル作業のため利用不可",
+        "note": "1階ボルダーエリア全体セット（8/30 18:00 CLOSE ～ 9/1 18:00 OPEN）",
         "source_url": "https://b-camp.jp/edogawabashi/route/",
-        "published": "2026-08-26",
+        "published": "2026-09-03",
+        "source": "auto"
+      },
+      {
+        "date": "2026-09-14",
+        "type": "エリア制限",
+        "note": "地下ルートクライミングエリア 終日封鎖",
+        "source_url": "https://b-camp.jp/edogawabashi/pickup/",
+        "published": "2026-09-03",
+        "source": "auto"
+      },
+      {
+        "date": "2026-09-15",
+        "type": "エリア制限",
+        "note": "Cascade Left 終日封鎖",
+        "source_url": "https://b-camp.jp/edogawabashi/pickup/",
+        "published": "2026-09-03",
+        "source": "auto"
+      },
+      {
+        "date": "2026-09-16",
+        "type": "エリア制限",
+        "note": "Cascade Left 終日封鎖",
+        "source_url": "https://b-camp.jp/edogawabashi/pickup/",
+        "published": "2026-09-03",
+        "source": "auto"
+      },
+      {
+        "date": "2026-09-17",
+        "type": "エリア制限",
+        "note": "Cascade Left 終日封鎖",
+        "source_url": "https://b-camp.jp/edogawabashi/pickup/",
+        "published": "2026-09-03",
         "source": "auto"
       }
     ]
@@ -3106,7 +3082,7 @@
     "official_url": "https://b-camp.jp/kinshicho/",
     "instagram_url": "https://www.instagram.com/basecamp_kinshicho/",
     "fetch_status": "success",
-    "fetched_at": "2026-09-02T07:34:17+09:00",
+    "fetched_at": "2026-09-03T02:49:22+09:00",
     "last_changed_at": "2026-08-26T23:19:37+09:00",
     "events": [
       {
@@ -3228,6 +3204,14 @@
         "source_url": "https://b-camp.jp/kinshicho/route/",
         "published": "2026-08-26",
         "source": "auto"
+      },
+      {
+        "date": "2026-09-17",
+        "type": "エリア制限",
+        "note": "9月リードエリア\"Rostrum\"リニューアルセット（9/16-18 18:00まで）",
+        "source_url": "https://b-camp.jp/kinshicho/route/",
+        "published": "2026-08-26",
+        "source": "auto"
       }
     ]
   },
@@ -3259,7 +3243,7 @@
     "official_url": "https://b-camp.jp/higashimurayama/",
     "instagram_url": "https://www.instagram.com/basecamp_higashimurayama/",
     "fetch_status": "success",
-    "fetched_at": "2026-09-02T07:34:26+09:00",
+    "fetched_at": "2026-09-03T02:49:29+09:00",
     "last_changed_at": "2026-08-26T23:19:37+09:00",
     "events": [
       {
@@ -3388,7 +3372,7 @@
     "official_url": "https://b-camp.jp/kawagoe/",
     "instagram_url": "https://www.instagram.com/basecamp_kawagoe/",
     "fetch_status": "success",
-    "fetched_at": "2026-09-02T07:34:36+09:00",
+    "fetched_at": "2026-09-03T02:49:38+09:00",
     "last_changed_at": "2026-08-29T06:59:16+09:00",
     "events": [
       {
