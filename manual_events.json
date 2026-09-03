@@ -943,6 +943,110 @@
       "note": "セット ・Welcome ・Happiness / 終日休業",
       "source_url": null,
       "published": "2026-08-30"
+    },
+    {
+      "gym_id": "dbc-tachikawa",
+      "date": "2026-09-08",
+      "type": "エリア制限",
+      "note": "エリアA、Bセット",
+      "source_url": null,
+      "published": "2026-09-03"
+    },
+    {
+      "gym_id": "dbc-tachikawa",
+      "date": "2026-09-09",
+      "type": "エリア制限",
+      "note": "エリアA、Bセット",
+      "source_url": null,
+      "published": "2026-09-03"
+    },
+    {
+      "gym_id": "dbc-tachikawa",
+      "date": "2026-09-10",
+      "type": "エリア制限",
+      "note": "エリアA、Bセット",
+      "source_url": null,
+      "published": "2026-09-03"
+    },
+    {
+      "gym_id": "dbc-tachikawa",
+      "date": "2026-09-11",
+      "type": "エリア制限",
+      "note": "エリアA、Bセット",
+      "source_url": null,
+      "published": "2026-09-03"
+    },
+    {
+      "gym_id": "dbc-yokohama",
+      "date": "2026-09-01",
+      "type": "イベント",
+      "note": "50,000本チャレンジ景品抽選会 15:00〜",
+      "source_url": null,
+      "published": "2026-09-03"
+    },
+    {
+      "gym_id": "dbc-yokohama",
+      "date": "2026-09-06",
+      "type": "イベント",
+      "note": "アロママッサージ体験会",
+      "source_url": null,
+      "published": "2026-09-03"
+    },
+    {
+      "gym_id": "dbc-yokohama",
+      "date": "2026-09-06",
+      "type": "エリア制限",
+      "note": "ビギナー壁ホールド外し 18:00〜",
+      "source_url": null,
+      "published": "2026-09-03"
+    },
+    {
+      "gym_id": "dbc-yokohama",
+      "date": "2026-09-07",
+      "type": "エリア制限",
+      "note": "ビギナー壁セット 完了次第解放",
+      "source_url": null,
+      "published": "2026-09-03"
+    },
+    {
+      "gym_id": "dbc-yokohama",
+      "date": "2026-09-13",
+      "type": "時間変更",
+      "note": "全面ホールド外しのため10:00〜16:00営業",
+      "source_url": null,
+      "published": "2026-09-03"
+    },
+    {
+      "gym_id": "dbc-yokohama",
+      "date": "2026-09-14",
+      "type": "休業",
+      "note": "全面セットのため終日休業",
+      "source_url": null,
+      "published": "2026-09-03"
+    },
+    {
+      "gym_id": "dbc-yokohama",
+      "date": "2026-09-15",
+      "type": "休業",
+      "note": "全面セットのため終日休業",
+      "source_url": null,
+      "published": "2026-09-03"
+    },
+    {
+      "gym_id": "dbc-yokohama",
+      "date": "2026-09-16",
+      "type": "時間変更",
+      "note": "新セット準備のため18:00〜23:00営業",
+      "source_url": null,
+      "published": "2026-09-03"
+    },
+    {
+      "gym_id": "dbc-yokohama",
+      "date": "2026-09-26",
+      "type": "イベント",
+      "note": "アロママッサージ講習会",
+      "source_url": null,
+      "published": "2026-09-03"
     }
   ],
   "coverage": {
