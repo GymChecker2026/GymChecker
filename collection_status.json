@@ -1,127 +1,141 @@
 [
   {
     "gym_id": "noborock-shinjuku",
-    "status": "success",
-    "fetched_at": "2026-09-05T02:45:58+09:00"
+    "status": "failure",
+    "fetched_at": "2026-09-05T07:29:52+09:00",
+    "error": "HTTPSConnectionPool(host='noborock-climbing.com', port=443): Max retries exceeded with url: /program/%E6%96%B0%E5%AE%BF%E5%BA%97/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='noborock-climbing.com', port=443) at 0x7f542c9004d0>, 'Connection to noborock-climbing.com timed out. (connect timeout=10)'))"
   },
   {
     "gym_id": "noborock-shibuya",
-    "status": "success",
-    "fetched_at": "2026-09-05T02:45:59+09:00"
+    "status": "failure",
+    "fetched_at": "2026-09-05T07:30:33+09:00",
+    "error": "HTTPSConnectionPool(host='noborock-climbing.com', port=443): Max retries exceeded with url: /program/shibuya/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='noborock-climbing.com', port=443) at 0x7f542ca7b0e0>, 'Connection to noborock-climbing.com timed out. (connect timeout=10)'))"
   },
   {
     "gym_id": "noborock-takadanobaba",
-    "status": "success",
-    "fetched_at": "2026-09-05T02:46:12+09:00"
+    "status": "failure",
+    "fetched_at": "2026-09-05T07:31:16+09:00",
+    "error": "noborock-climbing.com への接続が連続2回タイムアウトしたためスキップ",
+    "reason": "host_blocked"
   },
   {
     "gym_id": "noborock-asakusa",
-    "status": "success",
-    "fetched_at": "2026-09-05T02:46:17+09:00"
+    "status": "failure",
+    "fetched_at": "2026-09-05T07:31:16+09:00",
+    "error": "noborock-climbing.com への接続が連続2回タイムアウトしたためスキップ",
+    "reason": "host_blocked"
   },
   {
     "gym_id": "noborock-ikebukuro",
-    "status": "success",
-    "fetched_at": "2026-09-05T02:46:18+09:00"
+    "status": "failure",
+    "fetched_at": "2026-09-05T07:31:16+09:00",
+    "error": "noborock-climbing.com への接続が連続2回タイムアウトしたためスキップ",
+    "reason": "host_blocked"
   },
   {
     "gym_id": "noborock-machida",
-    "status": "success",
-    "fetched_at": "2026-09-05T02:46:27+09:00"
+    "status": "failure",
+    "fetched_at": "2026-09-05T07:31:16+09:00",
+    "error": "noborock-climbing.com への接続が連続2回タイムアウトしたためスキップ",
+    "reason": "host_blocked"
   },
   {
     "gym_id": "noborock-mizonokuchi",
-    "status": "success",
-    "fetched_at": "2026-09-05T02:46:28+09:00"
+    "status": "failure",
+    "fetched_at": "2026-09-05T07:31:16+09:00",
+    "error": "noborock-climbing.com への接続が連続2回タイムアウトしたためスキップ",
+    "reason": "host_blocked"
   },
   {
     "gym_id": "noborock-omiya",
-    "status": "success",
-    "fetched_at": "2026-09-05T02:46:31+09:00"
+    "status": "failure",
+    "fetched_at": "2026-09-05T07:31:16+09:00",
+    "error": "noborock-climbing.com への接続が連続2回タイムアウトしたためスキップ",
+    "reason": "host_blocked"
   },
   {
     "gym_id": "dbc-tachikawa",
     "status": "success",
-    "fetched_at": "2026-09-05T02:46:39+09:00"
+    "fetched_at": "2026-09-05T07:31:16+09:00"
   },
   {
     "gym_id": "dbc-tamachi",
     "status": "success",
-    "fetched_at": "2026-09-05T02:46:52+09:00"
+    "fetched_at": "2026-09-05T07:31:30+09:00"
   },
   {
     "gym_id": "dbc-tsunashima",
     "status": "success",
-    "fetched_at": "2026-09-05T02:47:07+09:00"
+    "fetched_at": "2026-09-05T07:31:44+09:00"
   },
   {
     "gym_id": "dbc-honatsugi",
     "status": "success",
-    "fetched_at": "2026-09-05T02:47:30+09:00"
+    "fetched_at": "2026-09-05T07:32:07+09:00"
   },
   {
     "gym_id": "dbc-yokohama",
     "status": "success",
-    "fetched_at": "2026-09-05T02:48:14+09:00"
+    "fetched_at": "2026-09-05T07:32:51+09:00"
   },
   {
     "gym_id": "dbc-kawasaki",
     "status": "success",
-    "fetched_at": "2026-09-05T02:48:34+09:00"
+    "fetched_at": "2026-09-05T07:33:09+09:00"
   },
   {
     "gym_id": "bpump-akihabara",
     "status": "success",
-    "fetched_at": "2026-09-05T02:48:42+09:00"
+    "fetched_at": "2026-09-05T07:33:18+09:00"
   },
   {
     "gym_id": "bpump-ogikubo",
     "status": "success",
-    "fetched_at": "2026-09-05T02:48:50+09:00"
+    "fetched_at": "2026-09-05T07:33:25+09:00"
   },
   {
     "gym_id": "bpump-yokohama",
     "status": "success",
-    "fetched_at": "2026-09-05T02:48:55+09:00"
+    "fetched_at": "2026-09-05T07:33:30+09:00"
   },
   {
     "gym_id": "bpump-kawaguchi",
     "status": "success",
-    "fetched_at": "2026-09-05T02:49:00+09:00"
+    "fetched_at": "2026-09-05T07:33:35+09:00"
   },
   {
     "gym_id": "bpump-kawasaki",
     "status": "success",
-    "fetched_at": "2026-09-05T02:49:12+09:00"
+    "fetched_at": "2026-09-05T07:33:48+09:00"
   },
   {
     "gym_id": "bc-shinjuku",
     "status": "success",
-    "fetched_at": "2026-09-05T02:49:18+09:00"
+    "fetched_at": "2026-09-05T07:33:53+09:00"
   },
   {
     "gym_id": "bc-shinbashi",
     "status": "success",
-    "fetched_at": "2026-09-05T02:49:22+09:00"
+    "fetched_at": "2026-09-05T07:33:58+09:00"
   },
   {
     "gym_id": "bc-edogawabashi",
     "status": "success",
-    "fetched_at": "2026-09-05T02:49:31+09:00"
+    "fetched_at": "2026-09-05T07:34:07+09:00"
   },
   {
     "gym_id": "bc-kinshicho",
     "status": "success",
-    "fetched_at": "2026-09-05T02:49:37+09:00"
+    "fetched_at": "2026-09-05T07:34:14+09:00"
   },
   {
     "gym_id": "bc-higashimurayama",
     "status": "success",
-    "fetched_at": "2026-09-05T02:49:45+09:00"
+    "fetched_at": "2026-09-05T07:34:22+09:00"
   },
   {
     "gym_id": "bc-kawagoe",
     "status": "success",
-    "fetched_at": "2026-09-05T02:49:54+09:00"
+    "fetched_at": "2026-09-05T07:34:31+09:00"
   }
 ]
