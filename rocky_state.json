@@ -32,12 +32,12 @@
     "sha256": "8ca8632f744d5856b0d6648efadf10639af87b1d69660a368f846cd7f25b1e4f"
   },
   "rocky-tsukuba:0": {
-    "url": "https://www.rockyclimbing.com/img/set_171.png",
-    "sha256": "f510c2674a97e76538f5b0e9c12eb16a1c694a89ba8d93c2cfcb9db2150579ad"
-  },
-  "rocky-tsukuba:1": {
     "url": "https://www.rockyclimbing.com/img/set_178.png",
     "sha256": "72452e0f0f80249cb5978b99003772998f34702fb6d7a52913e756de75551cad"
+  },
+  "rocky-tsukuba:1": {
+    "url": "https://www.rockyclimbing.com/img/set_184.png",
+    "sha256": "0dc62788720645e662a4e36218c91ee7f2b6e054e4ce622e93f856e761f4260c"
   },
   "rocky-funabashi:0": {
     "url": "https://www.rockyclimbing.com/img/set_176.png",

@@ -403,9 +403,9 @@
       "gym_id": "rocky-tsukuba",
       "date": "2026-08-13",
       "type": "エリア制限",
-      "note": "ホールド外し ・Cube ・Laputa / 10:00~21:00（外しエリアは17時以降登れません）",
+      "note": "ホールド外し ・Cube ・Laputa / 10:00~21:00 (外しエリアは17時以降登れません)",
       "source_url": null,
-      "published": "2026-08-26"
+      "published": "2026-09-05"
     },
     {
       "gym_id": "dbc-tachikawa",
@@ -419,9 +419,9 @@
       "gym_id": "rocky-tsukuba",
       "date": "2026-08-14",
       "type": "セット完了",
-      "note": "セット ・Cube ・Laputa / 10:00~23:00（セットエリアは19時から登れます）",
+      "note": "セット ・Cube ・Laputa / 10:00~23:00 (セットエリアは19時から登れます)",
       "source_url": null,
-      "published": "2026-08-26"
+      "published": "2026-09-05"
     },
     {
       "gym_id": "rocky-inzai",
@@ -437,7 +437,7 @@
       "type": "時間変更",
       "note": "貸切営業あり 【短縮営業】 11：00〜21：00 / 11：00〜21：00（貸切営業のため）",
       "source_url": null,
-      "published": "2026-08-26"
+      "published": "2026-09-05"
     },
     {
       "gym_id": "dbc-kawasaki",
@@ -636,9 +636,9 @@
       "gym_id": "rocky-tsukuba",
       "date": "2026-08-27",
       "type": "エリア制限",
-      "note": "ホールド外し ・Tower ・Eagle ・Abyss / 10:00~21:00（外しエリアは17時以降登れません）",
+      "note": "ホールド外し ・Tower ・Eagle ・Abyss / 10:00~21:00 (外しエリアは17時以降登れません)",
       "source_url": null,
-      "published": "2026-08-26"
+      "published": "2026-09-05"
     },
     {
       "gym_id": "dbc-tachikawa",
@@ -652,9 +652,9 @@
       "gym_id": "rocky-tsukuba",
       "date": "2026-08-28",
       "type": "セット完了",
-      "note": "セット ・Tower ・Eagle ・Abyss / 10:00~23:00（セットエリアは19時から登れます）",
+      "note": "セット ・Tower ・Eagle ・Abyss / 10:00~23:00 (セットエリアは19時から登れます)",
       "source_url": null,
-      "published": "2026-08-26"
+      "published": "2026-09-05"
     },
     {
       "gym_id": "dbc-kawasaki",
@@ -721,6 +721,14 @@
       "published": "2026-08-31"
     },
     {
+      "gym_id": "dbc-yokohama",
+      "date": "2026-09-01",
+      "type": "イベント",
+      "note": "50,000本チャレンジ景品抽選会 15:00〜",
+      "source_url": null,
+      "published": "2026-09-03"
+    },
+    {
       "gym_id": "dbc-tachikawa",
       "date": "2026-09-02",
       "type": "時間変更",
@@ -753,6 +761,62 @@
       "published": "2026-08-26"
     },
     {
+      "gym_id": "dbc-hachioji",
+      "date": "2026-09-06",
+      "type": "エリア制限",
+      "note": "ルーフ外し 18:00〜",
+      "source_url": null,
+      "published": "2026-09-03"
+    },
+    {
+      "gym_id": "dbc-yokohama",
+      "date": "2026-09-06",
+      "type": "イベント",
+      "note": "アロママッサージ体験会",
+      "source_url": null,
+      "published": "2026-09-03"
+    },
+    {
+      "gym_id": "dbc-yokohama",
+      "date": "2026-09-06",
+      "type": "エリア制限",
+      "note": "ビギナー壁ホールド外し 18:00〜",
+      "source_url": null,
+      "published": "2026-09-03"
+    },
+    {
+      "gym_id": "dbc-hachioji",
+      "date": "2026-09-07",
+      "type": "エリア制限",
+      "note": "ルーフセット Day1",
+      "source_url": null,
+      "published": "2026-09-03"
+    },
+    {
+      "gym_id": "dbc-yokohama",
+      "date": "2026-09-07",
+      "type": "エリア制限",
+      "note": "ビギナー壁セット 完了次第解放",
+      "source_url": null,
+      "published": "2026-09-03"
+    },
+    {
+      "gym_id": "dbc-hachioji",
+      "date": "2026-09-08",
+      "type": "エリア制限",
+      "note": "ルーフセット Day2",
+      "source_url": null,
+      "published": "2026-09-03"
+    },
+    {
+      "gym_id": "dbc-tachikawa",
+      "date": "2026-09-08",
+      "type": "エリア制限",
+      "note": "エリアA、Bセット",
+      "source_url": null,
+      "published": "2026-09-03"
+    },
+    {
       "gym_id": "rocky-inzai",
       "date": "2026-09-08",
       "type": "エリア制限",
@@ -761,12 +825,28 @@
       "published": "2026-08-26"
     },
     {
+      "gym_id": "dbc-tachikawa",
+      "date": "2026-09-09",
+      "type": "エリア制限",
+      "note": "エリアA、Bセット",
+      "source_url": null,
+      "published": "2026-09-03"
+    },
+    {
       "gym_id": "rocky-inzai",
       "date": "2026-09-09",
       "type": "セット完了",
       "note": "セット STAR / 10:00~23:00 (セットエリアは19時から登れます)",
       "source_url": null,
       "published": "2026-08-26"
+    },
+    {
+      "gym_id": "dbc-tachikawa",
+      "date": "2026-09-10",
+      "type": "エリア制限",
+      "note": "エリアA、Bセット",
+      "source_url": null,
+      "published": "2026-09-03"
     },
     {
       "gym_id": "rocky-funabashi",
@@ -785,12 +865,36 @@
       "published": "2026-09-01"
     },
     {
+      "gym_id": "rocky-tsukuba",
+      "date": "2026-09-10",
+      "type": "エリア制限",
+      "note": "ホールド外し Super Cave WelcomeA WelcomeB / 10:00-23:00 (外しエリアは17時以降登れません)",
+      "source_url": null,
+      "published": "2026-09-05"
+    },
+    {
+      "gym_id": "dbc-tachikawa",
+      "date": "2026-09-11",
+      "type": "エリア制限",
+      "note": "エリアA、Bセット",
+      "source_url": null,
+      "published": "2026-09-03"
+    },
+    {
       "gym_id": "rocky-shinagawa",
       "date": "2026-09-11",
       "type": "イベント",
       "note": "SHINA ROCKY'S Open to anyone regardless of level :) Fun 18:30~20:30",
       "source_url": null,
       "published": "2026-09-01"
+    },
+    {
+      "gym_id": "rocky-tsukuba",
+      "date": "2026-09-11",
+      "type": "セット完了",
+      "note": "セット Super Cave WelcomeA WelcomeB / 10:00-23:00 (セットエリアは19時から登れます)",
+      "source_url": null,
+      "published": "2026-09-05"
     },
     {
       "gym_id": "rocky-ryogoku",
@@ -801,12 +905,36 @@
       "published": "2026-08-30"
     },
     {
+      "gym_id": "rocky-tsukuba",
+      "date": "2026-09-12",
+      "type": "時間変更",
+      "note": "貸切営業あり 【短縮営業】 13：00〜21：00 / 13：00〜21：00(貸切営業のため)",
+      "source_url": null,
+      "published": "2026-09-05"
+    },
+    {
+      "gym_id": "dbc-yokohama",
+      "date": "2026-09-13",
+      "type": "時間変更",
+      "note": "全面ホールド外しのため10:00〜16:00営業",
+      "source_url": null,
+      "published": "2026-09-03"
+    },
+    {
       "gym_id": "rocky-shinagawa",
       "date": "2026-09-13",
       "type": "エリア制限",
       "note": "ホールド外し ・Step up ・Box ・Fly / 10:00~21:00 (外しエリアは17時以降登れません)",
       "source_url": null,
       "published": "2026-09-01"
+    },
+    {
+      "gym_id": "dbc-yokohama",
+      "date": "2026-09-14",
+      "type": "休業",
+      "note": "全面セットのため終日休業",
+      "source_url": null,
+      "published": "2026-09-03"
     },
     {
       "gym_id": "rocky-inzai",
@@ -825,12 +953,28 @@
       "published": "2026-09-01"
     },
     {
+      "gym_id": "dbc-yokohama",
+      "date": "2026-09-15",
+      "type": "休業",
+      "note": "全面セットのため終日休業",
+      "source_url": null,
+      "published": "2026-09-03"
+    },
+    {
       "gym_id": "rocky-funabashi",
       "date": "2026-09-15",
       "type": "エリア制限",
       "note": "ホールド外し ・BombLeft ・Welcome / 10:00~23:00 (外しエリアは17時以降登れません)",
       "source_url": null,
       "published": "2026-08-31"
+    },
+    {
+      "gym_id": "dbc-yokohama",
+      "date": "2026-09-16",
+      "type": "時間変更",
+      "note": "新セット準備のため18:00〜23:00営業",
+      "source_url": null,
+      "published": "2026-09-03"
     },
     {
       "gym_id": "rocky-funabashi",
@@ -865,12 +1009,28 @@
       "published": "2026-08-26"
     },
     {
+      "gym_id": "dbc-hachioji",
+      "date": "2026-09-23",
+      "type": "エリア制限",
+      "note": "スラブ外し 18:00〜",
+      "source_url": null,
+      "published": "2026-09-03"
+    },
+    {
       "gym_id": "rocky-inzai",
       "date": "2026-09-23",
       "type": "イベント",
       "note": "いろは農園 11:00~17:00",
       "source_url": null,
       "published": "2026-08-26"
+    },
+    {
+      "gym_id": "dbc-hachioji",
+      "date": "2026-09-24",
+      "type": "エリア制限",
+      "note": "スラブセット Day1",
+      "source_url": null,
+      "published": "2026-09-03"
     },
     {
       "gym_id": "rocky-funabashi",
@@ -881,12 +1041,44 @@
       "published": "2026-08-31"
     },
     {
+      "gym_id": "rocky-tsukuba",
+      "date": "2026-09-24",
+      "type": "エリア制限",
+      "note": "ホールド外し Cube Laputa / 10:00-23:00 (外しエリアは17時以降登れません)",
+      "source_url": null,
+      "published": "2026-09-05"
+    },
+    {
+      "gym_id": "dbc-hachioji",
+      "date": "2026-09-25",
+      "type": "エリア制限",
+      "note": "スラブセット Day2",
+      "source_url": null,
+      "published": "2026-09-03"
+    },
+    {
       "gym_id": "rocky-inzai",
       "date": "2026-09-25",
       "type": "イベント",
       "note": "193in spray",
       "source_url": null,
       "published": "2026-08-26"
+    },
+    {
+      "gym_id": "rocky-tsukuba",
+      "date": "2026-09-25",
+      "type": "セット完了",
+      "note": "セット Cube Laputa / 10:00-23:00 (セットエリアは19時から登れます)",
+      "source_url": null,
+      "published": "2026-09-05"
+    },
+    {
+      "gym_id": "dbc-yokohama",
+      "date": "2026-09-26",
+      "type": "イベント",
+      "note": "アロママッサージ講習会",
+      "source_url": null,
+      "published": "2026-09-03"
     },
     {
       "gym_id": "rocky-shinagawa",
@@ -943,158 +1135,6 @@
       "note": "セット ・Welcome ・Happiness / 終日休業",
       "source_url": null,
       "published": "2026-08-30"
-    },
-    {
-      "gym_id": "dbc-tachikawa",
-      "date": "2026-09-08",
-      "type": "エリア制限",
-      "note": "エリアA、Bセット",
-      "source_url": null,
-      "published": "2026-09-03"
-    },
-    {
-      "gym_id": "dbc-tachikawa",
-      "date": "2026-09-09",
-      "type": "エリア制限",
-      "note": "エリアA、Bセット",
-      "source_url": null,
-      "published": "2026-09-03"
-    },
-    {
-      "gym_id": "dbc-tachikawa",
-      "date": "2026-09-10",
-      "type": "エリア制限",
-      "note": "エリアA、Bセット",
-      "source_url": null,
-      "published": "2026-09-03"
-    },
-    {
-      "gym_id": "dbc-tachikawa",
-      "date": "2026-09-11",
-      "type": "エリア制限",
-      "note": "エリアA、Bセット",
-      "source_url": null,
-      "published": "2026-09-03"
-    },
-    {
-      "gym_id": "dbc-yokohama",
-      "date": "2026-09-01",
-      "type": "イベント",
-      "note": "50,000本チャレンジ景品抽選会 15:00〜",
-      "source_url": null,
-      "published": "2026-09-03"
-    },
-    {
-      "gym_id": "dbc-yokohama",
-      "date": "2026-09-06",
-      "type": "イベント",
-      "note": "アロママッサージ体験会",
-      "source_url": null,
-      "published": "2026-09-03"
-    },
-    {
-      "gym_id": "dbc-yokohama",
-      "date": "2026-09-06",
-      "type": "エリア制限",
-      "note": "ビギナー壁ホールド外し 18:00〜",
-      "source_url": null,
-      "published": "2026-09-03"
-    },
-    {
-      "gym_id": "dbc-yokohama",
-      "date": "2026-09-07",
-      "type": "エリア制限",
-      "note": "ビギナー壁セット 完了次第解放",
-      "source_url": null,
-      "published": "2026-09-03"
-    },
-    {
-      "gym_id": "dbc-yokohama",
-      "date": "2026-09-13",
-      "type": "時間変更",
-      "note": "全面ホールド外しのため10:00〜16:00営業",
-      "source_url": null,
-      "published": "2026-09-03"
-    },
-    {
-      "gym_id": "dbc-yokohama",
-      "date": "2026-09-14",
-      "type": "休業",
-      "note": "全面セットのため終日休業",
-      "source_url": null,
-      "published": "2026-09-03"
-    },
-    {
-      "gym_id": "dbc-yokohama",
-      "date": "2026-09-15",
-      "type": "休業",
-      "note": "全面セットのため終日休業",
-      "source_url": null,
-      "published": "2026-09-03"
-    },
-    {
-      "gym_id": "dbc-yokohama",
-      "date": "2026-09-16",
-      "type": "時間変更",
-      "note": "新セット準備のため18:00〜23:00営業",
-      "source_url": null,
-      "published": "2026-09-03"
-    },
-    {
-      "gym_id": "dbc-yokohama",
-      "date": "2026-09-26",
-      "type": "イベント",
-      "note": "アロママッサージ講習会",
-      "source_url": null,
-      "published": "2026-09-03"
-    },
-    {
-      "gym_id": "dbc-hachioji",
-      "date": "2026-09-06",
-      "type": "エリア制限",
-      "note": "ルーフ外し 18:00〜",
-      "source_url": null,
-      "published": "2026-09-03"
-    },
-    {
-      "gym_id": "dbc-hachioji",
-      "date": "2026-09-07",
-      "type": "エリア制限",
-      "note": "ルーフセット Day1",
-      "source_url": null,
-      "published": "2026-09-03"
-    },
-    {
-      "gym_id": "dbc-hachioji",
-      "date": "2026-09-08",
-      "type": "エリア制限",
-      "note": "ルーフセット Day2",
-      "source_url": null,
-      "published": "2026-09-03"
-    },
-    {
-      "gym_id": "dbc-hachioji",
-      "date": "2026-09-23",
-      "type": "エリア制限",
-      "note": "スラブ外し 18:00〜",
-      "source_url": null,
-      "published": "2026-09-03"
-    },
-    {
-      "gym_id": "dbc-hachioji",
-      "date": "2026-09-24",
-      "type": "エリア制限",
-      "note": "スラブセット Day1",
-      "source_url": null,
-      "published": "2026-09-03"
-    },
-    {
-      "gym_id": "dbc-hachioji",
-      "date": "2026-09-25",
-      "type": "エリア制限",
-      "note": "スラブセット Day2",
-      "source_url": null,
-      "published": "2026-09-03"
     }
   ],
   "coverage": {
