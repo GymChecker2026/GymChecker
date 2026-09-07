@@ -2029,9 +2029,9 @@
     "date": "2026-09-06",
     "type": "時間変更",
     "note": "17:00 close",
-    "gym_name": "池袋",
+    "gym_name": "池袋店",
     "source_url": "https://noborock-climbing.com/program/ikebukuro/",
-    "published": "2026-09-07"
+    "published": "2026-09-08"
   },
   {
     "gym_id": "noborock-asakusa",
@@ -2046,10 +2046,10 @@
     "gym_id": "noborock-ikebukuro",
     "date": "2026-09-07",
     "type": "エリア制限",
-    "note": "休業【ルートセット】",
+    "note": "ルートセット",
     "gym_name": "池袋店",
-    "source_url": "https://noborock-climbing.com/program/新宿店/",
-    "published": "2026-09-02"
+    "source_url": "https://noborock-climbing.com/program/ikebukuro/",
+    "published": "2026-09-08"
   },
   {
     "gym_id": "noborock-asakusa",
@@ -2065,9 +2065,9 @@
     "date": "2026-09-08",
     "type": "時間変更",
     "note": "18:30 open",
-    "gym_name": "池袋",
+    "gym_name": "池袋店",
     "source_url": "https://noborock-climbing.com/program/ikebukuro/",
-    "published": "2026-09-07"
+    "published": "2026-09-08"
   },
   {
     "gym_id": "noborock-asakusa",
@@ -2148,7 +2148,7 @@
     "note": "17:00 close",
     "gym_name": "渋谷店",
     "source_url": "https://noborock-climbing.com/program/shibuya/",
-    "published": "2026-09-07"
+    "published": "2026-09-08"
   },
   {
     "gym_id": "noborock-shinjuku",
@@ -2184,7 +2184,7 @@
     "note": "18:30 open",
     "gym_name": "渋谷店",
     "source_url": "https://noborock-climbing.com/program/shibuya/",
-    "published": "2026-09-07"
+    "published": "2026-09-08"
   },
   {
     "gym_id": "noborock-takadanobaba",
@@ -2202,7 +2202,7 @@
     "note": "ルートセット完了",
     "gym_name": "渋谷店",
     "source_url": "https://noborock-climbing.com/program/shibuya/",
-    "published": "2026-09-07"
+    "published": "2026-09-08"
   },
   {
     "gym_id": "noborock-shibuya",
@@ -2211,7 +2211,16 @@
     "note": "ルートセット",
     "gym_name": "渋谷店",
     "source_url": "https://noborock-climbing.com/program/shibuya/",
-    "published": "2026-09-07"
+    "published": "2026-09-08"
+  },
+  {
+    "gym_id": "noborock-shinjuku",
+    "date": "2026-09-24",
+    "type": "休業",
+    "note": "ルートセット",
+    "gym_name": "新宿店",
+    "source_url": "https://noborock-climbing.com/program/shibuya/",
+    "published": "2026-09-08"
   },
   {
     "gym_id": "noborock-shibuya",
@@ -2220,16 +2229,16 @@
     "note": "1F 14:00 open、B1 18:00 open",
     "gym_name": "渋谷店",
     "source_url": "https://noborock-climbing.com/program/shibuya/",
-    "published": "2026-09-07"
+    "published": "2026-09-08"
   },
   {
     "gym_id": "noborock-ikebukuro",
     "date": "2026-09-07",
     "type": "休業",
     "note": "ルートセット",
-    "gym_name": "池袋",
-    "source_url": "https://noborock-climbing.com/program/ikebukuro/",
-    "published": "2026-09-07"
+    "gym_name": "池袋店",
+    "source_url": "https://noborock-climbing.com/program/shibuya/",
+    "published": "2026-09-08"
   },
   {
     "gym_id": "noborock-asakusa",
@@ -2257,15 +2266,6 @@
     "gym_name": "町田店",
     "source_url": "https://noborock-climbing.com/program/machida/",
     "published": "2026-09-02"
-  },
-  {
-    "gym_id": "noborock-shinjuku",
-    "date": "2026-09-24",
-    "type": "休業",
-    "note": "ルートセット",
-    "gym_name": "新宿店",
-    "source_url": "https://noborock-climbing.com/program/shibuya/",
-    "published": "2026-09-07"
   },
   {
     "gym_id": "noborock-omiya",
@@ -2472,7 +2472,7 @@
     "note": "ルートセット完了",
     "gym_name": "池袋店",
     "source_url": "https://noborock-climbing.com/program/ikebukuro/",
-    "published": "2026-09-07"
+    "published": "2026-09-08"
   },
   {
     "gym_id": "noborock-ikebukuro",
@@ -2481,7 +2481,7 @@
     "note": "17:00 close",
     "gym_name": "池袋店",
     "source_url": "https://noborock-climbing.com/program/ikebukuro/",
-    "published": "2026-09-07"
+    "published": "2026-09-08"
   },
   {
     "gym_id": "noborock-ikebukuro",
@@ -2490,7 +2490,7 @@
     "note": "",
     "gym_name": "池袋店",
     "source_url": "https://noborock-climbing.com/program/ikebukuro/",
-    "published": "2026-09-07"
+    "published": "2026-09-08"
   },
   {
     "gym_id": "noborock-ikebukuro",
@@ -2499,7 +2499,7 @@
     "note": "18:30 open",
     "gym_name": "池袋店",
     "source_url": "https://noborock-climbing.com/program/ikebukuro/",
-    "published": "2026-09-07"
+    "published": "2026-09-08"
   },
   {
     "gym_id": "noborock-machida",
