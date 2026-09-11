@@ -298,6 +298,15 @@
   },
   {
     "gym_id": "bpump-akihabara",
+    "date": "2026-09-11",
+    "type": "セット完了",
+    "note": "2F COMPETITION WALL -RIGHT SIDE- セット完了（4Qから2Dまで全15本）",
+    "gym_name": null,
+    "source_url": "https://pump-climbing.com/gym/akiba/2f-competition-wall-rightside-%e3%82%bb%e3%83%83%e3%83%88%e5%ae%8c%e4%ba%86%ef%bc%81%ef%bc%81/blog-news/",
+    "published": "2026-09-11"
+  },
+  {
+    "gym_id": "bpump-akihabara",
     "date": "2026-09-10",
     "type": "エリア制限",
     "note": "2F COMPETITION WALL -RIGHT SIDE- ホールド外し 21:00-",
@@ -520,60 +529,6 @@
     "gym_name": null,
     "source_url": "https://pump-climbing.com/gym/akiba/3f-back-roof-%e3%82%bb%e3%83%83%e3%83%88%e5%ae%8c%e4%ba%86%e3%81%a7%e3%81%99%ef%bc%81-2/blog-news/",
     "published": "2026-07-31"
-  },
-  {
-    "gym_id": "bpump-akihabara",
-    "date": "2026-08-03",
-    "type": "休業",
-    "note": "ホールド外し",
-    "gym_name": null,
-    "source_url": "https://pump-climbing.com/gym/akiba/%e6%ac%a1%e9%80%b1%e3%82%bb%e3%83%83%e3%83%88%e6%83%85%e5%a0%b1-%e2%96%b7%e3%80%982f-c-wall-right-side-%e3%80%99/blog-news/",
-    "published": "2026-07-28"
-  },
-  {
-    "gym_id": "bpump-akihabara",
-    "date": "2026-08-04",
-    "type": "エリア制限",
-    "note": "メンテナンス",
-    "gym_name": null,
-    "source_url": "https://pump-climbing.com/gym/akiba/%e6%ac%a1%e9%80%b1%e3%82%bb%e3%83%83%e3%83%88%e6%83%85%e5%a0%b1-%e2%96%b7%e3%80%982f-c-wall-right-side-%e3%80%99/blog-news/",
-    "published": "2026-07-28"
-  },
-  {
-    "gym_id": "bpump-akihabara",
-    "date": "2026-08-05",
-    "type": "エリア制限",
-    "note": "メンテナンス",
-    "gym_name": null,
-    "source_url": "https://pump-climbing.com/gym/akiba/%e6%ac%a1%e9%80%b1%e3%82%bb%e3%83%83%e3%83%88%e6%83%85%e5%a0%b1-%e2%96%b7%e3%80%982f-c-wall-right-side-%e3%80%99/blog-news/",
-    "published": "2026-07-28"
-  },
-  {
-    "gym_id": "bpump-akihabara",
-    "date": "2026-08-06",
-    "type": "エリア制限",
-    "note": "メンテナンス",
-    "gym_name": null,
-    "source_url": "https://pump-climbing.com/gym/akiba/%e6%ac%a1%e9%80%b1%e3%82%bb%e3%83%83%e3%83%88%e6%83%85%e5%a0%b1-%e2%96%b7%e3%80%982f-c-wall-right-side-%e3%80%99/blog-news/",
-    "published": "2026-07-28"
-  },
-  {
-    "gym_id": "bpump-akihabara",
-    "date": "2026-08-07",
-    "type": "エリア制限",
-    "note": "Route Setting Day",
-    "gym_name": null,
-    "source_url": "https://pump-climbing.com/gym/akiba/%e6%ac%a1%e9%80%b1%e3%82%bb%e3%83%83%e3%83%88%e6%83%85%e5%a0%b1-%e2%96%b7%e3%80%982f-c-wall-right-side-%e3%80%99/blog-news/",
-    "published": "2026-07-28"
-  },
-  {
-    "gym_id": "bpump-akihabara",
-    "date": "2026-08-03",
-    "type": "休業",
-    "note": "施設メンテナンスのため終日休業",
-    "gym_name": null,
-    "source_url": "https://pump-climbing.com/gym/akiba/%e4%bc%91%e9%a4%a8%e6%97%a5%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b-10/blog-news/",
-    "published": "2026-07-28"
   },
   {
     "gym_id": "bpump-ogikubo",
@@ -871,24 +826,6 @@
     "gym_name": null,
     "source_url": "https://pump-climbing.com/gym/pump1/%e6%88%a6%e8%89%a6%e5%a5%a5%e5%a3%81%e3%82%bb%e3%83%83%e3%83%88%e3%82%b9%e3%82%b1%e3%82%b8%e3%83%a5%e3%83%bc%e3%83%ab/",
     "published": "2026-07-31"
-  },
-  {
-    "gym_id": "bpump-kawaguchi",
-    "date": "2026-07-28",
-    "type": "セット完了",
-    "note": "1F BOULDER NEW SET - 1階のボルダー壁に長物セット完了",
-    "gym_name": null,
-    "source_url": "https://pump-climbing.com/gym/pump1/1f%e3%83%9c%e3%83%ab%e3%83%80%e3%83%bc%e3%82%a8%e3%83%aa%e3%82%a2%e3%80%80%e9%95%b7%e7%89%a9%e3%82%bb%e3%83%83%e3%83%88%ef%bc%81/",
-    "published": "2026-07-28"
-  },
-  {
-    "gym_id": "bpump-kawaguchi",
-    "date": "2026-08-02",
-    "type": "エリア制限",
-    "note": "8月2日(日)18時より、戦艦・奥壁エリアをクローズ（8月3-5日のルートエリア：戦艦・奥壁SETに伴うホールド外し作業）",
-    "gym_name": null,
-    "source_url": "https://pump-climbing.com/gym/pump1/%f0%9f%94%a8set-information%f0%9f%94%a8-15/",
-    "published": "2026-07-28"
   },
   {
     "gym_id": "bpump-kawasaki",
@@ -2029,9 +1966,9 @@
     "date": "2026-09-06",
     "type": "時間変更",
     "note": "17:00 close",
-    "gym_name": "池袋店",
+    "gym_name": "池袋",
     "source_url": "https://noborock-climbing.com/program/ikebukuro/",
-    "published": "2026-09-11"
+    "published": "2026-09-12"
   },
   {
     "gym_id": "noborock-asakusa",
@@ -2065,9 +2002,9 @@
     "date": "2026-09-08",
     "type": "時間変更",
     "note": "18:30 open",
-    "gym_name": "池袋店",
+    "gym_name": "池袋",
     "source_url": "https://noborock-climbing.com/program/ikebukuro/",
-    "published": "2026-09-11"
+    "published": "2026-09-12"
   },
   {
     "gym_id": "noborock-asakusa",
@@ -2209,9 +2146,9 @@
     "date": "2026-09-07",
     "type": "休業",
     "note": "ルートセット",
-    "gym_name": "池袋店",
+    "gym_name": "池袋",
     "source_url": "https://noborock-climbing.com/program/ikebukuro/",
-    "published": "2026-09-11"
+    "published": "2026-09-12"
   },
   {
     "gym_id": "noborock-asakusa",
@@ -2346,7 +2283,7 @@
     "note": "ルートセット完了",
     "gym_name": "池袋店",
     "source_url": "https://noborock-climbing.com/program/ikebukuro/",
-    "published": "2026-09-11"
+    "published": "2026-09-12"
   },
   {
     "gym_id": "noborock-ikebukuro",
@@ -2355,7 +2292,7 @@
     "note": "17:00 close",
     "gym_name": "池袋店",
     "source_url": "https://noborock-climbing.com/program/ikebukuro/",
-    "published": "2026-09-11"
+    "published": "2026-09-12"
   },
   {
     "gym_id": "noborock-ikebukuro",
@@ -2364,7 +2301,7 @@
     "note": "",
     "gym_name": "池袋店",
     "source_url": "https://noborock-climbing.com/program/ikebukuro/",
-    "published": "2026-09-11"
+    "published": "2026-09-12"
   },
   {
     "gym_id": "noborock-ikebukuro",
@@ -2373,7 +2310,7 @@
     "note": "18:30 open",
     "gym_name": "池袋店",
     "source_url": "https://noborock-climbing.com/program/ikebukuro/",
-    "published": "2026-09-11"
+    "published": "2026-09-12"
   },
   {
     "gym_id": "noborock-machida",
