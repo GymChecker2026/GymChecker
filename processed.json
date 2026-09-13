@@ -1564,9 +1564,9 @@
       ]
     },
     "noborock-shibuya::https://noborock-climbing.com/program/shibuya/": {
-      "text_hash": "8f8ee53b54b5c1aba72eff35e5ba0f46936bd0861b4018dcafbe91b0f49c6052",
-      "last_changed_at": "2026-09-13T02:45:10+09:00",
-      "published": "2026-09-13",
+      "text_hash": "490c212de17e09bb7b445c53d467e507cd207deffc9cf3473e4a330b13c46c6e",
+      "last_changed_at": "2026-09-14T07:32:41+09:00",
+      "published": "2026-09-14",
       "events": [
         {
           "date": "2026-08-25",
@@ -1581,34 +1581,16 @@
           "gym_name": "渋谷店"
         },
         {
-          "date": "2026-09-23",
-          "type": "時間変更",
-          "note": "17:00 close",
-          "gym_name": "新宿店"
-        },
-        {
           "date": "2026-09-24",
           "type": "休業",
           "note": "ルートセット",
           "gym_name": "渋谷店"
         },
         {
-          "date": "2026-09-24",
-          "type": "休業",
-          "note": "ルートセット",
-          "gym_name": "新宿店"
-        },
-        {
           "date": "2026-09-25",
           "type": "時間変更",
           "note": "18:30 open",
           "gym_name": "渋谷店"
-        },
-        {
-          "date": "2026-09-25",
-          "type": "時間変更",
-          "note": "18:30 open",
-          "gym_name": "新宿店"
         },
         {
           "date": "2026-09-28",
@@ -1699,6 +1681,24 @@
           "type": "時間変更",
           "note": "18:30 open",
           "gym_name": "町田店"
+        },
+        {
+          "date": "2026-09-23",
+          "type": "時間変更",
+          "note": "17:00 close",
+          "gym_name": "新宿店"
+        },
+        {
+          "date": "2026-09-24",
+          "type": "休業",
+          "note": "ルートセット",
+          "gym_name": "新宿店"
+        },
+        {
+          "date": "2026-09-25",
+          "type": "時間変更",
+          "note": "18:30 open",
+          "gym_name": "新宿店"
         },
         {
           "date": "2026-09-28",
@@ -2017,9 +2017,9 @@
       ]
     },
     "noborock-ikebukuro::https://noborock-climbing.com/program/ikebukuro/": {
-      "text_hash": "3235ee55583811ec5c3d9500e118f9c9fdcd780cafbb35db14d1993136534c38",
-      "last_changed_at": "2026-09-13T02:45:10+09:00",
-      "published": "2026-09-13",
+      "text_hash": "c76623132de93daefdd69bea7eb6fb791e923fb2c5812d3bc3239de041fde3ca",
+      "last_changed_at": "2026-09-14T07:32:41+09:00",
+      "published": "2026-09-14",
       "events": [
         {
           "date": "2026-07-14",
@@ -2031,19 +2031,19 @@
           "date": "2026-08-11",
           "type": "時間変更",
           "note": "17:00 close",
-          "gym_name": "池袋店"
+          "gym_name": ""
         },
         {
           "date": "2026-08-12",
           "type": "休業",
           "note": "",
-          "gym_name": "池袋店"
+          "gym_name": ""
         },
         {
           "date": "2026-08-13",
           "type": "時間変更",
           "note": "18:30 open",
-          "gym_name": "池袋店"
+          "gym_name": ""
         },
         {
           "date": "2026-09-01",
@@ -2061,7 +2061,7 @@
           "date": "2026-09-06",
           "type": "時間変更",
           "note": "17:00 close",
-          "gym_name": "池袋店"
+          "gym_name": "池袋"
         },
         {
           "date": "2026-09-06",
@@ -2073,7 +2073,7 @@
           "date": "2026-09-07",
           "type": "休業",
           "note": "ルートセット",
-          "gym_name": "池袋店"
+          "gym_name": "池袋"
         },
         {
           "date": "2026-09-07",
@@ -2085,7 +2085,7 @@
           "date": "2026-09-08",
           "type": "時間変更",
           "note": "18:30 open",
-          "gym_name": "池袋店"
+          "gym_name": "池袋"
         },
         {
           "date": "2026-09-08",
