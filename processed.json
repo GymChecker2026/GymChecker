@@ -1397,6 +1397,36 @@
           "note": "2F COMPETITION WALL -LEFT SIDE- Route Setting Day"
         }
       ]
+    },
+    "https://pump-climbing.com/gym/bpump/%e3%80%90entry%e3%80%91the1-give-it-everything-vol-5/": {
+      "published": "2026-09-13",
+      "events": [
+        {
+          "date": "2026-09-13",
+          "type": "イベント",
+          "note": "THE|1 – GIVE IT EVERYTHING – Vol.5 DAY1 – aspirant – エントリー開始"
+        }
+      ]
+    },
+    "https://pump-climbing.com/gym/bpump2/1day-boulder/": {
+      "published": "2026-09-13",
+      "events": [
+        {
+          "date": "2026-09-15",
+          "type": "イベント",
+          "note": "1DAY BOULDER in 2F LEFT"
+        }
+      ]
+    },
+    "https://pump-climbing.com/gym/pump1/%e6%af%8e%e9%80%b1%e6%97%a5%e6%9b%9c%e6%97%a5%e3%81%af%e5%88%9d%e7%b4%9a%e9%81%93%e5%a0%b4%e2%80%bc/": {
+      "published": "2026-09-13",
+      "events": [
+        {
+          "date": "2026-09-20",
+          "type": "イベント",
+          "note": "初級道場 16:00-17:00 テーマ：体のひねり"
+        }
+      ]
     }
   },
   "pages": {
