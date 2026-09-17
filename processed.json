@@ -1465,6 +1465,40 @@
     "https://pump-climbing.com/gym/pump2/pjcc%e3%82%b9%e3%82%af%e3%83%bc%e3%83%ab%e6%97%a5%e7%a8%8b%e8%a1%a8%ef%bc%889%e6%9c%8816%e6%97%a5%e7%8f%be%e5%9c%a8%ef%bc%89/": {
       "published": "2026-09-16",
       "events": []
+    },
+    "https://www.d-b-c.jp/tamachi-news/%e3%80%90%e9%87%8d%e8%a6%81%e3%80%919%e6%9c%8818%e6%97%a5%e5%9c%9f%ef%bc%9a%e5%96%b6%e6%a5%ad%e6%99%82%e9%96%93%e3%81%ae%e5%a4%89%e6%9b%b4%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6/": {
+      "published": "2026-09-17",
+      "events": [
+        {
+          "date": "2026-09-19",
+          "type": "時間変更",
+          "note": "一般営業開始時間を16:30に変更（通常より遅い開店）、閉店は通常通り21時"
+        }
+      ]
+    },
+    "https://pump-climbing.com/gym/pump1/%e3%82%b7%e3%83%ab%e3%83%90%e3%83%bc%e3%82%a6%e3%82%a3%e3%83%bc%e3%82%af%e3%81%ae%e5%96%b6%e6%a5%ad%e6%97%a5%e7%a8%8b/": {
+      "published": "2026-09-17",
+      "events": [
+        {
+          "date": "2026-09-21",
+          "type": "セット完了",
+          "note": "リードエリア：戦艦奥壁、スラブが課題変更"
+        }
+      ]
+    },
+    "https://pump-climbing.com/gym/pump2/%e3%82%b7%e3%83%ab%e3%83%90%e3%83%bc%e3%82%a6%e3%82%a3%e3%83%bc%e3%82%af%e3%81%af%e3%82%b9%e3%82%ad%e3%83%88%e3%83%ac%ef%bc%81%ef%bc%81%ef%bc%81/": {
+      "published": "2026-09-17",
+      "events": [
+        {
+          "date": "2026-09-17",
+          "type": "イベント",
+          "note": "スキトレと久しぶりのトップローブ道場が開催"
+        }
+      ]
+    },
+    "https://pump-climbing.com/gym/pump2/%e3%82%b7%e3%83%ab%e3%83%90%e3%83%bc%e3%82%a6%e3%82%a3%e3%83%bc%e3%82%af%e3%81%ae%e5%96%b6%e6%a5%ad%e6%97%a5%e7%a8%8b/": {
+      "published": "2026-09-17",
+      "events": []
     }
   },
   "pages": {
