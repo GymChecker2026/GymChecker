@@ -441,24 +441,6 @@
     "published": "2026-08-14"
   },
   {
-    "gym_id": "bpump-akihabara",
-    "date": "2026-08-13",
-    "type": "エリア制限",
-    "note": "3F Space Roof ホールド外し 21:00-",
-    "gym_name": null,
-    "source_url": "https://pump-climbing.com/gym/akiba/%e6%ac%a1%e9%80%b1%e3%82%bb%e3%83%83%e3%83%88%e6%83%85%e5%a0%b1-%e2%96%b7%e3%80%983f-space-roof-%e3%80%99/blog-news/",
-    "published": "2026-08-08"
-  },
-  {
-    "gym_id": "bpump-akihabara",
-    "date": "2026-08-14",
-    "type": "エリア制限",
-    "note": "3F Space Roof Route Setting Day",
-    "gym_name": null,
-    "source_url": "https://pump-climbing.com/gym/akiba/%e6%ac%a1%e9%80%b1%e3%82%bb%e3%83%83%e3%83%88%e6%83%85%e5%a0%b1-%e2%96%b7%e3%80%983f-space-roof-%e3%80%99/blog-news/",
-    "published": "2026-08-08"
-  },
-  {
     "gym_id": "bpump-ogikubo",
     "date": "2026-09-13",
     "type": "イベント",
