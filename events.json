@@ -63,33 +63,6 @@
     "published": "2026-08-24"
   },
   {
-    "gym_id": "dbc-tamachi",
-    "date": "2026-08-17",
-    "type": "休業",
-    "note": "ホールド替えに伴うセット作業のため",
-    "gym_name": null,
-    "source_url": "https://www.d-b-c.jp/tamachi-news/8%e6%9c%88%ef%bc%9a%e3%83%9b%e3%83%bc%e3%83%ab%e3%83%89%e6%9b%bf%e3%81%88%e3%81%ab%e4%bc%b4%e3%81%86%e4%bc%91%e6%a5%ad%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b/",
-    "published": "2026-08-13"
-  },
-  {
-    "gym_id": "dbc-tamachi",
-    "date": "2026-08-18",
-    "type": "休業",
-    "note": "ホールド替えに伴うセット作業のため",
-    "gym_name": null,
-    "source_url": "https://www.d-b-c.jp/tamachi-news/8%e6%9c%88%ef%bc%9a%e3%83%9b%e3%83%bc%e3%83%ab%e3%83%89%e6%9b%bf%e3%81%88%e3%81%ab%e4%bc%b4%e3%81%86%e4%bc%91%e6%a5%ad%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b/",
-    "published": "2026-08-13"
-  },
-  {
-    "gym_id": "dbc-tamachi",
-    "date": "2026-08-19",
-    "type": "時間変更",
-    "note": "18時～開放（営業再開）",
-    "gym_name": null,
-    "source_url": "https://www.d-b-c.jp/tamachi-news/8%e6%9c%88%ef%bc%9a%e3%83%9b%e3%83%bc%e3%83%ab%e3%83%89%e6%9b%bf%e3%81%88%e3%81%ab%e4%bc%b4%e3%81%86%e4%bc%91%e6%a5%ad%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b/",
-    "published": "2026-08-13"
-  },
-  {
     "gym_id": "dbc-tsunashima",
     "date": "2026-09-26",
     "type": "時間変更",
