@@ -2,31 +2,31 @@
   {
     "gym_id": "rocky-shinagawa",
     "date": "slot0",
-    "reason": "読み取りに失敗: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfcZspY7RoxJ8SXbSfBpq'}"
+    "reason": "読み取りに失敗: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cfe87uSQVSrLwL7gPAQfm'}"
   },
   {
     "gym_id": "rocky-akebonobashi",
     "date": "slot0",
-    "reason": "読み取りに失敗: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfcZt6rNzTVPB7wmzESpM'}"
+    "reason": "読み取りに失敗: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cfe88CqAdWBDzqeukGhKg'}"
   },
   {
     "gym_id": "rocky-ryogoku",
     "date": "slot0",
-    "reason": "読み取りに失敗: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfcZtMnZ83W5UNkjf5ASh'}"
+    "reason": "読み取りに失敗: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cfe88VSZVuUyU1dbyNEpP'}"
   },
   {
     "gym_id": "rocky-inzai",
     "date": "slot0",
-    "reason": "読み取りに失敗: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfcZtdAmwHum3ZE4vcGVY'}"
+    "reason": "読み取りに失敗: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cfe88mjLPqiij9C5FGPXT'}"
   },
   {
     "gym_id": "rocky-tsukuba",
     "date": "slot0",
-    "reason": "読み取りに失敗: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfcZu15e7NjwHfC5TyHkX'}"
+    "reason": "読み取りに失敗: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cfe892Qdk9cg2zPxZduwe'}"
   },
   {
     "gym_id": "rocky-funabashi",
     "date": "slot0",
-    "reason": "読み取りに失敗: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfcZuGni5XdFPB5dyc84E'}"
+    "reason": "読み取りに失敗: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cfe89J5xhewBCK88eHxsu'}"
   }
 ]
