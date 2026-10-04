@@ -513,15 +513,6 @@
     "published": "2026-08-25"
   },
   {
-    "gym_id": "bpump-kawaguchi",
-    "date": "2026-08-19",
-    "type": "イベント",
-    "note": "中級道場（毎週水曜日、2階ボルダーエリア、スタッフ響担当）",
-    "gym_name": null,
-    "source_url": "https://pump-climbing.com/gym/pump1/%e6%b0%b4%e6%9b%9c%e9%81%93%e5%a0%b4%e6%af%8e%e9%80%b1%e9%96%8b%e5%82%ac%e4%b8%ad%e3%81%a7%e3%81%99%ef%bc%81/",
-    "published": "2026-08-20"
-  },
-  {
     "gym_id": "bpump-kawasaki",
     "date": "2026-09-17",
     "type": "イベント",
@@ -582,96 +573,6 @@
     "note": "ルートセット のため Open～18:00 利用エリア制限",
     "gym_name": null,
     "source_url": "https://b-camp.jp/shinjuku/pickup/",
-    "published": "2026-08-26"
-  },
-  {
-    "gym_id": "bc-shinbashi",
-    "date": "2026-09-03",
-    "type": "エリア制限",
-    "note": "Hubbleセットのため一部エリア制限",
-    "gym_name": null,
-    "source_url": "https://b-camp.jp/shinbashi/route/",
-    "published": "2026-08-26"
-  },
-  {
-    "gym_id": "bc-shinbashi",
-    "date": "2026-09-13",
-    "type": "時間変更",
-    "note": "18:00close ホールド外し作業のため",
-    "gym_name": null,
-    "source_url": "https://b-camp.jp/shinbashi/route/",
-    "published": "2026-08-26"
-  },
-  {
-    "gym_id": "bc-shinbashi",
-    "date": "2026-09-14",
-    "type": "休業",
-    "note": "臨時休業日",
-    "gym_name": null,
-    "source_url": "https://b-camp.jp/shinbashi/route/",
-    "published": "2026-08-26"
-  },
-  {
-    "gym_id": "bc-shinbashi",
-    "date": "2026-09-15",
-    "type": "時間変更",
-    "note": "18:00OPEN ラインセットリニューアル",
-    "gym_name": null,
-    "source_url": "https://b-camp.jp/shinbashi/route/",
-    "published": "2026-08-26"
-  },
-  {
-    "gym_id": "bc-shinbashi",
-    "date": "2026-08-16",
-    "type": "時間変更",
-    "note": "18:00close ホールド外し作業のため",
-    "gym_name": null,
-    "source_url": "https://b-camp.jp/shinbashi/route/",
-    "published": "2026-08-26"
-  },
-  {
-    "gym_id": "bc-shinbashi",
-    "date": "2026-08-17",
-    "type": "休業",
-    "note": "臨時休業日",
-    "gym_name": null,
-    "source_url": "https://b-camp.jp/shinbashi/route/",
-    "published": "2026-08-26"
-  },
-  {
-    "gym_id": "bc-shinbashi",
-    "date": "2026-08-18",
-    "type": "時間変更",
-    "note": "18:00OPEN ラインセットリニューアル",
-    "gym_name": null,
-    "source_url": "https://b-camp.jp/shinbashi/route/",
-    "published": "2026-08-26"
-  },
-  {
-    "gym_id": "bc-shinbashi",
-    "date": "2026-07-20",
-    "type": "時間変更",
-    "note": "18:00close ホールド外し作業のため",
-    "gym_name": null,
-    "source_url": "https://b-camp.jp/shinbashi/route/",
-    "published": "2026-08-26"
-  },
-  {
-    "gym_id": "bc-shinbashi",
-    "date": "2026-07-21",
-    "type": "休業",
-    "note": "臨時休業日",
-    "gym_name": null,
-    "source_url": "https://b-camp.jp/shinbashi/route/",
-    "published": "2026-08-26"
-  },
-  {
-    "gym_id": "bc-shinbashi",
-    "date": "2026-07-22",
-    "type": "時間変更",
-    "note": "18:00OPEN ラインセットリニューアル",
-    "gym_name": null,
-    "source_url": "https://b-camp.jp/shinbashi/route/",
     "published": "2026-08-26"
   },
   {
