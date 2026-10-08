@@ -1,31 +1,31 @@
 {
   "rocky-shinagawa:0": {
-    "url": "https://www.rockyclimbing.com/img/set_174.png",
-    "sha256": "f1b35553b6cc39834fc7fcb13c35132084008b7fda411b7a808811abccfa773e"
+    "url": "https://www.rockyclimbing.com/img/set_187.png",
+    "sha256": "193d8b67e0e32cac75f5451975c8459c1e74a75204de692a7f0bebeedc3bb43d"
   },
   "rocky-shinagawa:1": {
     "url": "https://www.rockyclimbing.com/img/set_185.png",
     "sha256": "c4b0598e543cb446ddbaf4f3318d02b71210fcf7ad1fa2cf4f7a8d1be7730898"
   },
   "rocky-akebonobashi:0": {
-    "url": "https://www.rockyclimbing.com/img/set_170.png",
-    "sha256": "5cc5e964f5779139790352c388f1f2bd1c5e9fdace53791a71c64079f00882c8"
+    "url": "https://www.rockyclimbing.com/img/set_191.png",
+    "sha256": "136c1c73ac3a3f4773d7ae163aad6eb04af6f7aced2bc2acc01b26211913e446"
   },
   "rocky-akebonobashi:1": {
     "url": "https://www.rockyclimbing.com/img/set_177.png",
     "sha256": "2835ae2a03bbe5e4f6e52d2b5b957b6ea8e008b4c3f9df4c1ab21ebca1ed2641"
   },
   "rocky-ryogoku:0": {
-    "url": "https://www.rockyclimbing.com/img/set_179.png",
-    "sha256": "64b9c8c4bc137f695cb67fbd470f930b597d7d41682e9ea7d0566f4b1cb1f95b"
+    "url": "https://www.rockyclimbing.com/img/set_190.png",
+    "sha256": "7c50fb20223d7f2c4e55cb204b2e4d18ccecc78ffd715b9e93a4c25bd7b4e408"
   },
   "rocky-ryogoku:1": {
     "url": "https://www.rockyclimbing.com/img/set_181.png",
     "sha256": "93299ef304edcdd4b5d512f0f327b8f479ba650625e2ade18006db00546fec32"
   },
   "rocky-inzai:0": {
-    "url": "https://www.rockyclimbing.com/img/set_172.png",
-    "sha256": "a462d87e52b4467f3ccdaa5e2f4418cdef84ecccb18150518006b68f73b2bb14"
+    "url": "https://www.rockyclimbing.com/img/set_189.png",
+    "sha256": "c0eb8dc77a0920369faf1dad35b9da9cef6b9824e15100d119a1e9aa8636f6f3"
   },
   "rocky-inzai:1": {
     "url": "https://www.rockyclimbing.com/img/set_180.png",
@@ -40,8 +40,8 @@
     "sha256": "0dc62788720645e662a4e36218c91ee7f2b6e054e4ce622e93f856e761f4260c"
   },
   "rocky-funabashi:0": {
-    "url": "https://www.rockyclimbing.com/img/set_176.png",
-    "sha256": "5ab6e8c46a74d259f88fad96b466e8ae88fb517fd96b96bb31b0c8b14faf8da2"
+    "url": "https://www.rockyclimbing.com/img/set_188.png",
+    "sha256": "592016fe5829bda75aee90dda40d95e6d1f797e693bcf074682868d0253fa69a"
   },
   "rocky-funabashi:1": {
     "url": "https://www.rockyclimbing.com/img/set_182.png",

@@ -1,32 +1,7 @@
 [
   {
-    "gym_id": "rocky-shinagawa",
-    "date": "slot0",
-    "reason": "読み取りに失敗: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfoxJwkVrqQCyhsh12PhT'}"
-  },
-  {
-    "gym_id": "rocky-akebonobashi",
-    "date": "slot0",
-    "reason": "読み取りに失敗: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfoxKDazSK1ivY4uxAujr'}"
-  },
-  {
-    "gym_id": "rocky-ryogoku",
-    "date": "slot0",
-    "reason": "読み取りに失敗: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfoxKV7tU8rhVgfBL3nW7'}"
-  },
-  {
-    "gym_id": "rocky-inzai",
-    "date": "slot0",
-    "reason": "読み取りに失敗: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfoxKmFVxUDkSm2i68ZDV'}"
-  },
-  {
     "gym_id": "rocky-tsukuba",
     "date": "slot0",
-    "reason": "読み取りに失敗: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfoxKzkMsAFq4ChNxi1wB'}"
-  },
-  {
-    "gym_id": "rocky-funabashi",
-    "date": "slot0",
-    "reason": "読み取りに失敗: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfoxLG6LCpaot7A7viibA'}"
+    "reason": "読み取りに失敗: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0.content.0.image.source.base64: The image was specified using the image/png media type, but the image appears to be a image/jpeg image'}, 'request_id': 'req_011CfqZk3MrqdK5p4tPAPQAD'}"
   }
 ]
