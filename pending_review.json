@@ -2,6 +2,6 @@
   {
     "gym_id": "rocky-tsukuba",
     "date": "slot0",
-    "reason": "読み取りに失敗: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0.content.0.image.source.base64: The image was specified using the image/png media type, but the image appears to be a image/jpeg image'}, 'request_id': 'req_011CfqZk3MrqdK5p4tPAPQAD'}"
+    "reason": "読み取りに失敗: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0.content.0.image.source.base64: The image was specified using the image/png media type, but the image appears to be a image/jpeg image'}, 'request_id': 'req_011Cfqs9bU2As3MfDuAvJFFx'}"
   }
 ]
