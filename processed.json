@@ -2012,6 +2012,35 @@
           "note": "3F Beginner Wall セット完了（8Q〜4Qの12本）"
         }
       ]
+    },
+    "https://pump-climbing.com/gym/akiba/%e6%ac%a1%e9%80%b1%e3%82%bb%e3%83%83%e3%83%88%e6%83%85%e5%a0%b1-%e2%96%b7%e3%80%981f-all%e3%80%99/blog-news/": {
+      "published": "2026-10-11",
+      "events": [
+        {
+          "date": "2026-10-15",
+          "type": "エリア制限",
+          "note": "ホールド外し 21:00-"
+        },
+        {
+          "date": "2026-10-16",
+          "type": "セット完了",
+          "note": "Route Setting Day 1F WALL含め全ての壁をセット"
+        }
+      ]
+    },
+    "https://pump-climbing.com/gym/bpump2/halloween-cup%e9%96%8b%e5%82%ac%ef%bc%81/": {
+      "published": "2026-10-11",
+      "events": [
+        {
+          "date": "2026-10-31",
+          "type": "イベント",
+          "note": "HALLOWEEN CUP開催 B-PUMP YOKOHAMAにてチーム戦型ミニコンペ"
+        }
+      ]
+    },
+    "https://pump-climbing.com/gym/pump1/%e6%af%8e%e9%80%b1%e6%97%a5%e6%9b%9c%e6%97%a5%e3%81%af%e5%88%9d%e7%b4%9a%e9%81%93%e5%a0%b4%ef%bc%81%ef%bc%81-2/": {
+      "published": "2026-10-11",
+      "events": []
     }
   },
   "pages": {
@@ -2173,16 +2202,10 @@
       ]
     },
     "noborock-shibuya::https://noborock-climbing.com/program/shibuya/": {
-      "text_hash": "fbbb18f707ea17498a4bebf95db11b0b7c878d183f130b03ee4714f106f1c506",
-      "last_changed_at": "2026-10-11T05:41:28+09:00",
-      "published": "2026-10-11",
+      "text_hash": "40fa1458ade3726f420c7c6cacac97df34e973fcc743d09e793461e4ed4b49ac",
+      "last_changed_at": "2026-10-12T06:03:36+09:00",
+      "published": "2026-10-12",
       "events": [
-        {
-          "date": "2026-09-25",
-          "type": "セット完了",
-          "note": "ルートセット完了",
-          "gym_name": "渋谷店"
-        },
         {
           "date": "2026-10-04",
           "type": "時間変更",
@@ -2336,9 +2359,9 @@
       ]
     },
     "noborock-takadanobaba::https://noborock-climbing.com/program/takadanobaba/": {
-      "text_hash": "663b1ded52df229dcbf1ae8ad0811505b596f231c4630054268bda8d4f79e59e",
-      "last_changed_at": "2026-10-11T05:41:28+09:00",
-      "published": "2026-10-11",
+      "text_hash": "541d85b276b232b378ec1885a0578f3aba45c3eb1892fda04747585b45b800c7",
+      "last_changed_at": "2026-10-12T06:03:36+09:00",
+      "published": "2026-10-12",
       "events": [
         {
           "date": "2026-10-04",
@@ -2475,7 +2498,7 @@
         {
           "date": "2026-10-26",
           "type": "時間変更",
-          "note": "貸切利用の為 18:00 close",
+          "note": "18:00 close（貸切利用の為）",
           "gym_name": "高田馬場店"
         },
         {
@@ -2499,7 +2522,7 @@
         {
           "date": "2026-11-04",
           "type": "休業",
-          "note": "",
+          "note": "ルートセット",
           "gym_name": "高田馬場店"
         },
         {
@@ -2674,16 +2697,10 @@
       ]
     },
     "noborock-ikebukuro::https://noborock-climbing.com/program/ikebukuro/": {
-      "text_hash": "21005e18ebec16e15c7d47b185d7ab7bfbe47b685a6604be69d78693ed2b35c8",
-      "last_changed_at": "2026-10-10T06:52:02+09:00",
-      "published": "2026-10-10",
+      "text_hash": "3f81b031bb0b9c0b643a52658bb16baf3afe7d91259c718e477fb65bdfaf5dec",
+      "last_changed_at": "2026-10-12T06:03:36+09:00",
+      "published": "2026-10-12",
       "events": [
-        {
-          "date": "2026-09-08",
-          "type": "セット完了",
-          "note": "ルートセット完了",
-          "gym_name": "池袋店"
-        },
         {
           "date": "2026-10-04",
           "type": "時間変更",
