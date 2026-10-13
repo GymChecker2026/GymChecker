@@ -604,6 +604,33 @@
   },
   {
     "gym_id": "bpump-yokohama",
+    "date": "2026-10-19",
+    "type": "エリア制限",
+    "note": "2F RIGHT ホールド外し",
+    "gym_name": null,
+    "source_url": "https://pump-climbing.com/gym/bpump2/2f-right-set/",
+    "published": "2026-10-13"
+  },
+  {
+    "gym_id": "bpump-yokohama",
+    "date": "2026-10-20",
+    "type": "セット完了",
+    "note": "2F RIGHT 1DAY SET OPEN",
+    "gym_name": null,
+    "source_url": "https://pump-climbing.com/gym/bpump2/2f-right-set/",
+    "published": "2026-10-13"
+  },
+  {
+    "gym_id": "bpump-yokohama",
+    "date": "2026-10-21",
+    "type": "セット完了",
+    "note": "2F RIGHT NEW SET OPEN",
+    "gym_name": null,
+    "source_url": "https://pump-climbing.com/gym/bpump2/2f-right-set/",
+    "published": "2026-10-13"
+  },
+  {
+    "gym_id": "bpump-yokohama",
     "date": "2026-10-31",
     "type": "イベント",
     "note": "HALLOWEEN CUP開催 B-PUMP YOKOHAMAにてチーム戦型ミニコンペ",

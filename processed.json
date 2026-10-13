@@ -2041,6 +2041,26 @@
     "https://pump-climbing.com/gym/pump1/%e6%af%8e%e9%80%b1%e6%97%a5%e6%9b%9c%e6%97%a5%e3%81%af%e5%88%9d%e7%b4%9a%e9%81%93%e5%a0%b4%ef%bc%81%ef%bc%81-2/": {
       "published": "2026-10-11",
       "events": []
+    },
+    "https://pump-climbing.com/gym/bpump2/2f-right-set/": {
+      "published": "2026-10-13",
+      "events": [
+        {
+          "date": "2026-10-19",
+          "type": "エリア制限",
+          "note": "2F RIGHT ホールド外し"
+        },
+        {
+          "date": "2026-10-20",
+          "type": "セット完了",
+          "note": "2F RIGHT 1DAY SET OPEN"
+        },
+        {
+          "date": "2026-10-21",
+          "type": "セット完了",
+          "note": "2F RIGHT NEW SET OPEN"
+        }
+      ]
     }
   },
   "pages": {
