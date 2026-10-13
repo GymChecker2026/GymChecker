@@ -594,15 +594,6 @@
     "published": "2026-09-01"
   },
   {
-    "gym_id": "bpump-ogikubo",
-    "date": "2026-10-03",
-    "type": "イベント",
-    "note": "THE18 – TO THE NEXT LEVEL – Vol.10（2日間、10月3日-4日、B-PUMP OGIKUBO）",
-    "gym_name": null,
-    "source_url": "https://pump-climbing.com/gym/bpump/%e3%80%90%e9%96%8b%e5%82%ac%e7%99%ba%e8%a1%a8%e3%80%91the-18-%e2%80%92-to-the-next-level%e2%80%92-vol-10/",
-    "published": "2026-08-29"
-  },
-  {
     "gym_id": "bpump-yokohama",
     "date": "2026-10-19",
     "type": "エリア制限",
@@ -817,6 +808,15 @@
     "gym_name": null,
     "source_url": "https://pump-climbing.com/gym/pump1/%e6%88%a6%e8%89%a6%e5%a5%a5%e5%a3%81%e3%81%ae%e3%82%b0%e3%83%ac%e3%83%bc%e3%83%89%e7%a2%ba%e5%ae%9a%e3%81%97%e3%81%be%e3%81%97%e3%81%9f-%e6%97%a5%e3%80%85%e3%81%aep1/",
     "published": "2026-08-30"
+  },
+  {
+    "gym_id": "bpump-kawasaki",
+    "date": "2026-10-26",
+    "type": "セット完了",
+    "note": "ギャラリーのセット",
+    "gym_name": null,
+    "source_url": "https://pump-climbing.com/gym/pump2/10%e6%9c%88%e3%82%bb%e3%83%83%e3%83%88%e3%82%b9%e3%82%b1%e3%82%b8%e3%83%a5%e3%83%bc%e3%83%ab/",
+    "published": "2026-10-13"
   },
   {
     "gym_id": "bpump-kawasaki",
@@ -1878,7 +1878,7 @@
     "note": "17:00 close",
     "gym_name": "池袋店",
     "source_url": "https://noborock-climbing.com/program/ikebukuro/",
-    "published": "2026-10-13"
+    "published": "2026-10-14"
   },
   {
     "gym_id": "noborock-asakusa",
@@ -1896,7 +1896,7 @@
     "note": "ルートセット",
     "gym_name": "池袋店",
     "source_url": "https://noborock-climbing.com/program/ikebukuro/",
-    "published": "2026-10-13"
+    "published": "2026-10-14"
   },
   {
     "gym_id": "noborock-asakusa",
@@ -1911,10 +1911,10 @@
     "gym_id": "noborock-ikebukuro",
     "date": "2026-10-14",
     "type": "時間変更",
-    "note": "18:30 open!",
+    "note": "18:30 open",
     "gym_name": "池袋店",
     "source_url": "https://noborock-climbing.com/program/ikebukuro/",
-    "published": "2026-10-13"
+    "published": "2026-10-14"
   },
   {
     "gym_id": "noborock-asakusa",
