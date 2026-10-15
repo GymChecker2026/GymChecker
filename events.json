@@ -63,15 +63,6 @@
     "published": "2026-09-17"
   },
   {
-    "gym_id": "dbc-tsunashima",
-    "date": "2026-09-26",
-    "type": "時間変更",
-    "note": "18時までの営業",
-    "gym_name": null,
-    "source_url": "https://www.d-b-c.jp/tsunashima/2026/08/9862/",
-    "published": "2026-08-31"
-  },
-  {
     "gym_id": "dbc-honatsugi",
     "date": "2026-10-06",
     "type": "エリア制限",
@@ -1869,7 +1860,7 @@
     "note": "17:00 close",
     "gym_name": "池袋店",
     "source_url": "https://noborock-climbing.com/program/ikebukuro/",
-    "published": "2026-10-15"
+    "published": "2026-10-16"
   },
   {
     "gym_id": "noborock-asakusa",
@@ -1887,7 +1878,7 @@
     "note": "ルートセット",
     "gym_name": "池袋店",
     "source_url": "https://noborock-climbing.com/program/ikebukuro/",
-    "published": "2026-10-15"
+    "published": "2026-10-16"
   },
   {
     "gym_id": "noborock-asakusa",
@@ -1902,10 +1893,10 @@
     "gym_id": "noborock-ikebukuro",
     "date": "2026-10-14",
     "type": "時間変更",
-    "note": "18:30 open!",
+    "note": "18:30 open",
     "gym_name": "池袋店",
     "source_url": "https://noborock-climbing.com/program/ikebukuro/",
-    "published": "2026-10-15"
+    "published": "2026-10-16"
   },
   {
     "gym_id": "noborock-asakusa",
@@ -1986,7 +1977,7 @@
     "note": "17:00 close",
     "gym_name": "渋谷店",
     "source_url": "https://noborock-climbing.com/program/shibuya/",
-    "published": "2026-10-15"
+    "published": "2026-10-16"
   },
   {
     "gym_id": "noborock-shinjuku",
@@ -2003,8 +1994,8 @@
     "type": "休業",
     "note": "ルートセット",
     "gym_name": "渋谷店",
-    "source_url": "https://noborock-climbing.com/program/新宿店/",
-    "published": "2026-10-10"
+    "source_url": "https://noborock-climbing.com/program/shibuya/",
+    "published": "2026-10-16"
   },
   {
     "gym_id": "noborock-takadanobaba",
@@ -2028,10 +2019,10 @@
     "gym_id": "noborock-shibuya",
     "date": "2026-10-27",
     "type": "時間変更",
-    "note": "18:30 open!",
+    "note": "18:30 open",
     "gym_name": "渋谷店",
     "source_url": "https://noborock-climbing.com/program/shibuya/",
-    "published": "2026-10-15"
+    "published": "2026-10-16"
   },
   {
     "gym_id": "noborock-shibuya",
@@ -2040,79 +2031,7 @@
     "note": "ルートセット完了",
     "gym_name": "渋谷店",
     "source_url": "https://noborock-climbing.com/program/shibuya/",
-    "published": "2026-10-15"
-  },
-  {
-    "gym_id": "noborock-omiya",
-    "date": "2026-10-05",
-    "type": "エリア制限",
-    "note": "休業【ルートセット】",
-    "gym_name": "大宮",
-    "source_url": "https://noborock-climbing.com/program/shibuya/",
-    "published": "2026-10-15"
-  },
-  {
-    "gym_id": "noborock-takadanobaba",
-    "date": "2026-10-05",
-    "type": "エリア制限",
-    "note": "休業【ルートセット】",
-    "gym_name": "高田馬場",
-    "source_url": "https://noborock-climbing.com/program/shibuya/",
-    "published": "2026-10-15"
-  },
-  {
-    "gym_id": "noborock-ikebukuro",
-    "date": "2026-10-13",
-    "type": "エリア制限",
-    "note": "休業【ルートセット】",
-    "gym_name": "池袋",
-    "source_url": "https://noborock-climbing.com/program/shibuya/",
-    "published": "2026-10-15"
-  },
-  {
-    "gym_id": "noborock-asakusa",
-    "date": "2026-10-13",
-    "type": "エリア制限",
-    "note": "休業【ルートセット】",
-    "gym_name": "浅草",
-    "source_url": "https://noborock-climbing.com/program/shibuya/",
-    "published": "2026-10-15"
-  },
-  {
-    "gym_id": "noborock-mizonokuchi",
-    "date": "2026-10-19",
-    "type": "エリア制限",
-    "note": "休業【ルートセット】",
-    "gym_name": "溝ノ口",
-    "source_url": "https://noborock-climbing.com/program/shibuya/",
-    "published": "2026-10-15"
-  },
-  {
-    "gym_id": "noborock-machida",
-    "date": "2026-10-19",
-    "type": "エリア制限",
-    "note": "休業【ルートセット】",
-    "gym_name": "町田",
-    "source_url": "https://noborock-climbing.com/program/shibuya/",
-    "published": "2026-10-15"
-  },
-  {
-    "gym_id": "noborock-shinjuku",
-    "date": "2026-10-26",
-    "type": "エリア制限",
-    "note": "休業【ルートセット】",
-    "gym_name": "新宿",
-    "source_url": "https://noborock-climbing.com/program/shibuya/",
-    "published": "2026-10-15"
-  },
-  {
-    "gym_id": "noborock-shibuya",
-    "date": "2026-10-26",
-    "type": "エリア制限",
-    "note": "休業【ルートセット】",
-    "gym_name": "渋谷店",
-    "source_url": "https://noborock-climbing.com/program/shibuya/",
-    "published": "2026-10-15"
+    "published": "2026-10-16"
   },
   {
     "gym_id": "noborock-takadanobaba",
@@ -2158,6 +2077,15 @@
     "gym_name": "浅草店",
     "source_url": "https://noborock-climbing.com/program/浅草店/",
     "published": "2026-10-09"
+  },
+  {
+    "gym_id": "noborock-ikebukuro",
+    "date": "2026-09-08",
+    "type": "セット完了",
+    "note": "ルートセット完了",
+    "gym_name": "池袋店",
+    "source_url": "https://noborock-climbing.com/program/ikebukuro/",
+    "published": "2026-10-16"
   },
   {
     "gym_id": "noborock-machida",
