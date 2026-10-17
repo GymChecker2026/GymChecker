@@ -2143,6 +2143,31 @@
           "note": "リードエリア特別課題イベント（リード経験者のみ参加可能）14:00開始。12時よりエリア封鎖"
         }
       ]
+    },
+    "https://pump-climbing.com/gym/akiba/%e5%9c%9f%e6%9b%9c%e6%97%a5%e3%81%af%e3%83%93%e3%82%ae%e3%83%8a%e3%83%bc%e9%81%93%e5%a0%b4/blog-news/": {
+      "published": "2026-10-17",
+      "events": [
+        {
+          "date": "2026-10-17",
+          "type": "イベント",
+          "note": "土曜日ビギナー道場（担当：イズミヤ、課題：動き系）"
+        }
+      ]
+    },
+    "https://pump-climbing.com/gym/akiba/%e6%ac%a1%e9%80%b1%e3%82%bb%e3%83%83%e3%83%88%e6%83%85%e5%a0%b1-%e2%96%b7%e3%80%982f-b-wall%e3%80%99/blog-news/": {
+      "published": "2026-10-17",
+      "events": [
+        {
+          "date": "2026-10-22",
+          "type": "エリア制限",
+          "note": "ホールド外し 21：00-"
+        },
+        {
+          "date": "2026-10-23",
+          "type": "エリア制限",
+          "note": "Route Setting Day"
+        }
+      ]
     }
   },
   "pages": {
@@ -2304,9 +2329,9 @@
       ]
     },
     "noborock-shibuya::https://noborock-climbing.com/program/shibuya/": {
-      "text_hash": "6b59b27db0b3cbdd04b89802490254342728a00c76768b220896cf76a48b5e46",
-      "last_changed_at": "2026-10-17T05:03:35+09:00",
-      "published": "2026-10-17",
+      "text_hash": "6ea156c7344de5de34e7f740d12579e3ba12b1a66b469cf9da6c3eaa5b754566",
+      "last_changed_at": "2026-10-18T04:41:50+09:00",
+      "published": "2026-10-18",
       "events": [
         {
           "date": "2026-09-25",
@@ -2467,9 +2492,9 @@
       ]
     },
     "noborock-takadanobaba::https://noborock-climbing.com/program/takadanobaba/": {
-      "text_hash": "541d85b276b232b378ec1885a0578f3aba45c3eb1892fda04747585b45b800c7",
-      "last_changed_at": "2026-10-12T06:03:36+09:00",
-      "published": "2026-10-12",
+      "text_hash": "958a024d73f06219410887722b7b1b5e4a7ef0cb3e904953e5a76d372042dbc2",
+      "last_changed_at": "2026-10-18T04:41:50+09:00",
+      "published": "2026-10-18",
       "events": [
         {
           "date": "2026-10-04",

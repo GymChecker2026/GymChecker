@@ -181,6 +181,33 @@
   },
   {
     "gym_id": "bpump-akihabara",
+    "date": "2026-10-17",
+    "type": "イベント",
+    "note": "土曜日ビギナー道場（担当：イズミヤ、課題：動き系）",
+    "gym_name": null,
+    "source_url": "https://pump-climbing.com/gym/akiba/%e5%9c%9f%e6%9b%9c%e6%97%a5%e3%81%af%e3%83%93%e3%82%ae%e3%83%8a%e3%83%bc%e9%81%93%e5%a0%b4/blog-news/",
+    "published": "2026-10-17"
+  },
+  {
+    "gym_id": "bpump-akihabara",
+    "date": "2026-10-22",
+    "type": "エリア制限",
+    "note": "ホールド外し 21：00-",
+    "gym_name": null,
+    "source_url": "https://pump-climbing.com/gym/akiba/%e6%ac%a1%e9%80%b1%e3%82%bb%e3%83%83%e3%83%88%e6%83%85%e5%a0%b1-%e2%96%b7%e3%80%982f-b-wall%e3%80%99/blog-news/",
+    "published": "2026-10-17"
+  },
+  {
+    "gym_id": "bpump-akihabara",
+    "date": "2026-10-23",
+    "type": "エリア制限",
+    "note": "Route Setting Day",
+    "gym_name": null,
+    "source_url": "https://pump-climbing.com/gym/akiba/%e6%ac%a1%e9%80%b1%e3%82%bb%e3%83%83%e3%83%88%e6%83%85%e5%a0%b1-%e2%96%b7%e3%80%982f-b-wall%e3%80%99/blog-news/",
+    "published": "2026-10-17"
+  },
+  {
+    "gym_id": "bpump-akihabara",
     "date": "2026-10-16",
     "type": "セット完了",
     "note": "1F オールチェンジ！8Q～3級まで、トータル29本",
@@ -826,15 +853,6 @@
     "gym_name": null,
     "source_url": "https://pump-climbing.com/gym/pump2/la-spoltiva-shoes-traial/",
     "published": "2026-09-09"
-  },
-  {
-    "gym_id": "bpump-kawasaki",
-    "date": "2026-09-12",
-    "type": "イベント",
-    "note": "アッキーセッション 15:00-16:00 3F 120°壁 参加無料（利用料別途）",
-    "gym_name": null,
-    "source_url": "https://pump-climbing.com/gym/pump2/%e3%82%a2%e3%83%83%e3%82%ad%e3%83%bc%e3%82%bb%e3%83%83%e3%82%b7%e3%83%a7%e3%83%b3%e9%96%8b%e5%82%ac%ef%bc%81%ef%bc%81/",
-    "published": "2026-09-02"
   },
   {
     "gym_id": "bc-shinjuku",
@@ -1698,7 +1716,7 @@
     "note": "17:00 close",
     "gym_name": "高田馬場店",
     "source_url": "https://noborock-climbing.com/program/takadanobaba/",
-    "published": "2026-10-12"
+    "published": "2026-10-18"
   },
   {
     "gym_id": "noborock-omiya",
@@ -1716,7 +1734,7 @@
     "note": "ルートセット",
     "gym_name": "高田馬場店",
     "source_url": "https://noborock-climbing.com/program/takadanobaba/",
-    "published": "2026-10-12"
+    "published": "2026-10-18"
   },
   {
     "gym_id": "noborock-omiya",
@@ -1860,7 +1878,7 @@
     "note": "17:00 close",
     "gym_name": "渋谷店",
     "source_url": "https://noborock-climbing.com/program/shibuya/",
-    "published": "2026-10-17"
+    "published": "2026-10-18"
   },
   {
     "gym_id": "noborock-shinjuku",
@@ -1878,7 +1896,7 @@
     "note": "ルートセット",
     "gym_name": "渋谷店",
     "source_url": "https://noborock-climbing.com/program/shibuya/",
-    "published": "2026-10-17"
+    "published": "2026-10-18"
   },
   {
     "gym_id": "noborock-takadanobaba",
@@ -1887,7 +1905,7 @@
     "note": "18:00 close（貸切利用の為）",
     "gym_name": "高田馬場店",
     "source_url": "https://noborock-climbing.com/program/takadanobaba/",
-    "published": "2026-10-12"
+    "published": "2026-10-18"
   },
   {
     "gym_id": "noborock-shinjuku",
@@ -1905,7 +1923,7 @@
     "note": "18:30 open",
     "gym_name": "渋谷店",
     "source_url": "https://noborock-climbing.com/program/shibuya/",
-    "published": "2026-10-17"
+    "published": "2026-10-18"
   },
   {
     "gym_id": "noborock-shibuya",
@@ -1914,7 +1932,7 @@
     "note": "ルートセット完了",
     "gym_name": "渋谷店",
     "source_url": "https://noborock-climbing.com/program/shibuya/",
-    "published": "2026-10-17"
+    "published": "2026-10-18"
   },
   {
     "gym_id": "noborock-takadanobaba",
@@ -1923,7 +1941,7 @@
     "note": "ルートセット完了",
     "gym_name": "高田馬場店",
     "source_url": "https://noborock-climbing.com/program/takadanobaba/",
-    "published": "2026-10-12"
+    "published": "2026-10-18"
   },
   {
     "gym_id": "noborock-takadanobaba",
@@ -1932,7 +1950,7 @@
     "note": "17:00 close",
     "gym_name": "高田馬場店",
     "source_url": "https://noborock-climbing.com/program/takadanobaba/",
-    "published": "2026-10-12"
+    "published": "2026-10-18"
   },
   {
     "gym_id": "noborock-takadanobaba",
@@ -1941,7 +1959,7 @@
     "note": "ルートセット",
     "gym_name": "高田馬場店",
     "source_url": "https://noborock-climbing.com/program/takadanobaba/",
-    "published": "2026-10-12"
+    "published": "2026-10-18"
   },
   {
     "gym_id": "noborock-takadanobaba",
@@ -1950,7 +1968,7 @@
     "note": "18:30 open",
     "gym_name": "高田馬場店",
     "source_url": "https://noborock-climbing.com/program/takadanobaba/",
-    "published": "2026-10-12"
+    "published": "2026-10-18"
   },
   {
     "gym_id": "noborock-asakusa",

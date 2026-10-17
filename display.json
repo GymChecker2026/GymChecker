@@ -23,7 +23,7 @@
     "official_url": "https://noborock-climbing.com/program/新宿店/",
     "instagram_url": "https://www.instagram.com/noborock_shinjuku/",
     "fetch_status": "success",
-    "fetched_at": "2026-10-17T09:35:30+09:00",
+    "fetched_at": "2026-10-18T04:41:50+09:00",
     "last_changed_at": "2026-10-10T10:48:36+09:00",
     "events": [
       {
@@ -76,15 +76,15 @@
     "official_url": "https://noborock-climbing.com/program/shibuya/",
     "instagram_url": "https://www.instagram.com/noborock_shibuya/",
     "fetch_status": "success",
-    "fetched_at": "2026-10-17T09:35:31+09:00",
-    "last_changed_at": "2026-10-17T05:03:35+09:00",
+    "fetched_at": "2026-10-18T04:41:52+09:00",
+    "last_changed_at": "2026-10-18T04:41:50+09:00",
     "events": [
       {
         "date": "2026-09-25",
         "type": "セット完了",
         "note": "ルートセット完了",
         "source_url": "https://noborock-climbing.com/program/shibuya/",
-        "published": "2026-10-17",
+        "published": "2026-10-18",
         "source": "auto"
       },
       {
@@ -92,7 +92,7 @@
         "type": "時間変更",
         "note": "17:00 close",
         "source_url": "https://noborock-climbing.com/program/shibuya/",
-        "published": "2026-10-17",
+        "published": "2026-10-18",
         "source": "auto"
       },
       {
@@ -100,7 +100,7 @@
         "type": "休業",
         "note": "ルートセット",
         "source_url": "https://noborock-climbing.com/program/shibuya/",
-        "published": "2026-10-17",
+        "published": "2026-10-18",
         "source": "auto"
       },
       {
@@ -108,7 +108,7 @@
         "type": "時間変更",
         "note": "18:30 open",
         "source_url": "https://noborock-climbing.com/program/shibuya/",
-        "published": "2026-10-17",
+        "published": "2026-10-18",
         "source": "auto"
       }
     ]
@@ -137,15 +137,15 @@
     "official_url": "https://noborock-climbing.com/program/takadanobaba/",
     "instagram_url": "https://www.instagram.com/noborock_takadanobaba/",
     "fetch_status": "success",
-    "fetched_at": "2026-10-17T09:35:36+09:00",
-    "last_changed_at": "2026-10-12T06:03:36+09:00",
+    "fetched_at": "2026-10-18T04:42:05+09:00",
+    "last_changed_at": "2026-10-18T04:41:50+09:00",
     "events": [
       {
         "date": "2026-10-04",
         "type": "時間変更",
         "note": "17:00 close",
         "source_url": "https://noborock-climbing.com/program/takadanobaba/",
-        "published": "2026-10-12",
+        "published": "2026-10-18",
         "source": "auto"
       },
       {
@@ -153,7 +153,7 @@
         "type": "休業",
         "note": "ルートセット",
         "source_url": "https://noborock-climbing.com/program/takadanobaba/",
-        "published": "2026-10-12",
+        "published": "2026-10-18",
         "source": "auto"
       },
       {
@@ -169,7 +169,7 @@
         "type": "セット完了",
         "note": "ルートセット完了",
         "source_url": "https://noborock-climbing.com/program/takadanobaba/",
-        "published": "2026-10-12",
+        "published": "2026-10-18",
         "source": "auto"
       },
       {
@@ -177,7 +177,7 @@
         "type": "時間変更",
         "note": "18:00 close（貸切利用の為）",
         "source_url": "https://noborock-climbing.com/program/takadanobaba/",
-        "published": "2026-10-12",
+        "published": "2026-10-18",
         "source": "auto"
       }
     ]
@@ -206,7 +206,7 @@
     "official_url": "https://noborock-climbing.com/program/浅草店/",
     "instagram_url": "https://www.instagram.com/noborock_asakusa/",
     "fetch_status": "success",
-    "fetched_at": "2026-10-17T09:35:39+09:00",
+    "fetched_at": "2026-10-18T04:42:17+09:00",
     "last_changed_at": "2026-10-09T07:25:03+09:00",
     "events": [
       {
@@ -267,7 +267,7 @@
     "official_url": "https://noborock-climbing.com/program/ikebukuro/",
     "instagram_url": "https://www.instagram.com/noborock_ikebukuro/",
     "fetch_status": "success",
-    "fetched_at": "2026-10-17T09:35:42+09:00",
+    "fetched_at": "2026-10-18T04:42:18+09:00",
     "last_changed_at": "2026-10-17T05:03:35+09:00",
     "events": [
       {
@@ -320,7 +320,7 @@
     "official_url": "https://noborock-climbing.com/program/machida/",
     "instagram_url": "https://www.instagram.com/noborock_machida/",
     "fetch_status": "success",
-    "fetched_at": "2026-10-17T09:35:45+09:00",
+    "fetched_at": "2026-10-18T04:42:21+09:00",
     "last_changed_at": "2026-10-09T07:25:03+09:00",
     "events": [
       {
@@ -389,7 +389,7 @@
     "official_url": "https://noborock-climbing.com/program/mizonokuchi/",
     "instagram_url": "https://www.instagram.com/noborock_mizonokuchi/",
     "fetch_status": "success",
-    "fetched_at": "2026-10-17T09:35:48+09:00",
+    "fetched_at": "2026-10-18T04:42:25+09:00",
     "last_changed_at": "2026-10-09T07:25:03+09:00",
     "events": [
       {
@@ -442,7 +442,7 @@
     "official_url": "https://noborock-climbing.com/program/omiya/",
     "instagram_url": "https://www.instagram.com/noborock_omiya/",
     "fetch_status": "success",
-    "fetched_at": "2026-10-17T09:35:51+09:00",
+    "fetched_at": "2026-10-18T04:42:28+09:00",
     "last_changed_at": "2026-10-10T10:48:36+09:00",
     "events": [
       {
@@ -495,7 +495,7 @@
     "official_url": "https://www.d-b-c.jp/top/tachikawa/",
     "instagram_url": "https://www.instagram.com/dbouldering_tachikawa/",
     "fetch_status": "success",
-    "fetched_at": "2026-10-17T09:35:54+09:00",
+    "fetched_at": "2026-10-18T04:42:31+09:00",
     "last_changed_at": null,
     "events": [
       {
@@ -612,7 +612,7 @@
     "official_url": "https://www.d-b-c.jp/top/tamachi/",
     "instagram_url": "https://www.instagram.com/dbouldering_tamachi/",
     "fetch_status": "success",
-    "fetched_at": "2026-10-17T09:36:08+09:00",
+    "fetched_at": "2026-10-18T04:42:47+09:00",
     "last_changed_at": null,
     "events": [
       {
@@ -681,7 +681,7 @@
     "official_url": "https://www.d-b-c.jp/top/tsunashima/",
     "instagram_url": "https://www.instagram.com/dbouldering_tsunashima/",
     "fetch_status": "success",
-    "fetched_at": "2026-10-17T09:36:22+09:00",
+    "fetched_at": "2026-10-18T04:43:02+09:00",
     "last_changed_at": null,
     "events": []
   },
@@ -709,7 +709,7 @@
     "official_url": "https://www.d-b-c.jp/top/honatsugi/",
     "instagram_url": "https://www.instagram.com/dbouldering_honatsugi/",
     "fetch_status": "success",
-    "fetched_at": "2026-10-17T09:36:45+09:00",
+    "fetched_at": "2026-10-18T04:43:27+09:00",
     "last_changed_at": null,
     "events": [
       {
@@ -802,7 +802,7 @@
     "official_url": "https://www.d-b-c.jp/top/yokohama/",
     "instagram_url": "https://www.instagram.com/dbouldering_yokohama/",
     "fetch_status": "success",
-    "fetched_at": "2026-10-17T09:37:30+09:00",
+    "fetched_at": "2026-10-18T04:44:16+09:00",
     "last_changed_at": null,
     "events": [
       {
@@ -963,7 +963,7 @@
     "official_url": "https://www.d-b-c.jp/top/kawasaki/",
     "instagram_url": "https://www.instagram.com/dbouldering_kawasaki/",
     "fetch_status": "success",
-    "fetched_at": "2026-10-17T09:37:54+09:00",
+    "fetched_at": "2026-10-18T04:44:42+09:00",
     "last_changed_at": null,
     "events": [
       {
@@ -1028,7 +1028,7 @@
     "official_url": "https://pump-climbing.com/gym/akiba/",
     "instagram_url": "https://www.instagram.com/bpumptokyo/",
     "fetch_status": "success",
-    "fetched_at": "2026-10-17T09:38:00+09:00",
+    "fetched_at": "2026-10-18T04:44:48+09:00",
     "last_changed_at": null,
     "events": [
       {
@@ -1240,6 +1240,30 @@
         "source": "auto"
       },
       {
+        "date": "2026-10-17",
+        "type": "イベント",
+        "note": "土曜日ビギナー道場（担当：イズミヤ、課題：動き系）",
+        "source_url": "https://pump-climbing.com/gym/akiba/%e5%9c%9f%e6%9b%9c%e6%97%a5%e3%81%af%e3%83%93%e3%82%ae%e3%83%8a%e3%83%bc%e9%81%93%e5%a0%b4/blog-news/",
+        "published": "2026-10-17",
+        "source": "auto"
+      },
+      {
+        "date": "2026-10-22",
+        "type": "エリア制限",
+        "note": "ホールド外し 21：00-",
+        "source_url": "https://pump-climbing.com/gym/akiba/%e6%ac%a1%e9%80%b1%e3%82%bb%e3%83%83%e3%83%88%e6%83%85%e5%a0%b1-%e2%96%b7%e3%80%982f-b-wall%e3%80%99/blog-news/",
+        "published": "2026-10-17",
+        "source": "auto"
+      },
+      {
+        "date": "2026-10-23",
+        "type": "エリア制限",
+        "note": "Route Setting Day",
+        "source_url": "https://pump-climbing.com/gym/akiba/%e6%ac%a1%e9%80%b1%e3%82%bb%e3%83%83%e3%83%88%e6%83%85%e5%a0%b1-%e2%96%b7%e3%80%982f-b-wall%e3%80%99/blog-news/",
+        "published": "2026-10-17",
+        "source": "auto"
+      },
+      {
         "date": "2026-10-23",
         "type": "イベント",
         "note": "レディース道場 20:00~21:00",
@@ -1273,7 +1297,7 @@
     "official_url": "https://pump-climbing.com/gym/bpump/",
     "instagram_url": "https://www.instagram.com/bpump_ogikubo/",
     "fetch_status": "success",
-    "fetched_at": "2026-10-17T09:38:06+09:00",
+    "fetched_at": "2026-10-18T04:44:58+09:00",
     "last_changed_at": null,
     "events": [
       {
@@ -1386,7 +1410,7 @@
     "official_url": "https://pump-climbing.com/gym/bpump2/",
     "instagram_url": "https://www.instagram.com/bpumpyokohama/",
     "fetch_status": "success",
-    "fetched_at": "2026-10-17T09:38:12+09:00",
+    "fetched_at": "2026-10-18T04:45:03+09:00",
     "last_changed_at": null,
     "events": [
       {
@@ -1499,7 +1523,7 @@
     "official_url": "https://pump-climbing.com/gym/pump1/",
     "instagram_url": "https://www.instagram.com/pump1_kawaguchi/",
     "fetch_status": "success",
-    "fetched_at": "2026-10-17T09:38:16+09:00",
+    "fetched_at": "2026-10-18T04:45:08+09:00",
     "last_changed_at": null,
     "events": [
       {
@@ -1656,7 +1680,7 @@
     "official_url": "https://pump-climbing.com/gym/pump2/",
     "instagram_url": "https://www.instagram.com/pump2climbing/",
     "fetch_status": "success",
-    "fetched_at": "2026-10-17T09:38:29+09:00",
+    "fetched_at": "2026-10-18T04:45:23+09:00",
     "last_changed_at": null,
     "events": [
       {
@@ -1665,14 +1689,6 @@
         "note": "スポルティバシューズ試し履きイベント（9月12日-16日）",
         "source_url": "https://pump-climbing.com/gym/pump2/la-spoltiva-shoes-traial/",
         "published": "2026-09-09",
-        "source": "auto"
-      },
-      {
-        "date": "2026-09-12",
-        "type": "イベント",
-        "note": "アッキーセッション 15:00-16:00 3F 120°壁 参加無料（利用料別途）",
-        "source_url": "https://pump-climbing.com/gym/pump2/%e3%82%a2%e3%83%83%e3%82%ad%e3%83%bc%e3%82%bb%e3%83%83%e3%82%b7%e3%83%a7%e3%83%b3%e9%96%8b%e5%82%ac%ef%bc%81%ef%bc%81/",
-        "published": "2026-09-02",
         "source": "auto"
       },
       {
@@ -1757,7 +1773,7 @@
     "official_url": "https://www.rockyclimbing.com/shinagawa/",
     "instagram_url": "https://www.instagram.com/shina_rocky/",
     "fetch_status": "success",
-    "fetched_at": "2026-10-17T09:39:46+09:00",
+    "fetched_at": "2026-10-18T04:46:48+09:00",
     "last_changed_at": null,
     "events": [
       {
@@ -1922,7 +1938,7 @@
     "official_url": "https://www.rockyclimbing.com/shinjukuakebonobashi/",
     "instagram_url": "https://www.instagram.com/jyuku_rocky/",
     "fetch_status": "success",
-    "fetched_at": "2026-10-17T09:39:46+09:00",
+    "fetched_at": "2026-10-18T04:46:48+09:00",
     "last_changed_at": null,
     "events": [
       {
@@ -2055,7 +2071,7 @@
     "official_url": "https://www.rockyclimbing.com/ryougoku/",
     "instagram_url": "https://www.instagram.com/ryougoku_rocky/",
     "fetch_status": "success",
-    "fetched_at": "2026-10-17T09:39:46+09:00",
+    "fetched_at": "2026-10-18T04:46:48+09:00",
     "last_changed_at": null,
     "events": [
       {
@@ -2172,7 +2188,7 @@
     "official_url": "https://www.rockyclimbing.com/inzai/",
     "instagram_url": "https://www.instagram.com/inzairocky/",
     "fetch_status": "success",
-    "fetched_at": "2026-10-17T09:39:46+09:00",
+    "fetched_at": "2026-10-18T04:46:48+09:00",
     "last_changed_at": null,
     "events": [
       {
@@ -2401,7 +2417,7 @@
     "official_url": "https://www.rockyclimbing.com/tsukubaami/",
     "instagram_url": "https://www.instagram.com/tsukuba_ami_rocky/",
     "fetch_status": "success",
-    "fetched_at": "2026-10-17T09:39:46+09:00",
+    "fetched_at": "2026-10-18T04:46:48+09:00",
     "last_changed_at": null,
     "events": [
       {
@@ -2486,7 +2502,7 @@
     "official_url": "https://www.rockyclimbing.com/funabashi/",
     "instagram_url": "https://www.instagram.com/funabashirocky/",
     "fetch_status": "success",
-    "fetched_at": "2026-10-17T09:39:46+09:00",
+    "fetched_at": "2026-10-18T04:46:48+09:00",
     "last_changed_at": null,
     "events": [
       {
@@ -2619,7 +2635,7 @@
     "official_url": "https://b-camp.jp/shinjuku/",
     "instagram_url": "https://www.instagram.com/basecamp_shinjuku/",
     "fetch_status": "success",
-    "fetched_at": "2026-10-17T09:38:34+09:00",
+    "fetched_at": "2026-10-18T04:45:30+09:00",
     "last_changed_at": "2026-10-09T07:25:03+09:00",
     "events": [
       {
@@ -2728,17 +2744,9 @@
     "official_url": "https://b-camp.jp/shinbashi/",
     "instagram_url": "https://www.instagram.com/basecamp_shinbashi/",
     "fetch_status": "success",
-    "fetched_at": "2026-10-17T09:38:41+09:00",
+    "fetched_at": "2026-10-18T04:45:38+09:00",
     "last_changed_at": "2026-10-09T07:25:03+09:00",
     "events": [
-      {
-        "date": "2026-08-18",
-        "type": "時間変更",
-        "note": "ラインセットリニューアルのため OPEN 18:00〜 CLOSE 23:00",
-        "source_url": "https://b-camp.jp/shinbashi/pickup/",
-        "published": "2026-10-09",
-        "source": "auto"
-      },
       {
         "date": "2026-09-03",
         "type": "エリア制限",
@@ -2829,17 +2837,9 @@
     "official_url": "https://b-camp.jp/edogawabashi/",
     "instagram_url": "https://www.instagram.com/basecamp_edogawabashi/",
     "fetch_status": "success",
-    "fetched_at": "2026-10-17T09:38:50+09:00",
+    "fetched_at": "2026-10-18T04:45:48+09:00",
     "last_changed_at": "2026-10-17T05:03:35+09:00",
     "events": [
-      {
-        "date": "2026-08-18",
-        "type": "エリア制限",
-        "note": "Cascade Left 終日封鎖",
-        "source_url": "https://b-camp.jp/edogawabashi/pickup/",
-        "published": "2026-09-03",
-        "source": "auto"
-      },
       {
         "date": "2026-08-19",
         "type": "エリア制限",
@@ -2986,7 +2986,7 @@
     "official_url": "https://b-camp.jp/kinshicho/",
     "instagram_url": "https://www.instagram.com/basecamp_kinshicho/",
     "fetch_status": "success",
-    "fetched_at": "2026-10-17T09:38:58+09:00",
+    "fetched_at": "2026-10-18T04:45:56+09:00",
     "last_changed_at": "2026-10-09T07:25:03+09:00",
     "events": [
       {
@@ -3099,7 +3099,7 @@
     "official_url": "https://b-camp.jp/higashimurayama/",
     "instagram_url": "https://www.instagram.com/basecamp_higashimurayama/",
     "fetch_status": "success",
-    "fetched_at": "2026-10-17T09:39:06+09:00",
+    "fetched_at": "2026-10-18T04:46:05+09:00",
     "last_changed_at": "2026-10-09T07:25:03+09:00",
     "events": [
       {
@@ -3276,7 +3276,7 @@
     "official_url": "https://b-camp.jp/kawagoe/",
     "instagram_url": "https://www.instagram.com/basecamp_kawagoe/",
     "fetch_status": "success",
-    "fetched_at": "2026-10-17T09:39:16+09:00",
+    "fetched_at": "2026-10-18T04:46:15+09:00",
     "last_changed_at": "2026-10-15T05:56:57+09:00",
     "events": [
       {
