@@ -2,126 +2,126 @@
   {
     "gym_id": "noborock-shinjuku",
     "status": "success",
-    "fetched_at": "2026-10-18T09:06:14+09:00"
+    "fetched_at": "2026-10-19T04:38:54+09:00"
   },
   {
     "gym_id": "noborock-shibuya",
     "status": "success",
-    "fetched_at": "2026-10-18T09:06:16+09:00"
+    "fetched_at": "2026-10-19T04:38:55+09:00"
   },
   {
     "gym_id": "noborock-takadanobaba",
     "status": "success",
-    "fetched_at": "2026-10-18T09:06:19+09:00"
+    "fetched_at": "2026-10-19T04:39:10+09:00"
   },
   {
     "gym_id": "noborock-asakusa",
     "status": "success",
-    "fetched_at": "2026-10-18T09:06:22+09:00"
+    "fetched_at": "2026-10-19T04:39:23+09:00"
   },
   {
     "gym_id": "noborock-ikebukuro",
     "status": "success",
-    "fetched_at": "2026-10-18T09:06:25+09:00"
+    "fetched_at": "2026-10-19T04:39:24+09:00"
   },
   {
     "gym_id": "noborock-machida",
     "status": "success",
-    "fetched_at": "2026-10-18T09:06:28+09:00"
+    "fetched_at": "2026-10-19T04:39:37+09:00"
   },
   {
     "gym_id": "noborock-mizonokuchi",
     "status": "success",
-    "fetched_at": "2026-10-18T09:06:31+09:00"
+    "fetched_at": "2026-10-19T04:39:38+09:00"
   },
   {
     "gym_id": "noborock-omiya",
     "status": "success",
-    "fetched_at": "2026-10-18T09:06:34+09:00"
+    "fetched_at": "2026-10-19T04:39:41+09:00"
   },
   {
     "gym_id": "dbc-tachikawa",
     "status": "success",
-    "fetched_at": "2026-10-18T09:06:37+09:00"
+    "fetched_at": "2026-10-19T04:39:44+09:00"
   },
   {
     "gym_id": "dbc-tamachi",
     "status": "success",
-    "fetched_at": "2026-10-18T09:06:52+09:00"
+    "fetched_at": "2026-10-19T04:39:59+09:00"
   },
   {
     "gym_id": "dbc-tsunashima",
     "status": "success",
-    "fetched_at": "2026-10-18T09:07:07+09:00"
+    "fetched_at": "2026-10-19T04:40:15+09:00"
   },
   {
     "gym_id": "dbc-honatsugi",
     "status": "success",
-    "fetched_at": "2026-10-18T09:07:31+09:00"
+    "fetched_at": "2026-10-19T04:40:39+09:00"
   },
   {
     "gym_id": "dbc-yokohama",
     "status": "success",
-    "fetched_at": "2026-10-18T09:08:18+09:00"
+    "fetched_at": "2026-10-19T04:41:27+09:00"
   },
   {
     "gym_id": "dbc-kawasaki",
     "status": "success",
-    "fetched_at": "2026-10-18T09:08:44+09:00"
+    "fetched_at": "2026-10-19T04:41:55+09:00"
   },
   {
     "gym_id": "bpump-akihabara",
     "status": "success",
-    "fetched_at": "2026-10-18T09:08:50+09:00"
+    "fetched_at": "2026-10-19T04:42:02+09:00"
   },
   {
     "gym_id": "bpump-ogikubo",
     "status": "success",
-    "fetched_at": "2026-10-18T09:08:56+09:00"
+    "fetched_at": "2026-10-19T04:42:07+09:00"
   },
   {
     "gym_id": "bpump-yokohama",
     "status": "success",
-    "fetched_at": "2026-10-18T09:09:03+09:00"
+    "fetched_at": "2026-10-19T04:42:14+09:00"
   },
   {
     "gym_id": "bpump-kawaguchi",
     "status": "success",
-    "fetched_at": "2026-10-18T09:09:09+09:00"
+    "fetched_at": "2026-10-19T04:42:20+09:00"
   },
   {
     "gym_id": "bpump-kawasaki",
     "status": "success",
-    "fetched_at": "2026-10-18T09:09:25+09:00"
+    "fetched_at": "2026-10-19T04:42:36+09:00"
   },
   {
     "gym_id": "bc-shinjuku",
     "status": "success",
-    "fetched_at": "2026-10-18T09:09:32+09:00"
+    "fetched_at": "2026-10-19T04:42:41+09:00"
   },
   {
     "gym_id": "bc-shinbashi",
     "status": "success",
-    "fetched_at": "2026-10-18T09:09:39+09:00"
+    "fetched_at": "2026-10-19T04:42:49+09:00"
   },
   {
     "gym_id": "bc-edogawabashi",
     "status": "success",
-    "fetched_at": "2026-10-18T09:09:48+09:00"
+    "fetched_at": "2026-10-19T04:42:58+09:00"
   },
   {
     "gym_id": "bc-kinshicho",
     "status": "success",
-    "fetched_at": "2026-10-18T09:09:57+09:00"
+    "fetched_at": "2026-10-19T04:43:07+09:00"
   },
   {
     "gym_id": "bc-higashimurayama",
     "status": "success",
-    "fetched_at": "2026-10-18T09:10:05+09:00"
+    "fetched_at": "2026-10-19T04:43:16+09:00"
   },
   {
     "gym_id": "bc-kawagoe",
     "status": "success",
-    "fetched_at": "2026-10-18T09:10:16+09:00"
+    "fetched_at": "2026-10-19T04:43:26+09:00"
   }
 ]
