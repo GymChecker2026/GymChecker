@@ -2343,9 +2343,9 @@
       ]
     },
     "noborock-shibuya::https://noborock-climbing.com/program/shibuya/": {
-      "text_hash": "9ce676fa10c5f72b7681a322800a405c8e91c4b13411ef28dcb54d91f4de60c2",
-      "last_changed_at": "2026-10-20T06:44:07+09:00",
-      "published": "2026-10-20",
+      "text_hash": "5644487b01e024076b3729fb9568dd0bbd5cf1b00b9d8c5e7e15cf33d7801c1e",
+      "last_changed_at": "2026-10-21T05:51:17+09:00",
+      "published": "2026-10-21",
       "events": [
         {
           "date": "2026-09-25",
@@ -2397,7 +2397,7 @@
         },
         {
           "date": "2026-11-01",
-          "type": "エリア制限",
+          "type": "時間変更",
           "note": "1F 17:00 close",
           "gym_name": "渋谷店"
         },
@@ -2409,8 +2409,8 @@
         },
         {
           "date": "2026-11-03",
-          "type": "エリア制限",
-          "note": "1F 15:30 open、イベント開催に伴うルートセット",
+          "type": "時間変更",
+          "note": "1F 15:30 open",
           "gym_name": "渋谷店"
         }
       ]
@@ -2754,9 +2754,9 @@
       ]
     },
     "noborock-ikebukuro::https://noborock-climbing.com/program/ikebukuro/": {
-      "text_hash": "369e9d7adcf57c1619d80e272a5f4318a1fa5360ce1b35c917aeb747052ff7c2",
-      "last_changed_at": "2026-10-20T06:44:07+09:00",
-      "published": "2026-10-20",
+      "text_hash": "6302e1b4cb13b2b24944b37dd00f4998a9f054635ceab82532da6c06053fe914",
+      "last_changed_at": "2026-10-21T05:51:17+09:00",
+      "published": "2026-10-21",
       "events": [
         {
           "date": "2026-10-04",
@@ -2778,19 +2778,7 @@
         },
         {
           "date": "2026-10-05",
-          "type": "休業",
-          "note": "ルートセット",
-          "gym_name": "大宮店"
-        },
-        {
-          "date": "2026-10-05",
           "type": "エリア制限",
-          "note": "ルートセット",
-          "gym_name": "高田馬場店"
-        },
-        {
-          "date": "2026-10-05",
-          "type": "休業",
           "note": "ルートセット",
           "gym_name": "高田馬場店"
         },
@@ -2826,19 +2814,7 @@
         },
         {
           "date": "2026-10-13",
-          "type": "休業",
-          "note": "ルートセット",
-          "gym_name": "池袋店"
-        },
-        {
-          "date": "2026-10-13",
           "type": "エリア制限",
-          "note": "ルートセット",
-          "gym_name": "浅草店"
-        },
-        {
-          "date": "2026-10-13",
-          "type": "休業",
           "note": "ルートセット",
           "gym_name": "浅草店"
         },
@@ -2874,19 +2850,7 @@
         },
         {
           "date": "2026-10-19",
-          "type": "休業",
-          "note": "ルートセット",
-          "gym_name": "溝ノ口店"
-        },
-        {
-          "date": "2026-10-19",
           "type": "エリア制限",
-          "note": "ルートセット",
-          "gym_name": "町田店"
-        },
-        {
-          "date": "2026-10-19",
-          "type": "休業",
           "note": "ルートセット",
           "gym_name": "町田店"
         },
@@ -2922,19 +2886,7 @@
         },
         {
           "date": "2026-10-26",
-          "type": "休業",
-          "note": "ルートセット",
-          "gym_name": "新宿店"
-        },
-        {
-          "date": "2026-10-26",
           "type": "エリア制限",
-          "note": "ルートセット",
-          "gym_name": "渋谷店"
-        },
-        {
-          "date": "2026-10-26",
-          "type": "休業",
           "note": "ルートセット",
           "gym_name": "渋谷店"
         },
