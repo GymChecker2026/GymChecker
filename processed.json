@@ -2222,6 +2222,25 @@
           "note": "リードエリアダイヤモンド壁にてDIAMOND SESSION開催"
         }
       ]
+    },
+    "https://pump-climbing.com/gym/akiba/b-pump-tokyo-x-fantasista-climbing-collaboration-t-shirt-vol-3/blog-news/": {
+      "published": "2026-10-25",
+      "events": []
+    },
+    "https://pump-climbing.com/gym/akiba/%e6%ac%a1%e9%80%b1%e3%82%bb%e3%83%83%e3%83%88%e6%83%85%e5%a0%b1-%e2%96%b7%e3%80%983f-back-roof%e3%80%99/blog-news/": {
+      "published": "2026-10-25",
+      "events": [
+        {
+          "date": "2026-10-28",
+          "type": "エリア制限",
+          "note": "ホールド外し 21:00-"
+        },
+        {
+          "date": "2026-10-29",
+          "type": "エリア制限",
+          "note": "Route Setting Day 3F Back Roof"
+        }
+      ]
     }
   },
   "pages": {
@@ -2383,46 +2402,10 @@
       ]
     },
     "noborock-shibuya::https://noborock-climbing.com/program/shibuya/": {
-      "text_hash": "afa07452b1a82f11eb949950cec55e74ca67c4496e08883b32e59230ea32b0c2",
-      "last_changed_at": "2026-10-25T04:45:36+09:00",
-      "published": "2026-10-25",
+      "text_hash": "25a742ed30da3e136f46bd6381caa875bc81584401ddc2bd70e6bc7f2fc6c68e",
+      "last_changed_at": "2026-10-26T04:55:32+09:00",
+      "published": "2026-10-26",
       "events": [
-        {
-          "date": "2026-09-25",
-          "type": "セット完了",
-          "note": "ルートセット完了",
-          "gym_name": "渋谷店"
-        },
-        {
-          "date": "2026-10-25",
-          "type": "時間変更",
-          "note": "17:00 close",
-          "gym_name": "大宮店"
-        },
-        {
-          "date": "2026-10-25",
-          "type": "時間変更",
-          "note": "17:00 close",
-          "gym_name": "高田馬場店"
-        },
-        {
-          "date": "2026-10-25",
-          "type": "時間変更",
-          "note": "17:00 close",
-          "gym_name": "池袋店"
-        },
-        {
-          "date": "2026-10-25",
-          "type": "時間変更",
-          "note": "17:00 close",
-          "gym_name": "浅草店"
-        },
-        {
-          "date": "2026-10-25",
-          "type": "時間変更",
-          "note": "17:00 close",
-          "gym_name": "町田店"
-        },
         {
           "date": "2026-10-25",
           "type": "時間変更",
@@ -2439,67 +2422,19 @@
           "date": "2026-10-26",
           "type": "休業",
           "note": "ルートセット",
-          "gym_name": "大宮店"
+          "gym_name": "新宿店"
+        },
+        {
+          "date": "2026-10-26",
+          "type": "休業",
+          "note": "ルートセット",
+          "gym_name": "渋谷店"
         },
         {
           "date": "2026-10-26",
           "type": "時間変更",
           "note": "18:00 close",
           "gym_name": "高田馬場店"
-        },
-        {
-          "date": "2026-10-26",
-          "type": "休業",
-          "note": "ルートセット",
-          "gym_name": "池袋店"
-        },
-        {
-          "date": "2026-10-26",
-          "type": "休業",
-          "note": "ルートセット",
-          "gym_name": "浅草店"
-        },
-        {
-          "date": "2026-10-26",
-          "type": "休業",
-          "note": "ルートセット",
-          "gym_name": "町田店"
-        },
-        {
-          "date": "2026-10-26",
-          "type": "休業",
-          "note": "ルートセット",
-          "gym_name": "新宿店"
-        },
-        {
-          "date": "2026-10-26",
-          "type": "休業",
-          "note": "ルートセット",
-          "gym_name": "渋谷店"
-        },
-        {
-          "date": "2026-10-27",
-          "type": "時間変更",
-          "note": "18:30 open",
-          "gym_name": "大宮店"
-        },
-        {
-          "date": "2026-10-27",
-          "type": "時間変更",
-          "note": "18:30 open",
-          "gym_name": "池袋店"
-        },
-        {
-          "date": "2026-10-27",
-          "type": "時間変更",
-          "note": "18:30 open",
-          "gym_name": "浅草店"
-        },
-        {
-          "date": "2026-10-27",
-          "type": "時間変更",
-          "note": "18:30 open",
-          "gym_name": "町田店"
         },
         {
           "date": "2026-10-27",
@@ -2528,15 +2463,15 @@
         {
           "date": "2026-11-03",
           "type": "エリア制限",
-          "note": "イベント開催に伴うルートセット、1F 15:30 open",
+          "note": "1F 15:30 open、イベント開催に伴うルートセット",
           "gym_name": "渋谷店"
         }
       ]
     },
     "noborock-takadanobaba::https://noborock-climbing.com/program/takadanobaba/": {
-      "text_hash": "c720ec04c36e4a1b3aea746a211c0965dda05342c05f2f0b0266fa8c4828b4e7",
-      "last_changed_at": "2026-10-25T04:45:36+09:00",
-      "published": "2026-10-25",
+      "text_hash": "af1cd866c2bbfb51354c43a167d22309e789aa82d835195af5e23026a02cd922",
+      "last_changed_at": "2026-10-26T04:55:32+09:00",
+      "published": "2026-10-26",
       "events": [
         {
           "date": "2026-10-04",
@@ -2565,19 +2500,13 @@
         {
           "date": "2026-10-06",
           "type": "時間変更",
-          "note": "18:30 open",
+          "note": "18:30 open!",
           "gym_name": "大宮店"
         },
         {
           "date": "2026-10-06",
           "type": "時間変更",
-          "note": "18:30 open",
-          "gym_name": "高田馬場店"
-        },
-        {
-          "date": "2026-10-06",
-          "type": "セット完了",
-          "note": "ルートセット完了",
+          "note": "18:30 open!",
           "gym_name": "高田馬場店"
         },
         {
@@ -2607,13 +2536,13 @@
         {
           "date": "2026-10-14",
           "type": "時間変更",
-          "note": "18:30 open",
+          "note": "18:30 open!",
           "gym_name": "池袋店"
         },
         {
           "date": "2026-10-14",
           "type": "時間変更",
-          "note": "18:30 open",
+          "note": "18:30 open!",
           "gym_name": "浅草店"
         },
         {
@@ -2643,13 +2572,13 @@
         {
           "date": "2026-10-20",
           "type": "時間変更",
-          "note": "18:30 open",
+          "note": "18:30 open!",
           "gym_name": "溝ノ口店"
         },
         {
           "date": "2026-10-20",
           "type": "時間変更",
-          "note": "18:30 open",
+          "note": "18:30 open!",
           "gym_name": "町田店"
         },
         {
@@ -2679,19 +2608,19 @@
         {
           "date": "2026-10-26",
           "type": "時間変更",
-          "note": "18:00 close",
+          "note": "18:00 close（貸切利用の為）",
           "gym_name": "高田馬場店"
         },
         {
           "date": "2026-10-27",
           "type": "時間変更",
-          "note": "18:30 open",
+          "note": "18:30 open!",
           "gym_name": "新宿店"
         },
         {
           "date": "2026-10-27",
           "type": "時間変更",
-          "note": "18:30 open",
+          "note": "18:30 open!",
           "gym_name": "渋谷店"
         },
         {
@@ -2703,13 +2632,13 @@
         {
           "date": "2026-11-04",
           "type": "休業",
-          "note": "",
+          "note": "ルートセット",
           "gym_name": "高田馬場店"
         },
         {
           "date": "2026-11-05",
           "type": "時間変更",
-          "note": "18:30 open",
+          "note": "18:30 open!",
           "gym_name": "高田馬場店"
         }
       ]
@@ -2878,17 +2807,11 @@
       ]
     },
     "noborock-ikebukuro::https://noborock-climbing.com/program/ikebukuro/": {
-      "text_hash": "c63d0cbbcbb4c58d236f534153c8138ae265b53b0cffd790158d000c279191eb",
-      "last_changed_at": "2026-10-25T04:45:36+09:00",
-      "published": "2026-10-25",
+      "text_hash": "c6d5362120a0fe3bec2730b1a8d88ecaffd8863f3ff824e1a8b46012297f57e1",
+      "last_changed_at": "2026-10-26T04:55:32+09:00",
+      "published": "2026-10-26",
       "events": [
         {
-          "date": "2026-09-08",
-          "type": "セット完了",
-          "note": "ルートセット完了",
-          "gym_name": "池袋店"
-        },
-        {
           "date": "2026-10-04",
           "type": "時間変更",
           "note": "17:00 close",
@@ -2915,13 +2838,13 @@
         {
           "date": "2026-10-06",
           "type": "時間変更",
-          "note": "18:30 open",
+          "note": "18:30 open!",
           "gym_name": "大宮店"
         },
         {
           "date": "2026-10-06",
           "type": "時間変更",
-          "note": "18:30 open",
+          "note": "18:30 open!",
           "gym_name": "高田馬場店"
         },
         {
@@ -2951,13 +2874,13 @@
         {
           "date": "2026-10-14",
           "type": "時間変更",
-          "note": "18:30 open",
+          "note": "18:30 open!",
           "gym_name": "池袋店"
         },
         {
           "date": "2026-10-14",
           "type": "時間変更",
-          "note": "18:30 open",
+          "note": "18:30 open!",
           "gym_name": "浅草店"
         },
         {
@@ -2987,13 +2910,13 @@
         {
           "date": "2026-10-20",
           "type": "時間変更",
-          "note": "18:30 open",
+          "note": "18:30 open!",
           "gym_name": "溝ノ口店"
         },
         {
           "date": "2026-10-20",
           "type": "時間変更",
-          "note": "18:30 open",
+          "note": "18:30 open!",
           "gym_name": "町田店"
         },
         {
@@ -3029,13 +2952,13 @@
         {
           "date": "2026-10-27",
           "type": "時間変更",
-          "note": "18:30 open",
+          "note": "18:30 open!",
           "gym_name": "新宿店"
         },
         {
           "date": "2026-10-27",
           "type": "時間変更",
-          "note": "18:30 open",
+          "note": "18:30 open!",
           "gym_name": "渋谷店"
         }
       ]
