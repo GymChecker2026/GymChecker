@@ -2402,15 +2402,15 @@
       ]
     },
     "noborock-shibuya::https://noborock-climbing.com/program/shibuya/": {
-      "text_hash": "25a742ed30da3e136f46bd6381caa875bc81584401ddc2bd70e6bc7f2fc6c68e",
-      "last_changed_at": "2026-10-26T04:55:32+09:00",
-      "published": "2026-10-26",
+      "text_hash": "2c46f31bf7c7cb0c5ef6de2ee4f5a6ce1a9f297763f4150ce0afba140c056663",
+      "last_changed_at": "2026-10-27T06:50:34+09:00",
+      "published": "2026-10-27",
       "events": [
         {
-          "date": "2026-10-25",
-          "type": "時間変更",
-          "note": "17:00 close",
-          "gym_name": "新宿店"
+          "date": "2026-09-25",
+          "type": "セット完了",
+          "note": "ルートセット完了",
+          "gym_name": "渋谷店"
         },
         {
           "date": "2026-10-25",
@@ -2419,9 +2419,9 @@
           "gym_name": "渋谷店"
         },
         {
-          "date": "2026-10-26",
-          "type": "休業",
-          "note": "ルートセット",
+          "date": "2026-10-25",
+          "type": "時間変更",
+          "note": "17:00 close",
           "gym_name": "新宿店"
         },
         {
@@ -2429,6 +2429,12 @@
           "type": "休業",
           "note": "ルートセット",
           "gym_name": "渋谷店"
+        },
+        {
+          "date": "2026-10-26",
+          "type": "休業",
+          "note": "ルートセット",
+          "gym_name": "新宿店"
         },
         {
           "date": "2026-10-26",
@@ -2440,31 +2446,139 @@
           "date": "2026-10-27",
           "type": "時間変更",
           "note": "18:30 open",
-          "gym_name": "新宿店"
+          "gym_name": "渋谷店"
         },
         {
           "date": "2026-10-27",
           "type": "時間変更",
           "note": "18:30 open",
-          "gym_name": "渋谷店"
+          "gym_name": "新宿店"
         },
         {
           "date": "2026-11-01",
           "type": "エリア制限",
-          "note": "1F 17:00 close",
+          "note": "1F 17:00 close イベント開催に伴うルートセット",
           "gym_name": "渋谷店"
         },
         {
           "date": "2026-11-02",
           "type": "エリア制限",
-          "note": "1F 終日 close",
+          "note": "1F 終日 close イベント開催に伴うルートセット",
           "gym_name": "渋谷店"
         },
         {
           "date": "2026-11-03",
           "type": "エリア制限",
-          "note": "1F 15:30 open、イベント開催に伴うルートセット",
+          "note": "1F 15:30 open イベント開催に伴うルートセット",
           "gym_name": "渋谷店"
+        },
+        {
+          "date": "2026-10-04",
+          "type": "時間変更",
+          "note": "17:00 close",
+          "gym_name": "大宮店"
+        },
+        {
+          "date": "2026-10-04",
+          "type": "時間変更",
+          "note": "17:00 close",
+          "gym_name": "高田馬場店"
+        },
+        {
+          "date": "2026-10-05",
+          "type": "休業",
+          "note": "ルートセット",
+          "gym_name": "大宮店"
+        },
+        {
+          "date": "2026-10-05",
+          "type": "休業",
+          "note": "ルートセット",
+          "gym_name": "高田馬場店"
+        },
+        {
+          "date": "2026-10-06",
+          "type": "時間変更",
+          "note": "18:30 open",
+          "gym_name": "大宮店"
+        },
+        {
+          "date": "2026-10-06",
+          "type": "時間変更",
+          "note": "18:30 open",
+          "gym_name": "高田馬場店"
+        },
+        {
+          "date": "2026-10-12",
+          "type": "時間変更",
+          "note": "17:00 close",
+          "gym_name": "池袋店"
+        },
+        {
+          "date": "2026-10-12",
+          "type": "時間変更",
+          "note": "17:00 close",
+          "gym_name": "浅草店"
+        },
+        {
+          "date": "2026-10-13",
+          "type": "休業",
+          "note": "ルートセット",
+          "gym_name": "池袋店"
+        },
+        {
+          "date": "2026-10-13",
+          "type": "休業",
+          "note": "ルートセット",
+          "gym_name": "浅草店"
+        },
+        {
+          "date": "2026-10-14",
+          "type": "時間変更",
+          "note": "18:30 open",
+          "gym_name": "池袋店"
+        },
+        {
+          "date": "2026-10-14",
+          "type": "時間変更",
+          "note": "18:30 open",
+          "gym_name": "浅草店"
+        },
+        {
+          "date": "2026-10-18",
+          "type": "時間変更",
+          "note": "18:45 close",
+          "gym_name": "溝ノ口店"
+        },
+        {
+          "date": "2026-10-18",
+          "type": "時間変更",
+          "note": "17:00 close",
+          "gym_name": "町田店"
+        },
+        {
+          "date": "2026-10-19",
+          "type": "休業",
+          "note": "ルートセット",
+          "gym_name": "溝ノ口店"
+        },
+        {
+          "date": "2026-10-19",
+          "type": "休業",
+          "note": "ルートセット",
+          "gym_name": "町田店"
+        },
+        {
+          "date": "2026-10-20",
+          "type": "時間変更",
+          "note": "18:30 open",
+          "gym_name": "溝ノ口店"
+        },
+        {
+          "date": "2026-10-20",
+          "type": "時間変更",
+          "note": "18:30 open",
+          "gym_name": "町田店"
         }
       ]
     },
@@ -2807,9 +2921,9 @@
       ]
     },
     "noborock-ikebukuro::https://noborock-climbing.com/program/ikebukuro/": {
-      "text_hash": "c6d5362120a0fe3bec2730b1a8d88ecaffd8863f3ff824e1a8b46012297f57e1",
-      "last_changed_at": "2026-10-26T04:55:32+09:00",
-      "published": "2026-10-26",
+      "text_hash": "b03634e93a705d2e7e648aab62444f85899651449d1615a873b331d098f8edc7",
+      "last_changed_at": "2026-10-27T06:50:34+09:00",
+      "published": "2026-10-27",
       "events": [
         {
           "date": "2026-10-04",
@@ -3874,24 +3988,34 @@
       ]
     },
     "bc-kawagoe::https://b-camp.jp/kawagoe/route/": {
-      "text_hash": "2097eacecb7c77cc93325a12a0ef9b8b8e998ec831595e0c04da40cceb388a31",
-      "last_changed_at": "2026-10-09T07:25:03+09:00",
-      "published": "2026-10-09",
+      "text_hash": "aea511437ae190936deba9db0cfa3d2e3d9a3fbc6faba4d53171c935dfbb13de",
+      "last_changed_at": "2026-10-27T06:50:34+09:00",
+      "published": "2026-10-27",
       "events": [
         {
-          "date": "2026-07-05",
+          "date": "2026-11-04",
+          "type": "エリア制限",
+          "note": "Grande Face ~ Berlin (左面) セット作業"
+        },
+        {
+          "date": "2026-11-11",
           "type": "エリア制限",
           "note": "Berlin ~ Demi Lune (奥面) セット作業"
         },
         {
-          "date": "2026-07-19",
+          "date": "2026-11-25",
           "type": "エリア制限",
           "note": "Biographie ~ Instruction Wall (右面) セット作業"
         },
         {
-          "date": "2026-07-26",
+          "date": "2026-10-07",
           "type": "エリア制限",
-          "note": "Grande Face ~ Berlin (左面) セット作業"
+          "note": "Berlin ~ Demi Lune (奥面) セット作業"
+        },
+        {
+          "date": "2026-10-21",
+          "type": "エリア制限",
+          "note": "Biographie ~ Instruction Wall (右面) セット作業"
         },
         {
           "date": "2026-09-09",
@@ -3907,16 +4031,6 @@
           "date": "2026-09-30",
           "type": "エリア制限",
           "note": "Grande Face ~ Berlin (左面) セット作業"
-        },
-        {
-          "date": "2026-10-07",
-          "type": "エリア制限",
-          "note": "Berlin ~ Demi Lune (奥面) セット作業"
-        },
-        {
-          "date": "2026-10-21",
-          "type": "エリア制限",
-          "note": "Biographie ~ Instruction Wall (右面) セット作業"
         }
       ]
     }

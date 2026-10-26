@@ -423,15 +423,6 @@
     "published": "2026-09-12"
   },
   {
-    "gym_id": "bpump-akihabara",
-    "date": "2026-09-11",
-    "type": "セット完了",
-    "note": "2F COMPETITION WALL -RIGHT SIDE- セット完了（4Qから2Dまで全15本）",
-    "gym_name": null,
-    "source_url": "https://pump-climbing.com/gym/akiba/2f-competition-wall-rightside-%e3%82%bb%e3%83%83%e3%83%88%e5%ae%8c%e4%ba%86%ef%bc%81%ef%bc%81/blog-news/",
-    "published": "2026-09-11"
-  },
-  {
     "gym_id": "bpump-ogikubo",
     "date": "2026-10-04",
     "type": "休業",
@@ -1549,57 +1540,30 @@
   },
   {
     "gym_id": "bc-kawagoe",
-    "date": "2026-07-05",
-    "type": "エリア制限",
-    "note": "Berlin ~ Demi Lune (奥面) セット作業",
-    "gym_name": null,
-    "source_url": "https://b-camp.jp/kawagoe/route/",
-    "published": "2026-10-09"
-  },
-  {
-    "gym_id": "bc-kawagoe",
-    "date": "2026-07-19",
-    "type": "エリア制限",
-    "note": "Biographie ~ Instruction Wall (右面) セット作業",
-    "gym_name": null,
-    "source_url": "https://b-camp.jp/kawagoe/route/",
-    "published": "2026-10-09"
-  },
-  {
-    "gym_id": "bc-kawagoe",
-    "date": "2026-07-26",
+    "date": "2026-11-04",
     "type": "エリア制限",
     "note": "Grande Face ~ Berlin (左面) セット作業",
     "gym_name": null,
     "source_url": "https://b-camp.jp/kawagoe/route/",
-    "published": "2026-10-09"
+    "published": "2026-10-27"
   },
   {
     "gym_id": "bc-kawagoe",
-    "date": "2026-09-09",
+    "date": "2026-11-11",
     "type": "エリア制限",
     "note": "Berlin ~ Demi Lune (奥面) セット作業",
     "gym_name": null,
     "source_url": "https://b-camp.jp/kawagoe/route/",
-    "published": "2026-10-09"
+    "published": "2026-10-27"
   },
   {
     "gym_id": "bc-kawagoe",
-    "date": "2026-09-16",
+    "date": "2026-11-25",
     "type": "エリア制限",
     "note": "Biographie ~ Instruction Wall (右面) セット作業",
     "gym_name": null,
     "source_url": "https://b-camp.jp/kawagoe/route/",
-    "published": "2026-10-09"
-  },
-  {
-    "gym_id": "bc-kawagoe",
-    "date": "2026-09-30",
-    "type": "エリア制限",
-    "note": "Grande Face ~ Berlin (左面) セット作業",
-    "gym_name": null,
-    "source_url": "https://b-camp.jp/kawagoe/route/",
-    "published": "2026-10-09"
+    "published": "2026-10-27"
   },
   {
     "gym_id": "bc-kawagoe",
@@ -1608,7 +1572,7 @@
     "note": "Berlin ~ Demi Lune (奥面) セット作業",
     "gym_name": null,
     "source_url": "https://b-camp.jp/kawagoe/route/",
-    "published": "2026-10-09"
+    "published": "2026-10-27"
   },
   {
     "gym_id": "bc-kawagoe",
@@ -1617,7 +1581,34 @@
     "note": "Biographie ~ Instruction Wall (右面) セット作業",
     "gym_name": null,
     "source_url": "https://b-camp.jp/kawagoe/route/",
-    "published": "2026-10-09"
+    "published": "2026-10-27"
+  },
+  {
+    "gym_id": "bc-kawagoe",
+    "date": "2026-09-09",
+    "type": "エリア制限",
+    "note": "Berlin ~ Demi Lune (奥面) セット作業",
+    "gym_name": null,
+    "source_url": "https://b-camp.jp/kawagoe/route/",
+    "published": "2026-10-27"
+  },
+  {
+    "gym_id": "bc-kawagoe",
+    "date": "2026-09-16",
+    "type": "エリア制限",
+    "note": "Biographie ~ Instruction Wall (右面) セット作業",
+    "gym_name": null,
+    "source_url": "https://b-camp.jp/kawagoe/route/",
+    "published": "2026-10-27"
+  },
+  {
+    "gym_id": "bc-kawagoe",
+    "date": "2026-09-30",
+    "type": "エリア制限",
+    "note": "Grande Face ~ Berlin (左面) セット作業",
+    "gym_name": null,
+    "source_url": "https://b-camp.jp/kawagoe/route/",
+    "published": "2026-10-27"
   },
   {
     "gym_id": "noborock-omiya",
@@ -1680,7 +1671,7 @@
     "note": "17:00 close",
     "gym_name": "池袋店",
     "source_url": "https://noborock-climbing.com/program/ikebukuro/",
-    "published": "2026-10-26"
+    "published": "2026-10-27"
   },
   {
     "gym_id": "noborock-asakusa",
@@ -1698,7 +1689,7 @@
     "note": "ルートセット",
     "gym_name": "池袋店",
     "source_url": "https://noborock-climbing.com/program/ikebukuro/",
-    "published": "2026-10-26"
+    "published": "2026-10-27"
   },
   {
     "gym_id": "noborock-asakusa",
@@ -1716,7 +1707,7 @@
     "note": "18:30 open!",
     "gym_name": "池袋店",
     "source_url": "https://noborock-climbing.com/program/ikebukuro/",
-    "published": "2026-10-26"
+    "published": "2026-10-27"
   },
   {
     "gym_id": "noborock-asakusa",
@@ -1797,7 +1788,7 @@
     "note": "17:00 close",
     "gym_name": "渋谷店",
     "source_url": "https://noborock-climbing.com/program/shibuya/",
-    "published": "2026-10-26"
+    "published": "2026-10-27"
   },
   {
     "gym_id": "noborock-shinjuku",
@@ -1815,7 +1806,7 @@
     "note": "ルートセット",
     "gym_name": "渋谷店",
     "source_url": "https://noborock-climbing.com/program/shibuya/",
-    "published": "2026-10-26"
+    "published": "2026-10-27"
   },
   {
     "gym_id": "noborock-takadanobaba",
@@ -1842,34 +1833,43 @@
     "note": "18:30 open",
     "gym_name": "渋谷店",
     "source_url": "https://noborock-climbing.com/program/shibuya/",
-    "published": "2026-10-26"
+    "published": "2026-10-27"
+  },
+  {
+    "gym_id": "noborock-shibuya",
+    "date": "2026-09-25",
+    "type": "セット完了",
+    "note": "ルートセット完了",
+    "gym_name": "渋谷店",
+    "source_url": "https://noborock-climbing.com/program/shibuya/",
+    "published": "2026-10-27"
   },
   {
     "gym_id": "noborock-shibuya",
     "date": "2026-11-01",
     "type": "エリア制限",
-    "note": "1F 17:00 close",
+    "note": "1F 17:00 close イベント開催に伴うルートセット",
     "gym_name": "渋谷店",
     "source_url": "https://noborock-climbing.com/program/shibuya/",
-    "published": "2026-10-26"
+    "published": "2026-10-27"
   },
   {
     "gym_id": "noborock-shibuya",
     "date": "2026-11-02",
     "type": "エリア制限",
-    "note": "1F 終日 close",
+    "note": "1F 終日 close イベント開催に伴うルートセット",
     "gym_name": "渋谷店",
     "source_url": "https://noborock-climbing.com/program/shibuya/",
-    "published": "2026-10-26"
+    "published": "2026-10-27"
   },
   {
     "gym_id": "noborock-shibuya",
     "date": "2026-11-03",
     "type": "エリア制限",
-    "note": "1F 15:30 open、イベント開催に伴うルートセット",
+    "note": "1F 15:30 open イベント開催に伴うルートセット",
     "gym_name": "渋谷店",
     "source_url": "https://noborock-climbing.com/program/shibuya/",
-    "published": "2026-10-26"
+    "published": "2026-10-27"
   },
   {
     "gym_id": "noborock-takadanobaba",
