@@ -1383,6 +1383,62 @@
       "note": "193in spray イクミン スプレー",
       "source_url": null,
       "published": "2026-10-08"
+    },
+    {
+      "gym_id": "rocky-akebonobashi",
+      "date": "2026-11-01",
+      "type": "エリア制限",
+      "note": "ホールド外し ・WELCOME ・BUFFALO ・SHALLOW / 10:00~21:00 (外しエリアは17時以降登れません)",
+      "source_url": null,
+      "published": "2026-10-28"
+    },
+    {
+      "gym_id": "rocky-akebonobashi",
+      "date": "2026-11-02",
+      "type": "セット完了",
+      "note": "セット ・WELCOME ・BUFFALO ・SHALLOW / 10:00~23:00 (セットエリアは19時から登れます)",
+      "source_url": null,
+      "published": "2026-10-28"
+    },
+    {
+      "gym_id": "rocky-akebonobashi",
+      "date": "2026-11-11",
+      "type": "エリア制限",
+      "note": "ホールド外し ・LAGOON / 10:00~23:00 (8LEVELSのため閉店後にホールド外し)",
+      "source_url": null,
+      "published": "2026-10-28"
+    },
+    {
+      "gym_id": "rocky-akebonobashi",
+      "date": "2026-11-12",
+      "type": "イベント",
+      "note": "8LEVELS 岩課題",
+      "source_url": null,
+      "published": "2026-10-28"
+    },
+    {
+      "gym_id": "rocky-akebonobashi",
+      "date": "2026-11-15",
+      "type": "エリア制限",
+      "note": "ホールド外し ・JACK ・QUEEN ・KING ・LAGOON / 10:00~21:00 (外しエリアは17時以降登れません)",
+      "source_url": null,
+      "published": "2026-10-28"
+    },
+    {
+      "gym_id": "rocky-akebonobashi",
+      "date": "2026-11-16",
+      "type": "セット完了",
+      "note": "セット ・LACK ・QUEEN ・KING ・LAGOON / 10:00~23:00 (セットエリアは19時から登れます)",
+      "source_url": null,
+      "published": "2026-10-28"
+    },
+    {
+      "gym_id": "rocky-akebonobashi",
+      "date": "2026-11-26",
+      "type": "イベント",
+      "note": "ENTRY DOJO FOR BEGINNERS!! 18:00~19:00",
+      "source_url": null,
+      "published": "2026-10-28"
     }
   ],
   "coverage": {
