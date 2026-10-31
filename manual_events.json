@@ -1401,6 +1401,14 @@
       "published": "2026-10-28"
     },
     {
+      "gym_id": "rocky-funabashi",
+      "date": "2026-11-02",
+      "type": "イベント",
+      "note": "TRAINING SESSION 20:30~",
+      "source_url": null,
+      "published": "2026-10-31"
+    },
+    {
       "gym_id": "rocky-inzai",
       "date": "2026-11-02",
       "type": "イベント",
@@ -1425,10 +1433,42 @@
       "published": "2026-10-31"
     },
     {
+      "gym_id": "rocky-shinagawa",
+      "date": "2026-11-06",
+      "type": "イベント",
+      "note": "SHINA ROCKY'S 18:30~20:30",
+      "source_url": null,
+      "published": "2026-10-31"
+    },
+    {
+      "gym_id": "rocky-shinagawa",
+      "date": "2026-11-08",
+      "type": "エリア制限",
+      "note": "ホールド外し ・Welcome ・Bubble ・The Face / 10:00~21:00 (外しエリアは17時以降登れません)",
+      "source_url": null,
+      "published": "2026-10-31"
+    },
+    {
       "gym_id": "rocky-inzai",
       "date": "2026-11-09",
       "type": "イベント",
       "note": "初心者歓迎 きむきむレッスン 20:00~21:00",
+      "source_url": null,
+      "published": "2026-10-31"
+    },
+    {
+      "gym_id": "rocky-shinagawa",
+      "date": "2026-11-09",
+      "type": "セット完了",
+      "note": "セット ・Welcome ・Bubble ・The Face / 10:00~23:00 (セットエリアは19時から登れます)",
+      "source_url": null,
+      "published": "2026-10-31"
+    },
+    {
+      "gym_id": "rocky-funabashi",
+      "date": "2026-11-10",
+      "type": "イベント",
+      "note": "TRAINING SESSION 20:30~",
       "source_url": null,
       "published": "2026-10-31"
     },
@@ -1465,6 +1505,14 @@
       "published": "2026-10-28"
     },
     {
+      "gym_id": "rocky-ryogoku",
+      "date": "2026-11-14",
+      "type": "時間変更",
+      "note": "貸切 10:00-13:00 / 13:00-21:00 短縮営業",
+      "source_url": null,
+      "published": "2026-10-31"
+    },
+    {
       "gym_id": "rocky-akebonobashi",
       "date": "2026-11-15",
       "type": "エリア制限",
@@ -1489,6 +1537,22 @@
       "published": "2026-10-31"
     },
     {
+      "gym_id": "rocky-funabashi",
+      "date": "2026-11-17",
+      "type": "エリア制限",
+      "note": "ホールド外し ・BombLeft ・Welcome / 10:00~23:00 (外しエリアは17時以降登れません)",
+      "source_url": null,
+      "published": "2026-10-31"
+    },
+    {
+      "gym_id": "rocky-funabashi",
+      "date": "2026-11-18",
+      "type": "休業",
+      "note": "セット ・BombLeft ・Welocme / 終日休業",
+      "source_url": null,
+      "published": "2026-10-31"
+    },
+    {
       "gym_id": "rocky-inzai",
       "date": "2026-11-19",
       "type": "エリア制限",
@@ -1505,6 +1569,46 @@
       "published": "2026-10-31"
     },
     {
+      "gym_id": "rocky-shinagawa",
+      "date": "2026-11-23",
+      "type": "エリア制限",
+      "note": "ホールド外し ・Esperanza ・Believe ・Urban corner ・Robin / 10:00~21:00 (外しエリアは17時以降登れません)",
+      "source_url": null,
+      "published": "2026-10-31"
+    },
+    {
+      "gym_id": "rocky-funabashi",
+      "date": "2026-11-24",
+      "type": "イベント",
+      "note": "TRAINING SESSION 20:30~",
+      "source_url": null,
+      "published": "2026-10-31"
+    },
+    {
+      "gym_id": "rocky-ryogoku",
+      "date": "2026-11-24",
+      "type": "エリア制限",
+      "note": "外し ・Welcome&Happiness / 10:00~23:00 (外しエリアは17時以降登れません)",
+      "source_url": null,
+      "published": "2026-10-31"
+    },
+    {
+      "gym_id": "rocky-shinagawa",
+      "date": "2026-11-24",
+      "type": "セット完了",
+      "note": "セット ・Esperanza ・Believe ・Urban corner ・Robin / 10:00~23:00 (セットエリアは19時から登れます)",
+      "source_url": null,
+      "published": "2026-10-31"
+    },
+    {
+      "gym_id": "rocky-ryogoku",
+      "date": "2026-11-25",
+      "type": "休業",
+      "note": "セット ・Welcome&Happiness / 終日休業",
+      "source_url": null,
+      "published": "2026-10-31"
+    },
+    {
       "gym_id": "rocky-akebonobashi",
       "date": "2026-11-26",
       "type": "イベント",
@@ -1517,6 +1621,14 @@
       "date": "2026-11-26",
       "type": "イベント",
       "note": "193in spray",
+      "source_url": null,
+      "published": "2026-10-31"
+    },
+    {
+      "gym_id": "rocky-funabashi",
+      "date": "2026-11-30",
+      "type": "イベント",
+      "note": "TRAINING SESSION 20:30~",
       "source_url": null,
       "published": "2026-10-31"
     },
