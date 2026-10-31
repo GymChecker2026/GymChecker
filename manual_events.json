@@ -1401,12 +1401,60 @@
       "published": "2026-10-28"
     },
     {
+      "gym_id": "rocky-inzai",
+      "date": "2026-11-02",
+      "type": "イベント",
+      "note": "6Q~4Q 193in session 20:00~21:00",
+      "source_url": null,
+      "published": "2026-10-31"
+    },
+    {
+      "gym_id": "rocky-inzai",
+      "date": "2026-11-05",
+      "type": "エリア制限",
+      "note": "ホールド外し Rocket Bulge BlackHole / 10:00~23:00 (外しエリアは17時以降登れません)",
+      "source_url": null,
+      "published": "2026-10-31"
+    },
+    {
+      "gym_id": "rocky-inzai",
+      "date": "2026-11-06",
+      "type": "セット完了",
+      "note": "セット Rocket Bulge BlackHole / 10:00~23:00 (セットエリアは19時から登れます)",
+      "source_url": null,
+      "published": "2026-10-31"
+    },
+    {
+      "gym_id": "rocky-inzai",
+      "date": "2026-11-09",
+      "type": "イベント",
+      "note": "初心者歓迎 きむきむレッスン 20:00~21:00",
+      "source_url": null,
+      "published": "2026-10-31"
+    },
+    {
+      "gym_id": "rocky-inzai",
+      "date": "2026-11-10",
+      "type": "エリア制限",
+      "note": "ホールド外し STAR / 10:00~23:00 (外しエリアは17時以降登れません)",
+      "source_url": null,
+      "published": "2026-10-31"
+    },
+    {
       "gym_id": "rocky-akebonobashi",
       "date": "2026-11-11",
       "type": "エリア制限",
       "note": "ホールド外し ・LAGOON / 10:00~23:00 (8LEVELSのため閉店後にホールド外し)",
       "source_url": null,
       "published": "2026-10-28"
+    },
+    {
+      "gym_id": "rocky-inzai",
+      "date": "2026-11-11",
+      "type": "セット完了",
+      "note": "セット STAR / 10:00~23:00 (セットエリアは19時から登れます)",
+      "source_url": null,
+      "published": "2026-10-31"
     },
     {
       "gym_id": "rocky-akebonobashi",
@@ -1433,12 +1481,52 @@
       "published": "2026-10-28"
     },
     {
+      "gym_id": "rocky-inzai",
+      "date": "2026-11-16",
+      "type": "イベント",
+      "note": "6Q~4Q 193in session 20:00~21:00",
+      "source_url": null,
+      "published": "2026-10-31"
+    },
+    {
+      "gym_id": "rocky-inzai",
+      "date": "2026-11-19",
+      "type": "エリア制限",
+      "note": "ホールド外し Planet UFO / 10:00~23:00 (外しエリアは17時以降登れません)",
+      "source_url": null,
+      "published": "2026-10-31"
+    },
+    {
+      "gym_id": "rocky-inzai",
+      "date": "2026-11-20",
+      "type": "セット完了",
+      "note": "セット Planet UFO / 10:00~23:00 (セットエリアは19時から登れます)",
+      "source_url": null,
+      "published": "2026-10-31"
+    },
+    {
       "gym_id": "rocky-akebonobashi",
       "date": "2026-11-26",
       "type": "イベント",
       "note": "ENTRY DOJO FOR BEGINNERS!! 18:00~19:00",
       "source_url": null,
       "published": "2026-10-28"
+    },
+    {
+      "gym_id": "rocky-inzai",
+      "date": "2026-11-26",
+      "type": "イベント",
+      "note": "193in spray",
+      "source_url": null,
+      "published": "2026-10-31"
+    },
+    {
+      "gym_id": "rocky-inzai",
+      "date": "2026-11-30",
+      "type": "イベント",
+      "note": "初心者歓迎 きむきむレッスン 20:00~21:00",
+      "source_url": null,
+      "published": "2026-10-31"
     }
   ],
   "coverage": {
