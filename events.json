@@ -63,6 +63,33 @@
     "published": "2026-09-17"
   },
   {
+    "gym_id": "dbc-tsunashima",
+    "date": "2026-11-21",
+    "type": "時間変更",
+    "note": "貸切営業のため18:00までの営業",
+    "gym_name": null,
+    "source_url": "https://www.d-b-c.jp/tsunashima/2026/11/10080/",
+    "published": "2026-11-01"
+  },
+  {
+    "gym_id": "dbc-tsunashima",
+    "date": "2026-11-28",
+    "type": "イベント",
+    "note": "周年コンペ",
+    "gym_name": null,
+    "source_url": "https://www.d-b-c.jp/tsunashima/2026/11/10080/",
+    "published": "2026-11-01"
+  },
+  {
+    "gym_id": "dbc-tsunashima",
+    "date": "2026-11-29",
+    "type": "イベント",
+    "note": "周年コンペ",
+    "gym_name": null,
+    "source_url": "https://www.d-b-c.jp/tsunashima/2026/11/10080/",
+    "published": "2026-11-01"
+  },
+  {
     "gym_id": "dbc-honatsugi",
     "date": "2026-10-06",
     "type": "エリア制限",
@@ -1796,7 +1823,7 @@
     "type": "時間変更",
     "note": "17:00 close",
     "gym_name": "大宮店",
-    "source_url": "https://noborock-climbing.com/program/新宿店/",
+    "source_url": "https://noborock-climbing.com/program/omiya/",
     "published": "2026-11-01"
   },
   {
@@ -1814,7 +1841,7 @@
     "type": "休業",
     "note": "ルートセット",
     "gym_name": "大宮店",
-    "source_url": "https://noborock-climbing.com/program/新宿店/",
+    "source_url": "https://noborock-climbing.com/program/omiya/",
     "published": "2026-11-01"
   },
   {
@@ -1832,7 +1859,7 @@
     "type": "時間変更",
     "note": "18:30 open",
     "gym_name": "大宮店",
-    "source_url": "https://noborock-climbing.com/program/新宿店/",
+    "source_url": "https://noborock-climbing.com/program/omiya/",
     "published": "2026-11-01"
   },
   {
@@ -2021,7 +2048,7 @@
     "type": "時間変更",
     "note": "17:00 close",
     "gym_name": "大宮店",
-    "source_url": "https://noborock-climbing.com/program/新宿店/",
+    "source_url": "https://noborock-climbing.com/program/omiya/",
     "published": "2026-11-01"
   },
   {
@@ -2039,7 +2066,7 @@
     "type": "休業",
     "note": "ルートセット",
     "gym_name": "大宮店",
-    "source_url": "https://noborock-climbing.com/program/新宿店/",
+    "source_url": "https://noborock-climbing.com/program/omiya/",
     "published": "2026-11-01"
   },
   {
@@ -2463,6 +2490,15 @@
     "note": "17:00 close",
     "gym_name": "高田馬場店",
     "source_url": "https://noborock-climbing.com/program/mizonokuchi/",
+    "published": "2026-11-01"
+  },
+  {
+    "gym_id": "noborock-omiya",
+    "date": "2026-10-06",
+    "type": "セット完了",
+    "note": "ルートセット完了",
+    "gym_name": "大宮店",
+    "source_url": "https://noborock-climbing.com/program/omiya/",
     "published": "2026-11-01"
   }
 ]
