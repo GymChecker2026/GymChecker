@@ -2570,9 +2570,9 @@
       ]
     },
     "noborock-shibuya::https://noborock-climbing.com/program/shibuya/": {
-      "text_hash": "c25320d9b11b199897373e98af78f41944341e10b90c8728610564653c2cd117",
-      "last_changed_at": "2026-11-03T09:01:44+09:00",
-      "published": "2026-11-03",
+      "text_hash": "d3fa1dcf60124cac14a664940e0ae63dc4c9e936577c2cff2ad3b57959acaf4c",
+      "last_changed_at": "2026-11-04T07:29:49+09:00",
+      "published": "2026-11-04",
       "events": [
         {
           "date": "2026-10-27",
@@ -2595,19 +2595,55 @@
         {
           "date": "2026-11-03",
           "type": "エリア制限",
-          "note": "イベント開催に伴うルートセット、1F 15:30 open",
+          "note": "1F 15:30 open",
+          "gym_name": "渋谷店"
+        },
+        {
+          "date": "2026-11-23",
+          "type": "時間変更",
+          "note": "17:00 close",
+          "gym_name": "新宿店"
+        },
+        {
+          "date": "2026-11-23",
+          "type": "時間変更",
+          "note": "17:00 close",
+          "gym_name": "渋谷店"
+        },
+        {
+          "date": "2026-11-24",
+          "type": "休業",
+          "note": "ルートセット",
+          "gym_name": "新宿店"
+        },
+        {
+          "date": "2026-11-24",
+          "type": "休業",
+          "note": "ルートセット",
+          "gym_name": "渋谷店"
+        },
+        {
+          "date": "2026-11-24",
+          "type": "時間変更",
+          "note": "18:00 close",
+          "gym_name": "高田馬場店"
+        },
+        {
+          "date": "2026-11-25",
+          "type": "時間変更",
+          "note": "18:30 open",
+          "gym_name": "新宿店"
+        },
+        {
+          "date": "2026-11-25",
+          "type": "時間変更",
+          "note": "18:30 open",
           "gym_name": "渋谷店"
         },
         {
           "date": "2026-11-03",
           "type": "時間変更",
           "note": "17:00 close",
-          "gym_name": "高田馬場店"
-        },
-        {
-          "date": "2026-11-03",
-          "type": "時間変更",
-          "note": "17:00 close",
           "gym_name": "大宮店"
         },
         {
@@ -2615,18 +2651,24 @@
           "type": "休業",
           "note": "ルートセット",
           "gym_name": "大宮店"
-        },
-        {
-          "date": "2026-11-04",
-          "type": "休業",
-          "note": "ルートセット",
-          "gym_name": "高田馬場店"
         },
         {
           "date": "2026-11-05",
           "type": "時間変更",
           "note": "18:30 open",
           "gym_name": "大宮店"
+        },
+        {
+          "date": "2026-11-03",
+          "type": "時間変更",
+          "note": "17:00 close",
+          "gym_name": "高田馬場店"
+        },
+        {
+          "date": "2026-11-04",
+          "type": "休業",
+          "note": "ルートセット",
+          "gym_name": "高田馬場店"
         },
         {
           "date": "2026-11-05",
@@ -2707,48 +2749,6 @@
           "gym_name": "町田店"
         },
         {
-          "date": "2026-11-23",
-          "type": "時間変更",
-          "note": "17:00 close",
-          "gym_name": "新宿店"
-        },
-        {
-          "date": "2026-11-23",
-          "type": "時間変更",
-          "note": "17:00 close",
-          "gym_name": "渋谷店"
-        },
-        {
-          "date": "2026-11-24",
-          "type": "休業",
-          "note": "ルートセット",
-          "gym_name": "新宿店"
-        },
-        {
-          "date": "2026-11-24",
-          "type": "休業",
-          "note": "ルートセット",
-          "gym_name": "渋谷店"
-        },
-        {
-          "date": "2026-11-24",
-          "type": "時間変更",
-          "note": "18:00 close",
-          "gym_name": "高田馬場店"
-        },
-        {
-          "date": "2026-11-25",
-          "type": "時間変更",
-          "note": "18:30 open",
-          "gym_name": "新宿店"
-        },
-        {
-          "date": "2026-11-25",
-          "type": "時間変更",
-          "note": "18:30 open",
-          "gym_name": "渋谷店"
-        },
-        {
           "date": "2026-11-29",
           "type": "時間変更",
           "note": "17:00 close",
@@ -2775,9 +2775,9 @@
       ]
     },
     "noborock-takadanobaba::https://noborock-climbing.com/program/takadanobaba/": {
-      "text_hash": "0bd4a731938e8d9c6c73657b99708bc43ebdc2ab9c1a8286e56f91912649b4bc",
-      "last_changed_at": "2026-11-02T06:21:51+09:00",
-      "published": "2026-11-02",
+      "text_hash": "c0f8eb524fd001ee4f04481239d93256b43a15e8318fa75b47bb7b105b56f5b6",
+      "last_changed_at": "2026-11-04T07:29:49+09:00",
+      "published": "2026-11-04",
       "events": [
         {
           "date": "2026-10-26",
@@ -3143,9 +3143,9 @@
       ]
     },
     "noborock-ikebukuro::https://noborock-climbing.com/program/ikebukuro/": {
-      "text_hash": "87ec78f2826ce1bd13da8189f162074eedd3c0120cb292ba765b215e1001ec45",
-      "last_changed_at": "2026-11-03T09:01:44+09:00",
-      "published": "2026-11-03",
+      "text_hash": "6ca58bdf0e7b4651484f7683e705883b42747d13943e37dc38fd92e10e4a6b63",
+      "last_changed_at": "2026-11-04T07:29:49+09:00",
+      "published": "2026-11-04",
       "events": [
         {
           "date": "2026-10-14",
@@ -3994,36 +3994,56 @@
       ]
     },
     "bc-shinbashi::https://b-camp.jp/shinbashi/pickup/": {
-      "text_hash": "1ae5b155c44afd683f6e37d0ef193b188a00ce74fe1799f0e678deb536dee280",
-      "last_changed_at": "2026-10-22T05:52:16+09:00",
-      "published": "2026-10-22",
+      "text_hash": "22617c4fa7d25fc38bdc7b5a10a4411305d8dcf859a05cd6570b5cbb9b5cf451",
+      "last_changed_at": "2026-11-04T07:29:49+09:00",
+      "published": "2026-11-04",
       "events": [
+        {
+          "date": "2026-11-16",
+          "type": "休業",
+          "note": "ルートセット作業に伴う臨時休業"
+        },
         {
           "date": "2026-10-19",
           "type": "休業",
-          "note": "ルートセット作業のため臨時休業"
+          "note": "ルートセット作業に伴う臨時休業"
         },
         {
           "date": "2026-09-14",
           "type": "休業",
-          "note": "ルートセット作業のため臨時休業"
+          "note": "ルートセット作業に伴う臨時休業"
         },
         {
-          "date": "2026-08-17",
-          "type": "休業",
-          "note": "ルートセット作業のため臨時休業"
+          "date": "2026-08-20",
+          "type": "イベント",
+          "note": "ONE bouldering Ranking（全国31会場）"
         }
       ]
     },
     "bc-shinbashi::https://b-camp.jp/shinbashi/route/": {
-      "text_hash": "330ed10b5a2cc8783dfae4c74022063da5bf9059b2a5420cbb37fdb07f8a6c3f",
-      "last_changed_at": "2026-10-09T07:25:03+09:00",
-      "published": "2026-10-09",
+      "text_hash": "4f507a9b2897c691f0565ff38cc0206fc4d785e6ce3c030e21f0107d8b4cb228",
+      "last_changed_at": "2026-11-04T07:29:49+09:00",
+      "published": "2026-11-04",
       "events": [
+        {
+          "date": "2026-11-15",
+          "type": "時間変更",
+          "note": "18:00close ホールド外し作業のため"
+        },
+        {
+          "date": "2026-11-16",
+          "type": "休業",
+          "note": "臨時休業日"
+        },
+        {
+          "date": "2026-11-17",
+          "type": "時間変更",
+          "note": "18:00OPEN ラインセットリニューアル"
+        },
         {
           "date": "2026-10-18",
           "type": "時間変更",
-          "note": "18:00close"
+          "note": "18:00close ホールド外し作業のため"
         },
         {
           "date": "2026-10-19",
@@ -4033,12 +4053,12 @@
         {
           "date": "2026-10-20",
           "type": "時間変更",
-          "note": "18:00OPEN"
+          "note": "18:00OPEN ラインセットリニューアル"
         },
         {
           "date": "2026-10-26",
           "type": "エリア制限",
-          "note": "Hubbleセット作業のため18:00まで一部エリア制限"
+          "note": "18:00まで一部エリア制限 Hubbleセットのため"
         },
         {
           "date": "2026-09-03",
@@ -4048,7 +4068,7 @@
         {
           "date": "2026-09-13",
           "type": "時間変更",
-          "note": "18:00close"
+          "note": "18:00close ホールド外し作業のため"
         },
         {
           "date": "2026-09-14",
@@ -4058,22 +4078,7 @@
         {
           "date": "2026-09-15",
           "type": "時間変更",
-          "note": "18:00OPEN"
-        },
-        {
-          "date": "2026-08-16",
-          "type": "時間変更",
-          "note": "18:00close"
-        },
-        {
-          "date": "2026-08-17",
-          "type": "休業",
-          "note": "臨時休業日"
-        },
-        {
-          "date": "2026-08-18",
-          "type": "時間変更",
-          "note": "18:00OPEN"
+          "note": "18:00OPEN ラインセットリニューアル"
         }
       ]
     },
