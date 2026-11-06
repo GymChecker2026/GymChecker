@@ -2430,6 +2430,35 @@
           "note": "Halloween CUP"
         }
       ]
+    },
+    "https://www.d-b-c.jp/tamachi-news/11%e6%9c%88%ef%bc%9a%e3%83%9b%e3%83%bc%e3%83%ab%e3%83%89%e6%9b%bf%e3%81%88%e3%81%ab%e4%bc%b4%e3%81%86%e4%bc%91%e6%a5%ad%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b/": {
+      "published": "2026-11-06",
+      "events": [
+        {
+          "date": "2026-11-09",
+          "type": "エリア制限",
+          "note": "メイン壁のセット作業"
+        },
+        {
+          "date": "2026-11-11",
+          "type": "時間変更",
+          "note": "リニューアルオープン 18時～"
+        }
+      ]
+    },
+    "https://pump-climbing.com/gym/akiba/2f-c-wall-%e3%82%bb%e3%83%83%e3%83%88%e5%ae%8c%e4%ba%86%ef%bc%81/blog-news/": {
+      "published": "2026-11-06",
+      "events": [
+        {
+          "date": "2026-11-06",
+          "type": "セット完了",
+          "note": "2F C WALL セット完了。8Qから2Dまでトータル17本。B-pump yokohamaの可児子店長とPUMP2kawasakiの樋口さんによるセット。"
+        }
+      ]
+    },
+    "https://pump-climbing.com/gym/pump2/%e5%b7%a5%e4%ba%8b%e3%81%ab%e3%82%88%e3%82%8b%e9%80%9a%e8%a1%8c%e6%ad%a2%e3%82%81%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b%e2%80%bb%e6%9c%9f%e9%96%93%e5%86%85%e3%82%82%e5%85%a8%e3%81%a6%e3%81%ae/": {
+      "published": "2026-11-06",
+      "events": []
     }
   },
   "pages": {
@@ -2615,9 +2644,9 @@
       ]
     },
     "noborock-shibuya::https://noborock-climbing.com/program/shibuya/": {
-      "text_hash": "b3e6ea2a72576dc9d02a738b8e260c0d46db4b70fece39d9378e0e26cdbe7e93",
-      "last_changed_at": "2026-11-06T07:49:04+09:00",
-      "published": "2026-11-06",
+      "text_hash": "a84bd61059eb16325ebf695d7f1f2ab036f1934f9b86838b49e3c74eb731e01e",
+      "last_changed_at": "2026-11-07T07:21:41+09:00",
+      "published": "2026-11-07",
       "events": [
         {
           "date": "2026-10-27",
@@ -2639,8 +2668,50 @@
         },
         {
           "date": "2026-11-03",
-          "type": "時間変更",
+          "type": "エリア制限",
           "note": "1F 15:30 open",
+          "gym_name": "渋谷店"
+        },
+        {
+          "date": "2026-11-23",
+          "type": "時間変更",
+          "note": "17:00 close",
+          "gym_name": "新宿店"
+        },
+        {
+          "date": "2026-11-23",
+          "type": "時間変更",
+          "note": "17:00 close",
+          "gym_name": "渋谷店"
+        },
+        {
+          "date": "2026-11-24",
+          "type": "休業",
+          "note": "ルートセット",
+          "gym_name": "新宿店"
+        },
+        {
+          "date": "2026-11-24",
+          "type": "休業",
+          "note": "ルートセット",
+          "gym_name": "渋谷店"
+        },
+        {
+          "date": "2026-11-24",
+          "type": "時間変更",
+          "note": "18:00 close",
+          "gym_name": "高田馬場店"
+        },
+        {
+          "date": "2026-11-25",
+          "type": "時間変更",
+          "note": "18:30 open",
+          "gym_name": "新宿店"
+        },
+        {
+          "date": "2026-11-25",
+          "type": "時間変更",
+          "note": "18:30 open",
           "gym_name": "渋谷店"
         },
         {
@@ -2750,48 +2821,6 @@
           "type": "時間変更",
           "note": "18:30 open",
           "gym_name": "町田店"
-        },
-        {
-          "date": "2026-11-23",
-          "type": "時間変更",
-          "note": "17:00 close",
-          "gym_name": "新宿店"
-        },
-        {
-          "date": "2026-11-23",
-          "type": "時間変更",
-          "note": "17:00 close",
-          "gym_name": "渋谷店"
-        },
-        {
-          "date": "2026-11-24",
-          "type": "休業",
-          "note": "ルートセット",
-          "gym_name": "新宿店"
-        },
-        {
-          "date": "2026-11-24",
-          "type": "休業",
-          "note": "ルートセット",
-          "gym_name": "渋谷店"
-        },
-        {
-          "date": "2026-11-24",
-          "type": "時間変更",
-          "note": "18:00 close",
-          "gym_name": "高田馬場店"
-        },
-        {
-          "date": "2026-11-25",
-          "type": "時間変更",
-          "note": "18:30 open",
-          "gym_name": "新宿店"
-        },
-        {
-          "date": "2026-11-25",
-          "type": "時間変更",
-          "note": "18:30 open",
-          "gym_name": "渋谷店"
         },
         {
           "date": "2026-11-29",
