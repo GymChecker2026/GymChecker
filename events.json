@@ -1769,8 +1769,8 @@
     "type": "時間変更",
     "note": "17:00 close",
     "gym_name": "池袋店",
-    "source_url": "https://noborock-climbing.com/program/新宿店/",
-    "published": "2026-11-01"
+    "source_url": "https://noborock-climbing.com/program/ikebukuro/",
+    "published": "2026-11-07"
   },
   {
     "gym_id": "noborock-asakusa",
@@ -1787,8 +1787,8 @@
     "type": "休業",
     "note": "ルートセット",
     "gym_name": "池袋店",
-    "source_url": "https://noborock-climbing.com/program/新宿店/",
-    "published": "2026-11-01"
+    "source_url": "https://noborock-climbing.com/program/ikebukuro/",
+    "published": "2026-11-07"
   },
   {
     "gym_id": "noborock-asakusa",
@@ -1805,8 +1805,8 @@
     "type": "時間変更",
     "note": "18:30 open",
     "gym_name": "池袋店",
-    "source_url": "https://noborock-climbing.com/program/新宿店/",
-    "published": "2026-11-01"
+    "source_url": "https://noborock-climbing.com/program/ikebukuro/",
+    "published": "2026-11-07"
   },
   {
     "gym_id": "noborock-asakusa",
