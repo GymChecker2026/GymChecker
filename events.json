@@ -244,6 +244,24 @@
   },
   {
     "gym_id": "bpump-akihabara",
+    "date": "2026-11-12",
+    "type": "エリア制限",
+    "note": "3F Space Roof ホールド外し 21:00-",
+    "gym_name": null,
+    "source_url": "https://pump-climbing.com/gym/akiba/%e6%ac%a1%e9%80%b1%e3%82%bb%e3%83%83%e3%83%88%e6%83%85%e5%a0%b1-%e2%96%b7%e3%80%983f-space-roof-%e3%80%99-2/blog-news/",
+    "published": "2026-11-07"
+  },
+  {
+    "gym_id": "bpump-akihabara",
+    "date": "2026-11-13",
+    "type": "エリア制限",
+    "note": "3F Space Roof Route Setting Day",
+    "gym_name": null,
+    "source_url": "https://pump-climbing.com/gym/akiba/%e6%ac%a1%e9%80%b1%e3%82%bb%e3%83%83%e3%83%88%e6%83%85%e5%a0%b1-%e2%96%b7%e3%80%983f-space-roof-%e3%80%99-2/blog-news/",
+    "published": "2026-11-07"
+  },
+  {
+    "gym_id": "bpump-akihabara",
     "date": "2026-11-06",
     "type": "セット完了",
     "note": "2F C WALL セット完了。8Qから2Dまでトータル17本。B-pump yokohamaの可児子店長とPUMP2kawasakiの樋口さんによるセット。",
@@ -682,15 +700,6 @@
     "gym_name": null,
     "source_url": "https://pump-climbing.com/gym/pump1/%e5%af%8c%e5%a3%ab%e5%b1%b1%e3%81%abnew%e3%83%ab%e3%83%bc%e3%83%88%e8%bf%bd%e5%8a%a0%ef%bc%81/",
     "published": "2026-09-24"
-  },
-  {
-    "gym_id": "bpump-kawaguchi",
-    "date": "2026-09-27",
-    "type": "イベント",
-    "note": "スタッフ「のね」によるスペシャルセッション",
-    "gym_name": null,
-    "source_url": "https://pump-climbing.com/gym/pump1/%e7%89%b9%e5%88%a5%e9%81%93%e5%a0%b4%e3%82%92%e9%96%8b%e5%82%ac%e3%81%97%e3%81%be%e3%81%97%e3%81%9f%ef%bc%81/",
-    "published": "2026-09-23"
   },
   {
     "gym_id": "bpump-kawasaki",
@@ -1470,163 +1479,154 @@
     "gym_id": "bc-higashimurayama",
     "date": "2026-09-30",
     "type": "エリア制限",
-    "note": "Kusa wall Leftのホールド外し 21:00～",
+    "note": "Kusa wall Leftのホールド外し",
     "gym_name": null,
     "source_url": "https://b-camp.jp/higashimurayama/route/",
-    "published": "2026-10-09"
+    "published": "2026-11-08"
   },
   {
     "gym_id": "bc-higashimurayama",
     "date": "2026-10-01",
     "type": "エリア制限",
-    "note": "強傾斜エリア封鎖 14:00 OPEN～",
+    "note": "強傾斜エリア封鎖",
     "gym_name": null,
     "source_url": "https://b-camp.jp/higashimurayama/route/",
-    "published": "2026-10-09"
+    "published": "2026-11-08"
   },
   {
     "gym_id": "bc-higashimurayama",
     "date": "2026-10-02",
     "type": "エリア制限",
-    "note": "強傾斜ホールド替え 18:00 OPEN",
+    "note": "強傾斜ホールド替え",
     "gym_name": null,
     "source_url": "https://b-camp.jp/higashimurayama/route/",
-    "published": "2026-10-09"
+    "published": "2026-11-08"
   },
   {
     "gym_id": "bc-higashimurayama",
     "date": "2026-10-27",
     "type": "エリア制限",
-    "note": "緩傾斜ホールド外し オープン前",
+    "note": "緩傾斜ホールド外し",
     "gym_name": null,
     "source_url": "https://b-camp.jp/higashimurayama/route/",
-    "published": "2026-10-09"
+    "published": "2026-11-08"
   },
   {
     "gym_id": "bc-higashimurayama",
     "date": "2026-10-28",
     "type": "エリア制限",
-    "note": "強傾斜エリア順次外し 20:00～",
+    "note": "強傾斜エリア順次外し",
     "gym_name": null,
     "source_url": "https://b-camp.jp/higashimurayama/route/",
-    "published": "2026-10-09"
+    "published": "2026-11-08"
   },
   {
     "gym_id": "bc-higashimurayama",
     "date": "2026-10-31",
     "type": "イベント",
-    "note": "3rd Anniversary",
+    "note": "３rd Anniversary",
     "gym_name": null,
     "source_url": "https://b-camp.jp/higashimurayama/route/",
-    "published": "2026-10-09"
+    "published": "2026-11-08"
   },
   {
     "gym_id": "bc-higashimurayama",
     "date": "2026-09-02",
     "type": "エリア制限",
-    "note": "Kusa wall Leftのホールド外し 21:00～",
+    "note": "Kusa wall Leftのホールド外し",
     "gym_name": null,
     "source_url": "https://b-camp.jp/higashimurayama/route/",
-    "published": "2026-10-09"
+    "published": "2026-11-08"
   },
   {
     "gym_id": "bc-higashimurayama",
     "date": "2026-09-03",
     "type": "エリア制限",
-    "note": "強傾斜エリア封鎖 14:00 OPEN～",
+    "note": "強傾斜エリア封鎖",
     "gym_name": null,
     "source_url": "https://b-camp.jp/higashimurayama/route/",
-    "published": "2026-10-09"
+    "published": "2026-11-08"
   },
   {
     "gym_id": "bc-higashimurayama",
     "date": "2026-09-04",
     "type": "エリア制限",
-    "note": "強傾斜ホールド替え 18:00 OPEN",
+    "note": "強傾斜ホールド替え",
     "gym_name": null,
     "source_url": "https://b-camp.jp/higashimurayama/route/",
-    "published": "2026-10-09"
+    "published": "2026-11-08"
   },
   {
     "gym_id": "bc-higashimurayama",
     "date": "2026-09-23",
     "type": "エリア制限",
-    "note": "Slab 92のホールド外し 21:00～",
+    "note": "Slab 92のホールド外し",
     "gym_name": null,
     "source_url": "https://b-camp.jp/higashimurayama/route/",
-    "published": "2026-10-09"
+    "published": "2026-11-08"
   },
   {
     "gym_id": "bc-higashimurayama",
     "date": "2026-09-24",
     "type": "エリア制限",
-    "note": "緩傾斜エリア封鎖 14:00 OPEN～",
+    "note": "緩傾斜エリア封鎖",
     "gym_name": null,
     "source_url": "https://b-camp.jp/higashimurayama/route/",
-    "published": "2026-10-09"
+    "published": "2026-11-08"
   },
   {
     "gym_id": "bc-higashimurayama",
     "date": "2026-09-25",
     "type": "エリア制限",
-    "note": "緩傾斜ホールド替え 18:00 OPEN",
+    "note": "緩傾斜ホールド替え",
     "gym_name": null,
     "source_url": "https://b-camp.jp/higashimurayama/route/",
-    "published": "2026-10-09"
+    "published": "2026-11-08"
   },
   {
     "gym_id": "bc-higashimurayama",
-    "date": "2026-08-05",
+    "date": "2026-11-18",
     "type": "エリア制限",
-    "note": "Kusa wall Leftのホールド外し 21:00～",
+    "note": "Sea of dreams130ホールド外し",
     "gym_name": null,
     "source_url": "https://b-camp.jp/higashimurayama/route/",
-    "published": "2026-10-09"
+    "published": "2026-11-08"
   },
   {
     "gym_id": "bc-higashimurayama",
-    "date": "2026-08-06",
-    "type": "エリア制限",
-    "note": "強傾斜エリア封鎖 14:00 OPEN～",
+    "date": "2026-11-20",
+    "type": "時間変更",
+    "note": "Sea of dreams130は18:00~解放",
     "gym_name": null,
     "source_url": "https://b-camp.jp/higashimurayama/route/",
-    "published": "2026-10-09"
+    "published": "2026-11-08"
   },
   {
     "gym_id": "bc-higashimurayama",
-    "date": "2026-08-07",
+    "date": "2026-11-25",
     "type": "エリア制限",
-    "note": "強傾斜ホールド替え 18:00 OPEN",
+    "note": "Slab 92のホールド外し",
     "gym_name": null,
     "source_url": "https://b-camp.jp/higashimurayama/route/",
-    "published": "2026-10-09"
+    "published": "2026-11-08"
   },
   {
     "gym_id": "bc-higashimurayama",
-    "date": "2026-08-19",
+    "date": "2026-11-26",
     "type": "エリア制限",
-    "note": "Slab 92のホールド外し 21:00～",
+    "note": "緩傾斜エリア封鎖",
     "gym_name": null,
     "source_url": "https://b-camp.jp/higashimurayama/route/",
-    "published": "2026-10-09"
+    "published": "2026-11-08"
   },
   {
     "gym_id": "bc-higashimurayama",
-    "date": "2026-08-20",
+    "date": "2026-11-27",
     "type": "エリア制限",
-    "note": "緩傾斜エリア封鎖 14:00 OPEN～",
+    "note": "緩傾斜ホールド替え",
     "gym_name": null,
     "source_url": "https://b-camp.jp/higashimurayama/route/",
-    "published": "2026-10-09"
-  },
-  {
-    "gym_id": "bc-higashimurayama",
-    "date": "2026-08-21",
-    "type": "エリア制限",
-    "note": "緩傾斜ホールド替え 18:00 OPEN",
-    "gym_name": null,
-    "source_url": "https://b-camp.jp/higashimurayama/route/",
-    "published": "2026-10-09"
+    "published": "2026-11-08"
   },
   {
     "gym_id": "bc-kawagoe",
@@ -1725,7 +1725,7 @@
     "note": "17:00 close",
     "gym_name": "高田馬場店",
     "source_url": "https://noborock-climbing.com/program/takadanobaba/",
-    "published": "2026-11-06"
+    "published": "2026-11-08"
   },
   {
     "gym_id": "noborock-omiya",
@@ -1743,7 +1743,7 @@
     "note": "ルートセット",
     "gym_name": "高田馬場店",
     "source_url": "https://noborock-climbing.com/program/takadanobaba/",
-    "published": "2026-11-06"
+    "published": "2026-11-08"
   },
   {
     "gym_id": "noborock-omiya",
@@ -1760,8 +1760,8 @@
     "type": "時間変更",
     "note": "18:30 open",
     "gym_name": "高田馬場店",
-    "source_url": "https://noborock-climbing.com/program/新宿店/",
-    "published": "2026-11-01"
+    "source_url": "https://noborock-climbing.com/program/takadanobaba/",
+    "published": "2026-11-08"
   },
   {
     "gym_id": "noborock-ikebukuro",
@@ -1770,7 +1770,7 @@
     "note": "17:00 close",
     "gym_name": "池袋店",
     "source_url": "https://noborock-climbing.com/program/ikebukuro/",
-    "published": "2026-11-07"
+    "published": "2026-11-08"
   },
   {
     "gym_id": "noborock-asakusa",
@@ -1788,7 +1788,7 @@
     "note": "ルートセット",
     "gym_name": "池袋店",
     "source_url": "https://noborock-climbing.com/program/ikebukuro/",
-    "published": "2026-11-07"
+    "published": "2026-11-08"
   },
   {
     "gym_id": "noborock-asakusa",
@@ -1806,7 +1806,7 @@
     "note": "18:30 open",
     "gym_name": "池袋店",
     "source_url": "https://noborock-climbing.com/program/ikebukuro/",
-    "published": "2026-11-07"
+    "published": "2026-11-08"
   },
   {
     "gym_id": "noborock-asakusa",
@@ -1887,7 +1887,7 @@
     "note": "17:00 close",
     "gym_name": "渋谷店",
     "source_url": "https://noborock-climbing.com/program/shibuya/",
-    "published": "2026-11-07"
+    "published": "2026-11-08"
   },
   {
     "gym_id": "noborock-shinjuku",
@@ -1902,10 +1902,10 @@
     "gym_id": "noborock-shibuya",
     "date": "2026-11-24",
     "type": "休業",
-    "note": "ルートセット",
+    "note": "close",
     "gym_name": "渋谷店",
     "source_url": "https://noborock-climbing.com/program/shibuya/",
-    "published": "2026-11-07"
+    "published": "2026-11-08"
   },
   {
     "gym_id": "noborock-takadanobaba",
@@ -1914,7 +1914,7 @@
     "note": "18:00 close",
     "gym_name": "高田馬場店",
     "source_url": "https://noborock-climbing.com/program/takadanobaba/",
-    "published": "2026-11-06"
+    "published": "2026-11-08"
   },
   {
     "gym_id": "noborock-shinjuku",
@@ -1932,7 +1932,7 @@
     "note": "18:30 open",
     "gym_name": "渋谷店",
     "source_url": "https://noborock-climbing.com/program/shibuya/",
-    "published": "2026-11-07"
+    "published": "2026-11-08"
   },
   {
     "gym_id": "noborock-omiya",
@@ -1950,7 +1950,7 @@
     "note": "17:00 close",
     "gym_name": "高田馬場店",
     "source_url": "https://noborock-climbing.com/program/takadanobaba/",
-    "published": "2026-11-06"
+    "published": "2026-11-08"
   },
   {
     "gym_id": "noborock-omiya",
@@ -1968,7 +1968,7 @@
     "note": "ルートセット",
     "gym_name": "高田馬場店",
     "source_url": "https://noborock-climbing.com/program/takadanobaba/",
-    "published": "2026-11-06"
+    "published": "2026-11-08"
   },
   {
     "gym_id": "noborock-shibuya",
@@ -1977,7 +1977,7 @@
     "note": "ルートセット完了",
     "gym_name": "渋谷店",
     "source_url": "https://noborock-climbing.com/program/shibuya/",
-    "published": "2026-11-07"
+    "published": "2026-11-08"
   },
   {
     "gym_id": "noborock-shibuya",
@@ -1986,7 +1986,7 @@
     "note": "1F 17:00 close",
     "gym_name": "渋谷店",
     "source_url": "https://noborock-climbing.com/program/shibuya/",
-    "published": "2026-11-07"
+    "published": "2026-11-08"
   },
   {
     "gym_id": "noborock-shibuya",
@@ -1995,7 +1995,7 @@
     "note": "1F 終日 close",
     "gym_name": "渋谷店",
     "source_url": "https://noborock-climbing.com/program/shibuya/",
-    "published": "2026-11-07"
+    "published": "2026-11-08"
   },
   {
     "gym_id": "noborock-shibuya",
@@ -2004,25 +2004,7 @@
     "note": "1F 15:30 open",
     "gym_name": "渋谷店",
     "source_url": "https://noborock-climbing.com/program/shibuya/",
-    "published": "2026-11-07"
-  },
-  {
-    "gym_id": "noborock-takadanobaba",
-    "date": "2026-11-05",
-    "type": "セット完了",
-    "note": "ルートセット完了",
-    "gym_name": "高田馬場店",
-    "source_url": "https://noborock-climbing.com/program/takadanobaba/",
-    "published": "2026-11-06"
-  },
-  {
-    "gym_id": "noborock-takadanobaba",
-    "date": "2026-12-01",
-    "type": "時間変更",
-    "note": "18:30 open",
-    "gym_name": "高田馬場店",
-    "source_url": "https://noborock-climbing.com/program/takadanobaba/",
-    "published": "2026-11-06"
+    "published": "2026-11-08"
   },
   {
     "gym_id": "noborock-asakusa",
