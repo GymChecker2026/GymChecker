@@ -495,22 +495,31 @@
     "published": "2026-09-28"
   },
   {
-    "gym_id": "bpump-akihabara",
-    "date": "2026-10-01",
-    "type": "エリア制限",
-    "note": "2F A WALL- ホールド外し 21:00-",
+    "gym_id": "bpump-ogikubo",
+    "date": "2026-11-13",
+    "type": "休業",
+    "note": "THE 1の開催に伴い休業",
     "gym_name": null,
-    "source_url": "https://pump-climbing.com/gym/akiba/%e6%ac%a1%e9%80%b1%e3%82%bb%e3%83%83%e3%83%88%e6%83%85%e5%a0%b1-%e2%96%b7%e3%80%982f-a-wall-%e3%80%99-2/blog-news/",
-    "published": "2026-09-26"
+    "source_url": "https://pump-climbing.com/gym/bpump/11-13%ef%bc%88%e9%87%91%ef%bc%89%ef%bd%9e11-15%ef%bc%88%e6%97%a5%ef%bc%89%e4%bc%91%e6%a5%ad%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b/",
+    "published": "2026-11-10"
   },
   {
-    "gym_id": "bpump-akihabara",
-    "date": "2026-10-02",
-    "type": "エリア制限",
-    "note": "2F A WALL- Route Setting Day",
+    "gym_id": "bpump-ogikubo",
+    "date": "2026-11-14",
+    "type": "休業",
+    "note": "THE 1の開催に伴い休業",
     "gym_name": null,
-    "source_url": "https://pump-climbing.com/gym/akiba/%e6%ac%a1%e9%80%b1%e3%82%bb%e3%83%83%e3%83%88%e6%83%85%e5%a0%b1-%e2%96%b7%e3%80%982f-a-wall-%e3%80%99-2/blog-news/",
-    "published": "2026-09-26"
+    "source_url": "https://pump-climbing.com/gym/bpump/11-13%ef%bc%88%e9%87%91%ef%bc%89%ef%bd%9e11-15%ef%bc%88%e6%97%a5%ef%bc%89%e4%bc%91%e6%a5%ad%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b/",
+    "published": "2026-11-10"
+  },
+  {
+    "gym_id": "bpump-ogikubo",
+    "date": "2026-11-15",
+    "type": "休業",
+    "note": "THE 1の開催に伴い休業",
+    "gym_name": null,
+    "source_url": "https://pump-climbing.com/gym/bpump/11-13%ef%bc%88%e9%87%91%ef%bc%89%ef%bd%9e11-15%ef%bc%88%e6%97%a5%ef%bc%89%e4%bc%91%e6%a5%ad%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b/",
+    "published": "2026-11-10"
   },
   {
     "gym_id": "bpump-ogikubo",
@@ -1378,120 +1387,156 @@
   },
   {
     "gym_id": "bc-kinshicho",
-    "date": "2026-10-06",
-    "type": "エリア制限",
-    "note": "１０月ボルダー全面リニューアルセット",
+    "date": "2026-11-28",
+    "type": "イベント",
+    "note": "3周年感謝祭「錦祭り」",
     "gym_name": null,
     "source_url": "https://b-camp.jp/kinshicho/pickup/",
-    "published": "2026-10-09"
+    "published": "2026-11-11"
+  },
+  {
+    "gym_id": "bc-kinshicho",
+    "date": "2026-11-01",
+    "type": "エリア制限",
+    "note": "11月リードエリア「Leaning Tower」リニューアルセット",
+    "gym_name": null,
+    "source_url": "https://b-camp.jp/kinshicho/pickup/",
+    "published": "2026-11-11"
+  },
+  {
+    "gym_id": "bc-kinshicho",
+    "date": "2026-11-25",
+    "type": "エリア制限",
+    "note": "11月リードエリア\"Leaning Tower\"リニューアルセット",
+    "gym_name": null,
+    "source_url": "https://b-camp.jp/kinshicho/route/",
+    "published": "2026-11-11"
+  },
+  {
+    "gym_id": "bc-kinshicho",
+    "date": "2026-11-26",
+    "type": "エリア制限",
+    "note": "11月リードエリア\"Leaning Tower\"リニューアルセット",
+    "gym_name": null,
+    "source_url": "https://b-camp.jp/kinshicho/route/",
+    "published": "2026-11-11"
+  },
+  {
+    "gym_id": "bc-kinshicho",
+    "date": "2026-11-27",
+    "type": "エリア制限",
+    "note": "11月リードエリア\"Leaning Tower\"リニューアルセット（18:00まで、手前のRostrumエリアも一部制限）",
+    "gym_name": null,
+    "source_url": "https://b-camp.jp/kinshicho/route/",
+    "published": "2026-11-11"
+  },
+  {
+    "gym_id": "bc-kinshicho",
+    "date": "2026-11-18",
+    "type": "エリア制限",
+    "note": "11月全面ボルダーリニューアルセット（錦祭りVer.）",
+    "gym_name": null,
+    "source_url": "https://b-camp.jp/kinshicho/route/",
+    "published": "2026-11-11"
+  },
+  {
+    "gym_id": "bc-kinshicho",
+    "date": "2026-11-19",
+    "type": "エリア制限",
+    "note": "11月全面ボルダーリニューアルセット（錦祭りVer.）（夜の２階エリア解放なし、18:00まで）",
+    "gym_name": null,
+    "source_url": "https://b-camp.jp/kinshicho/route/",
+    "published": "2026-11-11"
+  },
+  {
+    "gym_id": "bc-kinshicho",
+    "date": "2026-11-20",
+    "type": "エリア制限",
+    "note": "11月全面ボルダーリニューアルセット（錦祭りVer.）（18:00まで）",
+    "gym_name": null,
+    "source_url": "https://b-camp.jp/kinshicho/route/",
+    "published": "2026-11-11"
   },
   {
     "gym_id": "bc-kinshicho",
     "date": "2026-10-14",
     "type": "エリア制限",
-    "note": "ボルダー全面リニューアルセット",
+    "note": "１０月ボルダー全面リニューアルセット",
     "gym_name": null,
     "source_url": "https://b-camp.jp/kinshicho/route/",
-    "published": "2026-10-09"
+    "published": "2026-11-11"
   },
   {
     "gym_id": "bc-kinshicho",
     "date": "2026-10-15",
     "type": "エリア制限",
-    "note": "ボルダー全面リニューアルセット",
+    "note": "１０月ボルダー全面リニューアルセット",
     "gym_name": null,
     "source_url": "https://b-camp.jp/kinshicho/route/",
-    "published": "2026-10-09"
+    "published": "2026-11-11"
   },
   {
     "gym_id": "bc-kinshicho",
     "date": "2026-10-16",
     "type": "エリア制限",
-    "note": "ボルダー全面リニューアルセット",
+    "note": "１０月ボルダー全面リニューアルセット（18:00まで）",
     "gym_name": null,
     "source_url": "https://b-camp.jp/kinshicho/route/",
-    "published": "2026-10-09"
+    "published": "2026-11-11"
   },
   {
     "gym_id": "bc-kinshicho",
     "date": "2026-09-16",
     "type": "エリア制限",
-    "note": "リードエリア\"Rostrum\"リニューアルセット、12:00～18:00までリード奥エリア\"Leaning Tower\"の一部に利用制限",
+    "note": "９月リードエリア\"Rostrum\"リニューアルセット（12:00～18:00まで奥エリア\"Leaning Tower\"の一部に利用制限）",
     "gym_name": null,
     "source_url": "https://b-camp.jp/kinshicho/route/",
-    "published": "2026-10-09"
+    "published": "2026-11-11"
   },
   {
     "gym_id": "bc-kinshicho",
     "date": "2026-09-17",
     "type": "エリア制限",
-    "note": "リードエリア\"Rostrum\"リニューアルセット、12:00～18:00までリード奥エリア\"Leaning Tower\"の一部に利用制限",
+    "note": "９月リードエリア\"Rostrum\"リニューアルセット（12:00～18:00まで奥エリア\"Leaning Tower\"の一部に利用制限）",
     "gym_name": null,
     "source_url": "https://b-camp.jp/kinshicho/route/",
-    "published": "2026-10-09"
+    "published": "2026-11-11"
   },
   {
     "gym_id": "bc-kinshicho",
     "date": "2026-09-18",
     "type": "エリア制限",
-    "note": "リードエリア\"Rostrum\"リニューアルセット、12:00～18:00までリード奥エリア\"Leaning Tower\"の一部に利用制限",
+    "note": "９月リードエリア\"Rostrum\"リニューアルセット（18:00まで、12:00～18:00まで奥エリア\"Leaning Tower\"の一部に利用制限）",
     "gym_name": null,
     "source_url": "https://b-camp.jp/kinshicho/route/",
-    "published": "2026-10-09"
+    "published": "2026-11-11"
   },
   {
     "gym_id": "bc-kinshicho",
     "date": "2026-09-09",
     "type": "エリア制限",
-    "note": "ボルダー全面リニューアルセット",
+    "note": "９月ボルダー全面リニューアルセット",
     "gym_name": null,
     "source_url": "https://b-camp.jp/kinshicho/route/",
-    "published": "2026-10-09"
+    "published": "2026-11-11"
   },
   {
     "gym_id": "bc-kinshicho",
     "date": "2026-09-10",
     "type": "エリア制限",
-    "note": "ボルダー全面リニューアルセット",
+    "note": "９月ボルダー全面リニューアルセット",
     "gym_name": null,
     "source_url": "https://b-camp.jp/kinshicho/route/",
-    "published": "2026-10-09"
+    "published": "2026-11-11"
   },
   {
     "gym_id": "bc-kinshicho",
     "date": "2026-09-11",
     "type": "エリア制限",
-    "note": "ボルダー全面リニューアルセット",
+    "note": "９月ボルダー全面リニューアルセット（18:00まで）",
     "gym_name": null,
     "source_url": "https://b-camp.jp/kinshicho/route/",
-    "published": "2026-10-09"
-  },
-  {
-    "gym_id": "bc-kinshicho",
-    "date": "2026-08-05",
-    "type": "エリア制限",
-    "note": "ボルダー全面リニューアルセット",
-    "gym_name": null,
-    "source_url": "https://b-camp.jp/kinshicho/route/",
-    "published": "2026-10-09"
-  },
-  {
-    "gym_id": "bc-kinshicho",
-    "date": "2026-08-06",
-    "type": "エリア制限",
-    "note": "ボルダー全面リニューアルセット",
-    "gym_name": null,
-    "source_url": "https://b-camp.jp/kinshicho/route/",
-    "published": "2026-10-09"
-  },
-  {
-    "gym_id": "bc-kinshicho",
-    "date": "2026-08-07",
-    "type": "エリア制限",
-    "note": "ボルダー全面リニューアルセット",
-    "gym_name": null,
-    "source_url": "https://b-camp.jp/kinshicho/route/",
-    "published": "2026-10-09"
+    "published": "2026-11-11"
   },
   {
     "gym_id": "bc-higashimurayama",
@@ -1815,7 +1860,7 @@
     "note": "17:00 close",
     "gym_name": "池袋店",
     "source_url": "https://noborock-climbing.com/program/ikebukuro/",
-    "published": "2026-11-10"
+    "published": "2026-11-11"
   },
   {
     "gym_id": "noborock-asakusa",
@@ -1833,7 +1878,7 @@
     "note": "ルートセット",
     "gym_name": "池袋店",
     "source_url": "https://noborock-climbing.com/program/ikebukuro/",
-    "published": "2026-11-10"
+    "published": "2026-11-11"
   },
   {
     "gym_id": "noborock-asakusa",
@@ -1848,10 +1893,10 @@
     "gym_id": "noborock-ikebukuro",
     "date": "2026-11-10",
     "type": "時間変更",
-    "note": "18:30 open",
+    "note": "18:30 open!",
     "gym_name": "池袋店",
     "source_url": "https://noborock-climbing.com/program/ikebukuro/",
-    "published": "2026-11-10"
+    "published": "2026-11-11"
   },
   {
     "gym_id": "noborock-asakusa",
@@ -2239,15 +2284,6 @@
     "gym_name": "渋谷店",
     "source_url": "https://noborock-climbing.com/program/浅草店/",
     "published": "2026-11-01"
-  },
-  {
-    "gym_id": "noborock-ikebukuro",
-    "date": "2026-10-14",
-    "type": "セット完了",
-    "note": "ルートセット完了",
-    "gym_name": "池袋店",
-    "source_url": "https://noborock-climbing.com/program/ikebukuro/",
-    "published": "2026-11-10"
   },
   {
     "gym_id": "noborock-machida",
