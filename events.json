@@ -2027,7 +2027,7 @@
   {
     "gym_id": "noborock-shibuya",
     "date": "2026-11-01",
-    "type": "エリア制限",
+    "type": "時間変更",
     "note": "1F 17:00 close",
     "gym_name": "渋谷店",
     "source_url": "https://noborock-climbing.com/program/shibuya/",
@@ -2045,7 +2045,7 @@
   {
     "gym_id": "noborock-shibuya",
     "date": "2026-11-03",
-    "type": "エリア制限",
+    "type": "時間変更",
     "note": "1F 15:30 open",
     "gym_name": "渋谷店",
     "source_url": "https://noborock-climbing.com/program/shibuya/",
