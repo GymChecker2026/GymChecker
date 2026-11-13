@@ -234,22 +234,13 @@
     "published": "2026-11-04"
   },
   {
-    "gym_id": "dbc-kawasaki",
-    "date": "2026-10-02",
-    "type": "エリア制限",
-    "note": "ねじれ壁 深夜～10/6 18時 セット作業予定",
+    "gym_id": "bpump-akihabara",
+    "date": "2026-11-13",
+    "type": "セット完了",
+    "note": "3F Space Boulder Roof セット完了。8Qから2Dまでトータル17本。11/28.29のクライミングシューズサミットでは特別ゲストによる追加セットも予定",
     "gym_name": null,
-    "source_url": "https://www.d-b-c.jp/kawasaki-news/10%e6%9c%88%e3%82%ab%e3%83%ac%e3%83%b3%e3%83%80%e3%83%bc",
-    "published": "2026-09-29"
-  },
-  {
-    "gym_id": "dbc-kawasaki",
-    "date": "2026-10-04",
-    "type": "イベント",
-    "note": "恒例の大人気ワンデイセット",
-    "gym_name": null,
-    "source_url": "https://www.d-b-c.jp/kawasaki-news/10%e6%9c%88%e3%82%ab%e3%83%ac%e3%83%b3%e3%83%80%e3%83%bc",
-    "published": "2026-09-29"
+    "source_url": "https://pump-climbing.com/gym/akiba/3f-%e3%80%98-space-boulder-roof-%e3%80%99-%e3%82%bb%e3%83%83%e3%83%88%e5%ae%8c%e4%ba%86%ef%bc%81/blog-news/",
+    "published": "2026-11-13"
   },
   {
     "gym_id": "bpump-akihabara",
@@ -754,15 +745,6 @@
     "gym_name": null,
     "source_url": "https://pump-climbing.com/gym/pump1/%ef%bc%91%ef%bc%90%e6%9c%88%e3%82%82%e9%81%93%e5%a0%b4%e9%96%8b%e5%82%ac%e4%b8%ad%ef%bc%81%ef%bc%81/",
     "published": "2026-10-07"
-  },
-  {
-    "gym_id": "bpump-kawaguchi",
-    "date": "2026-09-27",
-    "type": "イベント",
-    "note": "SPECIAL SESSION",
-    "gym_name": null,
-    "source_url": "https://pump-climbing.com/gym/pump1/special-session%ef%bc%81%ef%bc%81/",
-    "published": "2026-09-29"
   },
   {
     "gym_id": "bpump-kawasaki",
@@ -1887,7 +1869,7 @@
     "note": "17:00 close",
     "gym_name": "池袋店",
     "source_url": "https://noborock-climbing.com/program/ikebukuro/",
-    "published": "2026-11-12"
+    "published": "2026-11-14"
   },
   {
     "gym_id": "noborock-asakusa",
@@ -1905,7 +1887,7 @@
     "note": "ルートセット",
     "gym_name": "池袋店",
     "source_url": "https://noborock-climbing.com/program/ikebukuro/",
-    "published": "2026-11-12"
+    "published": "2026-11-14"
   },
   {
     "gym_id": "noborock-asakusa",
@@ -1920,10 +1902,10 @@
     "gym_id": "noborock-ikebukuro",
     "date": "2026-11-10",
     "type": "時間変更",
-    "note": "18:30 open!",
+    "note": "18:30 open",
     "gym_name": "池袋店",
     "source_url": "https://noborock-climbing.com/program/ikebukuro/",
-    "published": "2026-11-12"
+    "published": "2026-11-14"
   },
   {
     "gym_id": "noborock-asakusa",
@@ -2311,6 +2293,15 @@
     "gym_name": "渋谷店",
     "source_url": "https://noborock-climbing.com/program/浅草店/",
     "published": "2026-11-01"
+  },
+  {
+    "gym_id": "noborock-ikebukuro",
+    "date": "2026-10-14",
+    "type": "セット完了",
+    "note": "ルートセット完了",
+    "gym_name": "池袋店",
+    "source_url": "https://noborock-climbing.com/program/ikebukuro/",
+    "published": "2026-11-14"
   },
   {
     "gym_id": "noborock-machida",
