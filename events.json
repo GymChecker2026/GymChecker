@@ -163,6 +163,15 @@
   },
   {
     "gym_id": "bpump-akihabara",
+    "date": "2026-11-25",
+    "type": "エリア制限",
+    "note": "4F Concept Wall 第6弾セット終了（21:00まで）",
+    "gym_name": null,
+    "source_url": "https://pump-climbing.com/gym/akiba/4f-concept-wall-%e3%81%ae%e3%83%ab%e3%83%bc%e3%83%88%e3%82%bb%e3%83%83%e3%83%88%e5%ae%8c%e4%ba%86%ef%bc%81%ef%bc%81-2/blog-news/",
+    "published": "2026-11-16"
+  },
+  {
+    "gym_id": "bpump-akihabara",
     "date": "2026-11-27",
     "type": "休業",
     "note": "Climbing Shoes Summit 2026開催に伴う終日休業",
@@ -430,33 +439,6 @@
     "gym_name": null,
     "source_url": "https://pump-climbing.com/gym/akiba/%e3%80%984f-%e9%95%b7%e3%83%a2%e3%83%8e%e3%82%a8%e3%83%aa%e3%82%a2%e3%80%99-%e3%82%bb%e3%83%83%e3%83%88%e5%ae%8c%e4%ba%86%ef%bc%81/blog-news/",
     "published": "2026-10-06"
-  },
-  {
-    "gym_id": "bpump-akihabara",
-    "date": "2026-10-02",
-    "type": "セット完了",
-    "note": "2F A WALL セット完了。7Qから2Dまで、トータル20本",
-    "gym_name": null,
-    "source_url": "https://pump-climbing.com/gym/akiba/2f-a-wall-%e3%82%bb%e3%83%83%e3%83%88%e5%ae%8c%e4%ba%86%ef%bc%81/blog-news/",
-    "published": "2026-10-02"
-  },
-  {
-    "gym_id": "bpump-akihabara",
-    "date": "2026-10-08",
-    "type": "エリア制限",
-    "note": "ホールド外し(終日)",
-    "gym_name": null,
-    "source_url": "https://pump-climbing.com/gym/akiba/%e6%ac%a1%e9%80%b1%e3%82%bb%e3%83%83%e3%83%88%e6%83%85%e5%a0%b1-%e2%96%b7%e3%80%984f-roof-top%e3%80%99/blog-news/",
-    "published": "2026-10-02"
-  },
-  {
-    "gym_id": "bpump-akihabara",
-    "date": "2026-10-09",
-    "type": "エリア制限",
-    "note": "Route Setting Day、次のセットは4F Roof Top",
-    "gym_name": null,
-    "source_url": "https://pump-climbing.com/gym/akiba/%e6%ac%a1%e9%80%b1%e3%82%bb%e3%83%83%e3%83%88%e6%83%85%e5%a0%b1-%e2%96%b7%e3%80%984f-roof-top%e3%80%99/blog-news/",
-    "published": "2026-10-02"
   },
   {
     "gym_id": "bpump-ogikubo",
@@ -736,24 +718,6 @@
     "gym_name": null,
     "source_url": "https://pump-climbing.com/gym/pump2/10%e6%9c%88%e3%82%bb%e3%83%83%e3%83%88%e3%82%b9%e3%82%b1%e3%82%b8%e3%83%a5%e3%83%bc%e3%83%ab/",
     "published": "2026-10-13"
-  },
-  {
-    "gym_id": "bpump-kawasaki",
-    "date": "2026-10-12",
-    "type": "時間変更",
-    "note": "施設メンテナンスのため特別営業10:00-19:00",
-    "gym_name": null,
-    "source_url": "https://pump-climbing.com/gym/pump2/10%e6%9c%8812%e6%97%a5%e6%9c%88%e7%89%b9%e5%88%a5%e5%96%b6%e6%a5%ad%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b/",
-    "published": "2026-10-02"
-  },
-  {
-    "gym_id": "bpump-kawasaki",
-    "date": "2026-10-13",
-    "type": "休業",
-    "note": "振替休業",
-    "gym_name": null,
-    "source_url": "https://pump-climbing.com/gym/pump2/10%e6%9c%8812%e6%97%a5%e6%9c%88%e7%89%b9%e5%88%a5%e5%96%b6%e6%a5%ad%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b/",
-    "published": "2026-10-02"
   },
   {
     "gym_id": "bc-shinjuku",
@@ -1689,7 +1653,7 @@
     "note": "17:00 close",
     "gym_name": "高田馬場店",
     "source_url": "https://noborock-climbing.com/program/takadanobaba/",
-    "published": "2026-11-16"
+    "published": "2026-11-17"
   },
   {
     "gym_id": "noborock-omiya",
@@ -1707,7 +1671,7 @@
     "note": "ルートセット",
     "gym_name": "高田馬場店",
     "source_url": "https://noborock-climbing.com/program/takadanobaba/",
-    "published": "2026-11-16"
+    "published": "2026-11-17"
   },
   {
     "gym_id": "noborock-omiya",
@@ -1724,8 +1688,8 @@
     "type": "時間変更",
     "note": "18:30 open",
     "gym_name": "高田馬場店",
-    "source_url": "https://noborock-climbing.com/program/takadanobaba/",
-    "published": "2026-11-16"
+    "source_url": "https://noborock-climbing.com/program/新宿店/",
+    "published": "2026-11-01"
   },
   {
     "gym_id": "noborock-ikebukuro",
@@ -1734,7 +1698,7 @@
     "note": "17:00 close",
     "gym_name": "池袋店",
     "source_url": "https://noborock-climbing.com/program/ikebukuro/",
-    "published": "2026-11-16"
+    "published": "2026-11-17"
   },
   {
     "gym_id": "noborock-asakusa",
@@ -1770,7 +1734,7 @@
     "note": "18:30 open!",
     "gym_name": "池袋店",
     "source_url": "https://noborock-climbing.com/program/ikebukuro/",
-    "published": "2026-11-16"
+    "published": "2026-11-17"
   },
   {
     "gym_id": "noborock-asakusa",
@@ -1851,7 +1815,7 @@
     "note": "17:00 close",
     "gym_name": "渋谷店",
     "source_url": "https://noborock-climbing.com/program/shibuya/",
-    "published": "2026-11-16"
+    "published": "2026-11-17"
   },
   {
     "gym_id": "noborock-shinjuku",
@@ -1869,7 +1833,7 @@
     "note": "ルートセット",
     "gym_name": "渋谷店",
     "source_url": "https://noborock-climbing.com/program/shibuya/",
-    "published": "2026-11-16"
+    "published": "2026-11-17"
   },
   {
     "gym_id": "noborock-takadanobaba",
@@ -1878,7 +1842,7 @@
     "note": "18:00 close",
     "gym_name": "高田馬場店",
     "source_url": "https://noborock-climbing.com/program/takadanobaba/",
-    "published": "2026-11-16"
+    "published": "2026-11-17"
   },
   {
     "gym_id": "noborock-shinjuku",
@@ -1896,7 +1860,7 @@
     "note": "18:30 open",
     "gym_name": "渋谷店",
     "source_url": "https://noborock-climbing.com/program/shibuya/",
-    "published": "2026-11-16"
+    "published": "2026-11-17"
   },
   {
     "gym_id": "noborock-omiya",
@@ -1914,7 +1878,7 @@
     "note": "17:00 close",
     "gym_name": "高田馬場店",
     "source_url": "https://noborock-climbing.com/program/takadanobaba/",
-    "published": "2026-11-16"
+    "published": "2026-11-17"
   },
   {
     "gym_id": "noborock-omiya",
@@ -1932,7 +1896,7 @@
     "note": "ルートセット",
     "gym_name": "高田馬場店",
     "source_url": "https://noborock-climbing.com/program/takadanobaba/",
-    "published": "2026-11-16"
+    "published": "2026-11-17"
   },
   {
     "gym_id": "noborock-shibuya",
@@ -1941,7 +1905,7 @@
     "note": "ルートセット完了",
     "gym_name": "渋谷店",
     "source_url": "https://noborock-climbing.com/program/shibuya/",
-    "published": "2026-11-16"
+    "published": "2026-11-17"
   },
   {
     "gym_id": "noborock-shibuya",
@@ -1950,7 +1914,7 @@
     "note": "1F 17:00 close",
     "gym_name": "渋谷店",
     "source_url": "https://noborock-climbing.com/program/shibuya/",
-    "published": "2026-11-16"
+    "published": "2026-11-17"
   },
   {
     "gym_id": "noborock-shibuya",
@@ -1959,25 +1923,25 @@
     "note": "1F 終日 close",
     "gym_name": "渋谷店",
     "source_url": "https://noborock-climbing.com/program/shibuya/",
-    "published": "2026-11-16"
+    "published": "2026-11-17"
   },
   {
     "gym_id": "noborock-shibuya",
     "date": "2026-11-03",
     "type": "エリア制限",
-    "note": "イベント開催に伴うルートセット、1F 15:30 open",
+    "note": "1F 15:30 open",
     "gym_name": "渋谷店",
     "source_url": "https://noborock-climbing.com/program/shibuya/",
-    "published": "2026-11-16"
+    "published": "2026-11-17"
   },
   {
     "gym_id": "noborock-takadanobaba",
     "date": "2026-11-05",
     "type": "セット完了",
-    "note": "",
+    "note": "ルートセット完了",
     "gym_name": "高田馬場店",
     "source_url": "https://noborock-climbing.com/program/takadanobaba/",
-    "published": "2026-11-16"
+    "published": "2026-11-17"
   },
   {
     "gym_id": "noborock-takadanobaba",
@@ -1986,7 +1950,7 @@
     "note": "18:30 open",
     "gym_name": "高田馬場店",
     "source_url": "https://noborock-climbing.com/program/takadanobaba/",
-    "published": "2026-11-16"
+    "published": "2026-11-17"
   },
   {
     "gym_id": "noborock-asakusa",
@@ -2160,22 +2124,13 @@
     "published": "2026-11-01"
   },
   {
-    "gym_id": "noborock-ikebukuro",
-    "date": "2026-10-14",
-    "type": "セット完了",
-    "note": "ルートセット完了",
-    "gym_name": "池袋店",
-    "source_url": "https://noborock-climbing.com/program/ikebukuro/",
-    "published": "2026-11-16"
-  },
-  {
     "gym_id": "noborock-omiya",
     "date": "2026-11-04",
     "type": "エリア制限",
     "note": "休業【ルートセット】",
     "gym_name": "大宮店",
     "source_url": "https://noborock-climbing.com/program/ikebukuro/",
-    "published": "2026-11-16"
+    "published": "2026-11-17"
   },
   {
     "gym_id": "noborock-takadanobaba",
@@ -2184,7 +2139,7 @@
     "note": "休業【ルートセット】",
     "gym_name": "高田馬場店",
     "source_url": "https://noborock-climbing.com/program/ikebukuro/",
-    "published": "2026-11-16"
+    "published": "2026-11-17"
   },
   {
     "gym_id": "noborock-ikebukuro",
@@ -2193,7 +2148,7 @@
     "note": "休業【ルートセット】",
     "gym_name": "池袋店",
     "source_url": "https://noborock-climbing.com/program/ikebukuro/",
-    "published": "2026-11-16"
+    "published": "2026-11-17"
   },
   {
     "gym_id": "noborock-asakusa",
@@ -2202,7 +2157,7 @@
     "note": "休業【ルートセット】",
     "gym_name": "浅草店",
     "source_url": "https://noborock-climbing.com/program/ikebukuro/",
-    "published": "2026-11-16"
+    "published": "2026-11-17"
   },
   {
     "gym_id": "noborock-mizonokuchi",
@@ -2211,7 +2166,7 @@
     "note": "休業【ルートセット】",
     "gym_name": "溝ノ口店",
     "source_url": "https://noborock-climbing.com/program/ikebukuro/",
-    "published": "2026-11-16"
+    "published": "2026-11-17"
   },
   {
     "gym_id": "noborock-machida",
@@ -2220,7 +2175,7 @@
     "note": "休業【ルートセット】",
     "gym_name": "町田店",
     "source_url": "https://noborock-climbing.com/program/ikebukuro/",
-    "published": "2026-11-16"
+    "published": "2026-11-17"
   },
   {
     "gym_id": "noborock-shinjuku",
@@ -2229,7 +2184,7 @@
     "note": "休業【ルートセット】",
     "gym_name": "新宿店",
     "source_url": "https://noborock-climbing.com/program/ikebukuro/",
-    "published": "2026-11-16"
+    "published": "2026-11-17"
   },
   {
     "gym_id": "noborock-shibuya",
@@ -2238,7 +2193,7 @@
     "note": "休業【ルートセット】",
     "gym_name": "渋谷店",
     "source_url": "https://noborock-climbing.com/program/ikebukuro/",
-    "published": "2026-11-16"
+    "published": "2026-11-17"
   },
   {
     "gym_id": "noborock-omiya",
@@ -2247,7 +2202,7 @@
     "note": "休業【ルートセット】",
     "gym_name": "大宮店",
     "source_url": "https://noborock-climbing.com/program/ikebukuro/",
-    "published": "2026-11-16"
+    "published": "2026-11-17"
   },
   {
     "gym_id": "noborock-takadanobaba",
@@ -2256,7 +2211,7 @@
     "note": "休業【ルートセット】",
     "gym_name": "高田馬場店",
     "source_url": "https://noborock-climbing.com/program/ikebukuro/",
-    "published": "2026-11-16"
+    "published": "2026-11-17"
   },
   {
     "gym_id": "noborock-machida",
