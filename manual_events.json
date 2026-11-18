@@ -1388,17 +1388,17 @@
       "gym_id": "rocky-akebonobashi",
       "date": "2026-11-01",
       "type": "エリア制限",
-      "note": "ホールド外し ・WELCOME ・BUFFALO ・SHALLOW / 10:00~21:00 (外しエリアは17時以降登れません)",
+      "note": "ホールド外し · WELCOME · BUFFALO · SHALLOW / 10:00~21:00 (外しエリアは17時以降登れません)",
       "source_url": null,
-      "published": "2026-10-28"
+      "published": "2026-11-18"
     },
     {
       "gym_id": "rocky-akebonobashi",
       "date": "2026-11-02",
       "type": "セット完了",
-      "note": "セット ・WELCOME ・BUFFALO ・SHALLOW / 10:00~23:00 (セットエリアは19時から登れます)",
+      "note": "セット · WELCOME · BUFFALO · SHALLOW / 10:00~23:00 (セットエリアは19時から登れます)",
       "source_url": null,
-      "published": "2026-10-28"
+      "published": "2026-11-18"
     },
     {
       "gym_id": "rocky-funabashi",
@@ -1406,7 +1406,7 @@
       "type": "イベント",
       "note": "TRAINING SESSION 20:30~",
       "source_url": null,
-      "published": "2026-10-31"
+      "published": "2026-11-18"
     },
     {
       "gym_id": "rocky-inzai",
@@ -1414,7 +1414,7 @@
       "type": "イベント",
       "note": "6Q~4Q 193in session 20:00~21:00",
       "source_url": null,
-      "published": "2026-10-31"
+      "published": "2026-11-18"
     },
     {
       "gym_id": "rocky-inzai",
@@ -1422,7 +1422,7 @@
       "type": "エリア制限",
       "note": "ホールド外し Rocket Bulge BlackHole / 10:00~23:00 (外しエリアは17時以降登れません)",
       "source_url": null,
-      "published": "2026-10-31"
+      "published": "2026-11-18"
     },
     {
       "gym_id": "rocky-inzai",
@@ -1430,7 +1430,7 @@
       "type": "セット完了",
       "note": "セット Rocket Bulge BlackHole / 10:00~23:00 (セットエリアは19時から登れます)",
       "source_url": null,
-      "published": "2026-10-31"
+      "published": "2026-11-18"
     },
     {
       "gym_id": "rocky-shinagawa",
@@ -1438,7 +1438,7 @@
       "type": "イベント",
       "note": "SHINA ROCKY'S 18:30~20:30",
       "source_url": null,
-      "published": "2026-10-31"
+      "published": "2026-11-18"
     },
     {
       "gym_id": "rocky-shinagawa",
@@ -1446,7 +1446,7 @@
       "type": "エリア制限",
       "note": "ホールド外し ・Welcome ・Bubble ・The Face / 10:00~21:00 (外しエリアは17時以降登れません)",
       "source_url": null,
-      "published": "2026-10-31"
+      "published": "2026-11-18"
     },
     {
       "gym_id": "rocky-inzai",
@@ -1454,7 +1454,7 @@
       "type": "イベント",
       "note": "初心者歓迎 きむきむレッスン 20:00~21:00",
       "source_url": null,
-      "published": "2026-10-31"
+      "published": "2026-11-18"
     },
     {
       "gym_id": "rocky-shinagawa",
@@ -1462,7 +1462,7 @@
       "type": "セット完了",
       "note": "セット ・Welcome ・Bubble ・The Face / 10:00~23:00 (セットエリアは19時から登れます)",
       "source_url": null,
-      "published": "2026-10-31"
+      "published": "2026-11-18"
     },
     {
       "gym_id": "rocky-funabashi",
@@ -1470,7 +1470,7 @@
       "type": "イベント",
       "note": "TRAINING SESSION 20:30~",
       "source_url": null,
-      "published": "2026-10-31"
+      "published": "2026-11-18"
     },
     {
       "gym_id": "rocky-inzai",
@@ -1478,15 +1478,15 @@
       "type": "エリア制限",
       "note": "ホールド外し STAR / 10:00~23:00 (外しエリアは17時以降登れません)",
       "source_url": null,
-      "published": "2026-10-31"
+      "published": "2026-11-18"
     },
     {
       "gym_id": "rocky-akebonobashi",
       "date": "2026-11-11",
       "type": "エリア制限",
-      "note": "ホールド外し ・LAGOON / 10:00~23:00 (8LEVELSのため閉店後にホールド外し)",
+      "note": "ホールド外し · LAGOON / 10:00~23:00 (8LEVELSのため閉店後にホールド外し)",
       "source_url": null,
-      "published": "2026-10-28"
+      "published": "2026-11-18"
     },
     {
       "gym_id": "rocky-inzai",
@@ -1494,7 +1494,7 @@
       "type": "セット完了",
       "note": "セット STAR / 10:00~23:00 (セットエリアは19時から登れます)",
       "source_url": null,
-      "published": "2026-10-31"
+      "published": "2026-11-18"
     },
     {
       "gym_id": "rocky-akebonobashi",
@@ -1502,7 +1502,7 @@
       "type": "イベント",
       "note": "8LEVELS 岩課題",
       "source_url": null,
-      "published": "2026-10-28"
+      "published": "2026-11-18"
     },
     {
       "gym_id": "rocky-ryogoku",
@@ -1510,23 +1510,23 @@
       "type": "時間変更",
       "note": "貸切 10:00-13:00 / 13:00-21:00 短縮営業",
       "source_url": null,
-      "published": "2026-10-31"
+      "published": "2026-11-18"
     },
     {
       "gym_id": "rocky-akebonobashi",
       "date": "2026-11-15",
       "type": "エリア制限",
-      "note": "ホールド外し ・JACK ・QUEEN ・KING ・LAGOON / 10:00~21:00 (外しエリアは17時以降登れません)",
+      "note": "ホールド外し · JACK · QUEEN · KING · LAGOON / 10:00~21:00 (外しエリアは17時以降登れません)",
       "source_url": null,
-      "published": "2026-10-28"
+      "published": "2026-11-18"
     },
     {
       "gym_id": "rocky-akebonobashi",
       "date": "2026-11-16",
       "type": "セット完了",
-      "note": "セット ・LACK ・QUEEN ・KING ・LAGOON / 10:00~23:00 (セットエリアは19時から登れます)",
+      "note": "セット · LACK · QUEEN · KING · LAGOON / 10:00~23:00 (セットエリアは19時から登れます)",
       "source_url": null,
-      "published": "2026-10-28"
+      "published": "2026-11-18"
     },
     {
       "gym_id": "rocky-inzai",
@@ -1534,7 +1534,7 @@
       "type": "イベント",
       "note": "6Q~4Q 193in session 20:00~21:00",
       "source_url": null,
-      "published": "2026-10-31"
+      "published": "2026-11-18"
     },
     {
       "gym_id": "rocky-funabashi",
@@ -1542,7 +1542,7 @@
       "type": "エリア制限",
       "note": "ホールド外し ・BombLeft ・Welcome / 10:00~23:00 (外しエリアは17時以降登れません)",
       "source_url": null,
-      "published": "2026-10-31"
+      "published": "2026-11-18"
     },
     {
       "gym_id": "rocky-funabashi",
@@ -1550,7 +1550,7 @@
       "type": "休業",
       "note": "セット ・BombLeft ・Welocme / 終日休業",
       "source_url": null,
-      "published": "2026-10-31"
+      "published": "2026-11-18"
     },
     {
       "gym_id": "rocky-inzai",
@@ -1558,7 +1558,7 @@
       "type": "エリア制限",
       "note": "ホールド外し Planet UFO / 10:00~23:00 (外しエリアは17時以降登れません)",
       "source_url": null,
-      "published": "2026-10-31"
+      "published": "2026-11-18"
     },
     {
       "gym_id": "rocky-inzai",
@@ -1566,7 +1566,7 @@
       "type": "セット完了",
       "note": "セット Planet UFO / 10:00~23:00 (セットエリアは19時から登れます)",
       "source_url": null,
-      "published": "2026-10-31"
+      "published": "2026-11-18"
     },
     {
       "gym_id": "rocky-shinagawa",
@@ -1574,7 +1574,7 @@
       "type": "エリア制限",
       "note": "ホールド外し ・Esperanza ・Believe ・Urban corner ・Robin / 10:00~21:00 (外しエリアは17時以降登れません)",
       "source_url": null,
-      "published": "2026-10-31"
+      "published": "2026-11-18"
     },
     {
       "gym_id": "rocky-funabashi",
@@ -1582,7 +1582,7 @@
       "type": "イベント",
       "note": "TRAINING SESSION 20:30~",
       "source_url": null,
-      "published": "2026-10-31"
+      "published": "2026-11-18"
     },
     {
       "gym_id": "rocky-ryogoku",
@@ -1590,7 +1590,7 @@
       "type": "エリア制限",
       "note": "外し ・Welcome&Happiness / 10:00~23:00 (外しエリアは17時以降登れません)",
       "source_url": null,
-      "published": "2026-10-31"
+      "published": "2026-11-18"
     },
     {
       "gym_id": "rocky-shinagawa",
@@ -1598,7 +1598,7 @@
       "type": "セット完了",
       "note": "セット ・Esperanza ・Believe ・Urban corner ・Robin / 10:00~23:00 (セットエリアは19時から登れます)",
       "source_url": null,
-      "published": "2026-10-31"
+      "published": "2026-11-18"
     },
     {
       "gym_id": "rocky-ryogoku",
@@ -1606,15 +1606,15 @@
       "type": "休業",
       "note": "セット ・Welcome&Happiness / 終日休業",
       "source_url": null,
-      "published": "2026-10-31"
+      "published": "2026-11-18"
     },
     {
       "gym_id": "rocky-akebonobashi",
       "date": "2026-11-26",
       "type": "イベント",
-      "note": "ENTRY DOJO FOR BEGINNERS!! 18:00~19:00",
+      "note": "ENTRY DOJO FOR BEGINNERS! 18:00~19:00",
       "source_url": null,
-      "published": "2026-10-28"
+      "published": "2026-11-18"
     },
     {
       "gym_id": "rocky-inzai",
@@ -1622,7 +1622,7 @@
       "type": "イベント",
       "note": "193in spray",
       "source_url": null,
-      "published": "2026-10-31"
+      "published": "2026-11-18"
     },
     {
       "gym_id": "rocky-funabashi",
@@ -1630,7 +1630,7 @@
       "type": "イベント",
       "note": "TRAINING SESSION 20:30~",
       "source_url": null,
-      "published": "2026-10-31"
+      "published": "2026-11-18"
     },
     {
       "gym_id": "rocky-inzai",
@@ -1638,7 +1638,7 @@
       "type": "イベント",
       "note": "初心者歓迎 きむきむレッスン 20:00~21:00",
       "source_url": null,
-      "published": "2026-10-31"
+      "published": "2026-11-18"
     }
   ],
   "coverage": {
