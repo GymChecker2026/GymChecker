@@ -982,45 +982,45 @@
   },
   {
     "gym_id": "bc-shinbashi",
-    "date": "2026-11-16",
+    "date": "2027-07-25",
     "type": "休業",
+    "note": "新橋店閉店",
+    "gym_name": null,
+    "source_url": "https://b-camp.jp/shinbashi/pickup/",
+    "published": "2026-11-20"
+  },
+  {
+    "gym_id": "bc-shinbashi",
+    "date": "2026-11-16",
+    "type": "時間変更",
     "note": "ルートセット作業に伴う臨時休業",
     "gym_name": null,
     "source_url": "https://b-camp.jp/shinbashi/pickup/",
-    "published": "2026-11-04"
+    "published": "2026-11-20"
   },
   {
     "gym_id": "bc-shinbashi",
     "date": "2026-10-19",
-    "type": "休業",
+    "type": "時間変更",
     "note": "ルートセット作業に伴う臨時休業",
     "gym_name": null,
     "source_url": "https://b-camp.jp/shinbashi/pickup/",
-    "published": "2026-11-04"
-  },
-  {
-    "gym_id": "bc-shinbashi",
-    "date": "2026-09-14",
-    "type": "休業",
-    "note": "ルートセット作業に伴う臨時休業",
-    "gym_name": null,
-    "source_url": "https://b-camp.jp/shinbashi/pickup/",
-    "published": "2026-11-04"
-  },
-  {
-    "gym_id": "bc-shinbashi",
-    "date": "2026-08-20",
-    "type": "イベント",
-    "note": "ONE bouldering Ranking（全国31会場）",
-    "gym_name": null,
-    "source_url": "https://b-camp.jp/shinbashi/pickup/",
-    "published": "2026-11-04"
+    "published": "2026-11-20"
   },
   {
     "gym_id": "bc-shinbashi",
     "date": "2026-11-15",
     "type": "時間変更",
     "note": "18:00close ホールド外し作業のため",
+    "gym_name": null,
+    "source_url": "https://b-camp.jp/shinbashi/route/",
+    "published": "2026-11-04"
+  },
+  {
+    "gym_id": "bc-shinbashi",
+    "date": "2026-11-16",
+    "type": "休業",
+    "note": "臨時休業日",
     "gym_name": null,
     "source_url": "https://b-camp.jp/shinbashi/route/",
     "published": "2026-11-04"
@@ -1039,6 +1039,15 @@
     "date": "2026-10-18",
     "type": "時間変更",
     "note": "18:00close ホールド外し作業のため",
+    "gym_name": null,
+    "source_url": "https://b-camp.jp/shinbashi/route/",
+    "published": "2026-11-04"
+  },
+  {
+    "gym_id": "bc-shinbashi",
+    "date": "2026-10-19",
+    "type": "休業",
+    "note": "臨時休業日",
     "gym_name": null,
     "source_url": "https://b-camp.jp/shinbashi/route/",
     "published": "2026-11-04"
@@ -1075,6 +1084,15 @@
     "date": "2026-09-13",
     "type": "時間変更",
     "note": "18:00close ホールド外し作業のため",
+    "gym_name": null,
+    "source_url": "https://b-camp.jp/shinbashi/route/",
+    "published": "2026-11-04"
+  },
+  {
+    "gym_id": "bc-shinbashi",
+    "date": "2026-09-14",
+    "type": "休業",
+    "note": "臨時休業日",
     "gym_name": null,
     "source_url": "https://b-camp.jp/shinbashi/route/",
     "published": "2026-11-04"

@@ -4398,29 +4398,24 @@
       ]
     },
     "bc-shinbashi::https://b-camp.jp/shinbashi/pickup/": {
-      "text_hash": "22617c4fa7d25fc38bdc7b5a10a4411305d8dcf859a05cd6570b5cbb9b5cf451",
-      "last_changed_at": "2026-11-04T07:29:49+09:00",
-      "published": "2026-11-04",
+      "text_hash": "0880700bdcfbc62599bf07a8a708f921353ce20efc5eb81c51eee551a6939a96",
+      "last_changed_at": "2026-11-20T12:31:00+09:00",
+      "published": "2026-11-20",
       "events": [
         {
-          "date": "2026-11-16",
+          "date": "2027-07-25",
           "type": "休業",
+          "note": "新橋店閉店"
+        },
+        {
+          "date": "2026-11-16",
+          "type": "時間変更",
           "note": "ルートセット作業に伴う臨時休業"
         },
         {
           "date": "2026-10-19",
-          "type": "休業",
+          "type": "時間変更",
           "note": "ルートセット作業に伴う臨時休業"
-        },
-        {
-          "date": "2026-09-14",
-          "type": "休業",
-          "note": "ルートセット作業に伴う臨時休業"
-        },
-        {
-          "date": "2026-08-20",
-          "type": "イベント",
-          "note": "ONE bouldering Ranking（全国31会場）"
         }
       ]
     },
