@@ -23,7 +23,7 @@
     "official_url": "https://noborock-climbing.com/program/新宿店/",
     "instagram_url": "https://www.instagram.com/noborock_shinjuku/",
     "fetch_status": "success",
-    "fetched_at": "2026-11-21T12:17:01+09:00",
+    "fetched_at": "2026-11-22T07:20:32+09:00",
     "last_changed_at": "2026-11-01T05:39:46+09:00",
     "events": [
       {
@@ -45,8 +45,8 @@
       {
         "date": "2026-11-24",
         "type": "エリア制限",
-        "note": "休業【ルートセット】",
-        "source_url": "https://noborock-climbing.com/program/takadanobaba/",
+        "note": "ルートセット",
+        "source_url": "https://noborock-climbing.com/program/machida/",
         "published": "2026-11-21",
         "source": "auto"
       },
@@ -84,15 +84,15 @@
     "official_url": "https://noborock-climbing.com/program/shibuya/",
     "instagram_url": "https://www.instagram.com/noborock_shibuya/",
     "fetch_status": "success",
-    "fetched_at": "2026-11-21T12:17:02+09:00",
-    "last_changed_at": "2026-11-21T12:17:01+09:00",
+    "fetched_at": "2026-11-22T07:20:33+09:00",
+    "last_changed_at": "2026-11-22T07:20:32+09:00",
     "events": [
       {
         "date": "2026-10-27",
         "type": "セット完了",
         "note": "ルートセット完了",
         "source_url": "https://noborock-climbing.com/program/shibuya/",
-        "published": "2026-11-21",
+        "published": "2026-11-22",
         "source": "auto"
       },
       {
@@ -100,7 +100,7 @@
         "type": "エリア制限",
         "note": "1F 17:00 close",
         "source_url": "https://noborock-climbing.com/program/shibuya/",
-        "published": "2026-11-21",
+        "published": "2026-11-22",
         "source": "auto"
       },
       {
@@ -108,7 +108,7 @@
         "type": "エリア制限",
         "note": "1F 終日 close",
         "source_url": "https://noborock-climbing.com/program/shibuya/",
-        "published": "2026-11-21",
+        "published": "2026-11-22",
         "source": "auto"
       },
       {
@@ -116,7 +116,7 @@
         "type": "エリア制限",
         "note": "1F 15:30 open",
         "source_url": "https://noborock-climbing.com/program/shibuya/",
-        "published": "2026-11-21",
+        "published": "2026-11-22",
         "source": "auto"
       },
       {
@@ -124,7 +124,7 @@
         "type": "時間変更",
         "note": "17:00 close",
         "source_url": "https://noborock-climbing.com/program/shibuya/",
-        "published": "2026-11-21",
+        "published": "2026-11-22",
         "source": "auto"
       },
       {
@@ -132,14 +132,14 @@
         "type": "休業",
         "note": "ルートセット",
         "source_url": "https://noborock-climbing.com/program/shibuya/",
-        "published": "2026-11-21",
+        "published": "2026-11-22",
         "source": "auto"
       },
       {
         "date": "2026-11-24",
         "type": "エリア制限",
-        "note": "休業【ルートセット】",
-        "source_url": "https://noborock-climbing.com/program/takadanobaba/",
+        "note": "ルートセット",
+        "source_url": "https://noborock-climbing.com/program/machida/",
         "published": "2026-11-21",
         "source": "auto"
       },
@@ -148,7 +148,7 @@
         "type": "時間変更",
         "note": "18:30 open",
         "source_url": "https://noborock-climbing.com/program/shibuya/",
-        "published": "2026-11-21",
+        "published": "2026-11-22",
         "source": "auto"
       },
       {
@@ -156,7 +156,7 @@
         "type": "時間変更",
         "note": "18:00 close",
         "source_url": "https://noborock-climbing.com/program/shibuya/",
-        "published": "2026-11-21",
+        "published": "2026-11-22",
         "source": "auto"
       }
     ]
@@ -185,47 +185,63 @@
     "official_url": "https://noborock-climbing.com/program/takadanobaba/",
     "instagram_url": "https://www.instagram.com/noborock_takadanobaba/",
     "fetch_status": "success",
-    "fetched_at": "2026-11-21T12:17:18+09:00",
-    "last_changed_at": "2026-11-21T12:17:01+09:00",
+    "fetched_at": "2026-11-22T07:20:46+09:00",
+    "last_changed_at": "2026-11-22T07:20:32+09:00",
     "events": [
+      {
+        "date": "2026-11-01",
+        "type": "時間変更",
+        "note": "17:00 close",
+        "source_url": "https://noborock-climbing.com/program/shibuya/",
+        "published": "2026-11-22",
+        "source": "auto"
+      },
       {
         "date": "2026-11-03",
         "type": "時間変更",
         "note": "17:00 close",
         "source_url": "https://noborock-climbing.com/program/takadanobaba/",
-        "published": "2026-11-21",
+        "published": "2026-11-22",
         "source": "auto"
       },
       {
         "date": "2026-11-04",
         "type": "休業",
         "note": "ルートセット",
-        "source_url": "https://noborock-climbing.com/program/新宿店/",
-        "published": "2026-11-01",
+        "source_url": "https://noborock-climbing.com/program/takadanobaba/",
+        "published": "2026-11-22",
         "source": "auto"
       },
       {
         "date": "2026-11-04",
         "type": "エリア制限",
-        "note": "休業【ルートセット】",
-        "source_url": "https://noborock-climbing.com/program/takadanobaba/",
+        "note": "ルートセット",
+        "source_url": "https://noborock-climbing.com/program/machida/",
         "published": "2026-11-21",
         "source": "auto"
       },
       {
         "date": "2026-11-05",
         "type": "時間変更",
-        "note": "18:30 open!",
+        "note": "18:30 open",
+        "source_url": "https://noborock-climbing.com/program/新宿店/",
+        "published": "2026-11-01",
+        "source": "auto"
+      },
+      {
+        "date": "2026-11-05",
+        "type": "セット完了",
+        "note": "ルートセット完了",
         "source_url": "https://noborock-climbing.com/program/takadanobaba/",
-        "published": "2026-11-21",
+        "published": "2026-11-22",
         "source": "auto"
       },
       {
         "date": "2026-11-24",
         "type": "時間変更",
-        "note": "18:00 close",
+        "note": "18:00 close（貸切利用の為）",
         "source_url": "https://noborock-climbing.com/program/takadanobaba/",
-        "published": "2026-11-21",
+        "published": "2026-11-22",
         "source": "auto"
       },
       {
@@ -233,31 +249,31 @@
         "type": "時間変更",
         "note": "17:00 close",
         "source_url": "https://noborock-climbing.com/program/takadanobaba/",
-        "published": "2026-11-21",
+        "published": "2026-11-22",
         "source": "auto"
       },
       {
         "date": "2026-11-30",
         "type": "休業",
         "note": "ルートセット",
-        "source_url": "https://noborock-climbing.com/program/新宿店/",
-        "published": "2026-11-01",
+        "source_url": "https://noborock-climbing.com/program/takadanobaba/",
+        "published": "2026-11-22",
         "source": "auto"
       },
       {
         "date": "2026-11-30",
         "type": "エリア制限",
-        "note": "休業【ルートセット】",
-        "source_url": "https://noborock-climbing.com/program/takadanobaba/",
+        "note": "ルートセット",
+        "source_url": "https://noborock-climbing.com/program/machida/",
         "published": "2026-11-21",
         "source": "auto"
       },
       {
         "date": "2026-12-01",
         "type": "時間変更",
-        "note": "18:30 open!",
+        "note": "18:30 open",
         "source_url": "https://noborock-climbing.com/program/takadanobaba/",
-        "published": "2026-11-21",
+        "published": "2026-11-22",
         "source": "auto"
       }
     ]
@@ -286,7 +302,7 @@
     "official_url": "https://noborock-climbing.com/program/浅草店/",
     "instagram_url": "https://www.instagram.com/noborock_asakusa/",
     "fetch_status": "success",
-    "fetched_at": "2026-11-21T12:17:31+09:00",
+    "fetched_at": "2026-11-22T07:20:58+09:00",
     "last_changed_at": "2026-11-21T12:17:01+09:00",
     "events": [
       {
@@ -308,8 +324,8 @@
       {
         "date": "2026-11-09",
         "type": "エリア制限",
-        "note": "休業【ルートセット】",
-        "source_url": "https://noborock-climbing.com/program/takadanobaba/",
+        "note": "ルートセット",
+        "source_url": "https://noborock-climbing.com/program/machida/",
         "published": "2026-11-21",
         "source": "auto"
       },
@@ -319,6 +335,14 @@
         "note": "18:30 open",
         "source_url": "https://noborock-climbing.com/program/新宿店/",
         "published": "2026-11-01",
+        "source": "auto"
+      },
+      {
+        "date": "2026-12-06",
+        "type": "時間変更",
+        "note": "17:00 close",
+        "source_url": "https://noborock-climbing.com/program/浅草店/",
+        "published": "2026-11-21",
         "source": "auto"
       }
     ]
@@ -347,47 +371,55 @@
     "official_url": "https://noborock-climbing.com/program/ikebukuro/",
     "instagram_url": "https://www.instagram.com/noborock_ikebukuro/",
     "fetch_status": "success",
-    "fetched_at": "2026-11-21T12:17:45+09:00",
-    "last_changed_at": "2026-11-21T12:17:01+09:00",
+    "fetched_at": "2026-11-22T07:20:59+09:00",
+    "last_changed_at": "2026-11-22T07:20:32+09:00",
     "events": [
       {
         "date": "2026-11-08",
         "type": "時間変更",
         "note": "17:00 close",
-        "source_url": "https://noborock-climbing.com/program/ikebukuro/",
-        "published": "2026-11-21",
-        "source": "auto"
-      },
-      {
-        "date": "2026-11-09",
-        "type": "休業",
-        "note": "ルートセット",
         "source_url": "https://noborock-climbing.com/program/新宿店/",
         "published": "2026-11-01",
         "source": "auto"
       },
       {
         "date": "2026-11-09",
-        "type": "エリア制限",
-        "note": "休業【ルートセット】",
+        "type": "休業",
+        "note": "ルートセット",
         "source_url": "https://noborock-climbing.com/program/ikebukuro/",
+        "published": "2026-11-22",
+        "source": "auto"
+      },
+      {
+        "date": "2026-11-09",
+        "type": "エリア制限",
+        "note": "ルートセット",
+        "source_url": "https://noborock-climbing.com/program/machida/",
         "published": "2026-11-21",
         "source": "auto"
       },
       {
         "date": "2026-11-10",
         "type": "時間変更",
-        "note": "18:30 open!",
-        "source_url": "https://noborock-climbing.com/program/ikebukuro/",
-        "published": "2026-11-21",
+        "note": "18:30 open",
+        "source_url": "https://noborock-climbing.com/program/新宿店/",
+        "published": "2026-11-01",
         "source": "auto"
       },
       {
         "date": "2026-11-10",
         "type": "セット完了",
-        "note": "ルートセット完了！",
+        "note": "ルートセット完了",
         "source_url": "https://noborock-climbing.com/program/ikebukuro/",
-        "published": "2026-11-21",
+        "published": "2026-11-22",
+        "source": "auto"
+      },
+      {
+        "date": "2026-12-06",
+        "type": "時間変更",
+        "note": "17:00 close",
+        "source_url": "https://noborock-climbing.com/program/ikebukuro/",
+        "published": "2026-11-22",
         "source": "auto"
       }
     ]
@@ -416,7 +448,7 @@
     "official_url": "https://noborock-climbing.com/program/machida/",
     "instagram_url": "https://www.instagram.com/noborock_machida/",
     "fetch_status": "success",
-    "fetched_at": "2026-11-21T12:17:59+09:00",
+    "fetched_at": "2026-11-22T07:21:16+09:00",
     "last_changed_at": "2026-11-21T12:17:01+09:00",
     "events": [
       {
@@ -493,7 +525,7 @@
     "official_url": "https://noborock-climbing.com/program/mizonokuchi/",
     "instagram_url": "https://www.instagram.com/noborock_mizonokuchi/",
     "fetch_status": "success",
-    "fetched_at": "2026-11-21T12:18:12+09:00",
+    "fetched_at": "2026-11-22T07:21:17+09:00",
     "last_changed_at": "2026-11-21T12:17:01+09:00",
     "events": [
       {
@@ -562,9 +594,17 @@
     "official_url": "https://noborock-climbing.com/program/omiya/",
     "instagram_url": "https://www.instagram.com/noborock_omiya/",
     "fetch_status": "success",
-    "fetched_at": "2026-11-21T12:18:23+09:00",
+    "fetched_at": "2026-11-22T07:21:20+09:00",
     "last_changed_at": "2026-11-06T07:49:04+09:00",
     "events": [
+      {
+        "date": "2026-11-01",
+        "type": "時間変更",
+        "note": "17:00 close",
+        "source_url": "https://noborock-climbing.com/program/shibuya/",
+        "published": "2026-11-22",
+        "source": "auto"
+      },
       {
         "date": "2026-11-03",
         "type": "時間変更",
@@ -584,8 +624,8 @@
       {
         "date": "2026-11-04",
         "type": "エリア制限",
-        "note": "休業【ルートセット】",
-        "source_url": "https://noborock-climbing.com/program/takadanobaba/",
+        "note": "ルートセット",
+        "source_url": "https://noborock-climbing.com/program/machida/",
         "published": "2026-11-21",
         "source": "auto"
       },
@@ -624,8 +664,8 @@
       {
         "date": "2026-11-30",
         "type": "エリア制限",
-        "note": "休業【ルートセット】",
-        "source_url": "https://noborock-climbing.com/program/takadanobaba/",
+        "note": "ルートセット",
+        "source_url": "https://noborock-climbing.com/program/machida/",
         "published": "2026-11-21",
         "source": "auto"
       },
@@ -663,7 +703,7 @@
     "official_url": "https://www.d-b-c.jp/top/tachikawa/",
     "instagram_url": "https://www.instagram.com/dbouldering_tachikawa/",
     "fetch_status": "success",
-    "fetched_at": "2026-11-21T12:18:24+09:00",
+    "fetched_at": "2026-11-22T07:21:23+09:00",
     "last_changed_at": null,
     "events": []
   },
@@ -691,7 +731,7 @@
     "official_url": "https://www.d-b-c.jp/top/tamachi/",
     "instagram_url": "https://www.instagram.com/dbouldering_tamachi/",
     "fetch_status": "success",
-    "fetched_at": "2026-11-21T12:18:31+09:00",
+    "fetched_at": "2026-11-22T07:21:29+09:00",
     "last_changed_at": null,
     "events": [
       {
@@ -800,7 +840,7 @@
     "official_url": "https://www.d-b-c.jp/top/tsunashima/",
     "instagram_url": "https://www.instagram.com/dbouldering_tsunashima/",
     "fetch_status": "success",
-    "fetched_at": "2026-11-21T12:18:56+09:00",
+    "fetched_at": "2026-11-22T07:21:57+09:00",
     "last_changed_at": null,
     "events": [
       {
@@ -853,7 +893,7 @@
     "official_url": "https://www.d-b-c.jp/top/honatsugi/",
     "instagram_url": "https://www.instagram.com/dbouldering_honatsugi/",
     "fetch_status": "success",
-    "fetched_at": "2026-11-21T12:19:18+09:00",
+    "fetched_at": "2026-11-22T07:22:19+09:00",
     "last_changed_at": null,
     "events": [
       {
@@ -906,7 +946,7 @@
     "official_url": "https://www.d-b-c.jp/top/yokohama/",
     "instagram_url": "https://www.instagram.com/dbouldering_yokohama/",
     "fetch_status": "success",
-    "fetched_at": "2026-11-21T12:20:03+09:00",
+    "fetched_at": "2026-11-22T07:23:06+09:00",
     "last_changed_at": null,
     "events": [
       {
@@ -955,7 +995,7 @@
     "official_url": "https://www.d-b-c.jp/top/kawasaki/",
     "instagram_url": "https://www.instagram.com/dbouldering_kawasaki/",
     "fetch_status": "success",
-    "fetched_at": "2026-11-21T12:20:15+09:00",
+    "fetched_at": "2026-11-22T07:23:18+09:00",
     "last_changed_at": null,
     "events": [
       {
@@ -1004,7 +1044,7 @@
     "official_url": "https://pump-climbing.com/gym/akiba/",
     "instagram_url": "https://www.instagram.com/bpumptokyo/",
     "fetch_status": "success",
-    "fetched_at": "2026-11-21T12:20:21+09:00",
+    "fetched_at": "2026-11-22T07:23:24+09:00",
     "last_changed_at": null,
     "events": [
       {
@@ -1234,6 +1274,14 @@
       {
         "date": "2026-11-28",
         "type": "イベント",
+        "note": "Climbing Shoes Summit 2026（初日）",
+        "source_url": "https://pump-climbing.com/gym/akiba/climbing-shoes-summit-2026%e3%82%b2%e3%82%b9%e3%83%88%e6%83%85%e5%a0%b1%e2%91%a2%ef%bc%81/blog-news/",
+        "published": "2026-11-21",
+        "source": "auto"
+      },
+      {
+        "date": "2026-11-28",
+        "type": "イベント",
         "note": "Climbing Shoes Summit 2026（11月28日・29日）",
         "source_url": "https://pump-climbing.com/gym/akiba/climbing-shoes-summit-2026%e3%82%b2%e3%82%b9%e3%83%88%e6%83%85%e5%a0%b1%e2%91%a1%ef%bc%81/blog-news/",
         "published": "2026-11-20",
@@ -1277,6 +1325,14 @@
         "note": "Climbing Shoes Summit",
         "source_url": "https://pump-climbing.com/gym/akiba/11%e6%9c%88%e3%82%ab%e3%83%ac%e3%83%b3%e3%83%80%e3%83%bc-4/blog-news/",
         "published": "2026-10-31",
+        "source": "auto"
+      },
+      {
+        "date": "2026-11-29",
+        "type": "イベント",
+        "note": "Climbing Shoes Summit 2026（2日目）",
+        "source_url": "https://pump-climbing.com/gym/akiba/climbing-shoes-summit-2026%e3%82%b2%e3%82%b9%e3%83%88%e6%83%85%e5%a0%b1%e2%91%a2%ef%bc%81/blog-news/",
+        "published": "2026-11-21",
         "source": "auto"
       },
       {
@@ -1345,7 +1401,7 @@
     "official_url": "https://pump-climbing.com/gym/bpump/",
     "instagram_url": "https://www.instagram.com/bpump_ogikubo/",
     "fetch_status": "success",
-    "fetched_at": "2026-11-21T12:20:28+09:00",
+    "fetched_at": "2026-11-22T07:23:31+09:00",
     "last_changed_at": null,
     "events": [
       {
@@ -1418,7 +1474,7 @@
     "official_url": "https://pump-climbing.com/gym/bpump2/",
     "instagram_url": "https://www.instagram.com/bpumpyokohama/",
     "fetch_status": "success",
-    "fetched_at": "2026-11-21T12:20:35+09:00",
+    "fetched_at": "2026-11-22T07:23:36+09:00",
     "last_changed_at": null,
     "events": [
       {
@@ -1523,7 +1579,7 @@
     "official_url": "https://pump-climbing.com/gym/pump1/",
     "instagram_url": "https://www.instagram.com/pump1_kawaguchi/",
     "fetch_status": "success",
-    "fetched_at": "2026-11-21T12:20:41+09:00",
+    "fetched_at": "2026-11-22T07:23:42+09:00",
     "last_changed_at": null,
     "events": [
       {
@@ -1532,22 +1588,6 @@
         "note": "スペシャルセッション 16:00 START 3F D壁 入場料のみで参加可能",
         "source_url": "https://pump-climbing.com/gym/pump1/special-session-%e9%96%8b%e5%82%ac/",
         "published": "2026-10-14",
-        "source": "auto"
-      },
-      {
-        "date": "2026-10-14",
-        "type": "イベント",
-        "note": "中級道場",
-        "source_url": "https://pump-climbing.com/gym/pump1/10%e6%9c%881%e5%9b%9e%e7%9b%ae%e3%81%ae%e6%b0%b4%e6%9b%9c%e9%81%93%e5%a0%b4%e2%80%bc%e2%80%bc/",
-        "published": "2026-10-07",
-        "source": "auto"
-      },
-      {
-        "date": "2026-10-18",
-        "type": "イベント",
-        "note": "SPECIAL道場",
-        "source_url": "https://pump-climbing.com/gym/pump1/%ef%bc%91%ef%bc%90%e6%9c%88%e3%82%82%e9%81%93%e5%a0%b4%e9%96%8b%e5%82%ac%e4%b8%ad%ef%bc%81%ef%bc%81/",
-        "published": "2026-10-07",
         "source": "auto"
       },
       {
@@ -1572,14 +1612,6 @@
         "note": "リードエリア特別課題イベント（リード経験者のみ参加可能）14:00開始。12時よりエリア封鎖",
         "source_url": "https://pump-climbing.com/gym/pump1/diamond-session-%e9%96%8b%e5%82%ac%ef%bc%81%ef%bc%81/",
         "published": "2026-10-16",
-        "source": "auto"
-      },
-      {
-        "date": "2026-10-24",
-        "type": "イベント",
-        "note": "SPECIAL道場",
-        "source_url": "https://pump-climbing.com/gym/pump1/%ef%bc%91%ef%bc%90%e6%9c%88%e3%82%82%e9%81%93%e5%a0%b4%e9%96%8b%e5%82%ac%e4%b8%ad%ef%bc%81%ef%bc%81/",
-        "published": "2026-10-07",
         "source": "auto"
       },
       {
@@ -1680,7 +1712,7 @@
     "official_url": "https://pump-climbing.com/gym/pump2/",
     "instagram_url": "https://www.instagram.com/pump2climbing/",
     "fetch_status": "success",
-    "fetched_at": "2026-11-21T12:20:54+09:00",
+    "fetched_at": "2026-11-22T07:23:53+09:00",
     "last_changed_at": null,
     "events": [
       {
@@ -1765,7 +1797,7 @@
     "official_url": "https://www.rockyclimbing.com/shinagawa/",
     "instagram_url": "https://www.instagram.com/shina_rocky/",
     "fetch_status": "success",
-    "fetched_at": "2026-11-21T12:21:59+09:00",
+    "fetched_at": "2026-11-22T07:25:03+09:00",
     "last_changed_at": null,
     "events": [
       {
@@ -1890,7 +1922,7 @@
     "official_url": "https://www.rockyclimbing.com/shinjukuakebonobashi/",
     "instagram_url": "https://www.instagram.com/jyuku_rocky/",
     "fetch_status": "success",
-    "fetched_at": "2026-11-21T12:21:59+09:00",
+    "fetched_at": "2026-11-22T07:25:03+09:00",
     "last_changed_at": null,
     "events": [
       {
@@ -2039,7 +2071,7 @@
     "official_url": "https://www.rockyclimbing.com/ryougoku/",
     "instagram_url": "https://www.instagram.com/ryougoku_rocky/",
     "fetch_status": "success",
-    "fetched_at": "2026-11-21T12:21:59+09:00",
+    "fetched_at": "2026-11-22T07:25:03+09:00",
     "last_changed_at": null,
     "events": [
       {
@@ -2140,7 +2172,7 @@
     "official_url": "https://www.rockyclimbing.com/inzai/",
     "instagram_url": "https://www.instagram.com/inzairocky/",
     "fetch_status": "success",
-    "fetched_at": "2026-11-21T12:21:59+09:00",
+    "fetched_at": "2026-11-22T07:25:03+09:00",
     "last_changed_at": null,
     "events": [
       {
@@ -2361,7 +2393,7 @@
     "official_url": "https://www.rockyclimbing.com/tsukubaami/",
     "instagram_url": "https://www.instagram.com/tsukuba_ami_rocky/",
     "fetch_status": "success",
-    "fetched_at": "2026-11-21T12:21:59+09:00",
+    "fetched_at": "2026-11-22T07:25:03+09:00",
     "last_changed_at": null,
     "events": [
       {
@@ -2406,7 +2438,7 @@
     "official_url": "https://www.rockyclimbing.com/funabashi/",
     "instagram_url": "https://www.instagram.com/funabashirocky/",
     "fetch_status": "success",
-    "fetched_at": "2026-11-21T12:21:59+09:00",
+    "fetched_at": "2026-11-22T07:25:03+09:00",
     "last_changed_at": null,
     "events": [
       {
@@ -2539,7 +2571,7 @@
     "official_url": "https://b-camp.jp/shinjuku/",
     "instagram_url": "https://www.instagram.com/basecamp_shinjuku/",
     "fetch_status": "success",
-    "fetched_at": "2026-11-21T12:20:59+09:00",
+    "fetched_at": "2026-11-22T07:23:59+09:00",
     "last_changed_at": "2026-10-29T06:53:01+09:00",
     "events": [
       {
@@ -2648,7 +2680,7 @@
     "official_url": "https://b-camp.jp/shinbashi/",
     "instagram_url": "https://www.instagram.com/basecamp_shinbashi/",
     "fetch_status": "success",
-    "fetched_at": "2026-11-21T12:21:05+09:00",
+    "fetched_at": "2026-11-22T07:24:04+09:00",
     "last_changed_at": "2026-11-20T12:31:00+09:00",
     "events": [
       {
@@ -2749,7 +2781,7 @@
     "official_url": "https://b-camp.jp/edogawabashi/",
     "instagram_url": "https://www.instagram.com/basecamp_edogawabashi/",
     "fetch_status": "success",
-    "fetched_at": "2026-11-21T12:21:11+09:00",
+    "fetched_at": "2026-11-22T07:24:11+09:00",
     "last_changed_at": "2026-11-21T08:19:11+09:00",
     "events": [
       {
@@ -2930,7 +2962,7 @@
     "official_url": "https://b-camp.jp/kinshicho/",
     "instagram_url": "https://www.instagram.com/basecamp_kinshicho/",
     "fetch_status": "success",
-    "fetched_at": "2026-11-21T12:21:17+09:00",
+    "fetched_at": "2026-11-22T07:24:17+09:00",
     "last_changed_at": "2026-11-11T07:30:31+09:00",
     "events": [
       {
@@ -3051,7 +3083,7 @@
     "official_url": "https://b-camp.jp/higashimurayama/",
     "instagram_url": "https://www.instagram.com/basecamp_higashimurayama/",
     "fetch_status": "success",
-    "fetched_at": "2026-11-21T12:21:23+09:00",
+    "fetched_at": "2026-11-22T07:24:23+09:00",
     "last_changed_at": "2026-11-08T06:04:20+09:00",
     "events": [
       {
@@ -3220,63 +3252,55 @@
     "official_url": "https://b-camp.jp/kawagoe/",
     "instagram_url": "https://www.instagram.com/basecamp_kawagoe/",
     "fetch_status": "success",
-    "fetched_at": "2026-11-21T12:21:31+09:00",
-    "last_changed_at": "2026-10-27T06:50:34+09:00",
+    "fetched_at": "2026-11-22T07:24:32+09:00",
+    "last_changed_at": "2026-11-22T07:20:32+09:00",
     "events": [
-      {
-        "date": "2026-09-22",
-        "type": "休業",
-        "note": "施設休館に伴う定休日",
-        "source_url": "https://b-camp.jp/kawagoe/pickup/",
-        "published": "2026-10-15",
-        "source": "auto"
-      },
       {
         "date": "2026-09-30",
         "type": "エリア制限",
-        "note": "Grande Face ~ Berlin (左面) セット作業",
+        "note": "Grande Face ~ Berlin (左面) セット日",
         "source_url": "https://b-camp.jp/kawagoe/route/",
-        "published": "2026-10-27",
+        "published": "2026-11-22",
         "source": "auto"
       },
       {
         "date": "2026-10-07",
         "type": "エリア制限",
-        "note": "Berlin ~ Demi Lune (奥面) セット作業",
+        "note": "Berlin ~ Demi Lune (奥面) セット日",
         "source_url": "https://b-camp.jp/kawagoe/route/",
-        "published": "2026-10-27",
+        "published": "2026-11-22",
         "source": "auto"
       },
       {
         "date": "2026-10-21",
         "type": "エリア制限",
-        "note": "Biographie ~ Instruction Wall (右面) セット作業",
+        "note": "Biographie ~ Instruction Wall (右面) セット日",
         "source_url": "https://b-camp.jp/kawagoe/route/",
-        "published": "2026-10-27",
+        "published": "2026-11-22",
         "source": "auto"
       },
       {
         "date": "2026-11-04",
         "type": "エリア制限",
-        "note": "Grande Face ~ Berlin (左面) セット作業",
+        "note": "Grande Face ~ Berlin (左面) セット日",
         "source_url": "https://b-camp.jp/kawagoe/route/",
-        "published": "2026-10-27",
+        "published": "2026-11-22",
         "source": "auto"
       },
       {
         "date": "2026-11-11",
         "type": "エリア制限",
-        "note": "Berlin ~ Demi Lune (奥面) セット作業",
+        "note": "Berlin ~ Demi Lune (奥面) セット日",
         "source_url": "https://b-camp.jp/kawagoe/route/",
-        "published": "2026-10-27",
+        "published": "2026-11-22",
         "source": "auto"
       },
       {
         "date": "2026-11-25",
         "type": "エリア制限",
-        "note": "Biographie ~ Instruction Wall (右面) セット作業",
+        "note": "Biographie ~ Instruction Wall (右面) セット日",
         "source_url": "https://b-camp.jp/kawagoe/route/",
-        "published": "2026-10-27",
+        "published": "2026-11-22",
         "source": "auto"
       }
     ]
