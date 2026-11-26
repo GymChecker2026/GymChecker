@@ -2890,6 +2890,10 @@
           "note": "中級道場"
         }
       ]
+    },
+    "https://pump-climbing.com/gym/akiba/climbing-shoes-summit2026%e3%83%96%e3%83%a9%e3%83%b3%e3%83%89%e3%82%b3%e3%83%b3%e3%83%86%e3%83%b3%e3%83%84%e6%83%85%e5%a0%b1/blog-news/": {
+      "published": "2026-11-26",
+      "events": []
     }
   },
   "pages": {
@@ -4549,26 +4553,10 @@
       ]
     },
     "bc-shinjuku::https://b-camp.jp/shinjuku/pickup/": {
-      "text_hash": "f64870f32bc8172da8beb5220c9256ee579af9f9af795338c1a1769aaf400db9",
-      "last_changed_at": "2026-08-26T23:05:00+09:00",
-      "published": "2026-08-26",
-      "events": [
-        {
-          "date": "2026-08-11",
-          "type": "時間変更",
-          "note": "18:00クローズ"
-        },
-        {
-          "date": "2026-08-12",
-          "type": "エリア制限",
-          "note": "ルートセット のため Open～18:00 利用エリア制限"
-        },
-        {
-          "date": "2026-08-13",
-          "type": "エリア制限",
-          "note": "ルートセット のため Open～18:00 利用エリア制限"
-        }
-      ]
+      "text_hash": "79b71dc2c09ecccb7909a0bdf44a856e46e95fca8768230300b5476469ffb842",
+      "last_changed_at": "2026-11-26T13:12:19+09:00",
+      "published": "2026-11-26",
+      "events": []
     },
     "bc-shinbashi::https://b-camp.jp/shinbashi/pickup/": {
       "text_hash": "0880700bdcfbc62599bf07a8a708f921353ce20efc5eb81c51eee551a6939a96",

@@ -820,33 +820,6 @@
   },
   {
     "gym_id": "bc-shinjuku",
-    "date": "2026-08-11",
-    "type": "時間変更",
-    "note": "18:00クローズ",
-    "gym_name": null,
-    "source_url": "https://b-camp.jp/shinjuku/pickup/",
-    "published": "2026-08-26"
-  },
-  {
-    "gym_id": "bc-shinjuku",
-    "date": "2026-08-12",
-    "type": "エリア制限",
-    "note": "ルートセット のため Open～18:00 利用エリア制限",
-    "gym_name": null,
-    "source_url": "https://b-camp.jp/shinjuku/pickup/",
-    "published": "2026-08-26"
-  },
-  {
-    "gym_id": "bc-shinjuku",
-    "date": "2026-08-13",
-    "type": "エリア制限",
-    "note": "ルートセット のため Open～18:00 利用エリア制限",
-    "gym_name": null,
-    "source_url": "https://b-camp.jp/shinjuku/pickup/",
-    "published": "2026-08-26"
-  },
-  {
-    "gym_id": "bc-shinjuku",
     "date": "2026-11-09",
     "type": "エリア制限",
     "note": "King Cobra～SunnySide セットスケジュール",
@@ -949,6 +922,24 @@
     "date": "2026-09-29",
     "type": "エリア制限",
     "note": "YosemiteFall～CandyLand セットスケジュール",
+    "gym_name": null,
+    "source_url": "https://b-camp.jp/shinjuku/route/",
+    "published": "2026-10-29"
+  },
+  {
+    "gym_id": "bc-shinjuku",
+    "date": "2026-08-12",
+    "type": "エリア制限",
+    "note": "King Cobra～SunnySide セットスケジュール",
+    "gym_name": null,
+    "source_url": "https://b-camp.jp/shinjuku/route/",
+    "published": "2026-10-29"
+  },
+  {
+    "gym_id": "bc-shinjuku",
+    "date": "2026-08-13",
+    "type": "エリア制限",
+    "note": "King Cobra～SunnySide セットスケジュール",
     "gym_name": null,
     "source_url": "https://b-camp.jp/shinjuku/route/",
     "published": "2026-10-29"
