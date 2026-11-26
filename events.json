@@ -513,24 +513,6 @@
     "published": "2026-10-16"
   },
   {
-    "gym_id": "bpump-akihabara",
-    "date": "2026-10-15",
-    "type": "エリア制限",
-    "note": "ホールド外し 21:00-",
-    "gym_name": null,
-    "source_url": "https://pump-climbing.com/gym/akiba/%e6%ac%a1%e9%80%b1%e3%82%bb%e3%83%83%e3%83%88%e6%83%85%e5%a0%b1-%e2%96%b7%e3%80%981f-all%e3%80%99/blog-news/",
-    "published": "2026-10-11"
-  },
-  {
-    "gym_id": "bpump-akihabara",
-    "date": "2026-10-16",
-    "type": "セット完了",
-    "note": "Route Setting Day 1F WALL含め全ての壁をセット",
-    "gym_name": null,
-    "source_url": "https://pump-climbing.com/gym/akiba/%e6%ac%a1%e9%80%b1%e3%82%bb%e3%83%83%e3%83%88%e6%83%85%e5%a0%b1-%e2%96%b7%e3%80%981f-all%e3%80%99/blog-news/",
-    "published": "2026-10-11"
-  },
-  {
     "gym_id": "bpump-ogikubo",
     "date": "2026-11-15",
     "type": "イベント",
@@ -648,13 +630,22 @@
     "published": "2026-10-13"
   },
   {
-    "gym_id": "bpump-yokohama",
-    "date": "2026-10-31",
+    "gym_id": "bpump-kawaguchi",
+    "date": "2026-11-29",
     "type": "イベント",
-    "note": "HALLOWEEN CUP開催 B-PUMP YOKOHAMAにてチーム戦型ミニコンペ",
+    "note": "スペシャル道場",
     "gym_name": null,
-    "source_url": "https://pump-climbing.com/gym/bpump2/halloween-cup%e9%96%8b%e5%82%ac%ef%bc%81/",
-    "published": "2026-10-11"
+    "source_url": "https://pump-climbing.com/gym/pump1/11%e6%9c%88%e6%9c%80%e5%be%8c%e3%81%ae%e4%b8%ad%e7%b4%9a%e9%81%93%e5%a0%b4%ef%bc%81/",
+    "published": "2026-11-25"
+  },
+  {
+    "gym_id": "bpump-kawaguchi",
+    "date": "2026-12-02",
+    "type": "イベント",
+    "note": "中級道場",
+    "gym_name": null,
+    "source_url": "https://pump-climbing.com/gym/pump1/11%e6%9c%88%e6%9c%80%e5%be%8c%e3%81%ae%e4%b8%ad%e7%b4%9a%e9%81%93%e5%a0%b4%ef%bc%81/",
+    "published": "2026-11-25"
   },
   {
     "gym_id": "bpump-kawaguchi",
@@ -1329,16 +1320,16 @@
     "note": "3周年感謝祭\"錦祭り\"",
     "gym_name": null,
     "source_url": "https://b-camp.jp/kinshicho/pickup/",
-    "published": "2026-11-25"
+    "published": "2026-11-26"
   },
   {
     "gym_id": "bc-kinshicho",
-    "date": "2026-11-10",
+    "date": "2026-11-01",
     "type": "エリア制限",
     "note": "11月リードエリア\"Leaning Tower\"リニューアルセット",
     "gym_name": null,
     "source_url": "https://b-camp.jp/kinshicho/pickup/",
-    "published": "2026-11-25"
+    "published": "2026-11-26"
   },
   {
     "gym_id": "bc-kinshicho",
@@ -1477,30 +1468,48 @@
   },
   {
     "gym_id": "bc-higashimurayama",
-    "date": "2026-10-29",
-    "type": "休業",
-    "note": "臨時休業",
+    "date": "2026-11-29",
+    "type": "時間変更",
+    "note": "営業時間が通常と異なる",
     "gym_name": null,
     "source_url": "https://b-camp.jp/higashimurayama/pickup/",
-    "published": "2026-10-25"
+    "published": "2026-11-26"
+  },
+  {
+    "gym_id": "bc-higashimurayama",
+    "date": "2026-11-30",
+    "type": "時間変更",
+    "note": "年末営業、通常営業は1月3日から",
+    "gym_name": null,
+    "source_url": "https://b-camp.jp/higashimurayama/pickup/",
+    "published": "2026-11-26"
+  },
+  {
+    "gym_id": "bc-higashimurayama",
+    "date": "2026-10-29",
+    "type": "休業",
+    "note": "臨時休業（3周年イベント関連）",
+    "gym_name": null,
+    "source_url": "https://b-camp.jp/higashimurayama/pickup/",
+    "published": "2026-11-26"
   },
   {
     "gym_id": "bc-higashimurayama",
     "date": "2026-10-30",
     "type": "休業",
-    "note": "臨時休業",
+    "note": "臨時休業（3周年イベント関連）",
     "gym_name": null,
     "source_url": "https://b-camp.jp/higashimurayama/pickup/",
-    "published": "2026-10-25"
+    "published": "2026-11-26"
   },
   {
     "gym_id": "bc-higashimurayama",
     "date": "2026-10-31",
     "type": "時間変更",
-    "note": "18:00閉店",
+    "note": "18:00閉店（早じまい）",
     "gym_name": null,
     "source_url": "https://b-camp.jp/higashimurayama/pickup/",
-    "published": "2026-10-25"
+    "published": "2026-11-26"
   },
   {
     "gym_id": "bc-higashimurayama",
@@ -1662,7 +1671,7 @@
     "note": "施設休館に伴う定休日",
     "gym_name": null,
     "source_url": "https://b-camp.jp/kawagoe/pickup/",
-    "published": "2026-10-15"
+    "published": "2026-11-26"
   },
   {
     "gym_id": "bc-kawagoe",
@@ -1932,7 +1941,7 @@
     "note": "17:00 close",
     "gym_name": "渋谷店",
     "source_url": "https://noborock-climbing.com/program/shibuya/",
-    "published": "2026-11-24"
+    "published": "2026-11-26"
   },
   {
     "gym_id": "noborock-shinjuku",
@@ -1950,7 +1959,7 @@
     "note": "ルートセット",
     "gym_name": "渋谷店",
     "source_url": "https://noborock-climbing.com/program/shibuya/",
-    "published": "2026-11-24"
+    "published": "2026-11-26"
   },
   {
     "gym_id": "noborock-takadanobaba",
@@ -1977,7 +1986,7 @@
     "note": "18:30 open",
     "gym_name": "渋谷店",
     "source_url": "https://noborock-climbing.com/program/shibuya/",
-    "published": "2026-11-24"
+    "published": "2026-11-26"
   },
   {
     "gym_id": "noborock-omiya",
@@ -2022,7 +2031,7 @@
     "note": "ルートセット完了",
     "gym_name": "渋谷店",
     "source_url": "https://noborock-climbing.com/program/shibuya/",
-    "published": "2026-11-24"
+    "published": "2026-11-26"
   },
   {
     "gym_id": "noborock-shibuya",
@@ -2031,7 +2040,7 @@
     "note": "1F 17:00 close",
     "gym_name": "渋谷店",
     "source_url": "https://noborock-climbing.com/program/shibuya/",
-    "published": "2026-11-24"
+    "published": "2026-11-26"
   },
   {
     "gym_id": "noborock-shibuya",
@@ -2040,7 +2049,7 @@
     "note": "1F 終日 close",
     "gym_name": "渋谷店",
     "source_url": "https://noborock-climbing.com/program/shibuya/",
-    "published": "2026-11-24"
+    "published": "2026-11-26"
   },
   {
     "gym_id": "noborock-shibuya",
@@ -2049,7 +2058,25 @@
     "note": "1F 15:30 open",
     "gym_name": "渋谷店",
     "source_url": "https://noborock-climbing.com/program/shibuya/",
-    "published": "2026-11-24"
+    "published": "2026-11-26"
+  },
+  {
+    "gym_id": "noborock-omiya",
+    "date": "2026-11-01",
+    "type": "時間変更",
+    "note": "17:00 close",
+    "gym_name": "大宮店",
+    "source_url": "https://noborock-climbing.com/program/shibuya/",
+    "published": "2026-11-26"
+  },
+  {
+    "gym_id": "noborock-takadanobaba",
+    "date": "2026-11-01",
+    "type": "時間変更",
+    "note": "17:00 close",
+    "gym_name": "高田馬場店",
+    "source_url": "https://noborock-climbing.com/program/shibuya/",
+    "published": "2026-11-26"
   },
   {
     "gym_id": "noborock-shibuya",
@@ -2058,7 +2085,7 @@
     "note": "18:00 close",
     "gym_name": "渋谷店",
     "source_url": "https://noborock-climbing.com/program/shibuya/",
-    "published": "2026-11-24"
+    "published": "2026-11-26"
   },
   {
     "gym_id": "noborock-omiya",
