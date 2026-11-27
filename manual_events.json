@@ -1639,6 +1639,158 @@
       "note": "初心者歓迎 きむきむレッスン 20:00~21:00",
       "source_url": null,
       "published": "2026-11-18"
+    },
+    {
+      "gym_id": "rocky-inzai",
+      "date": "2026-12-03",
+      "type": "エリア制限",
+      "note": "ホールド外し Milky Way / 10:00~23:00 (外しエリアは17時以降登れません)",
+      "source_url": null,
+      "published": "2026-11-27"
+    },
+    {
+      "gym_id": "rocky-inzai",
+      "date": "2026-12-04",
+      "type": "セット完了",
+      "note": "セット Milky Way / 10:00~23:00 (セットエリアは19時から登れます)",
+      "source_url": null,
+      "published": "2026-11-27"
+    },
+    {
+      "gym_id": "rocky-akebonobashi",
+      "date": "2026-12-06",
+      "type": "エリア制限",
+      "note": "ホールド外し ・MONSTER / 10:00~21:00（外しエリアは17時以降登れません）",
+      "source_url": null,
+      "published": "2026-11-27"
+    },
+    {
+      "gym_id": "rocky-akebonobashi",
+      "date": "2026-12-07",
+      "type": "セット完了",
+      "note": "セット ・MONSTER / 10:00~23:00（セットエリアは19時から登れます）",
+      "source_url": null,
+      "published": "2026-11-27"
+    },
+    {
+      "gym_id": "rocky-inzai",
+      "date": "2026-12-07",
+      "type": "イベント",
+      "note": "初心者歓迎 きむきむレッスン 20:00~21:00",
+      "source_url": null,
+      "published": "2026-11-27"
+    },
+    {
+      "gym_id": "rocky-inzai",
+      "date": "2026-12-12",
+      "type": "イベント",
+      "note": "いろは農園 11:00~17:00",
+      "source_url": null,
+      "published": "2026-11-27"
+    },
+    {
+      "gym_id": "rocky-inzai",
+      "date": "2026-12-14",
+      "type": "イベント",
+      "note": "6Q~4Q 193in session 20:00~21:00",
+      "source_url": null,
+      "published": "2026-11-27"
+    },
+    {
+      "gym_id": "rocky-akebonobashi",
+      "date": "2026-12-17",
+      "type": "イベント",
+      "note": "8 LEVELS ピンチ 19:00~",
+      "source_url": null,
+      "published": "2026-11-27"
+    },
+    {
+      "gym_id": "rocky-inzai",
+      "date": "2026-12-17",
+      "type": "エリア制限",
+      "note": "ホールド外し Bulge Black Hole Rocket / 10:00~23:00 (外しエリアは17時以降登れません)",
+      "source_url": null,
+      "published": "2026-11-27"
+    },
+    {
+      "gym_id": "rocky-inzai",
+      "date": "2026-12-18",
+      "type": "セット完了",
+      "note": "セット Bulge Black Hole Rocket / 10:00~23:00 (セットエリアは19時から登れます)",
+      "source_url": null,
+      "published": "2026-11-27"
+    },
+    {
+      "gym_id": "rocky-akebonobashi",
+      "date": "2026-12-20",
+      "type": "エリア制限",
+      "note": "ホールド外し ・WELCOME ・BUFFALO ・SHALLOW / 10:00~21:00（外しエリアは17時以降登れません）",
+      "source_url": null,
+      "published": "2026-11-27"
+    },
+    {
+      "gym_id": "rocky-akebonobashi",
+      "date": "2026-12-21",
+      "type": "セット完了",
+      "note": "セット ・WELCOME ・BUFFALO ・SHALLOW / 10:00~23:00（セットエリアは19時から登れます）",
+      "source_url": null,
+      "published": "2026-11-27"
+    },
+    {
+      "gym_id": "rocky-inzai",
+      "date": "2026-12-21",
+      "type": "イベント",
+      "note": "初心者歓迎 きむきむレッスン 20:00~21:00",
+      "source_url": null,
+      "published": "2026-11-27"
+    },
+    {
+      "gym_id": "rocky-inzai",
+      "date": "2026-12-25",
+      "type": "イベント",
+      "note": "193in spray",
+      "source_url": null,
+      "published": "2026-11-27"
+    },
+    {
+      "gym_id": "rocky-inzai",
+      "date": "2026-12-26",
+      "type": "イベント",
+      "note": "いろは農園 11:00~17:00",
+      "source_url": null,
+      "published": "2026-11-27"
+    },
+    {
+      "gym_id": "rocky-akebonobashi",
+      "date": "2026-12-29",
+      "type": "イベント",
+      "note": "祝日料金",
+      "source_url": null,
+      "published": "2026-11-27"
+    },
+    {
+      "gym_id": "rocky-akebonobashi",
+      "date": "2026-12-30",
+      "type": "イベント",
+      "note": "祝日料金",
+      "source_url": null,
+      "published": "2026-11-27"
+    },
+    {
+      "gym_id": "rocky-akebonobashi",
+      "date": "2026-12-31",
+      "type": "休業",
+      "note": "終日休業",
+      "source_url": null,
+      "published": "2026-11-27"
+    },
+    {
+      "gym_id": "rocky-inzai",
+      "date": "2026-12-31",
+      "type": "休業",
+      "note": "終日休業 / 終日休業",
+      "source_url": null,
+      "published": "2026-11-27"
     }
   ],
   "coverage": {
