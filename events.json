@@ -603,33 +603,6 @@
     "published": "2026-11-05"
   },
   {
-    "gym_id": "bpump-yokohama",
-    "date": "2026-10-19",
-    "type": "エリア制限",
-    "note": "2F RIGHT ホールド外し",
-    "gym_name": null,
-    "source_url": "https://pump-climbing.com/gym/bpump2/2f-right-set/",
-    "published": "2026-10-13"
-  },
-  {
-    "gym_id": "bpump-yokohama",
-    "date": "2026-10-20",
-    "type": "セット完了",
-    "note": "2F RIGHT 1DAY SET OPEN",
-    "gym_name": null,
-    "source_url": "https://pump-climbing.com/gym/bpump2/2f-right-set/",
-    "published": "2026-10-13"
-  },
-  {
-    "gym_id": "bpump-yokohama",
-    "date": "2026-10-21",
-    "type": "セット完了",
-    "note": "2F RIGHT NEW SET OPEN",
-    "gym_name": null,
-    "source_url": "https://pump-climbing.com/gym/bpump2/2f-right-set/",
-    "published": "2026-10-13"
-  },
-  {
     "gym_id": "bpump-kawaguchi",
     "date": "2026-11-29",
     "type": "イベント",
@@ -826,15 +799,6 @@
     "gym_name": null,
     "source_url": "https://pump-climbing.com/gym/pump2/11%e6%9c%883%e6%97%a5%e7%a5%9d%e6%97%a5%e5%96%b6%e6%a5%ad%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b-2/",
     "published": "2026-10-28"
-  },
-  {
-    "gym_id": "bpump-kawasaki",
-    "date": "2026-10-26",
-    "type": "セット完了",
-    "note": "ギャラリーのセット",
-    "gym_name": null,
-    "source_url": "https://pump-climbing.com/gym/pump2/10%e6%9c%88%e3%82%bb%e3%83%83%e3%83%88%e3%82%b9%e3%82%b1%e3%82%b8%e3%83%a5%e3%83%bc%e3%83%ab/",
-    "published": "2026-10-13"
   },
   {
     "gym_id": "bc-shinjuku",
@@ -1977,7 +1941,7 @@
     "note": "17:00 close",
     "gym_name": "渋谷店",
     "source_url": "https://noborock-climbing.com/program/shibuya/",
-    "published": "2026-11-27"
+    "published": "2026-11-28"
   },
   {
     "gym_id": "noborock-shinjuku",
@@ -1995,7 +1959,7 @@
     "note": "ルートセット",
     "gym_name": "渋谷店",
     "source_url": "https://noborock-climbing.com/program/shibuya/",
-    "published": "2026-11-27"
+    "published": "2026-11-28"
   },
   {
     "gym_id": "noborock-takadanobaba",
@@ -2022,7 +1986,7 @@
     "note": "18:30 open",
     "gym_name": "渋谷店",
     "source_url": "https://noborock-climbing.com/program/shibuya/",
-    "published": "2026-11-27"
+    "published": "2026-11-28"
   },
   {
     "gym_id": "noborock-omiya",
@@ -2067,7 +2031,7 @@
     "note": "ルートセット完了",
     "gym_name": "渋谷店",
     "source_url": "https://noborock-climbing.com/program/shibuya/",
-    "published": "2026-11-27"
+    "published": "2026-11-28"
   },
   {
     "gym_id": "noborock-shibuya",
@@ -2076,7 +2040,7 @@
     "note": "1F 17:00 close",
     "gym_name": "渋谷店",
     "source_url": "https://noborock-climbing.com/program/shibuya/",
-    "published": "2026-11-27"
+    "published": "2026-11-28"
   },
   {
     "gym_id": "noborock-shibuya",
@@ -2085,7 +2049,7 @@
     "note": "1F 終日 close",
     "gym_name": "渋谷店",
     "source_url": "https://noborock-climbing.com/program/shibuya/",
-    "published": "2026-11-27"
+    "published": "2026-11-28"
   },
   {
     "gym_id": "noborock-shibuya",
@@ -2094,7 +2058,7 @@
     "note": "1F 15:30 open",
     "gym_name": "渋谷店",
     "source_url": "https://noborock-climbing.com/program/shibuya/",
-    "published": "2026-11-27"
+    "published": "2026-11-28"
   },
   {
     "gym_id": "noborock-shibuya",
@@ -2103,7 +2067,7 @@
     "note": "18:00 close",
     "gym_name": "渋谷店",
     "source_url": "https://noborock-climbing.com/program/shibuya/",
-    "published": "2026-11-27"
+    "published": "2026-11-28"
   },
   {
     "gym_id": "noborock-omiya",
