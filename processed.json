@@ -4614,32 +4614,52 @@
       "events": []
     },
     "bc-shinbashi::https://b-camp.jp/shinbashi/pickup/": {
-      "text_hash": "0880700bdcfbc62599bf07a8a708f921353ce20efc5eb81c51eee551a6939a96",
-      "last_changed_at": "2026-11-20T12:31:00+09:00",
-      "published": "2026-11-20",
+      "text_hash": "59ac4c7c80d355c19442bc42c7b21fd01c4195a310a1bcf13cf2bcf9ff75153d",
+      "last_changed_at": "2026-11-28T12:59:33+09:00",
+      "published": "2026-11-28",
       "events": [
+        {
+          "date": "2026-12-14",
+          "type": "休業",
+          "note": "ルートセット作業に伴う臨時休業"
+        },
         {
           "date": "2027-07-25",
           "type": "休業",
-          "note": "新橋店閉店"
+          "note": "店舗閉店"
         },
         {
           "date": "2026-11-16",
-          "type": "時間変更",
+          "type": "休業",
           "note": "ルートセット作業に伴う臨時休業"
         },
         {
           "date": "2026-10-19",
-          "type": "時間変更",
+          "type": "休業",
           "note": "ルートセット作業に伴う臨時休業"
         }
       ]
     },
     "bc-shinbashi::https://b-camp.jp/shinbashi/route/": {
-      "text_hash": "4f507a9b2897c691f0565ff38cc0206fc4d785e6ce3c030e21f0107d8b4cb228",
-      "last_changed_at": "2026-11-04T07:29:49+09:00",
-      "published": "2026-11-04",
+      "text_hash": "1933bfd6d3db83e017b761a650414ca66c96801435b8fbc0ff3c41c1dda5ee13",
+      "last_changed_at": "2026-11-28T12:59:33+09:00",
+      "published": "2026-11-28",
       "events": [
+        {
+          "date": "2026-12-13",
+          "type": "時間変更",
+          "note": "18:00close ホールド外し作業のため"
+        },
+        {
+          "date": "2026-12-14",
+          "type": "休業",
+          "note": "臨時休業日"
+        },
+        {
+          "date": "2026-12-15",
+          "type": "時間変更",
+          "note": "18:00OPEN ラインセットリニューアル"
+        },
         {
           "date": "2026-11-15",
           "type": "時間変更",
@@ -4673,27 +4693,7 @@
         {
           "date": "2026-10-26",
           "type": "エリア制限",
-          "note": "18:00まで一部エリア制限 Hubbleセットのため"
-        },
-        {
-          "date": "2026-09-03",
-          "type": "エリア制限",
-          "note": "Hubbleセットのため一部エリア制限"
-        },
-        {
-          "date": "2026-09-13",
-          "type": "時間変更",
-          "note": "18:00close ホールド外し作業のため"
-        },
-        {
-          "date": "2026-09-14",
-          "type": "休業",
-          "note": "臨時休業日"
-        },
-        {
-          "date": "2026-09-15",
-          "type": "時間変更",
-          "note": "18:00OPEN ラインセットリニューアル"
+          "note": "18:00までHubbleセットのため一部エリア制限"
         }
       ]
     },
